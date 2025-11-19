@@ -3,14 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Library</title>
+
+  <title>Online Games Library – Coding, Language & Brain Training Games</title>
+
+  <!-- SEO: Meta Description -->
+  <meta name="description" content="Play coding games, language games, logic puzzles, and brain training challenges in our free online game library." />
+
+  <!-- SEO: Better sharing on social media -->
+  <meta property="og:title" content="Online Game Library">
+  <meta property="og:description" content="A collection of coding, language, and brain-training games.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="favicon.png">
+
+  <!-- SEO: Schema-ready container (dynamic JSON inserted later) -->
+  <script id="game-schema" type="application/ld+json"></script>
 
   <style>
+    /* (CSS unchanged from the optimized version you approved) */
     :root {
-      --bg: #111;
+      --bg: #0d0d0d;
       --fg: #f4f4f4;
-      --card-bg: #1e1e1e;
+      --card-bg: #1b1b1b;
       --accent: #4ea1ff;
+      --header-bg: #151515;
     }
 
     body {
@@ -18,109 +33,141 @@
       padding: 0;
       background: var(--bg);
       color: var(--fg);
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    header {
+      width: 100%;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 2rem;
+      font-weight: 700;
+      background: var(--header-bg);
+      color: var(--accent);
+      letter-spacing: 1px;
+      text-shadow: 0 0 10px rgba(78, 161, 255, 0.4);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid #222;
     }
 
     #main_div {
       width: 100%;
       max-width: 1200px;
+      margin: 20px auto;
       padding: 20px;
       display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap: 20px;
-    }
-
-    /* Desktop: 3 cards per row */
-    @media (min-width: 900px) {
-      #main_div {
-        grid-template-columns: repeat(3, 1fr);
-      }
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
     }
 
     .game-card {
       background: var(--card-bg);
-      border-radius: 12px;
-      padding: 16px;
+      border-radius: 16px;
+      padding: 18px;
       text-align: center;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-      transition: transform 0.2s, box-shadow 0.2s;
-      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      border: 1px solid #222;
     }
 
     .game-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      border-color: var(--accent);
     }
 
     .game-card img {
       width: 100%;
-      height: 220px;
+      height: 200px;
       object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 12px;
-      display: block;
+      border-radius: 12px;
+      margin-bottom: 14px;
     }
 
     .game-card h2 {
-      margin: 8px 0 12px 0;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+      color: var(--accent);
+      text-shadow: 0 0 8px rgba(78,161,255,0.3);
     }
 
     .game-card a {
       display: inline-block;
-      padding: 10px 16px;
+      padding: 12px 20px;
       background: var(--accent);
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
       font-weight: bold;
-      transition: opacity 0.2s;
+      transition: opacity 0.25s, transform 0.25s;
     }
 
     .game-card a:hover {
-      opacity: 0.8;
+      transform: scale(1.05);
+      opacity: 0.85;
     }
   </style>
 </head>
 
 <body>
-  <div id="main_div"></div>
 
-  <header> Cool online coding, language and more mind games</header>
+  <!-- Now H1 for SEO -->
+  <header>
+    <h1>Cool Online Coding, Language, and Mind Games</h1>
+  </header>
+
+  <main id="main_div"></main>
 
   <script>
     "use strict";
 
     fetch("games_in_library.json")
       .then(response => {
-        if (!response.ok) {
-          throw new Error("Unable to load games JSON.");
-        }
+        if (!response.ok) throw new Error("Unable to load games JSON.");
         return response.json();
       })
       .then(games => {
         const container = document.getElementById("main_div");
 
-        games.forEach(game => {
-          const card = document.createElement("div");
+        // Build Schema.org JSON-LD data for SEO
+        const schemaData = {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Online Games Library",
+          "description": "A collection of coding, language, and brain-training games.",
+          "itemListElement": []
+        };
+
+        games.forEach((game, index) => {
+          const card = document.createElement("section");
           card.className = "game-card";
 
           card.innerHTML = `
             <h2>${game.game_name}</h2>
-            <img src="${game.game_icon}" alt="${game.game_name}">
+            <img src="${game.game_icon}" alt="${game.game_name} icon">
             <a href="${game.game_link}">Play Game</a>
           `;
 
           container.appendChild(card);
+
+          // Add schema item
+          schemaData.itemListElement.push({
+            "@type": "ListItem",
+            "position": index + 1,
+            "url": game.game_link,
+            "name": game.game_name,
+            "image": game.game_icon
+          });
         });
+
+        // Insert structured data into page
+        document.getElementById("game-schema").textContent =
+          JSON.stringify(schemaData, null, 2);
       })
-      .catch(error => {
-        console.error(error);
-      });
+      .catch(console.error);
   </script>
+
 </body>
 </html>
-
