@@ -8,6 +8,16 @@
     "game_name": "rearrange code",
     "game_icon": "rearrange_divs_2.png",
     "game_link": "https://codedivs.github.io/code_quiz.github.io/"
+  },
+  {
+    "game_name":"english quiz",
+    "game_icon":"english_play.png",
+    "game_link":"https://codedivs.github.io/english_play.github.io/"
+  },
+  {
+    "game_name": "french quiz",
+    "game_icon": "english_play.png",
+    "game_link": "https://codedivs.github.io/learn_french.github.io/"
   }
 ]
 
