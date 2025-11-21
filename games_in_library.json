@@ -18,6 +18,11 @@
     "game_name": "french quiz",
     "game_icon": "english_play.png",
     "game_link": "https://codedivs.github.io/learn_french.github.io/"
+  },
+  {
+    "game_name": "space technology",
+    "game_icon": "733e7e40-0d9e-4a0d-a26a-fd183cbbc640.jpg",
+    "game_link": "https://codedivs.github.io/space_technology.github.io/"
   }
 ]
 
