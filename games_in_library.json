@@ -15,6 +15,11 @@
     "game_link": "https://codedivs.github.io/space_technology.github.io/"
   },
   {
+    "game_name": "General knowledge",
+    "game_icon": "giant_cards.jpg",
+    "game_link": "https://codedivs.github.io/general_knowledge.github.io/"
+  },
+  {
     "game_name": "World of Medicine",
     "game_icon": "medicine_1.jpg",
     "game_link": "https://codedivs.github.io/general_medicine.github.io/"
