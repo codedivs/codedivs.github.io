@@ -5,19 +5,9 @@
     "game_link": "https://codedivs.github.io/code_right.github.io/"
   },
   {
-    "game_name": "rearrange code",
-    "game_icon": "rearrange_divs_2.png",
-    "game_link": "https://codedivs.github.io/code_quiz.github.io/"
-  },
-  {
     "game_name":"english quiz",
     "game_icon":"french_quiz.png",
     "game_link":"https://codedivs.github.io/english_play.github.io/"
-  },
-  {
-    "game_name": "french quiz",
-    "game_icon": "english_play.png",
-    "game_link": "https://codedivs.github.io/learn_french.github.io/"
   },
   {
     "game_name": "space technology",
@@ -28,6 +18,16 @@
     "game_name": "World of Medicine",
     "game_icon": "medicine_1.jpg",
     "game_link": "https://codedivs.github.io/general_medicine.github.io/"
+  },
+  {
+    "game_name": "rearrange code",
+    "game_icon": "rearrange_divs_2.png",
+    "game_link": "https://codedivs.github.io/code_quiz.github.io/"
+  },
+  {
+    "game_name": "french quiz",
+    "game_icon": "english_play.png",
+    "game_link": "https://codedivs.github.io/learn_french.github.io/"
   }
 ]
 
