@@ -23,6 +23,11 @@
     "game_name": "space technology",
     "game_icon": "733e7e40-0d9e-4a0d-a26a-fd183cbbc640.jpg",
     "game_link": "https://codedivs.github.io/space_technology.github.io/"
+  },
+  {
+    "game_name": "World of Medicine",
+    "game_icon": "medicine_1.jpg",
+    "game_link": "https://codedivs.github.io/general_medicine.github.io/"
   }
 ]
 
