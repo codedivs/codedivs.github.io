@@ -2,6 +2,6 @@
   {
     "game_name": "capital cities",
     "game_icon": "assets/img/code_right.png",
-    "game_link": "capital_cities"
+    "game_id": "capital_cities"
   }
 ]
