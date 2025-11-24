@@ -23,8 +23,8 @@ fetch("games_in_library.json")
       card.className = "game-card";
 
       card.innerHTML = `
-        <img src="${game.game_icon}" alt="${game.game_name} icon" loading="lazy">
         <h2>${game.game_name}</h2>
+        <img src="${game.game_icon}" alt="${game.game_name} icon" loading="lazy">
         <a href="/game.html?g=${game.game_id}" class="play-button">Play Now</a>
       `;
 
