@@ -1,6 +1,6 @@
 "use strict";
 
-fetch("games_in_library.json")
+fetch("{{ '/games_in_library.json' | relative_url }}")
   .then(response => {
     if (!response.ok) throw new Error("Unable to load games library.");
     return response.json();
