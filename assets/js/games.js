@@ -16,7 +16,7 @@ const finalTimeEl = document.getElementById('finalTime');
 const timeEl = document.getElementById('time');
 
 // Load questions for the new game
-fetch('assets/games/${game.name}.json')
+fetch(`assets/games/${game.name}.json`)
   .then(res => res.json())
   .then(data => {
     questions = data;
