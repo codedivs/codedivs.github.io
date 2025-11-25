@@ -363,5 +363,205 @@
   "game_name": "optical_illusions",
   "game_icon": "assets/img/code_right.png",
   "game_id": ""
-} 
+},
+  {
+  "game_name": "ancient_mythical_creatures",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "art_history_master",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "world_religions",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "medical_emergencies",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "first_aid_basics",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "skin_and_dermatology",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "human_brain_facts",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "microbiology_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "pharmacology_basics",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "dentistry_basics",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "fitness_and_exercise",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "healthy_food_choices",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "cooking_basics",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "international_cuisine",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "baking_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "coffee_and_tea_culture",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "fashion_and_style",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "famous_brands",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "world_business_leaders",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "startup_success_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "investing_basics",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "real_estate_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "cybersecurity_basics",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "ai_and_machine_learning",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "robotics_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "internet_culture",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "memes_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "cryptic_riddles",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "difficult_trivia",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "unexplained_mysteries",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "superheroes_and_comics",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "marvel_universe_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "dc_universe_quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "famous_inventions",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "transportation_history",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "aviation_facts",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "marine_navigation",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "weather_and_climate",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "earthquakes_and_volcanoes",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+},
+{
+  "game_name": "ecosystems_and_biomes",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": ""
+}
 ]
