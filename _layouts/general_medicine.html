@@ -201,14 +201,12 @@
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let timerInterval = null;
+let timerInterval = null;  // Will hold the timer ID
 let seconds = 0;
 let selectedQuestions = [];
 
 const quizScreen = document.getElementById('quizScreen');
 const resultScreen = document.getElementById('resultScreen');
-const startScreen = document.getElementById('startScreen');
-
 const questionEl = document.getElementById('question');
 const optionsEl = document.getElementById('options');
 const currentQEl = document.getElementById('currentQ');
@@ -218,38 +216,43 @@ const finalTimeEl = document.getElementById('finalTime');
 const timeEl = document.getElementById('time');
 
 // Load questions
-fetch('assets/games/general_medicine.json')
+fetch('questions.json')
   .then(res => res.json())
   .then(data => {
     questions = data;
+    startQuiz(); // Automatically start the quiz when questions are loaded
   });
 
-// Event listeners
-document.getElementById('startBtn').addEventListener('click', startQuiz);
+// Event Listeners
 document.getElementById('playAgainBtn').addEventListener('click', startQuiz);
 document.getElementById('restartBtn').addEventListener('click', startQuiz);
-document.getElementById('cancelBtn').addEventListener('click', () => location.reload());
+document.getElementById('cancelBtn').addEventListener('click', () => {
+  location.reload();
+});
 
 function startQuiz() {
+  // Reset everything
   score = 0;
   seconds = 0;
   currentQuestionIndex = 0;
 
-  // Clear existing timer
+  // CRITICAL FIX: Clear any existing timer before starting a new one
   if (timerInterval) {
     clearInterval(timerInterval);
     timerInterval = null;
   }
 
+  // Update timer display to 00:00
   timeEl.textContent = '00:00';
 
-  // Random 15 questions
+  // Select 15 random questions
   selectedQuestions = [...questions]
     .sort(() => 0.5 - Math.random())
     .slice(0, 15);
 
   totalQEl.textContent = selectedQuestions.length;
 
+  // Show quiz screen directly
   showScreen('quizScreen');
   startTimer();
   showQuestion();
@@ -278,6 +281,7 @@ function showQuestion() {
 function selectAnswer(selectedIndex, btn) {
   const correctIndex = selectedQuestions[currentQuestionIndex].answer;
 
+  // Disable all buttons
   document.querySelectorAll('.option').forEach(b => b.style.pointerEvents = 'none');
 
   if (selectedIndex === correctIndex) {
@@ -304,17 +308,19 @@ function startTimer() {
 }
 
 function endQuiz() {
-  if (timerInterval) clearInterval(timerInterval);
-
-  scoreEl.textContent = score;
-  finalTimeEl.textContent = timeEl.textContent;
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
 
   showScreen('resultScreen');
+  scoreEl.textContent = score;
+  finalTimeEl.textContent = timeEl.textContent;
 }
 
-function showScreen(id) {
+function showScreen(screenId) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
+  document.getElementById(screenId).classList.add('active');
 }
 </script>
 
