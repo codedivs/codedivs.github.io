@@ -3,20 +3,25 @@
 
 const urlParams = new URLSearchParams(window.location.search);
 const GAME_NAME = urlParams.get('g') || 'capital_cities'; // default fallback
-
 let questions = [];
 let current = 0;
 let score = 0;
 let startTime;
 let timerInterval;
+let answering = false; // Flag to prevent multiple clicks
 
 async function loadAndStart() {
   try {
-  const basePath = window.basePath; 
-  const res = await fetch(basePath + GAME_NAME + ".json");
-  if (!res.ok) throw new Error('Game not found');
+    const basePath = window.basePath;
+    const res = await fetch(basePath + GAME_NAME + ".json");
+    if (!res.ok) throw new Error('Game not found');
     const data = await res.json();
-    questions = shuffle(data.questions).slice(0, 10);
+    questions = shuffle(data.questions);
+    if (questions.length < 10) {
+      console.warn(`Only ${questions.length} questions available, proceeding with all.`);
+    } else {
+      questions = questions.slice(0, 10);
+    }
     startGame();
   } catch (err) {
     document.getElementById('question').innerHTML = `
@@ -24,6 +29,9 @@ async function loadAndStart() {
         Game "${GAME_NAME}" not found!<br><br>
         Check the URL or the file: assets/games/${GAME_NAME}.json
       </p>`;
+    if (!urlParams.get('g')) {
+      console.log('No game parameter provided in URL.');
+    }
   }
 }
 
@@ -50,20 +58,20 @@ function showQuestion() {
     endGame();
     return;
   }
-
   const q = questions[current];
   document.getElementById('question').textContent = q.question;
-
   const answersDiv = document.getElementById('answers');
   answersDiv.innerHTML = '';
-
   const options = shuffle([...q.incorrect_answers, q.correct_answer]);
-
   options.forEach(opt => {
-    const btn = document.createElement('div');
+    const btn = document.createElement('button');
     btn.className = 'answer';
     btn.textContent = opt;
-    btn.onclick = () => choose(opt === q.correct_answer, btn);
+    btn.addEventListener('click', () => {
+      if (answering) return;
+      answering = true;
+      choose(opt === q.correct_answer, btn);
+    });
     answersDiv.appendChild(btn);
   });
 }
@@ -71,23 +79,22 @@ function showQuestion() {
 function choose(isCorrect, clickedBtn) {
   // disable all
   document.querySelectorAll('.answer').forEach(b => {
-    b.style.pointerEvents = 'none';
+    b.disabled = true; // Use disabled for buttons
     if (b.textContent === questions[current].correct_answer) {
       b.classList.add('correct');
     }
   });
-
   if (isCorrect) {
     score++;
     clickedBtn.classList.add('correct');
   } else {
     clickedBtn.classList.add('wrong');
   }
-
   setTimeout(() => {
     current++;
+    answering = false;
     showQuestion();
-  }, 1300);
+  }, 1300); // Configurable delay; could make dynamic if needed
 }
 
 function endGame() {
@@ -95,14 +102,19 @@ function endGame() {
   const totalSecs = Math.floor((Date.now() - startTime) / 1000);
   const m = String(Math.floor(totalSecs / 60)).padStart(2, '0');
   const s = String(totalSecs % 60).padStart(2, '0');
-
   document.getElementById('question').textContent = 'Finished!';
   document.getElementById('answers').innerHTML = '';
   document.getElementById('result').innerHTML = `
-    <div>Score: <strong>${score}/10</strong></div>
+    <div>Score: <strong>${score}/${questions.length}</strong></div>
     <div style="margin-top:20px">Time: <strong>${m}:${s}</strong></div>
     <button class="restart" onclick="loadAndStart()">Play Again</button>
   `;
+  // Optional: Save high score to localStorage
+  const highScore = localStorage.getItem(`highScore_${GAME_NAME}`) || 0;
+  if (score > highScore) {
+    localStorage.setItem(`highScore_${GAME_NAME}`, score);
+    document.getElementById('result').innerHTML += `<div>New High Score!</div>`;
+  }
 }
 
 // Fisher–Yates shuffle
