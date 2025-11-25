@@ -12,7 +12,7 @@ let timerInterval;
 
 async function loadAndStart() {
   try {
-  const basePath = "{{ '/assets/games/' | relative_url }}";
+  const basePath = window.basePath; 
   const res = await fetch(basePath + GAME_NAME + ".json");
   if (!res.ok) throw new Error('Game not found');
     const data = await res.json();
