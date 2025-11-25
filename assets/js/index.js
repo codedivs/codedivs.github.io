@@ -25,7 +25,7 @@ fetch('games_in_library.json')
       card.innerHTML = `
         <h2>${game.game_name}</h2>
         <img src="${game.game_icon}" alt="${game.game_name} icon" loading="lazy">
-        <a href="{{ '/game.html' | relative_url }}?g=${game.game_id}" class="play-button">Play Now</a>
+        <a href="$$ {gameUrl}?g= $${game.game_id}" class="play-button">Play Now</a>
       `;
 
       container.appendChild(card);
@@ -34,7 +34,7 @@ fetch('games_in_library.json')
       schemaData.itemListElement.push({
         "@type": "ListItem",
         "position": index + 1,
-        "url": `https://yourdomain.com/game.html?g=${game.game_id}`, // change domain if needed
+        "url": `$$ {window.location.origin}/game.html?g= $${game.game_id}`, // change domain if needed
         "name": game.game_name,
         "image": game.game_icon
       });
@@ -53,7 +53,6 @@ fetch('games_in_library.json')
     */
   })
   .catch(err => {
-    console.error(err);
     console.error(err);
     document.getElementById("main_div").innerHTML = 
       `<p style="color:red;text-align:center;">Failed to load games. Please try again later.</p>`;
