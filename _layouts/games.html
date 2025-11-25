@@ -68,7 +68,9 @@
   <div id="answers"></div>
   <div id="result"></div>
 
-  <!-- The JS will automatically read the game name from the URL -->
+  <script>
+  const basePath = "{{ '/assets/games/' | relative_url }}";
+  </script>
   <script src="/assets/js/games.js"></script>
 </body>
 </html>
