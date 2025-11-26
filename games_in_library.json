@@ -2,7 +2,9 @@
   {
     "game_name": "capital_cities",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/capital_cities.html"
+    "game_id": "https://codedivs.github.io/capital_cities.html",
+    "difficulty": "Medium",
+    "stars": 2
   },
   {
     "game_name": "general_knowledge",
