@@ -1,3 +1,33 @@
 ---
 layout: game
+permalink: /game.html
 ---
+
+{% assign game_slug = page.url | split: '?g=' | last | split: '#' | first | default: 'capital-cities' %}
+
+{% assign games = site.data.games_in_library %}
+{% assign current_game = null %}
+{% for game in games %}
+  {% assign slug = game.game_name | slugify %}
+  {% if slug == game_slug %}
+    {% assign current_game = game %}
+  {% endif %}
+{% endfor %}
+
+{% if current_game == null %}
+  <h1>Game not found!</h1>
+  <p><a href="/">Go back</a></p>
+{% else %}
+
+  <!-- Pass game data to JavaScript via data attributes or window -->
+  <script>
+    window.CURRENT_GAME = {
+      name: "{{ current_game.game_name | escape }}",
+      slug: "{{ game_slug }}",
+      description: "{{ current_game.description | default: current_game.category }}",
+      difficulty: "{{ current_game.difficulty }}",
+      icon: "{{ current_game.game_icon }}"
+    };
+  </script>
+
+{% endif %}
