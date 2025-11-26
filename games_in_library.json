@@ -1,31 +1,35 @@
 [
   {
-    "game_name": "capital_cities",
+    "game_name": "capital cities",
     "game_icon": "assets/img/code_right.png",
     "game_id": "https://codedivs.github.io/capital_cities.html",
     "difficulty": "Medium",
-    "stars": 2
+    "stars": 2,
+    "category": "cities"
   },
   {
-    "game_name": "general_knowledge",
+    "game_name": "General knowledge",
     "game_icon": "assets/img/code_right.png",
     "game_id": "https://codedivs.github.io/general_knowledge.html",
     "difficulty": "Medium",
-    "stars": 2
+    "stars": 2,
+    "category": "General"
   },
   {
-    "game_name": "general_medicine",
+    "game_name": "Medicine",
     "game_icon": "assets/img/code_right.png",
     "game_id": "https://codedivs.github.io/general_medicine.html",
     "difficulty": "Easy",
-    "stars": 1
+    "stars": 1,
+    "category": "health"
   },
   {
-    "game_name": "usa_streets",
+    "game_name": "USA Street names",
     "game_icon": "assets/img/code_right.png",
     "game_id": "https://codedivs.github.io/game.html",
     "difficulty": "Medium",
-    "stars": 2
+    "stars": 2,
+    "category": "roads"
   },
    {
     "game_name": "Capital Cities",
@@ -34,5 +38,109 @@
     "difficulty": "easy",
     "stars": 1,
     "category": "cities"
+  },
+  {
+    "game_name": "Periodic Table",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/periodic_table.html",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "science"
+  },
+  {
+    "game_name": "Famous Landmarks",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/landmarks.html",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "Animal Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/animal_quiz.html",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "animals"
+  },
+  {
+    "game_name": "World Capitals",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/world_capitals_advanced.html",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "cities"
+  },
+  {
+    "game_name": "Music Notes",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/music_notes.html",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "music"
+  },
+  {
+    "game_name": "Famous Paintings",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/famous_paintings.html",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "art"
+  },
+  {
+    "game_name": "Solar System",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/solar_system.html",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "science"
+  },
+  {
+    "game_name": "Historical Figures",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/historical_figures.html",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "history"
+  },
+  {
+    "game_name": "Famous Authors",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/famous_authors.html",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "literature"
+  },
+  {
+    "game_name": "European Countries",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/europe_countries.html",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "World Rivers",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/world_rivers.html",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "geography"
+  },
+  {
+    "game_name": "Science Facts",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/science_facts.html",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "science"
+  },
+  {
+    "game_name": "Famous Scientists",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/famous_scientists.html",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
   }
 ]
