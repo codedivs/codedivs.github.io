@@ -1,76 +1,84 @@
 "use strict";
 
-let currentModal = null;
-
 fetch('games_in_library.json')
-  .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+  .then(response => {
+    if (!response.ok) throw new Error("Unable to load games library.");
+    return response.json();
+  })
   .then(games => {
     const container = document.getElementById("main_div");
     if (!container) return;
 
-    // Create modal overlay (once)
-    const modalHTML = `
-      <div id="game-modal" class="modal-hidden">
-        <div class="modal-content">
-          <button id="close-modal" class="close-btn" aria-label="Close">✕</button>
-          <iframe id="game-frame" src="" allowfullscreen></iframe>
-        </div>
-      </div>
-    `;
-    document.body.insertAdjacentHTML('beforeend', modalHTML);
-
-    const modal = document.getElementById("game-modal");
-    const iframe = document.getElementById("game-frame");
-    const closeBtn = document.getElementById("close-modal");
-
-    // Close modal
-    const closeModal = () => {
-      modal.classList.remove("modal-visible");
-      setTimeout(() => {
-        iframe.src = "";
-        modal.classList.add("modal-hidden");
-        document.body.style.overflow = "";
-      }, 300);
+    // Optional structured data
+    const schemaData = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Ultimate Quiz+ Games Collection",
+      "description": "Free browser-based educational and fun games.",
+      "itemListElement": []
     };
 
-    closeBtn.onclick = closeModal;
-    modal.onclick = (e) => { if (e.target === modal) closeModal(); };
-    window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
-
-    // Generate cards
     games.forEach((game, index) => {
+      // Create the card container
       const card = document.createElement("section");
       card.className = "game-card";
 
-      const stars = "★".repeat(game.stars || 1);
-      const playUrl = game.game_id.startsWith("http") ? game.game_id : game.game_id;
+      // Generate star string
+      const stars = "⭐".repeat(Math.min(game.stars || 1, 5));
 
+      // Determine final play URL
+      /**
+      const playUrl = game.game_id.startsWith("http")
+        ? game.game_id
+        : `${window.location.origin}/${game.game_id}`;
+**/
       card.innerHTML = `
-        <img src="${game.game_icon}" alt="${game.game_name}" loading="lazy" class="game-icon">
+        <article class="game-card-inner">
         <h2 class="game-title">${game.game_name}</h2>
-        <div class="game-footer">
-          <span class="game-difficulty ${game.difficulty || 'medium'}">
-            ${game.difficulty ? game.difficulty.charAt(0).toUpperCase() + game.difficulty.slice(1) : 'Medium'}
-          </span>
-          <button class="play-btn" data-url="${playUrl}">Play Now</button>
-          <span class="game-stars">${stars}</span>
-        </div>
+          <img 
+            src="${game.game_icon}" 
+            alt="${game.game_name} icon" 
+            loading="lazy"
+            class="game-icon"
+          >
+          
+
+          <div class="game-footer">
+            <span class="game-difficulty ${game.difficulty || 'medium'}">
+              ${(game.difficulty || 'medium').charAt(0).toUpperCase() + (game.difficulty || 'medium').slice(1)}
+            </span>
+
+            <a href="${game.id}" class="play-btn" target="_blank" rel="noopener">
+              Play Now →
+            </a>
+
+            <span class="game-stars" title="${game.stars} stars">${stars}</span>
+          </div>
+        </article>
       `;
 
-      // Open game in modal when clicking Play
-      card.querySelector(".play-btn").addEventListener("click", () => {
-        iframe.src = playUrl;
-        document.body.style.overflow = "hidden";
-        modal.classList.remove("modal-hidden");
-        requestAnimationFrame(() => modal.classList.add("modal-visible"));
-        currentModal = modal;
-      });
-
       container.appendChild(card);
+
+      // Add to schema.org JSON-LD
+      schemaData.itemListElement.push({
+        "@type": "ListItem",
+        "position": index + 1,
+        "url": playUrl,
+        "name": game.game_name,
+        "image": `${window.location.origin}/${game.game_icon}`
+      });
     });
+
+    // Inject structured data (optional but great for SEO)
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify(schemaData, null, 2);
+    document.head.appendChild(script);
   })
   .catch(err => {
     console.error(err);
     document.getElementById("main_div").innerHTML = 
-      `<p style="color:#ff6b6b;text-align:center;padding:3rem;">Failed to load games library.</p>`;
+      `<p style="color:red; text-align:center; padding: 2rem;">
+        Failed to load games. Please check your internet connection or try again later.
+      </p>`;
   });
