@@ -99,3 +99,79 @@ background: yellow;
       transform: scale(1.05);
       opacity: 0.85;
     }
+#top-bar {
+  padding: 12px 20px;
+  background: var(--header-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid #222;
+}
+
+#category-chips {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
+#category-chips::-webkit-scrollbar {
+  height: 6px;
+}
+
+#category-chips::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 3px;
+}
+
+.category-chip {
+  flex: 0 0 auto;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background-color: #333;
+  color: var(--fg);
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+.category-chip:hover,
+.category-chip.active {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+#search-box {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.95rem;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#search-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px;
+}
+.suggestion-btn {
+  padding: 6px 12px;
+  border-radius: 15px;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: 0.2s;
+}
+.suggestion-btn:hover {
+  background-color: var(--accent);
+  color: #fff;
+}
+
