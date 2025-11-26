@@ -9,17 +9,23 @@
   {
     "game_name": "general_knowledge",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/general_knowledge.html"
+    "game_id": "https://codedivs.github.io/general_knowledge.html",
+    "difficulty": "Medium",
+    "stars": 2
   },
   {
     "game_name": "general_medicine",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/general_medicine.html"
+    "game_id": "https://codedivs.github.io/general_medicine.html",
+    "difficulty": "Easy",
+    "stars": 1
   },
   {
     "game_name": "usa_streets",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/game.html"
+    "game_id": "https://codedivs.github.io/game.html",
+    "difficulty": "Medium",
+    "stars": 2
   },
    {
     "game_name": "Capital Cities",
