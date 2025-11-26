@@ -22,12 +22,40 @@ fetch('games_in_library.json')
       const card = document.createElement("section");
       card.className = "game-card";
 
+
+  const stars = "⭐".repeat(game.stars); // game.stars = 1, 2, or 3
+
+card.innerHTML = `
+  <article class="game-card">
+    <h2 class="game-title">${game.game_name}</h2>
+
+    <img 
+      src="${game.game_icon}" 
+      alt="${game.game_name} icon" 
+      loading="lazy"
+      class="game-icon"
+    >
+
+    <div class="game-footer">
+      <span class="game-difficulty ${game.difficulty}">
+        ${game.difficulty}
+      </span>
+
+      <a href="${game.game_id}" class="play-btn">
+        Play Now
+      </a>
+
+      <span class="game-stars">${stars}</span>
+    </div>
+  </article>
+`;
+      /**
       card.innerHTML = `
         <h2>${game.game_name}</h2>
         <img src="${game.game_icon}" alt="${game.game_name} icon" loading="lazy">
         <a href="${game.game_id}">Play Now</a>
       `;
-
+**/
       container.appendChild(card);
 
       // Add to schema.org structured data
