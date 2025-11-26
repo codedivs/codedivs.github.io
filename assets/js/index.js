@@ -48,7 +48,7 @@ fetch('games_in_library.json')
               ${(game.difficulty || 'medium').charAt(0).toUpperCase() + (game.difficulty || 'medium').slice(1)}
             </span>
 
-            <a href="${game.id}" class="play-btn" target="_blank" rel="noopener">
+            <a href="${game.game_id}" class="play-btn" target="_blank" rel="noopener">
               Play Now →
             </a>
 
