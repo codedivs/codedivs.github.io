@@ -26,7 +26,7 @@
   {
     "game_name": "USA Street names",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/game.html",
+    "game_id": "usa_streets",
     "difficulty": "medium",
     "stars": 2,
     "category": "roads"
@@ -42,7 +42,7 @@
   {
     "game_name": "Periodic Table",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/periodic_table.html",
+    "game_id": "Periodic_Table",
     "difficulty": "easy",
     "stars": 1,
     "category": "science"
@@ -90,7 +90,7 @@
   {
     "game_name": "Solar System",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/solar_system.html",
+    "game_id": "Solar_System",
     "difficulty": "easy",
     "stars": 1,
     "category": "science"
@@ -98,7 +98,7 @@
   {
     "game_name": "Historical Figures",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/historical_figures.html",
+    "game_id": "Historical_Figures",
     "difficulty": "medium",
     "stars": 2,
     "category": "history"
@@ -106,7 +106,7 @@
   {
     "game_name": "Famous Authors",
     "game_icon": "assets/img/code_right.png",
-    "game_id": "https://codedivs.github.io/famous_authors.html",
+    "game_id": "Famous_Authors",
     "difficulty": "easy",
     "stars": 1,
     "category": "literature"
