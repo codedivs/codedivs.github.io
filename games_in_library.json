@@ -20,5 +20,13 @@
     "game_name": "usa_streets",
     "game_icon": "assets/img/code_right.png",
     "game_id": "https://codedivs.github.io/game.html"
+  },
+   {
+    "game_name": "Capital Cities",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "https://codedivs.github.io/capital_cities.html",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "cities"
   }
 ]
