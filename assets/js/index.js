@@ -83,3 +83,31 @@ fetch('games_in_library.json')
         Failed to load games. Please check your internet connection or try again later.
       </p>`;
   });
+// Auto-group game cards into full-screen pages
+function createPager() {
+  const container = document.getElementById('pager');
+  const cards = Array.from(container.querySelectorAll('.game-card'));
+  if (cards.length === 0) return;
+
+  // Clear current content
+  container.innerHTML = '';
+
+  let perPage = 1;
+  if (window.innerWidth >= 1200) perPage = 4;
+  else if (window.innerWidth >= 900) perPage = 2;
+
+  for (let i = 0; i < cards.length; i += perPage) {
+    const page = document.createElement('div');
+    page.className = 'page';
+
+    const chunk = cards.slice(i, i + perPage);
+    chunk.forEach(card => page.appendChild(card));
+    container.appendChild(page);
+  }
+}
+
+// Run on load + resize
+window.addEventListener('load', createPager);
+window.addEventListener('resize', () => {
+  setTimeout(createPager, 300); // small delay to avoid layout thrashing
+});
