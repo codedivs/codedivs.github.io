@@ -5,210 +5,109 @@
   --accent: #4ea1ff;
   --header-bg: #151515;
   --border: #222;
-  --scrollbar-thumb: #444;
-  --scrollbar-thumb-hover: var(--accent);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
 body {
   margin: 0;
-  padding: 0;
+  height: 100vh;
+  overflow: hidden;
   background: var(--bg);
   color: var(--fg);
   font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
-  line-height: 1.5;
-  overflow-x: hidden;
 }
 
-/* HEADER */
+header, #top-bar {
+  position: fixed;
+  left: 0; right: 0;
+  z-index: 100;
+  background: var(--header-bg);
+  backdrop-filter: blur(10px);
+}
 header {
+  top: 0;
+  padding: 14px;
   text-align: center;
-  padding: 14px 10px;
   font-size: 1.4rem;
   font-weight: 700;
-  background: var(--header-bg);
   color: var(--accent);
   border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 30;
-  backdrop-filter: blur(8px);
 }
-header h1 { margin: 0; font-size: inherit; }
-
-/* TOP BAR */
 #top-bar {
-  padding: 12px 8px;
-  background: var(--header-bg);
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  top: 52px;
+  padding: 12px 16px;
   border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(8px);
-  overflow: hidden;
 }
 
-/* Category Chips */
-#category-chips {
-  display: flex;
-  overflow-x: auto;
-  gap: 10px;
-  padding: 4px 12px 8px;
-  margin: 0 -12px;
-  scrollbar-width: thin;
+/* Magic container */
+#pager {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
-}
-#category-chips::-webkit-scrollbar { height: 6px; }
-#category-chips::-webkit-scrollbar-thumb {
-  background: var(--accent);
-  border-radius: 3px;
+  padding-top: calc(52px + 70px); /* header + top-bar */
+  scroll-behavior: smooth;
 }
 
-.category-chip {
-  flex: 0 0 auto;
-  padding: 7px 16px;
-  border-radius: 30px;
-  background: #2a2a2a;
-  color: var(--fg);
-  font-size: 0.88rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.25s ease;
-  white-space: nowrap;
-  user-select: none;
-}
-.category-chip:hover,
-.category-chip.active {
-  background: var(--accent);
-  color: #000;
-  font-weight: 600;
-  transform: translateY(-1px);
-}
-
-/* Search */
-#search-box {
-  padding: 11px 16px;
-  border: none;
-  border-radius: 12px;
-  background: #2a2a2a;
-  color: var(--fg);
-  font-size: 1rem;
-  width: 100%;
-  outline: none;
-  transition: all 0.2s;
-  margin-top: 8px;
-}
-#search-box:focus {
-  background: #333;
-  box-shadow: 0 0 0 2px var(--accent);
-}
-
-/* MAIN GRID – THIS IS THE IMPORTANT PART */
-#main_div {
-  max-width: 1600px;
-  margin: 24px auto;
-  padding: 0 12px;
+/* Each "page" = one screen (auto-created by JS) */
+.page {
+  height: 100vh;
+  scroll-snap-align: start;
+  padding: 20px 12px;
   display: grid;
   gap: 24px;
-
-  /* 1 column  → mobile
-     2 columns → small tablets
-     3 columns → large tablets / small laptops
-     4 columns → desktop */
-  grid-template-columns: 1fr;
 }
 
-@media (min-width: 600px) {
-  #main_div { grid-template-columns: repeat(2, 1fr); }
-}
-@media (min-width: 900px) {
-  #main_div { grid-template-columns: repeat(3, 1fr); }
-}
-@media (min-width: 1200px) {
-  #main_div { grid-template-columns: repeat(4, 1fr); }
-}
+/* Responsive columns inside each page */
+.page { grid-template-columns: 1fr; }
+@media (min-width: 900px)  { .page { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1200px) { .page { grid-template-columns: repeat(4, 1fr); } }
 
-/* GAME CARD */
+/* Your existing card styles (slightly improved) */
 .game-card {
   background: var(--card-bg);
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid var(--border);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
   display: flex;
   flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease;
 }
-.game-card:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
-  border-color: var(--accent);
-}
-.game-card img.game-icon {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-bottom: 1px solid var(--border);
-}
+.game-card:hover { transform: translateY(-8px); }
+.game-card img.game-icon { width: 100%; height: 200px; object-fit: cover; }
 .game-card h2.game-title {
   margin: 16px 12px 8px;
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   color: var(--accent);
   text-align: center;
-  text-shadow: 0 0 10px rgba(78, 161, 255, 0.3);
 }
 .game-footer {
   margin-top: auto;
-  padding: 14px 16px;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0,0,0,0.3);
 }
-.game-difficulty {
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.game-difficulty.easy { background: #1e7e34; color: #fff; }
-.game-difficulty.medium { background: #ff9f1c; color: #000; }
-.game-difficulty.hard { background: #d32f2f; color: #fff; }
-
 .play-btn {
   background: var(--accent);
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 11px 22px;
+  border-radius: 12px;
   text-decoration: none;
   font-weight: 600;
-  transition: all 0.25s ease;
 }
 .play-btn:hover {
   background: #6bb8ff;
-  transform: scale(1.08);
-  box-shadow: 0 0 15px rgba(78, 161, 255, 0.5);
+  transform: scale(1.1);
 }
-
-/* SCROLLBAR */
-::-webkit-scrollbar { width: 12px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
-  border-radius: 6px;
-}
-::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
 
 /* Small mobile tweaks */
 @media (max-width: 480px) {
-  #main_div { padding: 0 8px; gap: 16px; }
-  .game-card img.game-icon { height: 150px; }
-  .game-card h2.game-title { font-size: 1.25rem; }
+  .game-card img.game-icon { height: 180px; }
+  .game-card h2.game-title { font-size: 1.3rem; }
 }
