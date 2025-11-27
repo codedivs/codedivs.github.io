@@ -11,7 +11,6 @@ let selectedQuestions = [];
 // DOM Elements
 const quizScreen = document.getElementById('quizScreen');
 const resultScreen = document.getElementById('resultScreen');
-const startScreen = document.getElementById('startScreen');
 const questionEl = document.getElementById('question');
 const optionsEl = document.getElementById('options');
 const currentQEl = document.getElementById('currentQ');
@@ -20,7 +19,6 @@ const scoreEl = document.getElementById('score');
 const finalTimeEl = document.getElementById('finalTime');
 const timeEl = document.getElementById('time');
 const gameTitleEl = document.getElementById('gameTitle') || document.querySelector('h1');
-const startTitleEl = document.getElementById('startTitle');
 
 // Extract game slug from URL: game.html?g=capital-cities
 function getGameSlug() {
@@ -30,12 +28,13 @@ function getGameSlug() {
 
 const GAME_SLUG = getGameSlug();
 
-// Update page title and UI
+// Initial page title while loading
 document.title = "Loading Game...";
 if (gameTitleEl) gameTitleEl.textContent = "Loading...";
-if (startTitleEl) startTitleEl.textContent = "Loading...";
 
-// Load questions dynamically
+// ========================
+// LOAD QUESTIONS & AUTO-START QUIZ
+// ========================
 fetch(`/assets/games/${GAME_SLUG}.json`)
   .then(res => {
     if (!res.ok) throw new Error(`Game not found: ${GAME_SLUG}`);
@@ -43,30 +42,30 @@ fetch(`/assets/games/${GAME_SLUG}.json`)
   })
   .then(data => {
     questions = data;
-    
-    // Optional: Load game name from games_in_library.json for better title
+
+    // Try to get nice game name from library
     fetch('/games_in_library.json')
       .then(r => r.json())
       .then(library => {
         const game = library.find(g => g.game_id === GAME_SLUG);
-        const gameName = game ? game.game_name : GAME_SLUG.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        
+        const gameName = game 
+          ? game.game_name 
+          : GAME_SLUG.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
         document.title = `${gameName} - Quiz Game`;
         if (gameTitleEl) gameTitleEl.textContent = gameName;
-        if (startTitleEl) startTitleEl.textContent = gameName;
-        if (document.getElementById('startDesc')) {
-          document.getElementById('startDesc').innerHTML = `Let's Go!!`;
-        }
       })
       .catch(() => {
-        // Fallback if library fails
+        // Fallback if library not available
         const niceName = GAME_SLUG.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
         document.title = `${niceName} - Quiz Game`;
         if (gameTitleEl) gameTitleEl.textContent = niceName;
-        if (startTitleEl) startTitleEl.textContent = niceName;
       });
-      
+
     console.log(`Loaded ${questions.length} questions for ${GAME_SLUG}`);
+
+    // AUTO-START THE QUIZ IMMEDIATELY
+    startQuiz();
   })
   .catch(err => {
     console.error(err);
@@ -79,23 +78,28 @@ fetch(`/assets/games/${GAME_SLUG}.json`)
     `;
   });
 
-// === Quiz Logic Below (unchanged, just cleaned) ===
-
+// ========================
+// QUIZ LOGIC
+// ========================
 function startQuiz() {
   if (!questions || questions.length === 0) {
     alert("No questions loaded!");
     return;
   }
+
   score = 0;
   seconds = 0;
   currentQuestionIndex = 0;
   if (timerInterval) clearInterval(timerInterval);
 
+  // Randomly pick 10 questions
   selectedQuestions = [...questions]
     .sort(() => 0.5 - Math.random())
     .slice(0, 10);
 
   totalQEl.textContent = selectedQuestions.length;
+
+  // Go straight to quiz screen
   showScreen('quizScreen');
   startTimer();
   showQuestion();
@@ -123,6 +127,8 @@ function showQuestion() {
 
 function selectAnswer(selectedIndex, btn) {
   const correctIndex = selectedQuestions[currentQuestionIndex].answer;
+
+  // Disable further clicks
   document.querySelectorAll('.option').forEach(b => b.style.pointerEvents = 'none');
 
   if (selectedIndex === correctIndex) {
@@ -160,8 +166,9 @@ function showScreen(screenId) {
   document.getElementById(screenId).classList.add('active');
 }
 
-// Event Listeners
-document.getElementById('startBtn')?.addEventListener('click', startQuiz);
+// ========================
+// BUTTONS (only needed after quiz ends)
+// ========================
 document.getElementById('playAgainBtn')?.addEventListener('click', startQuiz);
 document.getElementById('restartBtn')?.addEventListener('click', startQuiz);
 document.getElementById('cancelBtn')?.addEventListener('click', () => location.href = '/');
