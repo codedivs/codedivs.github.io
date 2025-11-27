@@ -6,10 +6,9 @@ fetch('games_in_library.json')
     return response.json();
   })
   .then(games => {
-    const container = document.getElementById("main_div");
+    const container = document.getElementById("pager");  // ← NOW CORRECT ID
     if (!container) return;
 
-    // Optional structured data
     const schemaData = {
       "@context": "https://schema.org",
       "@type": "ItemList",
@@ -19,48 +18,28 @@ fetch('games_in_library.json')
     };
 
     games.forEach((game, index) => {
-      // Create the card container
       const card = document.createElement("section");
       card.className = "game-card";
 
-      // Generate star string
-      const stars = "⭐".repeat(Math.min(game.stars || 1, 5));
-
-      /**
-      // Determine final play URL
-      const playUrl = game.game_id.startsWith("http")
-        ? game.game_id
-        : `${window.location.origin}/${game.game_id}`;
-**/
+      const stars = "★".repeat(Math.min(game.stars || 1, 5));
       const playUrl = `/game.html?g=${game.game_id}`;
+
       card.innerHTML = `
         <article class="game-card-inner">
           <h2 class="game-title">${game.game_name}</h2>
-          <img 
-            src="${game.game_icon}" 
-            alt="${game.game_name} icon" 
-            loading="lazy"
-            class="game-icon"
-          >
-          
-
+          <img src="${game.game_icon}" alt="${game.game_name} icon" loading="lazy" class="game-icon">
           <div class="game-footer">
             <span class="game-difficulty ${game.difficulty || 'medium'}">
               ${(game.difficulty || 'medium').charAt(0).toUpperCase() + (game.difficulty || 'medium').slice(1)}
             </span>
-
-            <a href="${playUrl}" class="play-btn" rel="noopener">
-              Play Now →
-            </a>
-
             <span class="game-stars" title="${game.stars} stars">${stars}</span>
+            <a href="${playUrl}" class="play-btn" rel="noopener">Play Now →</a>
           </div>
         </article>
       `;
 
       container.appendChild(card);
 
-      // Add to schema.org JSON-LD
       schemaData.itemListElement.push({
         "@type": "ListItem",
         "position": index + 1,
@@ -70,26 +49,30 @@ fetch('games_in_library.json')
       });
     });
 
-    // Inject structured data (optional but great for SEO)
+    // Inject JSON-LD
     const script = document.createElement("script");
     script.type = "application/ld+json";
     script.textContent = JSON.stringify(schemaData, null, 2);
     document.head.appendChild(script);
+
+    // Now create the full-screen pager
+    createPager();
   })
   .catch(err => {
     console.error(err);
-    document.getElementById("main_div").innerHTML = 
+    document.getElementById("pager").innerHTML =
       `<p style="color:red; text-align:center; padding: 2rem;">
-        Failed to load games. Please check your internet connection or try again later.
+        Failed to load games. Please check your internet connection.
       </p>`;
   });
-// Auto-group game cards into full-screen pages
+
+// ——— FULL-SCREEN VERTICAL SWIPE PAGER ———
 function createPager() {
   const container = document.getElementById('pager');
   const cards = Array.from(container.querySelectorAll('.game-card'));
   if (cards.length === 0) return;
 
-  // Clear current content
+  // Clear and rebuild pages
   container.innerHTML = '';
 
   let perPage = 1;
@@ -106,8 +89,9 @@ function createPager() {
   }
 }
 
-// Run on load + resize
-window.addEventListener('load', createPager);
+// Rebuild on resize (with debounce)
+let resizeTimer;
 window.addEventListener('resize', () => {
-  setTimeout(createPager, 300); // small delay to avoid layout thrashing
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(createPager, 200);
 });
