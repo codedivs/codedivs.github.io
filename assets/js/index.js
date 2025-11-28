@@ -66,18 +66,29 @@
     });
   }
 
-  // Filter by category
-  function filterByCategory(selectedCat) {
-    document.querySelectorAll("#category-chips .chip").forEach(c => {
-      c.classList.toggle("active", c.dataset.category === selectedCat || (selectedCat === "all" && c.dataset.category === "all"));
-    });
+function filterByCategory(selectedCat) {
+  // Update active chip visual
+  document.querySelectorAll("#category-chips .chip").forEach(c => {
+    const isAllChip = c.dataset.category === "all";
+    const isSelected = c.dataset.category === selectedCat;
+    c.classList.toggle("active", 
+      (selectedCat === "all" && isAllChip) || 
+      (selectedCat !== "all" && isSelected)
+    );
+  });
 
-    const filtered = selectedCat === "all"
-      ? allGames
-      : allGames.filter(g => (g.category || "General") === selectedCat);
-
-    renderGames(filtered);
+  // Filter logic
+  let filtered;
+  if (selectedCat === "all") {
+    filtered = allGames;                    // ← This was the missing part!
+  } else {
+    filtered = allGames.filter(g => 
+      (g.category || "General") === selectedCat
+    );
   }
+
+  renderGames(filtered);
+}
 
   // Search functionality
   function performSearch() {
