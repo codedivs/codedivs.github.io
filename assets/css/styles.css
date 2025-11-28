@@ -142,11 +142,26 @@ header {
 /* Category Chips */
 #category-chips {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap; */
   gap: 10px;
-  justify-content: center;
-  flex: 1;
+ 
+  /*justify-content: center;*/
+ /* flex: 1; */
   min-width: 300px;
+
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 5px;
+  
+
+  /* optional styling */
+  scrollbar-width: none;
+
+  
+}
+
+#category-chips::-webkit-scrollbar {
+  display: none;
 }
 
 .chip {
@@ -241,6 +256,7 @@ header {
   /* <span class="game-category-chip">${escapeHtml(game.category || "General")}</span> */
 */
 .game-category-chip {
+  flex-shrink: 0;
   background: var(--accent);
   color: #000;
   padding: 5px 12px;
