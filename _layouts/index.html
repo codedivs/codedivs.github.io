@@ -1,8 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO -->
+  <title>Ultimate Quiz+ → 200+ Free Online Quiz Games (No Download)</title>
+  <meta name="description" content="Play 200+ free quiz games instantly in your browser: General Knowledge, Geography, Science, History, Movies, Logo Quiz and more. No sign-up, no ads, mobile-friendly!">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ultimate Quiz+ → 200+ Free Online Quiz Games">
+  <meta property="og:description" content="Instant play • 15 questions per game • Works on phone & desktop • Completely free">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | relative_url }}">
+  <meta property="og:site_name" content="Ultimate Quiz+">
+  <meta property="og:image" content="{{ site.url }}/assets/img/og-homepage.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ultimate Quiz+ → 200+ Free Quiz Games">
+  <meta name="twitter:description" content="General Knowledge • Geography • Science • Movies • Logo Quiz + more. Play now!">
+  <meta name="twitter:image" content="{{ site.url }}/assets/img/og-homepage.jpg">
+  
+  <!-- Canonical & Favicon -->
+  <link rel="canonical" href="{{ site.url }}/">
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" href="{{ "/assets/css/styles.css" | relative_url }}" as="style">
+  <link rel="preload" href="{{ "/assets/js/index.js" | relative_url }}" as="script">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+
+  <!-- Structured Data – Homepage (Game Collection) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Ultimate Quiz+ Games Collection",
+    "description": "200+ free browser-based quiz and trivia games",
+    "numberOfItems": {{ site.data.games_in_library.size }},
+    "itemListElement": [
+      {% for game in site.data.games_in_library limit:12 %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ site.url }}/game.html?g={{ game.game_name | slugify }}",
+        "name": "{{ game.game_name }} Quiz"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+  </script>
+
+  <!-- Extra rich homepage schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "{{ site.url }}",
+    "name": "Ultimate Quiz+",
+    "description": "Free online quiz games collection",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ site.url }}/game.html?g={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 <body>
   <header>Ultimate Quiz+ games Collection</header>
