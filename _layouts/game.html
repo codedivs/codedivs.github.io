@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} - {% if window.CURRENT_GAME %}{{ window.CURRENT_GAME.name }}{% else %}Game{% endif %}</title>
+
+  <!-- DYNAMIC SEO TITLE & DESCRIPTION -->
+  <title>{{ page.title | default: window.CURRENT_GAME.name }} - Free Quiz Game | Ultimate Quiz+</title>
+  <meta name="description" content="{{ window.CURRENT_GAME.name }} Quiz - {{ window.CURRENT_GAME.description | default: 'Test your knowledge with 15 fun multiple-choice questions!' }} Play free, no sign-up!">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="{{ window.CURRENT_GAME.name }} Quiz - Ultimate Quiz+">
+  <meta property="og:description" content="Can you score 15/15? Play {{ window.CURRENT_GAME.name }} quiz for free!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}{{ window.CURRENT_GAME.icon | default: '/assets/img/og-default.jpg' }}">
+  <meta property="og:site_name" content="Ultimate Quiz+">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ window.CURRENT_GAME.name }} Quiz - Free Online">
+  <meta name="twitter:description" content="15 challenging questions · Instant play · No download">
+  <meta name="twitter:image" content="{{ site.url }}{{ window.CURRENT_GAME.icon | default: '/assets/img/og-default.jpg' }}">
+
+  <!-- Canonical + Favicon -->
+  <link rel="canonical" href="{{ site.url }}/game.html?g={{ game_slug }}">
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+
+  <!-- Preload game CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/game.css" | relative_url }}">
+
+  <!-- Structured Data - Individual Game (Google loves this) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "about": {
+      "@type": "Thing",
+      "name": "{{ window.CURRENT_GAME.name }}"
+    },
+    "educationalLevel": "{{ window.CURRENT_GAME.difficulty | capitalize | default: 'Medium' }}",
+    "hasPart": {
+      "@type": "Question",
+      "text": "Sample question from {{ window.CURRENT_GAME.name }} quiz"
+    },
+    "name": "{{ window.CURRENT_GAME.name }} Quiz",
+    "description": "{{ window.CURRENT_GAME.description | default: 'Free online quiz with 15 questions' }}",
+    "url": "{{ site.url }}/game.html?g={{ game_slug }}",
+    "image": "{{ site.url }}{{ window.CURRENT_GAME.icon }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Ultimate Quiz+",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/assets/img/logo.png"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
   <div class="container">
@@ -12,7 +64,7 @@
       <div class="back-btn">
         <a href="/" class="btn-secondary">← Back</a>
       </div>
-      <h1 id="gameTitle">Loading...</h1>
+      <h1 id="gameTitle">{{ window.CURRENT_GAME.name }}</h1>
       <div class="timer">Time: <span id="time">00:00</span></div>
       <div class="controls">
         <button id="restartBtn" class="btn-secondary">Restart</button>
@@ -20,8 +72,8 @@
     </header>
 
     <div id="startScreen" class="screen active">
-      <h1 id="startTitle">Loading Game...</h1>
-      <p id="startDesc">Test your knowledge with 15 random questions!</p>
+      <h1 id="startTitle">{{ window.CURRENT_GAME.name }}</h1>
+      <p id="startDesc">Test your <strong>{{ window.CURRENT_GAME.description | default: window.CURRENT_GAME.category | default: 'knowledge' }}</strong> with 15 random questions!</p>
       <button id="startBtn" class="btn-primary">Start Quiz</button>
     </div>
 
@@ -32,7 +84,7 @@
     </div>
 
     <div id="resultScreen" class="screen">
-      <h1>Quiz Complete! 🎉</h1>
+      <h1>Quiz Complete!</h1>
       <p class="score">You scored <span id="score">0</span>/15</p>
       <p class="time-taken">Time taken: <span id="finalTime">00:00</span></p>
       <button id="playAgainBtn" class="btn-primary">Play Again</button>
@@ -40,36 +92,14 @@
     </div>
   </div>
 
-  <script src="{{ "/assets/js/games.js" | relative_url }}"></script>
   <script>
-    // Fallback if Liquid didn't set it
+    // Ensure CURRENT_GAME exists
     if (!window.CURRENT_GAME) {
-      const params = new URLSearchParams(window.location.search);
+      const params = new URLSearchParams(location.search);
       const slug = params.get('g') || 'capital-cities';
-      window.CURRENT_GAME = { slug };
+      window.CURRENT_GAME = { slug, name: "Loading..." };
     }
-
-    // Update page title and start screen
-    document.addEventListener("DOMContentLoaded", () => {
-      if (window.CURRENT_GAME.name) {
-        document.getElementById("gameTitle").textContent = window.CURRENT_GAME.name;
-        document.getElementById("startTitle").textContent = window.CURRENT_GAME.name;
-        document.getElementById("startDesc").innerHTML = `Test your <strong>${window.CURRENT_GAME.description || 'knowledge'}</strong> with 15 random questions!`;
-        document.title = window.CURRENT_GAME.name + " - Quiz Game";
-      }
-
-      // Load questions dynamically
-      fetch(`/assets/games/${window.CURRENT_GAME.slug}.json`)
-        .then(r => r.json())
-        .then(data => {
-          window.GAME_QUESTIONS = data;
-          console.log("Loaded", data.length, "questions");
-        })
-        .catch(err => {
-          console.error("Failed to load questions:", err);
-          document.getElementById("startScreen").innerHTML = "<h1>Game not found</h1><p>Could not load questions.</p>";
-        });
-    });
   </script>
+  <script src="{{ "/assets/js/games.js" | relative_url }}"></script>
 </body>
 </html>
