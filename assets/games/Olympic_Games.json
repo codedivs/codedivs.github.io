@@ -1,0 +1,152 @@
+[
+    {
+      "question": "In which year were the first modern Olympic Games held?",
+      "options": ["1896", "1900", "1912", "1920"],
+      "answer": 0
+    },
+    {
+      "question": "Which city hosted the 2016 Summer Olympics?",
+      "options": ["Tokyo", "Rio de Janeiro", "London", "Beijing"],
+      "answer": 1
+    },
+    {
+      "question": "Which country has won the most Olympic gold medals in history?",
+      "options": ["China", "Russia", "United States", "Germany"],
+      "answer": 2
+    },
+    {
+      "question": "Which sport is considered the original Olympic event?",
+      "options": ["Boxing", "Wrestling", "Running", "Javelin"],
+      "answer": 3
+    },
+    {
+      "question": "Who has the most Olympic gold medals in swimming?",
+      "options": ["Michael Phelps", "Mark Spitz", "Ian Thorpe", "Ryan Lochte"],
+      "answer": 0
+    },
+    {
+      "question": "Which city hosted the 2000 Summer Olympics?",
+      "options": ["Sydney", "Athens", "Atlanta", "Beijing"],
+      "answer": 1
+    },
+    {
+      "question": "Which country hosted the 2018 Winter Olympics?",
+      "options": ["Canada", "Norway", "South Korea", "Russia"],
+      "answer": 2
+    },
+    {
+      "question": "Which athlete is known as the fastest man in the world?",
+      "options": ["Carl Lewis", "Usain Bolt", "Jesse Owens", "Asafa Powell"],
+      "answer": 3
+    },
+    {
+      "question": "Which city hosted the 1992 Summer Olympics?",
+      "options": ["Barcelona", "Atlanta", "Seoul", "Sydney"],
+      "answer": 0
+    },
+    {
+      "question": "Which country hosted the 2010 Winter Olympics?",
+      "options": ["Norway", "Canada", "Russia", "USA"],
+      "answer": 1
+    },
+    {
+      "question": "Which sport involves a pommel horse?",
+      "options": ["Gymnastics", "Equestrian", "Weightlifting", "Diving"],
+      "answer": 2
+    },
+    {
+      "question": "Which country hosted the first Winter Olympics in 1924?",
+      "options": ["France", "Switzerland", "Austria", "Norway"],
+      "answer": 3
+    },
+    {
+      "question": "Which female gymnast won 4 gold medals at the 2012 London Olympics?",
+      "options": ["Gabby Douglas", "Simone Biles", "Nadia Comăneci", "Aly Raisman"],
+      "answer": 0
+    },
+    {
+      "question": "Which city hosted the 1988 Summer Olympics?",
+      "options": ["Seoul", "Los Angeles", "Moscow", "Barcelona"],
+      "answer": 1
+    },
+    {
+      "question": "Which country won the most medals at the 2012 Olympics?",
+      "options": ["China", "USA", "Russia", "Germany"],
+      "answer": 2
+    },
+    {
+      "question": "Which sport uses a skeleton sled?",
+      "options": ["Bobsleigh", "Skeleton", "Luge", "Speed Skating"],
+      "answer": 3
+    },
+    {
+      "question": "Which city hosted the 1976 Summer Olympics?",
+      "options": ["Montreal", "Munich", "Moscow", "Mexico City"],
+      "answer": 0
+    },
+    {
+      "question": "Which country hosted the 1964 Summer Olympics?",
+      "options": ["Japan", "Germany", "Mexico", "Italy"],
+      "answer": 1
+    },
+    {
+      "question": "Which swimmer has won 23 Olympic gold medals?",
+      "options": ["Michael Phelps", "Ryan Lochte", "Ian Thorpe", "Mark Spitz"],
+      "answer": 2
+    },
+    {
+      "question": "Which sport is known for curling stones on ice?",
+      "options": ["Ice Hockey", "Curling", "Bobsleigh", "Skating"],
+      "answer": 3
+    },
+    {
+      "question": "Which city hosted the 1968 Summer Olympics?",
+      "options": ["Mexico City", "Tokyo", "Munich", "Rome"],
+      "answer": 0
+    },
+    {
+      "question": "Which country hosted the 1956 Summer Olympics?",
+      "options": ["Australia", "Sweden", "Germany", "Finland"],
+      "answer": 1
+    },
+    {
+      "question": "Which athlete is famous for the 'Blood in the Water' water polo match?",
+      "options": ["Hungarian team", "US team", "Soviet team", "Italian team"],
+      "answer": 2
+    },
+    {
+      "question": "Which Winter Olympic sport involves racing down an ice track in a small sled?",
+      "options": ["Luge", "Bobsleigh", "Skeleton", "Skating"],
+      "answer": 3
+    },
+    {
+      "question": "Which city hosted the 1952 Summer Olympics?",
+      "options": ["Helsinki", "Oslo", "London", "Stockholm"],
+      "answer": 0
+    },
+    {
+      "question": "Which country hosted the 1948 Summer Olympics?",
+      "options": ["United Kingdom", "Switzerland", "France", "USA"],
+      "answer": 1
+    },
+    {
+      "question": "Which female athlete is known for gymnastics dominance in 2008 Beijing Olympics?",
+      "options": ["Nastia Liukin", "Simone Biles", "Gabby Douglas", "Aly Raisman"],
+      "answer": 2
+    },
+    {
+      "question": "Which Winter Olympic sport involves racing down snow-covered tracks on skis?",
+      "options": ["Alpine skiing", "Bobsleigh", "Skeleton", "Luge"],
+      "answer": 3
+    },
+    {
+      "question": "Which city hosted the 1936 Summer Olympics?",
+      "options": ["Berlin", "London", "Tokyo", "Paris"],
+      "answer": 0
+    },
+    {
+      "question": "Which city hosted the 1920 Summer Olympics?",
+      "options": ["Antwerp", "Paris", "Stockholm", "Amsterdam"],
+      "answer": 1
+    }
+  ]
