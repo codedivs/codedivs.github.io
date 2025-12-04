@@ -1,0 +1,152 @@
+[
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+      "answer": 0
+    },
+    {
+      "question": "Which artist painted Starry Night?",
+      "options": ["Claude Monet", "Vincent van Gogh", "Edvard Munch", "Salvador Dalí"],
+      "answer": 1
+    },
+    {
+      "question": "The Persistence of Memory was painted by?",
+      "options": ["Pablo Picasso", "Salvador Dalí", "Claude Monet", "Henri Matisse"],
+      "answer": 2
+    },
+    {
+      "question": "Who painted The Last Supper?",
+      "options": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Titian"],
+      "answer": 3
+    },
+    {
+      "question": "Who painted Guernica?",
+      "options": ["Pablo Picasso", "Salvador Dalí", "Henri Matisse", "Marc Chagall"],
+      "answer": 0
+    },
+    {
+      "question": "The School of Athens was painted by?",
+      "options": ["Raphael", "Leonardo da Vinci", "Michelangelo", "Caravaggio"],
+      "answer": 1
+    },
+    {
+      "question": "The Scream is painted by?",
+      "options": ["Edvard Munch", "Vincent van Gogh", "Paul Cézanne", "Salvador Dalí"],
+      "answer": 2
+    },
+    {
+      "question": "Which artist painted Girl with a Pearl Earring?",
+      "options": ["Johannes Vermeer", "Rembrandt", "Michelangelo", "Raphael"],
+      "answer": 3
+    },
+    {
+      "question": "The Birth of Venus was painted by?",
+      "options": ["Sandro Botticelli", "Leonardo da Vinci", "Titian", "Raphael"],
+      "answer": 0
+    },
+    {
+      "question": "The Night Watch was painted by?",
+      "options": ["Rembrandt", "Vermeer", "Van Gogh", "Caravaggio"],
+      "answer": 1
+    },
+    {
+      "question": "Water Lilies series was painted by?",
+      "options": ["Claude Monet", "Vincent van Gogh", "Pierre-Auguste Renoir", "Edgar Degas"],
+      "answer": 2
+    },
+    {
+      "question": "The Creation of Adam is painted by?",
+      "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Titian"],
+      "answer": 3
+    },
+    {
+      "question": "Which artist painted American Gothic?",
+      "options": ["Grant Wood", "Edward Hopper", "Norman Rockwell", "Jackson Pollock"],
+      "answer": 0
+    },
+    {
+      "question": "The Garden of Earthly Delights was painted by?",
+      "options": ["Hieronymus Bosch", "Pieter Bruegel", "Albrecht Dürer", "Hans Holbein"],
+      "answer": 1
+    },
+    {
+      "question": "Whistler’s Mother is painted by?",
+      "options": ["James McNeill Whistler", "John Singer Sargent", "Thomas Eakins", "Winslow Homer"],
+      "answer": 2
+    },
+    {
+      "question": "The Kiss is painted by?",
+      "options": ["Gustav Klimt", "Edvard Munch", "Henri Rousseau", "Paul Cézanne"],
+      "answer": 3
+    },
+    {
+      "question": "Las Meninas was painted by?",
+      "options": ["Diego Velázquez", "Francisco Goya", "El Greco", "Bartolomé Esteban Murillo"],
+      "answer": 0
+    },
+    {
+      "question": "Liberty Leading the People was painted by?",
+      "options": ["Eugène Delacroix", "Jacques-Louis David", "Jean-Auguste-Dominique Ingres", "Francisco Goya"],
+      "answer": 1
+    },
+    {
+      "question": "The Starry Night Over the Rhône was painted by?",
+      "options": ["Vincent van Gogh", "Claude Monet", "Paul Gauguin", "Pierre Bonnard"],
+      "answer": 2
+    },
+    {
+      "question": "Christina’s World was painted by?",
+      "options": ["Andrew Wyeth", "Grant Wood", "Edward Hopper", "Norman Rockwell"],
+      "answer": 3
+    },
+    {
+      "question": "Impression, Sunrise was painted by?",
+      "options": ["Claude Monet", "Pierre-Auguste Renoir", "Edgar Degas", "Camille Pissarro"],
+      "answer": 0
+    },
+    {
+      "question": "The Arnolfini Portrait was painted by?",
+      "options": ["Jan van Eyck", "Pieter Bruegel", "Hans Holbein", "Albrecht Dürer"],
+      "answer": 1
+    },
+    {
+      "question": "The Third of May 1808 was painted by?",
+      "options": ["Francisco Goya", "Diego Velázquez", "El Greco", "J.M.W. Turner"],
+      "answer": 2
+    },
+    {
+      "question": "The Hay Wagon was painted by?",
+      "options": ["John Constable", "Thomas Cole", "Jean-Baptiste-Camille Corot", "Winslow Homer"],
+      "answer": 3
+    },
+    {
+      "question": "The Dance by Henri Matisse was painted by?",
+      "options": ["Henri Matisse", "Pablo Picasso", "Marc Chagall", "Paul Cézanne"],
+      "answer": 0
+    },
+    {
+      "question": "The Raft of the Medusa was painted by?",
+      "options": ["Théodore Géricault", "Eugène Delacroix", "Jean-Léon Gérôme", "Francisco Goya"],
+      "answer": 1
+    },
+    {
+      "question": "Self-Portrait with Bandaged Ear was painted by?",
+      "options": ["Vincent van Gogh", "Paul Cézanne", "Claude Monet", "Edvard Munch"],
+      "answer": 2
+    },
+    {
+      "question": "The Night Cafe was painted by?",
+      "options": ["Vincent van Gogh", "Edvard Munch", "Paul Gauguin", "Claude Monet"],
+      "answer": 3
+    },
+    {
+      "question": "A Sunday Afternoon on the Island of La Grande Jatte was painted by?",
+      "options": ["Georges Seurat", "Paul Cézanne", "Henri Rousseau", "Edgar Degas"],
+      "answer": 0
+    },
+    {
+      "question": "The Sleeping Gypsy was painted by?",
+      "options": ["Henri Rousseau", "Gustav Klimt", "Edgar Degas", "Paul Gauguin"],
+      "answer": 1
+    }
+  ]
