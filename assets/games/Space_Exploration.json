@@ -1,0 +1,152 @@
+[
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+      "answer": 0
+    },
+    {
+      "question": "What was the name of the first artificial satellite launched into space?",
+      "options": ["Explorer 1", "Sputnik 1", "Apollo 1", "Luna 1"],
+      "answer": 1
+    },
+    {
+      "question": "Which NASA rover landed on Mars in 2012?",
+      "options": ["Spirit", "Perseverance", "Curiosity", "Opportunity"],
+      "answer": 2
+    },
+    {
+      "question": "Which planet has the most moons in our solar system?",
+      "options": ["Earth", "Mars", "Uranus", "Jupiter"],
+      "answer": 3
+    },
+    {
+      "question": "Who was the first human to travel into space?",
+      "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the galaxy that contains our Solar System?",
+      "options": ["Andromeda Galaxy", "Milky Way", "Sombrero Galaxy", "Whirlpool Galaxy"],
+      "answer": 1
+    },
+    {
+      "question": "Which space telescope was launched in 1990 and revolutionized astronomy?",
+      "options": ["Kepler Telescope", "James Webb Telescope", "Hubble Space Telescope", "Spitzer Telescope"],
+      "answer": 2
+    },
+    {
+      "question": "Which planet is known for its prominent ring system?",
+      "options": ["Neptune", "Uranus", "Jupiter", "Saturn"],
+      "answer": 3
+    },
+    {
+      "question": "Which mission first landed humans on the Moon?",
+      "options": ["Apollo 11", "Apollo 12", "Apollo 13", "Luna 2"],
+      "answer": 0
+    },
+    {
+      "question": "Which planet is the hottest in the solar system?",
+      "options": ["Mars", "Mercury", "Jupiter", "Venus"],
+      "answer": 1
+    },
+    {
+      "question": "Which dwarf planet is located in the asteroid belt?",
+      "options": ["Pluto", "Eris", "Ceres", "Haumea"],
+      "answer": 2
+    },
+    {
+      "question": "Which planet rotates on its side, giving it extreme seasons?",
+      "options": ["Mars", "Jupiter", "Neptune", "Uranus"],
+      "answer": 3
+    },
+    {
+      "question": "Which spacecraft carried the Golden Record into interstellar space?",
+      "options": ["Pioneer 10", "Voyager 1", "Cassini", "New Horizons"],
+      "answer": 0
+    },
+    {
+      "question": "Which star is at the center of our Solar System?",
+      "options": ["Alpha Centauri", "Betelgeuse", "The Sun", "Sirius"],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the first reusable spacecraft?",
+      "options": ["Apollo", "Soyuz", "Space Shuttle", "Dragon"],
+      "answer": 2
+    },
+    {
+      "question": "Which planet has the Great Red Spot, a massive storm?",
+      "options": ["Venus", "Earth", "Mars", "Jupiter"],
+      "answer": 3
+    },
+    {
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Mercury", "Venus", "Earth", "Mars"],
+      "answer": 0
+    },
+    {
+      "question": "Which country launched the first woman into space?",
+      "options": ["USA", "Soviet Union", "China", "Japan"],
+      "answer": 1
+    },
+    {
+      "question": "Which telescope succeeded the Hubble Space Telescope?",
+      "options": ["Spitzer Telescope", "Chandra Telescope", "James Webb Space Telescope", "WISE Telescope"],
+      "answer": 2
+    },
+    {
+      "question": "Which rocky planet is known for its thick, toxic atmosphere?",
+      "options": ["Mars", "Mercury", "Earth", "Venus"],
+      "answer": 3
+    },
+    {
+      "question": "Which moon of Saturn is known for its methane lakes?",
+      "options": ["Titan", "Enceladus", "Ganymede", "Io"],
+      "answer": 0
+    },
+    {
+      "question": "Which spacecraft was the first to land on a comet?",
+      "options": ["Cassini", "Rosetta", "Voyager 2", "New Horizons"],
+      "answer": 1
+    },
+    {
+      "question": "What is the name of the boundary marking the Sun’s gravitational influence?",
+      "options": ["Oort Limit", "Termination Shock", "Heliopause", "Kuiper Belt"],
+      "answer": 2
+    },
+    {
+      "question": "Which planet has the fastest rotation in the solar system?",
+      "options": ["Earth", "Mars", "Saturn", "Jupiter"],
+      "answer": 3
+    },
+    {
+      "question": "Which planet is known as the Morning Star?",
+      "options": ["Venus", "Mercury", "Mars", "Jupiter"],
+      "answer": 0
+    },
+    {
+      "question": "What is the name of the first crewed spacecraft to orbit the Moon?",
+      "options": ["Apollo 11", "Apollo 17", "Apollo 8", "Gemini 4"],
+      "answer": 1
+    },
+    {
+      "question": "Which celestial objects are known as 'dirty snowballs'?",
+      "options": ["Asteroids", "Meteorites", "Comets", "Dwarf planets"],
+      "answer": 2
+    },
+    {
+      "question": "Which mission studied Saturn and its moons extensively?",
+      "options": ["Voyager", "New Horizons", "Pioneer", "Cassini"],
+      "answer": 3
+    },
+    {
+      "question": "Which planet has Olympus Mons, the tallest volcano in the solar system?",
+      "options": ["Mars", "Venus", "Earth", "Io"],
+      "answer": 0
+    },
+    {
+      "question": "Which galaxy is on a collision course with the Milky Way?",
+      "options": ["Triangulum Galaxy", "Whirlpool Galaxy", "Andromeda Galaxy", "Sombrero Galaxy"],
+      "answer": 1
+    }
+  ]
