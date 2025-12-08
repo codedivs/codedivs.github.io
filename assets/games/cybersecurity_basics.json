@@ -1,0 +1,157 @@
+[
+  {
+    "question": "What does the term 'phishing' refer to in cybersecurity?",
+    "options": ["A type of malicious software", "A fraudulent attempt to obtain sensitive information", "A technique to crack passwords", "An encryption algorithm"],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary function of a firewall in a computer network?",
+    "options": ["Encrypting sensitive data", "Preventing unauthorized access", "Tracking network usage", "Backing up data"],
+    "answer": 1
+  },
+  {
+    "question": "What does the acronym 'VPN' stand for?",
+    "options": ["Virtual Private Network", "Visual Protocol Network", "Virtual Public Network", "Virtual Protected Node"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is the most secure form of password authentication?",
+    "options": ["Username and password", "Two-factor authentication", "Security questions", "PIN code"],
+    "answer": 1
+  },
+  {
+    "question": "Which type of attack involves intercepting and altering communication between two parties?",
+    "options": ["Man-in-the-middle attack", "Phishing", "Denial of Service", "Brute force attack"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is an example of social engineering in cybersecurity?",
+    "options": ["Keylogging", "Phishing emails", "Malware", "SQL Injection"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of encryption in cybersecurity?",
+    "options": ["To make data unreadable without the proper key", "To store data in compressed form", "To back up data", "To delete sensitive files"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a common sign of a phishing email?",
+    "options": ["An email from an unknown address", "A sense of urgency in the message", "Suspicious links or attachments", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of a DDoS attack?",
+    "options": ["To steal sensitive data", "To overwhelm a server or network with traffic", "To exploit system vulnerabilities", "To inject malicious code into a website"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a strong password?",
+    "options": ["123456", "password123", "P@ssw0rd!", "qwerty"],
+    "answer": 2
+  },
+  {
+    "question": "What does the term 'ransomware' refer to?",
+    "options": ["A type of antivirus software", "Malicious software that locks data and demands payment for access", "A method for protecting against cyberattacks", "A secure online transaction method"],
+    "answer": 1
+  },
+  {
+    "question": "What is multi-factor authentication?",
+    "options": ["Using multiple passwords for different accounts", "Verifying your identity using multiple methods", "A type of encryption protocol", "A type of password manager"],
+    "answer": 1
+  },
+  {
+    "question": "What is a zero-day vulnerability?",
+    "options": ["A vulnerability that is unknown to the public and has no fix", "A vulnerability that has been patched by the developer", "A type of malware", "A type of firewall attack"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a good practice for protecting your computer from malware?",
+    "options": ["Opening attachments from unknown sources", "Keeping your software up to date", "Using the same password for multiple accounts", "Disabling antivirus software"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following actions helps prevent SQL injection attacks?",
+    "options": ["Using prepared statements", "Disabling firewalls", "Running software without updates", "Ignoring user input validation"],
+    "answer": 0
+  },
+  {
+    "question": "What is two-factor authentication (2FA)?",
+    "options": ["Using two passwords to log in", "A combination of a password and a secondary verification method", "A backup method to recover lost passwords", "A software used to encrypt your passwords"],
+    "answer": 1
+  },
+  {
+    "question": "What is the most common method for protecting sensitive information in transit?",
+    "options": ["Encryption", "Tokenization", "Hashing", "Backups"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a method used to track activity on a network for security purposes?",
+    "options": ["Firewall", "Intrusion Detection System (IDS)", "Malware scanner", "Backup software"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an example of a 'brute-force attack'?",
+    "options": ["Trying many passwords until the correct one is found", "Intercepting data between two parties", "Injecting malicious code into a web application", "Sending an overwhelming amount of traffic to a server"],
+    "answer": 0
+  },
+  {
+    "question": "What does 'pharming' refer to in the context of cybersecurity?",
+    "options": ["Redirecting a website's traffic to a fraudulent site", "Stealing data from a website", "Injecting malicious code into a website", "Monitoring internet traffic to gather sensitive information"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a key principle of network security?",
+    "options": ["Confidentiality, Integrity, Availability", "Speed, Efficiency, Privacy", "Encryption, Authentication, Backup", "Monitoring, Detection, Response"],
+    "answer": 0
+  },
+  {
+    "question": "What is the role of antivirus software?",
+    "options": ["To protect against phishing attacks", "To detect and remove malware", "To monitor internet activity", "To encrypt sensitive data"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an example of an online threat?",
+    "options": ["Phishing", "Malware", "Ransomware", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What is a 'rootkit'?",
+    "options": ["A software used to monitor network activity", "Malware designed to hide its presence on a system", "A tool used for encrypting sensitive data", "A type of phishing attack"],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary function of an Intrusion Prevention System (IPS)?",
+    "options": ["To detect malicious activity and stop it", "To encrypt data on the network", "To monitor network traffic for performance", "To detect and remove viruses"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is true about a VPN?",
+    "options": ["It encrypts internet traffic and hides your IP address", "It prevents all malware infections", "It increases the speed of your internet connection", "It protects against phishing emails"],
+    "answer": 0
+  },
+  {
+    "question": "What is the first step in securing a network?",
+    "options": ["Install a firewall", "Update software", "Monitor network activity", "Perform a risk assessment"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is an example of a cybersecurity best practice?",
+    "options": ["Using long, unique passwords", "Sharing passwords with trusted colleagues", "Downloading software from untrusted sources", "Disabling antivirus software"],
+    "answer": 0
+  },
+  {
+    "question": "What is a security patch?",
+    "options": ["An update to fix vulnerabilities in software", "A hardware upgrade", "A type of encryption", "A backup of system data"],
+    "answer": 0
+  },
+  {
+    "question": "What is the primary goal of a Denial-of-Service (DoS) attack?",
+    "options": ["To steal sensitive data", "To prevent users from accessing a system", "To monitor network traffic", "To infect a system with malware"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is a good practice for maintaining the security of your devices?",
+    "options": ["Regularly updating software and operating systems", "Using the same password for all accounts", "Turning off firewalls", "Ignoring security alerts"],
+    "answer": 0
+  }
+]
