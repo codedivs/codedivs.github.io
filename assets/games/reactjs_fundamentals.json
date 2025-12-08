@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What is React primarily used for?",
+    "options": ["Building mobile apps", "Building user interfaces", "Managing databases", "Handling server-side logic"],
+    "answer": 1
+  },
+  {
+    "question": "What is JSX?",
+    "options": ["A type of CSS", "JavaScript that looks like HTML", "A component type in React", "A state management tool"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is used to manage state in React?",
+    "options": ["Redux", "React Router", "ReactDOM", "Axios"],
+    "answer": 0
+  },
+  {
+    "question": "Which hook is used for managing side effects in React?",
+    "options": ["useState", "useEffect", "useReducer", "useContext"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of a component's `render` method?",
+    "options": ["To handle component lifecycle", "To update the UI", "To manage state", "To initialize data"],
+    "answer": 1
+  },
+  {
+    "question": "Which method in React is used to bind methods to the current instance?",
+    "options": ["bind()", "setState()", "useState()", "createContext()"],
+    "answer": 0
+  },
+  {
+    "question": "How do you pass data to a child component in React?",
+    "options": ["Using props", "Using state", "Using refs", "Using context"],
+    "answer": 0
+  },
+  {
+    "question": "What is the default value of state in a React component?",
+    "options": ["null", "undefined", "empty string", "An empty object or array"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is a way to conditionally render components in React?",
+    "options": ["useState()", "if statements", "Ternary operators", "For loops"],
+    "answer": 2
+  },
+  {
+    "question": "Which method is used to update the state in a React class component?",
+    "options": ["updateState()", "setState()", "useState()", "renderState()"],
+    "answer": 1
+  },
+  {
+    "question": "What is a stateless component in React?",
+    "options": ["A component that has no state", "A component that doesn't render anything", "A class component", "A functional component"],
+    "answer": 0
+  },
+  {
+    "question": "Which hook allows you to access the component lifecycle in functional components?",
+    "options": ["useState", "useEffect", "useRef", "useContext"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following can be used to manage global state in React?",
+    "options": ["Context API", "useState", "Redux", "Both A and C"],
+    "answer": 3
+  },
+  {
+    "question": "What is the role of the `key` prop in React?",
+    "options": ["To identify each component uniquely for re-rendering", "To manage state", "To style components", "To define props"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is true about React's `useEffect` hook?",
+    "options": ["It runs after every render", "It runs only once when the component mounts", "It runs only on state changes", "It does not run asynchronously"],
+    "answer": 0
+  },
+  {
+    "question": "How can you prevent a component from re-rendering in React?",
+    "options": ["By using `React.memo()`", "By using `shouldComponentUpdate()`", "By using `useCallback()`", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "Which lifecycle method is called when a component is about to be removed from the DOM?",
+    "options": ["componentDidMount", "componentDidUpdate", "componentWillUnmount", "getDerivedStateFromProps"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is the correct way to define a functional component?",
+    "options": ["function MyComponent() {}", "class MyComponent() {}", "MyComponent() => {}", "const MyComponent = () => {}"],
+    "answer": 3
+  },
+  {
+    "question": "How do you handle form submission in React?",
+    "options": ["Using `onSubmit` event", "Using `onClick` event", "Using `onChange` event", "By updating state directly"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of `ReactDOM.render()`?",
+    "options": ["To render the UI on the screen", "To manage global state", "To define components", "To handle component lifecycle"],
+    "answer": 0
+  },
+  {
+    "question": "Which hook is used to access and manipulate DOM elements in React?",
+    "options": ["useRef", "useEffect", "useState", "useContext"],
+    "answer": 0
+  },
+  {
+    "question": "What does the `useContext` hook provide in React?",
+    "options": ["Access to a global state", "Access to lifecycle methods", "Access to DOM elements", "Access to state within a component"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a key difference between a functional and class component in React?",
+    "options": ["Functional components cannot have state", "Functional components have lifecycle methods", "Class components are always faster", "Functional components cannot accept props"],
+    "answer": 0
+  },
+  {
+    "question": "How do you create a React component that does not update its state?",
+    "options": ["By using `React.PureComponent`", "By using `useEffect` with an empty dependency array", "By using `shouldComponentUpdate`", "By using `useMemo`"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is true about `useState` in React?",
+    "options": ["It is used to add local state to functional components", "It is used to create new components", "It is used to pass props to child components", "It is used to handle routing"],
+    "answer": 0
+  },
+  {
+    "question": "What does the `dangerouslySetInnerHTML` attribute do in React?",
+    "options": ["It allows you to set HTML directly in the component", "It sanitizes HTML before rendering", "It is used to handle form data", "It manages state updates"],
+    "answer": 0
+  },
+  {
+    "question": "Which React method is used to handle errors in a component tree?",
+    "options": ["componentDidCatch", "getDerivedStateFromProps", "renderError", "getSnapshotBeforeUpdate"],
+    "answer": 0
+  },
+  {
+    "question": "What is a higher-order component (HOC) in React?",
+    "options": ["A component that wraps another component to enhance its functionality", "A component that renders multiple components", "A component that manages state", "A component that handles routing"],
+    "answer": 0
+  },
+  {
+    "question": "Which React feature allows you to split a component into smaller, reusable pieces?",
+    "options": ["Component Composition", "Higher-Order Components", "Fragment", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What does the `React.Fragment` component do?",
+    "options": ["It allows you to return multiple elements without a parent div", "It adds a wrapper around a component", "It creates a new component", "It is used to fetch data from an API"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is used to handle routing in React?",
+    "options": ["React Router", "React Redux", "React Context API", "React DOM"],
+    "answer": 0
+  },
+  {
+    "question": "How do you pass event handlers down to child components in React?",
+    "options": ["Using props", "Using state", "Using refs", "Using useEffect"],
+    "answer": 0
+  },
+  {
+    "question": "What does the `useCallback` hook do in React?",
+    "options": ["Memorizes a function to prevent re-creation on every render", "Cleans up resources after a component is unmounted", "Handles side effects in functional components", "Adds event listeners to DOM elements"],
+    "answer": 0
+  },
+  {
+    "question": "How do you define default props in a React component?",
+    "options": ["By using the `defaultProps` property", "By using the `propTypes` property", "By using `setState`", "By using `useState`"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a correct way to bind `this` to a method in a React class component?",
+    "options": ["this.method = this.method.bind(this)", "this.method.bind(this)", "bind(this.method)", "bind(this)"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a correct React component lifecycle method?",
+    "options": ["componentDidMount", "componentWillUnmount", "render", "All of the above"],
+    "answer": 3
+  }
+]
