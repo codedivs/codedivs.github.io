@@ -1,152 +1,32 @@
 [
-    {
-      "question": "Which continent is the largest by land area?",
-      "options": ["Asia", "Africa", "North America", "Europe"],
-      "answer": 0
-    },
-    {
-      "question": "Which country is the second largest in the world by land area?",
-      "options": ["USA", "China", "Canada", "Brazil"],
-      "answer": 1
-    },
-    {
-      "question": "Which desert is the largest hot desert in the world?",
-      "options": ["Gobi Desert", "Kalahari Desert", "Sahara Desert", "Atacama Desert"],
-      "answer": 2
-    },
-    {
-      "question": "Which mountain range contains Mount Everest?",
-      "options": ["Andes", "Alps", "Rockies", "Himalayas"],
-      "answer": 3
-    },
-    {
-      "question": "Which country has the most natural lakes?",
-      "options": ["Canada", "USA", "Finland", "Russia"],
-      "answer": 0
-    },
-    {
-      "question": "Which river is the longest in the world?",
-      "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
-      "answer": 1
-    },
-    {
-      "question": "Which continent is known as the 'Frozen Continent'?",
-      "options": ["Asia", "South America", "Antarctica", "Europe"],
-      "answer": 2
-    },
-    {
-      "question": "Which country is home to the ancient city of Petra?",
-      "options": ["Egypt", "Israel", "Turkey", "Jordan"],
-      "answer": 3
-    },
-    {
-      "question": "Which country does the Rhine River primarily flow through?",
-      "options": ["Germany", "France", "Switzerland", "Netherlands"],
-      "answer": 0
-    },
-    {
-      "question": "Which country is the largest producer of coffee?",
-      "options": ["Colombia", "Vietnam", "Ethiopia", "Brazil"],
-      "answer": 1
-    },
-    {
-      "question": "Which African country has the largest population?",
-      "options": ["Kenya", "South Africa", "Ethiopia", "Nigeria"],
-      "answer": 2
-    },
-    {
-      "question": "Which ocean is the smallest of the five main oceans?",
-      "options": ["Indian Ocean", "Pacific Ocean", "Atlantic Ocean", "Arctic Ocean"],
-      "answer": 3
-    },
-    {
-      "question": "Which country does NOT border the Mediterranean Sea?",
-      "options": ["Portugal", "Italy", "Egypt", "Turkey"],
-      "answer": 0
-    },
-    {
-      "question": "Which city is known as the 'City of Canals'?",
-      "options": ["Bangkok", "Amsterdam", "Bruges", "Venice"],
-      "answer": 1
-    },
-    {
-      "question": "Which mountain range runs along the west coast of South America?",
-      "options": ["Ural Mountains", "Himalayas", "Andes Mountains", "Alps"],
-      "answer": 2
-    },
-    {
-      "question": "Which country owns Greenland?",
-      "options": ["Iceland", "USA", "Russia", "Denmark"],
-      "answer": 3
-    },
-    {
-      "question": "Which city is the capital of New Zealand?",
-      "options": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
-      "answer": 0
-    },
-    {
-      "question": "Which country has the longest coastline in the world?",
-      "options": ["Russia", "Australia", "USA", "Canada"],
-      "answer": 1
-    },
-    {
-      "question": "Lake Baikal, the deepest lake in the world, is located in which country?",
-      "options": ["Mongolia", "Canada", "Russia", "Kazakhstan"],
-      "answer": 2
-    },
-    {
-      "question": "Which river runs through Paris?",
-      "options": ["Thames", "Danube", "Rhine", "Seine"],
-      "answer": 3
-    },
-    {
-      "question": "Which country is known as the 'Land Down Under'?",
-      "options": ["New Zealand", "Australia", "South Africa", "Argentina"],
-      "answer": 0
-    },
-    {
-      "question": "What is the capital city of Argentina?",
-      "options": ["Lima", "Buenos Aires", "Santiago", "Montevideo"],
-      "answer": 1
-    },
-    {
-      "question": "Which sea separates Saudi Arabia from Africa?",
-      "options": ["Mediterranean Sea", "Arabian Sea", "Red Sea", "Persian Gulf"],
-      "answer": 2
-    },
-    {
-      "question": "Which country does the Ganges River primarily flow through?",
-      "options": ["Bangladesh", "China", "Pakistan", "India"],
-      "answer": 3
-    },
-    {
-      "question": "Which country is both in Europe and Asia?",
-      "options": ["Spain", "Kazakhstan", "France", "Germany"],
-      "answer": 0
-    },
-    {
-      "question": "Which African nation is known for its pyramids besides Egypt?",
-      "options": ["Kenya", "Morocco", "Nigeria", "Sudan"],
-      "answer": 1
-    },
-    {
-      "question": "Which U.S. state is the largest by land area?",
-      "options": ["California", "Texas", "Alaska", "Montana"],
-      "answer": 2
-    },
-    {
-      "question": "Which desert covers much of Mongolia and northern China?",
-      "options": ["Sahara", "Kalahari", "Atacama", "Gobi"],
-      "answer": 3
-    },
-    {
-      "question": "Which European country is known for having no rivers?",
-      "options": ["Monaco", "Vatican City", "Malta", "San Marino"],
-      "answer": 0
-    },
-    {
-      "question": "Which country has the largest Muslim population?",
-      "options": ["Pakistan", "Bangladesh", "Indonesia", "India"],
-      "answer": 1
-    }
-  ]
+  {"question":"Which continent is the largest by land area?","options":["Asia","Africa","North America","Europe"],"answer":"Asia"},
+  {"question":"Which country is the second largest in the world by land area?","options":["USA","China","Canada","Brazil"],"answer":"China"},
+  {"question":"Which desert is the largest hot desert in the world?","options":["Gobi Desert","Kalahari Desert","Sahara Desert","Atacama Desert"],"answer":"Sahara Desert"},
+  {"question":"Which mountain range contains Mount Everest?","options":["Andes","Alps","Rockies","Himalayas"],"answer":"Himalayas"},
+  {"question":"Which country has the most natural lakes?","options":["Canada","USA","Finland","Russia"],"answer":"Canada"},
+  {"question":"Which river is the longest in the world?","options":["Amazon River","Nile River","Yangtze River","Mississippi River"],"answer":"Nile River"},
+  {"question":"Which continent is known as the 'Frozen Continent'?","options":["Asia","South America","Antarctica","Europe"],"answer":"Antarctica"},
+  {"question":"Which country is home to the ancient city of Petra?","options":["Egypt","Israel","Turkey","Jordan"],"answer":"Jordan"},
+  {"question":"Which country does the Rhine River primarily flow through?","options":["Germany","France","Switzerland","Netherlands"],"answer":"Germany"},
+  {"question":"Which country is the largest producer of coffee?","options":["Colombia","Vietnam","Ethiopia","Brazil"],"answer":"Vietnam"},
+  {"question":"Which African country has the largest population?","options":["Kenya","South Africa","Ethiopia","Nigeria"],"answer":"Ethiopia"},
+  {"question":"Which ocean is the smallest of the five main oceans?","options":["Indian Ocean","Pacific Ocean","Atlantic Ocean","Arctic Ocean"],"answer":"Arctic Ocean"},
+  {"question":"Which country does NOT border the Mediterranean Sea?","options":["Portugal","Italy","Egypt","Turkey"],"answer":"Portugal"},
+  {"question":"Which city is known as the 'City of Canals'?","options":["Bangkok","Amsterdam","Bruges","Venice"],"answer":"Amsterdam"},
+  {"question":"Which mountain range runs along the west coast of South America?","options":["Ural Mountains","Himalayas","Andes Mountains","Alps"],"answer":"Andes Mountains"},
+  {"question":"Which country owns Greenland?","options":["Iceland","USA","Russia","Denmark"],"answer":"Denmark"},
+  {"question":"Which city is the capital of New Zealand?","options":["Auckland","Wellington","Christchurch","Hamilton"],"answer":"Auckland"},
+  {"question":"Which country has the longest coastline in the world?","options":["Russia","Australia","USA","Canada"],"answer":"Australia"},
+  {"question":"Lake Baikal, the deepest lake in the world, is located in which country?","options":["Mongolia","Canada","Russia","Kazakhstan"],"answer":"Russia"},
+  {"question":"Which river runs through Paris?","options":["Thames","Danube","Rhine","Seine"],"answer":"Seine"},
+  {"question":"Which country is known as the 'Land Down Under'?","options":["New Zealand","Australia","South Africa","Argentina"],"answer":"New Zealand"},
+  {"question":"What is the capital city of Argentina?","options":["Lima","Buenos Aires","Santiago","Montevideo"],"answer":"Buenos Aires"},
+  {"question":"Which sea separates Saudi Arabia from Africa?","options":["Mediterranean Sea","Arabian Sea","Red Sea","Persian Gulf"],"answer":"Red Sea"},
+  {"question":"Which country does the Ganges River primarily flow through?","options":["Bangladesh","China","Pakistan","India"],"answer":"India"},
+  {"question":"Which country is both in Europe and Asia?","options":["Spain","Kazakhstan","France","Germany"],"answer":"Spain"},
+  {"question":"Which African nation is known for its pyramids besides Egypt?","options":["Kenya","Morocco","Nigeria","Sudan"],"answer":"Morocco"},
+  {"question":"Which U.S. state is the largest by land area?","options":["California","Texas","Alaska","Montana"],"answer":"Alaska"},
+  {"question":"Which desert covers much of Mongolia and northern China?","options":["Sahara","Kalahari","Atacama","Gobi"],"answer":"Gobi"},
+  {"question":"Which European country is known for having no rivers?","options":["Monaco","Vatican City","Malta","San Marino"],"answer":"Monaco"},
+  {"question":"Which country has the largest Muslim population?","options":["Pakistan","Bangladesh","Indonesia","India"],"answer":"Bangladesh"}
+]
