@@ -1,147 +1,147 @@
 [
-    {
-      "question": "Which animal is known as the King of the Jungle?",
-      "options": ["Lion", "Tiger", "Elephant", "Leopard"],
-      "answer": 0
-    },
-    {
-      "question": "Which is the largest mammal on Earth?",
-      "options": ["Elephant", "Blue Whale", "Hippopotamus", "Giraffe"],
-      "answer": 1
-    },
-    {
-      "question": "Which bird is known for its colorful feathers and tail fan?",
-      "options": ["Peacock", "Parrot", "Flamingo", "Toucan"],
-      "answer": 2
-    },
-    {
-      "question": "Which animal is known for its black and white stripes?",
-      "options": ["Zebra", "Tiger", "Panda", "Skunk"],
-      "answer": 3
-    },
-    {
-      "question": "Which animal is known for having a long neck?",
-      "options": ["Giraffe", "Camel", "Elephant", "Kangaroo"],
-      "answer": 0
-    },
-    {
-      "question": "Which animal is known as the ship of the desert?",
-      "options": ["Camel", "Horse", "Elephant", "Llama"],
-      "answer": 1
-    },
-    {
-      "question": "Which animal is famous for carrying its home on its back?",
-      "options": ["Turtle", "Snail", "Hermit Crab", "Armadillo"],
-      "answer": 2
-    },
-    {
-      "question": "Which is the fastest land animal?",
-      "options": ["Cheetah", "Lion", "Leopard", "Tiger"],
-      "answer": 3
-    },
-    {
-      "question": "Which mammal lays eggs?",
-      "options": ["Platypus", "Kangaroo", "Dolphin", "Elephant"],
-      "answer": 0
-    },
-    {
-      "question": "Which animal is known for its ability to change color?",
-      "options": ["Chameleon", "Octopus", "Cuttlefish", "Alligator"],
-      "answer": 1
-    },
-    {
-      "question": "Which is the largest land carnivore?",
-      "options": ["Polar Bear", "Lion", "Tiger", "Grizzly Bear"],
-      "answer": 2
-    },
-    {
-      "question": "Which bird is a universal symbol of peace?",
-      "options": ["Dove", "Eagle", "Swan", "Owl"],
-      "answer": 3
-    },
-    {
-      "question": "Which animal is known for hopping and carrying babies in its pouch?",
-      "options": ["Kangaroo", "Koala", "Wallaby", "Opossum"],
-      "answer": 0
-    },
-    {
-      "question": "Which animal has black and white fur and eats bamboo?",
-      "options": ["Panda", "Zebra", "Skunk", "Penguin"],
-      "answer": 1
-    },
-    {
-      "question": "Which is the tallest animal in the world?",
-      "options": ["Giraffe", "Elephant", "Camel", "Ostrich"],
-      "answer": 2
-    },
-    {
-      "question": "Which animal is known as the 'Ship Rat'?",
-      "options": ["Rat", "Mouse", "Hamster", "Gerbil"],
-      "answer": 3
-    },
-    {
-      "question": "Which animal has a trunk?",
-      "options": ["Elephant", "Rhino", "Tapir", "Moose"],
-      "answer": 0
-    },
-    {
-      "question": "Which is the largest reptile?",
-      "options": ["Saltwater Crocodile", "Komodo Dragon", "Alligator", "Monitor Lizard"],
-      "answer": 1
-    },
-    {
-      "question": "Which bird cannot fly but is an excellent swimmer?",
-      "options": ["Penguin", "Ostrich", "Kiwi", "Albatross"],
-      "answer": 2
-    },
-    {
-      "question": "Which insect is known for making honey?",
-      "options": ["Bee", "Ant", "Wasp", "Butterfly"],
-      "answer": 3
-    },
-    {
-      "question": "Which animal can survive in the desert for days without water?",
-      "options": ["Camel", "Elephant", "Lizard", "Kangaroo Rat"],
-      "answer": 0
-    },
-    {
-      "question": "Which mammal is capable of true flight?",
-      "options": ["Bat", "Flying Squirrel", "Bird", "Pterosaur"],
-      "answer": 1
-    },
-    {
-      "question": "Which animal is the largest primate?",
-      "options": ["Gorilla", "Chimpanzee", "Orangutan", "Baboon"],
-      "answer": 2
-    },
-    {
-      "question": "Which aquatic mammal is known for intelligence and playful behavior?",
-      "options": ["Dolphin", "Seal", "Whale", "Otter"],
-      "answer": 3
-    },
-    {
-      "question": "Which reptile is famous for its ability to detach its tail?",
-      "options": ["Lizard", "Gecko", "Iguana", "Chameleon"],
-      "answer": 0
-    },
-    {
-      "question": "Which bird is known for its hooting sound?",
-      "options": ["Owl", "Eagle", "Parrot", "Crow"],
-      "answer": 1
-    },
-    {
-      "question": "Which animal is known for spinning webs to catch prey?",
-      "options": ["Spider", "Silkworm", "Scorpion", "Ant"],
-      "answer": 2
-    },
-    {
-      "question": "Which animal has the longest lifespan?",
-      "options": ["Tortoise", "Elephant", "Blue Whale", "Parrot"],
-      "answer": 3
-    },
-    {
-      "question": "Which mammal is known for echolocation?",
-      "options": ["Bat", "Dolphin", "Whale", "Shark"],
-      "answer": 0
-    }
-  ]
+  {
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": ["Lion", "Tiger", "Elephant", "Leopard"],
+    "answer": "Lion"
+  },
+  {
+    "question": "Which is the largest mammal on Earth?",
+    "options": ["Elephant", "Blue Whale", "Hippopotamus", "Giraffe"],
+    "answer": "Blue Whale"
+  },
+  {
+    "question": "Which bird is known for its colorful feathers and tail fan?",
+    "options": ["Peacock", "Parrot", "Flamingo", "Toucan"],
+    "answer": "Peacock"
+  },
+  {
+    "question": "Which animal is known for its black and white stripes?",
+    "options": ["Zebra", "Tiger", "Panda", "Skunk"],
+    "answer": "Zebra"
+  },
+  {
+    "question": "Which animal is known for having a long neck?",
+    "options": ["Giraffe", "Camel", "Elephant", "Kangaroo"],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "Which animal is known as the ship of the desert?",
+    "options": ["Camel", "Horse", "Elephant", "Llama"],
+    "answer": "Camel"
+  },
+  {
+    "question": "Which animal is famous for carrying its home on its back?",
+    "options": ["Turtle", "Snail", "Hermit Crab", "Armadillo"],
+    "answer": "Turtle"
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "options": ["Cheetah", "Lion", "Leopard", "Tiger"],
+    "answer": "Cheetah"
+  },
+  {
+    "question": "Which mammal lays eggs?",
+    "options": ["Platypus", "Kangaroo", "Dolphin", "Elephant"],
+    "answer": "Platypus"
+  },
+  {
+    "question": "Which animal is known for its ability to change color?",
+    "options": ["Chameleon", "Octopus", "Cuttlefish", "Alligator"],
+    "answer": "Chameleon"
+  },
+  {
+    "question": "Which is the largest land carnivore?",
+    "options": ["Polar Bear", "Lion", "Tiger", "Grizzly Bear"],
+    "answer": "Polar Bear"
+  },
+  {
+    "question": "Which bird is a universal symbol of peace?",
+    "options": ["Dove", "Eagle", "Swan", "Owl"],
+    "answer": "Dove"
+  },
+  {
+    "question": "Which animal is known for hopping and carrying babies in its pouch?",
+    "options": ["Kangaroo", "Koala", "Wallaby", "Opossum"],
+    "answer": "Kangaroo"
+  },
+  {
+    "question": "Which animal has black and white fur and eats bamboo?",
+    "options": ["Panda", "Zebra", "Skunk", "Penguin"],
+    "answer": "Panda"
+  },
+  {
+    "question": "Which is the tallest animal in the world?",
+    "options": ["Giraffe", "Elephant", "Camel", "Ostrich"],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "Which animal is known as the 'Ship Rat'?",
+    "options": ["Rat", "Mouse", "Hamster", "Gerbil"],
+    "answer": "Rat"
+  },
+  {
+    "question": "Which animal has a trunk?",
+    "options": ["Elephant", "Rhino", "Tapir", "Moose"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "Which is the largest reptile?",
+    "options": ["Saltwater Crocodile", "Komodo Dragon", "Alligator", "Monitor Lizard"],
+    "answer": "Saltwater Crocodile"
+  },
+  {
+    "question": "Which bird cannot fly but is an excellent swimmer?",
+    "options": ["Penguin", "Ostrich", "Kiwi", "Albatross"],
+    "answer": "Penguin"
+  },
+  {
+    "question": "Which insect is known for making honey?",
+    "options": ["Bee", "Ant", "Wasp", "Butterfly"],
+    "answer": "Bee"
+  },
+  {
+    "question": "Which animal can survive in the desert for days without water?",
+    "options": ["Camel", "Elephant", "Lizard", "Kangaroo Rat"],
+    "answer": "Camel"
+  },
+  {
+    "question": "Which mammal is capable of true flight?",
+    "options": ["Bat", "Flying Squirrel", "Bird", "Pterosaur"],
+    "answer": "Bat"
+  },
+  {
+    "question": "Which animal is the largest primate?",
+    "options": ["Gorilla", "Chimpanzee", "Orangutan", "Baboon"],
+    "answer": "Gorilla"
+  },
+  {
+    "question": "Which aquatic mammal is known for intelligence and playful behavior?",
+    "options": ["Dolphin", "Seal", "Whale", "Otter"],
+    "answer": "Dolphin"
+  },
+  {
+    "question": "Which reptile is famous for its ability to detach its tail?",
+    "options": ["Lizard", "Gecko", "Iguana", "Chameleon"],
+    "answer": "Lizard"
+  },
+  {
+    "question": "Which bird is known for its hooting sound?",
+    "options": ["Owl", "Eagle", "Parrot", "Crow"],
+    "answer": "Owl"
+  },
+  {
+    "question": "Which animal is known for spinning webs to catch prey?",
+    "options": ["Spider", "Silkworm", "Scorpion", "Ant"],
+    "answer": "Spider"
+  },
+  {
+    "question": "Which animal has the longest lifespan?",
+    "options": ["Tortoise", "Elephant", "Blue Whale", "Parrot"],
+    "answer": "Tortoise"
+  },
+  {
+    "question": "Which mammal is known for echolocation?",
+    "options": ["Bat", "Dolphin", "Whale", "Shark"],
+    "answer": "Bat"
+  }
+]
