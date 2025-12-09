@@ -2,251 +2,251 @@
   {
     "question": "What is the normal resting heart rate for adults?",
     "options": ["40–60 bpm", "60–100 bpm", "100–140 bpm", "140–180 bpm"],
-    "answer": 1
+    "answer": "60–100 bpm"
   },
   {
     "question": "Which blood type is known as the universal donor?",
     "options": ["A+", "B-", "AB+", "O-"],
-    "answer": 3
+    "answer": "O-"
   },
   {
     "question": "What is the largest organ in the human body?",
     "options": ["Liver", "Brain", "Skin", "Lungs"],
-    "answer": 2
+    "answer": "Skin"
   },
   {
     "question": "Hypertension is the medical term for:",
     "options": ["Low blood pressure", "High blood pressure", "Irregular heartbeat", "High cholesterol"],
-    "answer": 1
+    "answer": "High blood pressure"
   },
   {
     "question": "Which vitamin is primarily obtained from sunlight?",
     "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
-    "answer": 3
+    "answer": "Vitamin D"
   },
   {
     "question": "What does BMI stand for?",
     "options": ["Body Mass Indicator", "Body Measurement Index", "Body Mass Index", "Basic Metabolic Index"],
-    "answer": 2
+    "answer": "Body Mass Index"
   },
   {
     "question": "The normal human body temperature is closest to:",
     "options": ["35.0°C", "37.0°C", "38.5°C", "40.0°C"],
-    "answer": 1
+    "answer": "37.0°C"
   },
   {
     "question": "Which of these is a water-soluble vitamin?",
     "options": ["Vitamin A", "Vitamin D", "Vitamin E", "Vitamin C"],
-    "answer": 3
+    "answer": "Vitamin C"
   },
   {
     "question": "Diabetes mellitus is primarily a disorder of:",
     "options": ["Carbohydrate metabolism", "Fat metabolism", "Protein metabolism", "Mineral metabolism"],
-    "answer": 0
+    "answer": "Carbohydrate metabolism"
   },
   {
     "question": "The 'pacemaker' of the heart is:",
     "options": ["AV node", "SA node", "Bundle of His", "Purkinje fibers"],
-    "answer": 1
+    "answer": "SA node"
   },
   {
     "question": "Which hormone regulates blood calcium levels?",
     "options": ["Insulin", "Thyroxine", "Parathyroid hormone", "Adrenaline"],
-    "answer": 2
+    "answer": "Parathyroid hormone"
   },
   {
     "question": "What is the most common blood type worldwide?",
     "options": ["A+", "B+", "AB-", "O+"],
-    "answer": 3
+    "answer": "O+"
   },
   {
     "question": "Myopia is the medical term for:",
     "options": ["Farsightedness", "Nearsightedness", "Astigmatism", "Color blindness"],
-    "answer": 1
+    "answer": "Nearsightedness"
   },
   {
     "question": "Which part of the brain controls balance and coordination?",
     "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
-    "answer": 1
+    "answer": "Cerebellum"
   },
   {
     "question": "The medical term for high blood sugar is:",
     "options": ["Hypoglycemia", "Hyperglycemia", "Hyponatremia", "Hyperkalemia"],
-    "answer": 1
+    "answer": "Hyperglycemia"
   },
   {
     "question": "How many bones are in the adult human body?",
     "options": ["186", "206", "226", "246"],
-    "answer": 1
+    "answer": "206"
   },
   {
     "question": "Which gas makes up approximately 21% of atmospheric air?",
     "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"],
-    "answer": 1
+    "answer": "Oxygen"
   },
   {
     "question": "The universal recipient blood type is:",
     "options": ["A-", "B-", "O-", "AB+"],
-    "answer": 3
+    "answer": "AB+"
   },
   {
     "question": "What is the normal pH range of human blood?",
     "options": ["6.8–7.0", "7.35–7.45", "7.5–7.8", "8.0–8.5"],
-    "answer": 1
+    "answer": "7.35–7.45"
   },
   {
     "question": "Which organ produces insulin?",
     "options": ["Liver", "Pancreas", "Kidneys", "Spleen"],
-    "answer": 1
+    "answer": "Pancreas"
   },
   {
     "question": "A sphygmomanometer is used to measure:",
     "options": ["Blood sugar", "Blood pressure", "Heart rate", "Temperature"],
-    "answer": 1
+    "answer": "Blood pressure"
   },
   {
     "question": "Which vitamin deficiency causes scurvy?",
     "options": ["Vitamin A", "Vitamin B1", "Vitamin C", "Vitamin D"],
-    "answer": 2
+    "answer": "Vitamin C"
   },
   {
     "question": "The trachea is also known as the:",
     "options": ["Esophagus", "Windpipe", "Bronchus", "Larynx"],
-    "answer": 1
+    "answer": "Windpipe"
   },
   {
     "question": "What is the medical term for collarbone?",
     "options": ["Scapula", "Clavicle", "Sternum", "Humerus"],
-    "answer": 1
+    "answer": "Clavicle"
   },
   {
     "question": "Which of these is NOT a type of muscle tissue?",
     "options": ["Skeletal", "Cardiac", "Smooth", "Nervous"],
-    "answer": 3
+    "answer": "Nervous"
   },
   {
     "question": "The average human adult has how many liters of blood?",
     "options": ["3–4 liters", "4–6 liters", "6–8 liters", "8–10 liters"],
-    "answer": 1
+    "answer": "4–6 liters"
   },
   {
     "question": "Which electrolyte is most abundant in extracellular fluid?",
     "options": ["Potassium", "Sodium", "Calcium", "Magnesium"],
-    "answer": 1
+    "answer": "Sodium"
   },
   {
     "question": "RBC stands for:",
     "options": ["Red Blood Cells", "Renal Blood Count", "Rapid Blood Culture", "Right Blood Corpuscle"],
-    "answer": 0
+    "answer": "Red Blood Cells"
   },
   {
     "question": "The medical term for farsightedness is:",
     "options": ["Myopia", "Hyperopia", "Presbyopia", "Astigmatism"],
-    "answer": 1
+    "answer": "Hyperopia"
   },
   {
     "question": "Which organ filters blood and produces urine?",
     "options": ["Liver", "Spleen", "Kidneys", "Pancreas"],
-    "answer": 2
+    "answer": "Kidneys"
   },
   {
     "question": "Anemia is primarily caused by deficiency of:",
     "options": ["Vitamin C", "Iron", "Calcium", "Vitamin D"],
-    "answer": 1
+    "answer": "Iron"
   },
   {
     "question": "The heartbeat sound 'lub-dub' is caused by:",
     "options": ["Heart muscle contraction", "Closing of heart valves", "Blood hitting arteries", "Electrical signals"],
-    "answer": 1
+    "answer": "Closing of heart valves"
   },
   {
     "question": "Which hormone is known as the 'stress hormone'?",
     "options": ["Insulin", "Cortisol", "Thyroxine", "Estrogen"],
-    "answer": 1
+    "answer": "Cortisol"
   },
   {
     "question": "The smallest bone in the human body is found in the:",
     "options": ["Finger", "Ear", "Nose", "Toe"],
-    "answer": 1
+    "answer": "Ear"
   },
   {
     "question": "What is the normal respiratory rate for adults at rest?",
     "options": ["8–12 breaths/min", "12–20 breaths/min", "20–30 breaths/min", "30–40 breaths/min"],
-    "answer": 1
+    "answer": "12–20 breaths/min"
   },
   {
     "question": "Which part of the eye contains the photoreceptors?",
     "options": ["Cornea", "Lens", "Retina", "Sclera"],
-    "answer": 2
+    "answer": "Retina"
   },
   {
     "question": "Osteoporosis primarily affects:",
     "options": ["Muscles", "Joints", "Bones", "Cartilage"],
-    "answer": 2
+    "answer": "Bones"
   },
   {
     "question": "The medical abbreviation 'BP' stands for:",
     "options": ["Body Pressure", "Blood Pressure", "Breathing Pattern", "Bone Profile"],
-    "answer": 1
+    "answer": "Blood Pressure"
   },
   {
     "question": "Which vitamin is essential for blood clotting?",
     "options": ["Vitamin A", "Vitamin D", "Vitamin E", "Vitamin K"],
-    "answer": 3
+    "answer": "Vitamin K"
   },
   {
     "question": "The mitral valve is located between:",
     "options": ["Left atrium and left ventricle", "Right atrium and right ventricle", "Aorta and left ventricle", "Pulmonary artery and right ventricle"],
-    "answer": 0
+    "answer": "Left atrium and left ventricle"
   },
   {
     "question": "What is the main function of hemoglobin?",
     "options": ["Fight infection", "Carry oxygen", "Clot blood", "Store energy"],
-    "answer": 1
+    "answer": "Carry oxygen"
   },
   {
     "question": "Which gland is known as the 'master gland'?",
     "options": ["Thyroid", "Pituitary", "Adrenal", "Pancreas"],
-    "answer": 1
+    "answer": "Pituitary"
   },
   {
     "question": "A normal adult has how many pairs of ribs?",
     "options": ["10", "12", "14", "16"],
-    "answer": 1
+    "answer": "12"
   },
   {
     "question": "The medical term for low blood sugar is:",
     "options": ["Hyperglycemia", "Hypoglycemia", "Hypokalemia", "Hyponatremia"],
-    "answer": 1
+    "answer": "Hypoglycemia"
   },
   {
     "question": "Which of these is a fat-soluble vitamin?",
     "options": ["Vitamin B complex", "Vitamin C", "Vitamin D", "Folic acid"],
-    "answer": 2
+    "answer": "Vitamin D"
   },
   {
     "question": "The average human brain weighs approximately:",
     "options": ["1.4 kg", "2.0 kg", "3.0 kg", "0.5 kg"],
-    "answer": 0
+    "answer": "1.4 kg"
   },
   {
     "question": "Which blood cells are responsible for immune response?",
     "options": ["Red blood cells", "Platelets", "White blood cells", "Plasma cells"],
-    "answer": 2
+    "answer": "White blood cells"
   },
   {
     "question": "What is the medical term for the voice box?",
     "options": ["Pharynx", "Larynx", "Trachea", "Epiglottis"],
-    "answer": 1
+    "answer": "Larynx"
   },
   {
     "question": "The hormone melatonin is produced by:",
     "options": ["Thyroid gland", "Pineal gland", "Adrenal gland", "Pituitary gland"],
-    "answer": 1
+    "answer": "Pineal gland"
   },
   {
     "question": "The normal range for fasting blood glucose is:",
     "options": ["70–99 mg/dL", "100–125 mg/dL", "126–150 mg/dL", "Above 150 mg/dL"],
-    "answer": 0
+    "answer": "70–99 mg/dL"
   }
 ]
