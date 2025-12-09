@@ -2,146 +2,146 @@
   {
     "question": "Which command is used to initialize a new Git repository?",
     "options": ["git init", "git start", "git create", "git clone"],
-    "answer": 0
+    "answer": "git init"
   },
   {
     "question": "Which command is used to stage changes in Git?",
     "options": ["git stage", "git add", "git commit", "git push"],
-    "answer": 1
+    "answer": "git add"
   },
   {
     "question": "Which Git command is used to save changes to the local repository?",
     "options": ["git commit", "git push", "git add", "git pull"],
-    "answer": 0
+    "answer": "git commit"
   },
   {
     "question": "Which command is used to view the current status of a Git repository?",
     "options": ["git log", "git status", "git show", "git history"],
-    "answer": 1
+    "answer": "git status"
   },
   {
     "question": "Which command is used to view the commit history in Git?",
     "options": ["git history", "git log", "git commit", "git show"],
-    "answer": 1
+    "answer": "git log"
   },
   {
     "question": "What does the `git push` command do?",
     "options": ["Pushes changes from the local repository to the remote repository", "Pushes changes to the local repository", "Commits changes to the local repository", "Downloads changes from the remote repository"],
-    "answer": 0
+    "answer": "Pushes changes from the local repository to the remote repository"
   },
   {
     "question": "Which command is used to get the latest changes from a remote repository?",
     "options": ["git pull", "git fetch", "git get", "git sync"],
-    "answer": 0
+    "answer": "git pull"
   },
   {
     "question": "What is the purpose of the `.gitignore` file in a Git repository?",
     "options": ["To specify which files or directories Git should track", "To ignore specified files or directories in version control", "To store commit messages", "To configure repository settings"],
-    "answer": 1
+    "answer": "To ignore specified files or directories in version control"
   },
   {
     "question": "Which Git command is used to create a new branch?",
     "options": ["git branch", "git create", "git checkout -b", "git new-branch"],
-    "answer": 0
+    "answer": "git branch"
   },
   {
     "question": "Which command is used to merge one branch into another in Git?",
     "options": ["git merge", "git join", "git integrate", "git combine"],
-    "answer": 0
+    "answer": "git merge"
   },
   {
     "question": "What does the `git clone` command do?",
     "options": ["Clones a remote repository into a local directory", "Creates a new Git repository", "Copies a branch", "Patches a commit"],
-    "answer": 0
+    "answer": "Clones a remote repository into a local directory"
   },
   {
     "question": "Which command would you use to discard changes in your working directory?",
     "options": ["git reset", "git discard", "git undo", "git checkout -- <file>"],
-    "answer": 3
+    "answer": "git checkout -- <file>"
   },
   {
     "question": "Which Git command shows the changes that have been made but not yet staged?",
     "options": ["git diff", "git status", "git log", "git commit"],
-    "answer": 0
+    "answer": "git diff"
   },
   {
     "question": "Which Git command is used to stage all changes at once?",
     "options": ["git stage", "git add .", "git commit -a", "git push"],
-    "answer": 1
+    "answer": "git add ."
   },
   {
     "question": "Which of the following Git commands is used to remove a file from the staging area?",
     "options": ["git remove", "git rm", "git unstage", "git reset"],
-    "answer": 1
+    "answer": "git rm"
   },
   {
     "question": "What does `git reset --hard` do?",
     "options": ["Resets the commit history", "Resets the working directory to match the last commit", "Reverts the last commit", "Removes all untracked files and changes"],
-    "answer": 1
+    "answer": "Resets the working directory to match the last commit"
   },
   {
     "question": "Which of the following commands is used to temporarily store changes in Git, allowing you to switch branches?",
     "options": ["git stash", "git save", "git pause", "git suspend"],
-    "answer": 0
+    "answer": "git stash"
   },
   {
     "question": "What does `git remote add origin <url>` do?",
     "options": ["Adds a new remote repository", "Links the local repository to a remote repository", "Pushes changes to a remote repository", "Adds a new branch to the remote repository"],
-    "answer": 1
+    "answer": "Links the local repository to a remote repository"
   },
   {
     "question": "Which command is used to switch between branches in Git?",
     "options": ["git switch", "git checkout", "git move", "git change"],
-    "answer": 1
+    "answer": "git checkout"
   },
   {
     "question": "Which Git command is used to view all configured remotes?",
     "options": ["git remotes", "git remote", "git remote list", "git config --list"],
-    "answer": 1
+    "answer": "git remote"
   },
   {
     "question": "Which command would you use to remove a Git repository?",
     "options": ["git delete", "git rm --cached", "rm -rf .git", "git remove"],
-    "answer": 2
+    "answer": "rm -rf .git"
   },
   {
     "question": "What does the `git log --oneline` command do?",
     "options": ["Displays the commit history with each commit on a single line", "Shows the latest commit", "Displays the status of the current branch", "Lists all the branches"],
-    "answer": 0
+    "answer": "Displays the commit history with each commit on a single line"
   },
   {
     "question": "What is the purpose of a Git tag?",
     "options": ["To mark a specific commit as important", "To create a new branch", "To track file changes", "To merge branches"],
-    "answer": 0
+    "answer": "To mark a specific commit as important"
   },
   {
     "question": "What command would you use to create a new tag in Git?",
     "options": ["git tag <tag-name>", "git create tag <tag-name>", "git make tag <tag-name>", "git new-tag <tag-name>"],
-    "answer": 0
+    "answer": "git tag <tag-name>"
   },
   {
     "question": "Which of the following is the correct way to remove a tag in Git?",
     "options": ["git tag -d <tag-name>", "git rm tag <tag-name>", "git delete <tag-name>", "git remove tag <tag-name>"],
-    "answer": 0
+    "answer": "git tag -d <tag-name>"
   },
   {
     "question": "What does the `git rebase` command do?",
     "options": ["Rewrites commit history", "Creates a new branch", "Combines commits", "Changes the commit message"],
-    "answer": 0
+    "answer": "Rewrites commit history"
   },
   {
     "question": "Which Git command is used to resolve conflicts between branches?",
     "options": ["git merge", "git resolve", "git conflict", "git rebase"],
-    "answer": 0
+    "answer": "git merge"
   },
   {
     "question": "Which Git command can you use to undo a commit without changing the working directory?",
     "options": ["git revert", "git reset --soft", "git commit --amend", "git reset --hard"],
-    "answer": 1
+    "answer": "git reset --soft"
   },
   {
     "question": "What is a pull request in GitHub?",
     "options": ["A request to pull changes from a branch", "A way to merge a branch into the main branch", "A command to clone a repository", "A request to pull changes into the local repository"],
-    "answer": 1
+    "answer": "A way to merge a branch into the main branch"
   }
 ]
