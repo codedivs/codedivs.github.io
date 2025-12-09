@@ -8,9 +8,6 @@ let timerInterval = null;
 let seconds = 0;
 let selectedQuestions = [];
 
-// We'll store the correct index after shuffling here
-let currentCorrectIndex; // This is the key new variable
-
 // DOM Elements
 const quizScreen = document.getElementById('quizScreen');
 const resultScreen = document.getElementById('resultScreen');
@@ -28,22 +25,12 @@ function getGameSlug() {
 }
 const GAME_SLUG = getGameSlug();
 
-// Initial page title while loading
+// Initial loading state
 document.title = "Loading Game...";
 if (gameTitleEl) gameTitleEl.textContent = "Loading...";
 
-// Fisher-Yates Shuffle (best for randomness)
-function shuffleArray(array) {
-  const arr = [...array];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
-
 // ========================
-// LOAD QUESTIONS & AUTO-START QUIZ
+// LOAD QUESTIONS & AUTO-START
 // ========================
 fetch(`/assets/games/${GAME_SLUG}.json`)
   .then(res => {
@@ -53,7 +40,7 @@ fetch(`/assets/games/${GAME_SLUG}.json`)
   .then(data => {
     questions = data;
 
-    // Update title from library
+    // Update page title with nice game name
     fetch('/games_in_library.json')
       .then(r => r.json())
       .then(library => {
@@ -71,7 +58,7 @@ fetch(`/assets/games/${GAME_SLUG}.json`)
       });
 
     console.log(`Loaded ${questions.length} questions for ${GAME_SLUG}`);
-    startQuiz();
+    startQuiz(); // Auto-start immediately
   })
   .catch(err => {
     console.error(err);
@@ -92,12 +79,13 @@ function startQuiz() {
     alert("No questions loaded!");
     return;
   }
+
   score = 0;
   seconds = 0;
   currentQuestionIndex = 0;
   if (timerInterval) clearInterval(timerInterval);
 
-  // Pick 10 random questions
+  // Randomly select 10 questions
   selectedQuestions = [...questions]
     .sort(() => 0.5 - Math.random())
     .slice(0, 10);
@@ -114,42 +102,48 @@ function showQuestion() {
   }
 
   const q = selectedQuestions[currentQuestionIndex];
+
+  // Deep clone + shuffle options
+  const shuffledOptions = [...q.options];
+  for (let i = shuffledOptions.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+  }
+
+  // Store shuffled options and correct answer text temporarily on the question
+  q.shuffled = shuffledOptions;
+  q.correctText = q.answer;  // This is now a string like "Paris" or "H2O"
+
   questionEl.textContent = q.question;
   optionsEl.innerHTML = '';
 
-  // Get original correct answer text using the index
-  const originalCorrectIndex = q.answer; // e.g., 0, 1, 2, 3
-  const correctAnswerText = q.options[originalCorrectIndex];
-
-  // Shuffle the options
-  const shuffledOptions = shuffleArray(q.options);
-
-  // Find where the correct answer landed after shuffling
-  currentCorrectIndex = shuffledOptions.indexOf(correctAnswerText);
-
-  // Display shuffled options
-  shuffledOptions.forEach((option, i) => {
+  shuffledOptions.forEach(option => {
     const btn = document.createElement('div');
     btn.className = 'option';
     btn.textContent = option;
-    btn.onclick = () => selectAnswer(i, btn); // i = displayed position
+    btn.onclick = () => selectAnswer(option, btn);
     optionsEl.appendChild(btn);
   });
 }
 
-function selectAnswer(selectedIndex, btn) {
-  // Use the shuffled correct index
-  const correctIndex = currentCorrectIndex;
+function selectAnswer(selectedText, btn) {
+  const q = selectedQuestions[currentQuestionIndex];
+  const correctAnswer = q.correctText;
 
   // Disable all clicks
   document.querySelectorAll('.option').forEach(b => b.style.pointerEvents = 'none');
 
-  if (selectedIndex === correctIndex) {
+  if (selectedText === correctAnswer) {
     score++;
     btn.classList.add('correct');
   } else {
     btn.classList.add('wrong');
-    document.querySelectorAll('.option')[correctIndex].classList.add('correct');
+    // Highlight the correct one
+    document.querySelectorAll('.option').forEach(b => {
+      if (b.textContent === correctAnswer) {
+        b.classList.add('correct');
+      }
+    });
   }
 
   setTimeout(() => {
