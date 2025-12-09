@@ -303,5 +303,13 @@
     "difficulty": "medium",
     "stars": 2,
     "category": "programming"
+  },
+    {
+    "game_name": "Chemistry Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "chemistry_basics",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "science"
   }
 ]
