@@ -2,741 +2,176 @@
   {
     "question": "What is the capital city of Australia?",
     "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
-    "answer": 2
+    "answer": "Canberra"
   },
   {
     "question": "Which planet is known as the Red Planet?",
     "options": ["Venus", "Mars", "Jupiter", "Saturn"],
-    "answer": 1
+    "answer": "Mars"
   },
   {
     "question": "Who painted the Mona Lisa?",
     "options": ["Michelangelo", "Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh"],
-    "answer": 2
+    "answer": "Leonardo da Vinci"
   },
   {
     "question": "Which is the largest ocean on Earth?",
     "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    "answer": 3
+    "answer": "Pacific Ocean"
   },
   {
     "question": "In which year did World War II end?",
     "options": ["1943", "1944", "1945", "1946"],
-    "answer": 2
+    "answer": "1945"
   },
   {
     "question": "What is the chemical symbol for gold?",
     "options": ["Ag", "Fe", "Au", "Pb"],
-    "answer": 2
+    "answer": "Au"
   },
   {
     "question": "Which country is home to the Great Pyramid of Giza?",
     "options": ["Saudi Arabia", "Iraq", "Egypt", "Sudan"],
-    "answer": 2
+    "answer": "Egypt"
   },
   {
     "question": "Who was the first person to walk on the Moon?",
     "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"],
-    "answer": 2
+    "answer": "Neil Armstrong"
   },
   {
     "question": "What is the longest river in the world?",
     "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
-    "answer": 1
+    "answer": "Nile River"
   },
   {
     "question": "Which element has the atomic number 1?",
     "options": ["Helium", "Hydrogen", "Lithium", "Carbon"],
-    "answer": 1
+    "answer": "Hydrogen"
   },
   {
     "question": "In which continent is the Sahara Desert located?",
     "options": ["Asia", "Africa", "Australia", "South America"],
-    "answer": 1
+    "answer": "Africa"
   },
   {
     "question": "Who wrote the play 'Romeo and Juliet'?",
     "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
-    "answer": 1
+    "answer": "William Shakespeare"
   },
   {
     "question": "What is the currency of Japan?",
     "options": ["Yuan", "Won", "Yen", "Ringgit"],
-    "answer": 2
+    "answer": "Yen"
   },
   {
     "question": "Which mountain is the highest in the world?",
     "options": ["K2", "Kangchenjunga", "Mount Everest", "Makalu"],
-    "answer": 2
+    "answer": "Mount Everest"
   },
   {
     "question": "How many continents are there?",
     "options": ["5", "6", "7", "8"],
-    "answer": 2
+    "answer": "7"
   },
   {
     "question": "Which country is known as the Land of the Rising Sun?",
     "options": ["China", "Thailand", "Japan", "South Korea"],
-    "answer": 2
+    "answer": "Japan"
   },
   {
     "question": "What is the smallest country in the world by land area?",
     "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-    "answer": 1
+    "answer": "Vatican City"
   },
   {
     "question": "Who discovered penicillin?",
     "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Albert Einstein"],
-    "answer": 1
+    "answer": "Alexander Fleming"
   },
   {
     "question": "Which animal is the largest mammal on Earth?",
     "options": ["African Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
-    "answer": 2
+    "answer": "Blue Whale"
   },
   {
     "question": "In which year did the Titanic sink?",
     "options": ["1908", "1912", "1915", "1920"],
-    "answer": 1
+    "answer": "1912"
   },
   {
     "question": "What is the main language spoken in Brazil?",
     "options": ["Spanish", "Portuguese", "French", "English"],
-    "answer": 1
+    "answer": "Portuguese"
   },
   {
     "question": "Which planet has the most moons?",
     "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
-    "answer": 1
+    "answer": "Jupiter"
   },
   {
     "question": "Who was the first President of the United States?",
     "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
-    "answer": 2
+    "answer": "George Washington"
   },
   {
     "question": "What is the hardest natural substance on Earth?",
     "options": ["Gold", "Iron", "Diamond", "Platinum"],
-    "answer": 2
+    "answer": "Diamond"
   },
   {
     "question": "Which country hosted the 2016 Summer Olympics?",
     "options": ["China", "Brazil", "Russia", "United Kingdom"],
-    "answer": 1
+    "answer": "Brazil"
   },
   {
     "question": "How many bones are in the adult human body?",
     "options": ["206", "208", "210", "212"],
-    "answer": 0
+    "answer": "206"
   },
   {
     "question": "Which is the largest desert in the world?",
     "options": ["Sahara Desert", "Gobi Desert", "Kalahari Desert", "Antarctic Desert"],
-    "answer": 3
+    "answer": "Antarctic Desert"
   },
   {
     "question": "Who invented the telephone?",
     "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"],
-    "answer": 1
+    "answer": "Alexander Graham Bell"
   },
   {
     "question": "What is the capital city of Kenya?",
     "options": ["Mombasa", "Kisumu", "Nairobi", "Nakuru"],
-    "answer": 2
+    "answer": "Nairobi"
   },
   {
     "question": "Which gas makes up about 78% of Earth's atmosphere?",
     "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"],
-    "answer": 1
+    "answer": "Nitrogen"
   },
   {
     "question": "In which year did man first land on the Moon?",
     "options": ["1965", "1969", "1971", "1973"],
-    "answer": 1
+    "answer": "1969"
   },
   {
     "question": "Which African country is known as the 'Pearl of Africa'?",
     "options": ["Kenya", "Tanzania", "Uganda", "Rwanda"],
-    "answer": 2
+    "answer": "Uganda"
   },
   {
     "question": "What is the largest planet in our solar system?",
     "options": ["Saturn", "Jupiter", "Neptune", "Uranus"],
-    "answer": 1
+    "answer": "Jupiter"
   },
   {
     "question": "Which country has the most population in the world?",
     "options": ["India", "China", "United States", "Indonesia"],
-    "answer": 0
+    "answer": "India"
   },
   {
     "question": "Who is known as the father of computers?",
     "options": ["Alan Turing", "Charles Babbage", "Bill Gates", "Steve Jobs"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital of France?",
-    "options": ["Lyon", "Marseille", "Paris", "Nice"],
-    "answer": 2
-  },
-  {
-    "question": "Which organ pumps blood in the human body?",
-    "options": ["Brain", "Lung", "Heart", "Kidney"],
-    "answer": 2
-  },
-  {
-    "question": "Which country won the 2022 FIFA World Cup?",
-    "options": ["France", "Argentina", "Brazil", "Croatia"],
-    "answer": 1
-  },
-  {
-    "question": "What is the speed of light?",
-    "options": ["299,792 km/s", "150,000 km/s", "500,000 km/s", "100,000 km/s"],
-    "answer": 0
-  },
-  {
-    "question": "Which is the longest bone in the human body?",
-    "options": ["Tibia", "Femur", "Humerus", "Fibula"],
-    "answer": 1
-  },
-  {
-    "question": "What is the currency of the United Kingdom?",
-    "options": ["Euro", "Dollar", "Pound Sterling", "Franc"],
-    "answer": 2
-  },
-  {
-    "question": "Which scientist developed the theory of relativity?",
-    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
-    "answer": 1
-  },
-  {
-    "question": "How many planets are in our solar system?",
-    "options": ["7", "8", "9", "10"],
-    "answer": 1
-  },
-  {
-    "question": "Which is the largest lake in Africa?",
-    "options": ["Lake Tanganyika", "Lake Victoria", "Lake Malawi", "Lake Chad"],
-    "answer": 1
-  },
-  {
-    "question": "Who was the first woman to win a Nobel Prize?",
-    "options": ["Rosalind Franklin", "Marie Curie", "Ada Lovelace", "Jane Goodall"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital city of Canada?",
-    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
-    "answer": 2
-  },
-  {
-    "question": "Which metal is liquid at room temperature?",
-    "options": ["Gold", "Mercury", "Silver", "Lead"],
-    "answer": 1
-  },
-  {
-    "question": "In which country are the Pyramids of Giza located?",
-    "options": ["Mexico", "Peru", "Egypt", "Greece"],
-    "answer": 2
-  },
-  {
-    "question": "What is the main ingredient in guacamole?",
-    "options": ["Tomato", "Onion", "Avocado", "Lime"],
-    "answer": 2
-  },
-  {
-    "question": "Which country is the largest by land area?",
-    "options": ["China", "Canada", "United States", "Russia"],
-    "answer": 3
-  },
-  {
-    "question": "What is the capital city of South Africa (administrative capital)?",
-    "options": ["Cape Town", "Johannesburg", "Pretoria", "Durban"],
-    "answer": 2
-  },
-  {
-    "question": "Who was the first African to win the Nobel Peace Prize?",
-    "options": ["Nelson Mandela", "Wangari Maathai", "Albert Luthuli", "Desmond Tutu"],
-    "answer": 2
-  },
-  {
-    "question": "Which is the deepest point in the Earth's oceans?",
-    "options": ["Puerto Rico Trench", "Mariana Trench", "Java Trench", "Tonga Trench"],
-    "answer": 1
-  },
-  {
-    "question": "In which year did Kenya gain independence?",
-    "options": ["1960", "1963", "1964", "1966"],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest island in the world?",
-    "options": ["Australia", "Greenland", "New Guinea", "Borneo"],
-    "answer": 1
-  },
-  {
-    "question": "Which country is known as the Emerald Isle?",
-    "options": ["Scotland", "Wales", "Ireland", "Iceland"],
-    "answer": 2
-  },
-  {
-    "question": "Who composed the famous classical piece 'Für Elise'?",
-    "options": ["Mozart", "Beethoven", "Bach", "Chopin"],
-    "answer": 1
-  },
-  {
-    "question": "What is the currency of India?",
-    "options": ["Rupee", "Rupiah", "Ringgit", "Rial"],
-    "answer": 0
-  },
-  {
-    "question": "Which African country has the most official languages (11)?",
-    "options": ["Nigeria", "Kenya", "Zimbabwe", "South Africa"],
-    "answer": 3
-  },
-  {
-    "question": "How many stars are on the flag of New Zealand?",
-    "options": ["4", "5", "6", "7"],
-    "answer": 0
-  },
-  {
-    "question": "Which gas is most responsible for the greenhouse effect?",
-    "options": ["Methane", "Carbon Dioxide", "Nitrous Oxide", "Ozone"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital city of Argentina?",
-    "options": ["São Paulo", "Lima", "Buenos Aires", "Santiago"],
-    "answer": 2
-  },
-  {
-    "question": "Which mammal is capable of true flight?",
-    "options": ["Flying squirrel", "Bat", "Colugo", "Pterosaur"],
-    "answer": 1
-  },
-  {
-    "question": "In which year was the United Nations founded?",
-    "options": ["1945", "1950", "1939", "1960"],
-    "answer": 0
-  },
-  {
-    "question": "Which country is the origin of the dish 'pizza'?",
-    "options": ["France", "Spain", "Italy", "Greece"],
-    "answer": 2
-  },
-  {
-    "question": "What is the largest organ in the human body?",
-    "options": ["Liver", "Brain", "Skin", "Lungs"],
-    "answer": 2
-  },
-  {
-    "question": "Which river flows through Nairobi?",
-    "options": ["Athi River", "Tana River", "Nairobi River", "Mara River"],
-    "answer": 2
-  },
-  {
-    "question": "Who was the longest-serving President of Kenya?",
-    "options": ["Jomo Kenyatta", "Daniel arap Moi", "Mwai Kibaki", "Uhuru Kenyatta"],
-    "answer": 1
-  },
-  {
-    "question": "Which element has the chemical symbol 'O'?",
-    "options": ["Osmium", "Oxygen", "Gold", "Iron"],
-    "answer": 1
-  },
-  {
-    "question": "What is the smallest planet in our solar system?",
-    "options": ["Mars", "Venus", "Mercury", "Pluto"],
-    "answer": 2
-  },
-  {
-    "question": "Which country hosted the 2010 FIFA World Cup?",
-    "options": ["Brazil", "Germany", "South Africa", "Russia"],
-    "answer": 2
-  },
-  {
-    "question": "How many time zones does Russia have?",
-    "options": ["9", "11", "13", "15"],
-    "answer": 1
-  },
-  {
-    "question": "Which famous scientist was born on Christmas Day 1642?",
-    "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nicolaus Copernicus"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital city of Nigeria?",
-    "options": ["Lagos", "Abuja", "Kano", "Ibadan"],
-    "answer": 1
-  },
-  {
-    "question": "Which animal is the national symbol of Australia?",
-    "options": ["Koala", "Kangaroo", "Emu", "Platypus"],
-    "answer": 1
-  },
-  {
-    "question": "In which ocean is the Bermuda Triangle located?",
-    "options": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Arctic Ocean"],
-    "answer": 2
-  },
-  {
-    "question": "Which country has the most volcanoes in the world?",
-    "options": ["Japan", "Indonesia", "Philippines", "Italy"],
-    "answer": 1
-  },
-  {
-    "question": "What is the official language of Egypt?",
-    "options": ["French", "Arabic", "Swahili", "English"],
-    "answer": 1
-  },
-  {
-    "question": "Which planet is known for its prominent ring system?",
-    "options": ["Jupiter", "Uranus", "Neptune", "Saturn"],
-    "answer": 3
-  },
-  {
-    "question": "Who was the first female Prime Minister of the United Kingdom?",
-    "options": ["Theresa May", "Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
-    "answer": 1
-  },
-  {
-    "question": "Which African lake is the source of the White Nile?",
-    "options": ["Lake Tanganyika", "Lake Victoria", "Lake Malawi", "Lake Albert"],
-    "answer": 1
-  },
-  {
-    "question": "What is the currency of Russia?",
-    "options": ["Rupee", "Rubel", "Ruble", "Rial"],
-    "answer": 2
-  },
-  {
-    "question": "Which country is Mount Kilimanjaro located in?",
-    "options": ["Kenya", "Uganda", "Tanzania", "Ethiopia"],
-    "answer": 2
-  },
-  {
-    "question": "How many hearts does an octopus have?",
-    "options": ["1", "2", "3", "4"],
-    "answer": 2
-  },
-  {
-    "question": "Which city is known as the 'Big Apple'?",
-    "options": ["Los Angeles", "Chicago", "New York City", "Miami"],
-    "answer": 2
-  },
-  {
-    "question": "What is the largest mammal that ever lived?",
-    "options": ["African Elephant", "Blue Whale", "Giraffe", "Argentinosaurus"],
-    "answer": 1
-  },
-  {
-    "question": "Which country invented tea?",
-    "options": ["India", "England", "China", "Japan"],
-    "answer": 2
-  },
-  {
-    "question": "What is the capital of Thailand?",
-    "options": ["Phuket", "Chiang Mai", "Bangkok", "Pattaya"],
-    "answer": 2
-  },
-  {
-    "question": "Which element is the most abundant in the universe?",
-    "options": ["Oxygen", "Carbon", "Helium", "Hydrogen"],
-    "answer": 3
-  },
-  {
-    "question": "In which year did the Berlin Wall fall?",
-    "options": ["1985", "1989", "1991", "1993"],
-    "answer": 1
-  },
-  {
-    "question": "Which country is the largest producer of coffee in the world?",
-    "options": ["Colombia", "Vietnam", "Brazil", "Ethiopia"],
-    "answer": 2
-  },
-  {
-    "question": "What is the national animal of Kenya?",
-    "options": ["Lion", "Elephant", "Cheetah", "Leopard"],
-    "answer": 0
-  },
-  {
-    "question": "Which planet has a day longer than its year?",
-    "options": ["Mercury", "Venus", "Mars", "Jupiter"],
-    "answer": 1
-  },
-  {
-    "question": "Who discovered the theory of evolution by natural selection?",
-    "options": ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Alfred Wallace"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital city of Spain?",
-    "options": ["Barcelona", "Valencia", "Madrid", "Seville"],
-    "answer": 2
-  },
-  {
-    "question": "Which is the only continent without an active volcano?",
-    "options": ["Africa", "Australia", "Antarctica", "Europe"],
-    "answer": 1
-  },
-  {
-    "question": "How tall is the tallest building in the world (Burj Khalifa) in meters?",
-    "options": ["728 m", "829 m", "928 m", "1,028 m"],
-    "answer": 1
-  },
-  {
-    "question": "Which country is home to the kangaroo?",
-    "options": ["New Zealand", "Australia", "South Africa", "Papua New Guinea"],
-    "answer": 1
-  },
-  {
-    "question": "Which country is known as the 'Rainbow Nation'?",
-    "options": ["Kenya", "Nigeria", "South Africa", "Ghana"],
-    "answer": 2
-  },
-  {
-    "question": "What is the capital city of Ethiopia?",
-    "options": ["Nairobi", "Addis Ababa", "Kampala", "Dar es Salaam"],
-    "answer": 1
-  },
-  {
-    "question": "Which African country was never colonized by a European power?",
-    "options": ["Kenya", "Ghana", "Ethiopia", "Algeria"],
-    "answer": 2
-  },
-  {
-    "question": "Who was the first Kenyan to win an Olympic gold medal?",
-    "options": ["Kipchoge Keino", "Naftali Temu", "Wilson Kiprugut", "Paul Tergat"],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest country in Africa by land area?",
-    "options": ["Sudan", "Democratic Republic of Congo", "Algeria", "Libya"],
-    "answer": 2
-  },
-  {
-    "question": "Which ocean lies to the east of Africa?",
-    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
-    "answer": 1
-  },
-  {
-    "question": "In which year was the first iPhone released?",
-    "options": ["2005", "2007", "2009", "2010"],
-    "answer": 1
-  },
-  {
-    "question": "Which country is home to the ancient city of Petra?",
-    "options": ["Syria", "Jordan", "Lebanon", "Iraq"],
-    "answer": 1
-  },
-  {
-    "question": "What is the currency of Switzerland?",
-    "options": ["Euro", "Swiss Franc", "Krone", "Pound"],
-    "answer": 1
-  },
-  {
-    "question": "Which famous waterfall is located on the border of Zambia and Zimbabwe?",
-    "options": ["Niagara Falls", "Angel Falls", "Victoria Falls", "Iguazu Falls"],
-    "answer": 2
-  },
-  {
-    "question": "Who painted the Sistine Chapel ceiling?",
-    "options": ["Leonardo da Vinci", "Raphael", "Michelangelo", "Donatello"],
-    "answer": 2
-  },
-  {
-    "question": "What is the capital city of Morocco?",
-    "options": ["Casablanca", "Marrakesh", "Rabat", "Fez"],
-    "answer": 2
-  },
-  {
-    "question": "Which country has the longest coastline in the world?",
-    "options": ["Australia", "Indonesia", "Canada", "Russia"],
-    "answer": 2
-  },
-  {
-    "question": "Which gas do plants absorb from the atmosphere?",
-    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-    "answer": 2
-  },
-  {
-    "question": "In which year did Nelson Mandela become President of South Africa?",
-    "options": ["1990", "1994", "1999", "2004"],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest bird in the world?",
-    "options": ["Ostrich", "Emu", "Condor", "Albatross"],
-    "answer": 0
-  },
-  {
-    "question": "Which country is the origin of the Olympic Games?",
-    "options": ["Italy", "Greece", "France", "Germany"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital of New Zealand?",
-    "options": ["Auckland", "Christchurch", "Wellington", "Hamilton"],
-    "answer": 2
-  },
-  {
-    "question": "Which African animal is known as the 'Ship of the Desert'?",
-    "options": ["Llama", "Camel", "Alpaca", "Dromedary"],
-    "answer": 1
-  },
-  {
-    "question": "How many stripes are there on the flag of the United States?",
-    "options": ["11", "13", "15", "50"],
-    "answer": 1
-  },
-  {
-    "question": "Which planet is closest to the Sun?",
-    "options": ["Venus", "Mercury", "Earth", "Mars"],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest canyon in the world?",
-    "options": ["Grand Canyon", "Colca Canyon", "Yarlung Tsangpo Canyon", "Fish River Canyon"],
-    "answer": 2
-  },
-  {
-    "question": "Which country won the first-ever FIFA World Cup in 1930?",
-    "options": ["Brazil", "Italy", "Uruguay", "Argentina"],
-    "answer": 2
-  },
-  {
-    "question": "What is the official language of Kenya?",
-    "options": ["English and French", "Swahili and English", "Kikuyu and English", "Swahili only"],
-    "answer": 1
-  },
-  {
-    "question": "Which metal was discovered on the island of Cyprus?",
-    "options": ["Iron", "Gold", "Copper", "Silver"],
-    "answer": 2
-  },
-  {
-    "question": "In which country is the world's highest waterfall, Angel Falls?",
-    "options": ["Brazil", "Venezuela", "South Africa", "Zambia"],
-    "answer": 1
-  },
-  {
-    "question": "Who was the first man to climb Mount Everest?",
-    "options": ["Edmund Hillary", "Tenzing Norgay", "Reinhold Messner", "George Mallory"],
-    "answer": 0
-  },
-  {
-    "question": "What is the capital city of Peru?",
-    "options": ["Cusco", "Lima", "Arequipa", "Trujillo"],
-    "answer": 1
-  },
-  {
-    "question": "Which country is famous for the tulip fields?",
-    "options": ["Belgium", "Netherlands", "Denmark", "Germany"],
-    "answer": 1
-  },
-  {
-    "question": "How many counties does Kenya have?",
-    "options": ["42", "47", "50", "54"],
-    "answer": 1
-  },
-  {
-    "question": "Which is the only letter not appearing on the periodic table?",
-    "options": ["J", "Q", "X", "Z"],
-    "answer": 0
-  },
-  {
-    "question": "What is the largest species of shark?",
-    "options": ["Great White Shark", "Tiger Shark", "Whale Shark", "Hammerhead Shark"],
-    "answer": 2
-  },
-  {
-    "question": "Which African country is completely surrounded by South Africa?",
-    "options": ["Eswatini", "Lesotho", "Botswana", "Namibia"],
-    "answer": 1
-  },
-  {
-    "question": "Who wrote '1984' and 'Animal Farm'?",
-    "options": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "J.R.R. Tolkien"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital of Iceland?",
-    "options": ["Akureyri", "Reykjavik", "Keflavik", "Hafnarfjordur"],
-    "answer": 1
-  },
-  {
-    "question": "Which country gifted the Statue of Liberty to the United States?",
-    "options": ["United Kingdom", "France", "Spain", "Italy"],
-    "answer": 1
-  },
-  {
-    "question": "Which desert covers much of northern Africa?",
-    "options": ["Kalahari", "Namib", "Sahara", "Gobi"],
-    "answer": 2
-  },
-  {
-    "question": "What is the longest-running soap opera in Kenya?",
-    "options": ["Tahidi High", "Machachari", "Mother-in-Law", "Real Househelps of Kawangware"],
-    "answer": 2
-  },
-  {
-    "question": "Which country has the most islands in the world?",
-    "options": ["Indonesia", "Philippines", "Sweden", "Norway"],
-    "answer": 2
-  },
-  {
-    "question": "What is the currency of China?",
-    "options": ["Yen", "Won", "Yuan", "Ringgit"],
-    "answer": 2
-  },
-  {
-    "question": "Which famous explorer reached India by sea in 1498?",
-    "options": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "Marco Polo"],
-    "answer": 2
-  },
-  {
-    "question": "What is the largest coffee-producing country in Africa?",
-    "options": ["Kenya", "Ethiopia", "Uganda", "Tanzania"],
-    "answer": 1
-  },
-  {
-    "question": "Which animal has the strongest bite force?",
-    "options": ["Lion", "Crocodile", "Hippo", "Great White Shark"],
-    "answer": 1
-  },
-  {
-    "question": "In which year did Kenya host the IAAF World Under-18 Championships?",
-    "options": ["2015", "2017", "2019", "2021"],
-    "answer": 1
-  },
-  {
-    "question": "What is the capital city of Turkey?",
-    "options": ["Istanbul", "Izmir", "Ankara", "Antalya"],
-    "answer": 2
-  },
-  {
-    "question": "Which country is the world's largest exporter of bananas?",
-    "options": ["Brazil", "Ecuador", "Philippines", "Costa Rica"],
-    "answer": 1
-  },
-  {
-    "question": "Which mountain range separates Europe from Asia?",
-    "options": ["Alps", "Andes", "Ural Mountains", "Himalayas"],
-    "answer": 2
-  },
-  {
-    "question": "Who is the current Secretary-General of the United Nations (as of 2025)?",
-    "options": ["Ban Ki-moon", "António Guterres", "Kofi Annan", "Boutros Boutros-Ghali"],
-    "answer": 1
-  },
-  {
-    "question": "What is the largest stadium in Africa?",
-    "options": ["FNB Stadium (South Africa)", "Borg El Arab (Egypt)", "Stade de France", "Moses Mabhida"],
-    "answer": 0
-  },
-  {
-    "question": "Which Kenyan athlete has won the most Olympic gold medals?",
-    "options": ["Eliud Kipchoge", "David Rudisha", "Ezekiel Kemboi", "Vivian Cheruiyot"],
-    "answer": 1
+    "answer": "Charles Babbage"
   }
 ]
