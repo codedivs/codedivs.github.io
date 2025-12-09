@@ -1,152 +1,152 @@
 [
-    {
-      "question": "Which artist is famous for the painting 'The Persistence of Memory'?",
-      "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Jackson Pollock"],
-      "answer": 0
-    },
-    {
-      "question": "Which art movement is characterized by geometric shapes and abstract forms?",
-      "options": ["Surrealism", "Cubism", "Impressionism", "Fauvism"],
-      "answer": 1
-    },
-    {
-      "question": "Who painted 'Guernica', depicting the tragedies of war?",
-      "options": ["Henri Matisse", "Pablo Picasso", "Andy Warhol", "Mark Rothko"],
-      "answer": 2
-    },
-    {
-      "question": "Which artist is known for the Campbell’s Soup Cans series?",
-      "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Jeff Koons"],
-      "answer": 3
-    },
-    {
-      "question": "Which movement focused on spontaneous, automatic, or subconscious creation?",
-      "options": ["Surrealism", "Cubism", "Futurism", "Pop Art"],
-      "answer": 0
-    },
-    {
-      "question": "Which artist co-founded the Cubist movement?",
-      "options": ["Georges Braque", "Claude Monet", "Jackson Pollock", "Henri Rousseau"],
-      "answer": 1
-    },
-    {
-      "question": "Which American artist is known for his drip paintings?",
-      "options": ["Roy Lichtenstein", "Mark Rothko", "Jackson Pollock", "Edward Hopper"],
-      "answer": 2
-    },
-    {
-      "question": "Which artist is famous for large color field paintings like 'Orange, Red, Yellow'?",
-      "options": ["Mark Rothko", "Piet Mondrian", "Wassily Kandinsky", "Paul Klee"],
-      "answer": 3
-    },
-    {
-      "question": "Which movement is associated with dream-like, illogical scenes?",
-      "options": ["Surrealism", "Cubism", "Dadaism", "Fauvism"],
-      "answer": 0
-    },
-    {
-      "question": "Which Dutch painter created 'Composition with Red, Blue, and Yellow'?",
-      "options": ["Vincent van Gogh", "Piet Mondrian", "Johannes Vermeer", "Karel Appel"],
-      "answer": 1
-    },
-    {
-      "question": "Which British street artist is known for politically-charged stencil art?",
-      "options": ["Banksy", "Damien Hirst", "David Hockney", "Tracey Emin"],
-      "answer": 2
-    },
-    {
-      "question": "Which artist created the giant inflatable sculptures of balloon animals?",
-      "options": ["Jeff Koons", "Takashi Murakami", "Yayoi Kusama", "Ai Weiwei"],
-      "answer": 3
-    },
-    {
-      "question": "Which early 20th-century movement emphasized absurdity and anti-art concepts?",
-      "options": ["Dadaism", "Fauvism", "Surrealism", "Cubism"],
-      "answer": 0
-    },
-    {
-      "question": "Which artist is famous for 'The Dance' and bold use of color?",
-      "options": ["Henri Matisse", "Claude Monet", "Paul Cézanne", "Pablo Picasso"],
-      "answer": 1
-    },
-    {
-      "question": "Which American pop artist is known for comic-style paintings?",
-      "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Robert Rauschenberg"],
-      "answer": 2
-    },
-    {
-      "question": "Which Japanese artist is famous for polka dots and immersive infinity rooms?",
-      "options": ["Yayoi Kusama", "Takashi Murakami", "Hiroshi Sugimoto", "Shinichi Maruyama"],
-      "answer": 3
-    },
-    {
-      "question": "Which avant-garde movement rejected traditional aesthetics and logic?",
-      "options": ["Dadaism", "Cubism", "Fauvism", "Pop Art"],
-      "answer": 0
-    },
-    {
-      "question": "Which artist is known for 'Water Lilies' series?",
-      "options": ["Claude Monet", "Vincent van Gogh", "Paul Klee", "Georges Braque"],
-      "answer": 1
-    },
-    {
-      "question": "Which artist created 'Whaam!' in the style of comic-strip pop art?",
-      "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Jeff Koons"],
-      "answer": 2
-    },
-    {
-      "question": "Which contemporary artist is famous for colorful, cartoon-inspired works called 'Superflat'?",
-      "options": ["Yayoi Kusama", "Takashi Murakami", "Ai Weiwei", "Banksy"],
-      "answer": 3
-    },
-    {
-      "question": "Which movement included artists like Man Ray and Max Ernst?",
-      "options": ["Dadaism", "Pop Art", "Impressionism", "Fauvism"],
-      "answer": 0
-    },
-    {
-      "question": "Which artist is known for cut-outs and simplified forms in works like 'Blue Nude'?",
-      "options": ["Henri Matisse", "Pablo Picasso", "Georges Braque", "Paul Klee"],
-      "answer": 1
-    },
-    {
-      "question": "Which American artist is famous for screen printing images of Marilyn Monroe?",
-      "options": ["Keith Haring", "Robert Rauschenberg", "Andy Warhol", "Jackson Pollock"],
-      "answer": 2
-    },
-    {
-      "question": "Which contemporary artist created giant spider sculptures titled 'Maman'?",
-      "options": ["Louise Bourgeois", "Ai Weiwei", "Jeff Koons", "Damien Hirst"],
-      "answer": 3
-    },
-    {
-      "question": "Which early 20th-century movement was centered in Zurich and questioned logic and reason?",
-      "options": ["Surrealism", "Dadaism", "Cubism", "Futurism"],
-      "answer": 0
-    },
-    {
-      "question": "Which Dutch painter’s abstract compositions used horizontal and vertical lines with primary colors?",
-      "options": ["Karel Appel", "Piet Mondrian", "Vincent van Gogh", "Wassily Kandinsky"],
-      "answer": 1
-    },
-    {
-      "question": "Which artist is associated with the 'drip technique' in abstract expressionism?",
-      "options": ["Jackson Pollock", "Mark Rothko", "Willem de Kooning", "Hans Hofmann"],
-      "answer": 2
-    },
-    {
-      "question": "Which contemporary artist is famous for brightly colored, oversized balloon sculptures?",
-      "options": ["Jeff Koons", "Takashi Murakami", "Yayoi Kusama", "Banksy"],
-      "answer": 3
-    },
-    {
-      "question": "Which art movement often used automatic drawing to explore the unconscious?",
-      "options": ["Surrealism", "Dadaism", "Pop Art", "Cubism"],
-      "answer": 0
-    },
-    {
-      "question": "Which artist created 'No. 61 (Rust and Blue)' as part of Color Field painting?",
-      "options": ["Mark Rothko", "Jackson Pollock", "Willem de Kooning", "Barnett Newman"],
-      "answer": 1
-    }
-  ]
+  {
+    "question": "Which artist is famous for the painting 'The Persistence of Memory'?",
+    "options": ["Salvador Dalí", "Pablo Picasso", "Claude Monet", "Jackson Pollock"],
+    "answer": "Salvador Dalí"
+  },
+  {
+    "question": "Which art movement is characterized by geometric shapes and abstract forms?",
+    "options": ["Surrealism", "Cubism", "Impressionism", "Fauvism"],
+    "answer": "Cubism"
+  },
+  {
+    "question": "Who painted 'Guernica', depicting the tragedies of war?",
+    "options": ["Henri Matisse", "Pablo Picasso", "Andy Warhol", "Mark Rothko"],
+    "answer": "Pablo Picasso"
+  },
+  {
+    "question": "Which artist is known for the Campbell’s Soup Cans series?",
+    "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Jeff Koons"],
+    "answer": "Andy Warhol"
+  },
+  {
+    "question": "Which movement focused on spontaneous, automatic, or subconscious creation?",
+    "options": ["Surrealism", "Cubism", "Futurism", "Pop Art"],
+    "answer": "Surrealism"
+  },
+  {
+    "question": "Which artist co-founded the Cubist movement?",
+    "options": ["Georges Braque", "Claude Monet", "Jackson Pollock", "Henri Rousseau"],
+    "answer": "Georges Braque"
+  },
+  {
+    "question": "Which American artist is known for his drip paintings?",
+    "options": ["Roy Lichtenstein", "Mark Rothko", "Jackson Pollock", "Edward Hopper"],
+    "answer": "Jackson Pollock"
+  },
+  {
+    "question": "Which artist is famous for large color field paintings like 'Orange, Red, Yellow'?",
+    "options": ["Mark Rothko", "Piet Mondrian", "Wassily Kandinsky", "Paul Klee"],
+    "answer": "Mark Rothko"
+  },
+  {
+    "question": "Which movement is associated with dream-like, illogical scenes?",
+    "options": ["Surrealism", "Cubism", "Dadaism", "Fauvism"],
+    "answer": "Surrealism"
+  },
+  {
+    "question": "Which Dutch painter created 'Composition with Red, Blue, and Yellow'?",
+    "options": ["Vincent van Gogh", "Piet Mondrian", "Johannes Vermeer", "Karel Appel"],
+    "answer": "Piet Mondrian"
+  },
+  {
+    "question": "Which British street artist is known for politically-charged stencil art?",
+    "options": ["Banksy", "Damien Hirst", "David Hockney", "Tracey Emin"],
+    "answer": "Banksy"
+  },
+  {
+    "question": "Which artist created the giant inflatable sculptures of balloon animals?",
+    "options": ["Jeff Koons", "Takashi Murakami", "Yayoi Kusama", "Ai Weiwei"],
+    "answer": "Jeff Koons"
+  },
+  {
+    "question": "Which early 20th-century movement emphasized absurdity and anti-art concepts?",
+    "options": ["Dadaism", "Fauvism", "Surrealism", "Cubism"],
+    "answer": "Dadaism"
+  },
+  {
+    "question": "Which artist is famous for 'The Dance' and bold use of color?",
+    "options": ["Henri Matisse", "Claude Monet", "Paul Cézanne", "Pablo Picasso"],
+    "answer": "Henri Matisse"
+  },
+  {
+    "question": "Which American pop artist is known for comic-style paintings?",
+    "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Robert Rauschenberg"],
+    "answer": "Roy Lichtenstein"
+  },
+  {
+    "question": "Which Japanese artist is famous for polka dots and immersive infinity rooms?",
+    "options": ["Yayoi Kusama", "Takashi Murakami", "Hiroshi Sugimoto", "Shinichi Maruyama"],
+    "answer": "Yayoi Kusama"
+  },
+  {
+    "question": "Which avant-garde movement rejected traditional aesthetics and logic?",
+    "options": ["Dadaism", "Cubism", "Fauvism", "Pop Art"],
+    "answer": "Dadaism"
+  },
+  {
+    "question": "Which artist is known for 'Water Lilies' series?",
+    "options": ["Claude Monet", "Vincent van Gogh", "Paul Klee", "Georges Braque"],
+    "answer": "Claude Monet"
+  },
+  {
+    "question": "Which artist created 'Whaam!' in the style of comic-strip pop art?",
+    "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Jeff Koons"],
+    "answer": "Roy Lichtenstein"
+  },
+  {
+    "question": "Which contemporary artist is famous for colorful, cartoon-inspired works called 'Superflat'?",
+    "options": ["Yayoi Kusama", "Takashi Murakami", "Ai Weiwei", "Banksy"],
+    "answer": "Takashi Murakami"
+  },
+  {
+    "question": "Which movement included artists like Man Ray and Max Ernst?",
+    "options": ["Dadaism", "Pop Art", "Impressionism", "Fauvism"],
+    "answer": "Dadaism"
+  },
+  {
+    "question": "Which artist is known for cut-outs and simplified forms in works like 'Blue Nude'?",
+    "options": ["Henri Matisse", "Pablo Picasso", "Georges Braque", "Paul Klee"],
+    "answer": "Henri Matisse"
+  },
+  {
+    "question": "Which American artist is famous for screen printing images of Marilyn Monroe?",
+    "options": ["Keith Haring", "Robert Rauschenberg", "Andy Warhol", "Jackson Pollock"],
+    "answer": "Andy Warhol"
+  },
+  {
+    "question": "Which contemporary artist created giant spider sculptures titled 'Maman'?",
+    "options": ["Louise Bourgeois", "Ai Weiwei", "Jeff Koons", "Damien Hirst"],
+    "answer": "Louise Bourgeois"
+  },
+  {
+    "question": "Which early 20th-century movement was centered in Zurich and questioned logic and reason?",
+    "options": ["Surrealism", "Dadaism", "Cubism", "Futurism"],
+    "answer": "Dadaism"
+  },
+  {
+    "question": "Which Dutch painter’s abstract compositions used horizontal and vertical lines with primary colors?",
+    "options": ["Karel Appel", "Piet Mondrian", "Vincent van Gogh", "Wassily Kandinsky"],
+    "answer": "Piet Mondrian"
+  },
+  {
+    "question": "Which artist is associated with the 'drip technique' in abstract expressionism?",
+    "options": ["Jackson Pollock", "Mark Rothko", "Willem de Kooning", "Hans Hofmann"],
+    "answer": "Jackson Pollock"
+  },
+  {
+    "question": "Which contemporary artist is famous for brightly colored, oversized balloon sculptures?",
+    "options": ["Jeff Koons", "Takashi Murakami", "Yayoi Kusama", "Banksy"],
+    "answer": "Jeff Koons"
+  },
+  {
+    "question": "Which art movement often used automatic drawing to explore the unconscious?",
+    "options": ["Surrealism", "Dadaism", "Pop Art", "Cubism"],
+    "answer": "Surrealism"
+  },
+  {
+    "question": "Which artist created 'No. 61 (Rust and Blue)' as part of Color Field painting?",
+    "options": ["Mark Rothko", "Jackson Pollock", "Willem de Kooning", "Barnett Newman"],
+    "answer": "Mark Rothko"
+  }
+]
