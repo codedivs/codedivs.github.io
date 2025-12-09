@@ -1,52 +1,152 @@
 [
   {
-    "question": "Which famous street is known as the heart of the Las Vegas Strip?",
-    "options": ["Sunset Boulevard", "Broadway", "Las Vegas Boulevard", "Rodeo Drive"],
-    "answer": 2
+    "question": "Which street is known as the most famous shopping street in Paris?",
+    "options": ["Champs-Élysées", "Rue de Rivoli", "Boulevard Saint-Germain", "Avenue Montaigne"],
+    "answer": "Champs-Élysées"
   },
   {
-    "question": "What major street runs through the financial district of New York City?",
-    "options": ["Wall Street", "Fifth Avenue", "Madison Avenue", "Park Avenue"],
-    "answer": 0
+    "question": "Which street is known for its nightlife in Miami?",
+    "options": ["Ocean Drive", "Lincoln Road", "Collins Avenue", "Washington Avenue"],
+    "answer": "Ocean Drive"
   },
   {
-    "question": "Which street in Los Angeles is famous for luxury shopping?",
-    "options": ["Rodeo Drive", "Melrose Avenue", "Hollywood Boulevard", "Wilshire Boulevard"],
-    "answer": 0
+    "question": "Which street is famous for the annual Macy's Thanksgiving Day Parade in New York?",
+    "options": ["Broadway", "Fifth Avenue", "42nd Street", "34th Street"],
+    "answer": "34th Street"
   },
   {
-    "question": "What iconic New York City street is known for its bright billboards and theaters?",
-    "options": ["Broadway", "Times Square", "42nd Street", "Sixth Avenue"],
-    "answer": 1
+    "question": "Which street is the main thoroughfare in Boston, home to many historic sites?",
+    "options": ["Beacon Street", "Tremont Street", "High Street", "Freedom Trail"],
+    "answer": "Beacon Street"
   },
   {
-    "question": "Which street in San Francisco is known for its steep, crooked turns?",
-    "options": ["Market Street", "Lombard Street", "Mission Street", "Van Ness Avenue"],
-    "answer": 1
+    "question": "Which street is known as the 'Red Light District' in Amsterdam?",
+    "options": ["Damrak", "Leidseplein", "Singel", "De Wallen"],
+    "answer": "De Wallen"
   },
   {
-    "question": "Which famous street runs through New Orleans’ French Quarter?",
-    "options": ["Canal Street", "Frenchmen Street", "Bourbon Street", "Royal Street"],
-    "answer": 2
+    "question": "Which famous street in Rome leads to the Spanish Steps?",
+    "options": ["Via del Corso", "Via Condotti", "Piazza di Spagna", "Viale Trastevere"],
+    "answer": "Via Condotti"
   },
   {
-    "question": "Which avenue in New York City is known for high-end shopping and landmarks?",
-    "options": ["Fifth Avenue", "Lexington Avenue", "Broadway", "Amsterdam Avenue"],
-    "answer": 0
+    "question": "Which street is known as the heart of Tokyo's fashion district?",
+    "options": ["Shibuya Crossing", "Ginza", "Omotesando", "Harajuku"],
+    "answer": "Ginza"
   },
   {
-    "question": "What major boulevard in Los Angeles is known for the Hollywood Walk of Fame?",
-    "options": ["Sunset Boulevard", "Hollywood Boulevard", "Santa Monica Boulevard", "Vine Street"],
-    "answer": 1
+    "question": "Which street is famous for its coffee shops and canals in Amsterdam?",
+    "options": ["Prinsengracht", "Keizersgracht", "Herengracht", "Reguliersdwarsstraat"],
+    "answer": "Prinsengracht"
   },
   {
-    "question": "Which street in Washington, D.C. leads directly to the White House?",
-    "options": ["Pennsylvania Avenue", "Constitution Avenue", "K Street", "M Street"],
-    "answer": 0
+    "question": "Which street in Sydney is known for its stunning harbor views?",
+    "options": ["George Street", "Oxford Street", "Circular Quay", "Bondi Beach Road"],
+    "answer": "George Street"
   },
   {
-    "question": "Which famous New York City street borders Central Park on the east side?",
-    "options": ["Park Avenue", "Fifth Avenue", "Broadway", "Madison Avenue"],
-    "answer": 1
+    "question": "Which street is known for its cultural and historic landmarks in Cairo?",
+    "options": ["Mohamed Mahmoud Street", "Sharia Qasr al-Ainy", "Tahrir Square", "Sharia 26th of July"],
+    "answer": "Sharia Qasr al-Ainy"
+  },
+  {
+    "question": "Which street in Barcelona is known for its modernist architecture?",
+    "options": ["Passeig de Gràcia", "La Rambla", "Avinguda Diagonal", "Carrer de Vallcarca"],
+    "answer": "Passeig de Gràcia"
+  },
+  {
+    "question": "Which street in Berlin is famous for its nightlife and bars?",
+    "options": ["Unter den Linden", "Oranienstrasse", "Kreuzberg", "Friedrichstrasse"],
+    "answer": "Oranienstrasse"
+  },
+  {
+    "question": "Which street in London is known for its iconic red telephone boxes?",
+    "options": ["Oxford Street", "Regent Street", "Piccadilly Circus", "Whitehall"],
+    "answer": "Oxford Street"
+  },
+  {
+    "question": "Which street in Chicago is home to the city's famous skyscrapers?",
+    "options": ["Michigan Avenue", "State Street", "Adams Street", "Wacker Drive"],
+    "answer": "Michigan Avenue"
+  },
+  {
+    "question": "Which street in Paris is home to the Eiffel Tower?",
+    "options": ["Avenue des Champs-Élysées", "Avenue Montaigne", "Rue de la Paix", "Quai Branly"],
+    "answer": "Quai Branly"
+  },
+  {
+    "question": "Which street in Tokyo is known for its luxury brands?",
+    "options": ["Omotesando", "Shibuya", "Ginza", "Shinjuku"],
+    "answer": "Ginza"
+  },
+  {
+    "question": "Which famous street in London is home to the British Museum?",
+    "options": ["Oxford Street", "Great Russell Street", "Regent Street", "Baker Street"],
+    "answer": "Great Russell Street"
+  },
+  {
+    "question": "Which street is famous for the 'Pike Place Market' in Seattle?",
+    "options": ["First Avenue", "Pike Street", "5th Avenue", "Broadway"],
+    "answer": "Pike Street"
+  },
+  {
+    "question": "Which street is famous for luxury shopping in Dubai?",
+    "options": ["Sheikh Zayed Road", "Al Wasl Road", "Emirates Road", "The Palm Jumeirah"],
+    "answer": "Sheikh Zayed Road"
+  },
+  {
+    "question": "Which street in Los Angeles is known for its vibrant arts scene?",
+    "options": ["Sunset Boulevard", "Melrose Avenue", "Wilshire Boulevard", "Figueroa Street"],
+    "answer": "Melrose Avenue"
+  },
+  {
+    "question": "Which street in New Orleans is famous for jazz music?",
+    "options": ["Bourbon Street", "Canal Street", "Royal Street", "Frenchmen Street"],
+    "answer": "Frenchmen Street"
+  },
+  {
+    "question": "Which famous street in Amsterdam is known for its coffee houses?",
+    "options": ["Damrak", "Leidseplein", "Prinsengracht", "Singel"],
+    "answer": "Damrak"
+  },
+  {
+    "question": "Which street in Dublin is known for its historical architecture?",
+    "options": ["O'Connell Street", "Grafton Street", "Temple Bar", "Abbey Street"],
+    "answer": "O'Connell Street"
+  },
+  {
+    "question": "Which street in Buenos Aires is home to the iconic 'Obelisk'?",
+    "options": ["Avenida 9 de Julio", "Avenida Corrientes", "Avenida de Mayo", "Avenida Libertador"],
+    "answer": "Avenida 9 de Julio"
+  },
+  {
+    "question": "Which street is the main thoroughfare through Cape Town, South Africa?",
+    "options": ["Long Street", "Bree Street", "Kloof Street", "Adderley Street"],
+    "answer": "Long Street"
+  },
+  {
+    "question": "Which street in Rio de Janeiro is famous for Carnival celebrations?",
+    "options": ["Avenida Atlântica", "Avenida Rio Branco", "Avenida Copacabana", "Avenida dos Bandeirantes"],
+    "answer": "Avenida Atlântica"
+  },
+  {
+    "question": "Which street is known as the 'heart of the fashion district' in Milan?",
+    "options": ["Via Montenapoleone", "Via della Spiga", "Piazza del Duomo", "Corso Vittorio Emanuele II"],
+    "answer": "Via Montenapoleone"
+  },
+  {
+    "question": "Which street in San Diego is famous for its historical Old Town?",
+    "options": ["State Street", "Cedar Street", "Main Street", "El Cajon Boulevard"],
+    "answer": "State Street"
+  },
+  {
+    "question": "Which street in Melbourne is known for its laneways and street art?",
+    "options": ["Flinders Street", "Swanston Street", "Hosier Lane", "Collins Street"],
+    "answer": "Hosier Lane"
+  },
+  {
+    "question": "Which street in Toronto is known as the city’s ‘financial district’?",
+    "options": ["Queen Street", "Bay Street", "Bloor Street", "Yonge Street"],
+    "answer": "Bay Street"
   }
 ]
