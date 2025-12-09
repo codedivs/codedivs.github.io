@@ -2,171 +2,171 @@
   {
     "question": "What is the size of a `byte` in Java?",
     "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
-    "answer": 0
+    "answer": "1 byte"
   },
   {
     "question": "Which keyword is used to create a class in Java?",
     "options": ["class", "create", "new", "function"],
-    "answer": 0
+    "answer": "class"
   },
   {
     "question": "What is the default value of a `boolean` in Java?",
     "options": ["true", "false", "0", "null"],
-    "answer": 1
+    "answer": "false"
   },
   {
     "question": "Which of the following is used to start a thread in Java?",
     "options": ["Thread.start()", "Thread.run()", "Thread.begin()", "Thread.execute()"],
-    "answer": 0
+    "answer": "Thread.start()"
   },
   {
     "question": "Which method is used to find the length of an array in Java?",
     "options": ["length()", "size()", "getLength()", "length"],
-    "answer": 3
+    "answer": "length"
   },
   {
     "question": "In Java, which of the following is a valid identifier?",
     "options": ["_myVar", "1myVar", "$myVar", "@myVar"],
-    "answer": 0
+    "answer": "_myVar"
   },
   {
     "question": "Which of the following is used to read user input in Java?",
     "options": ["Scanner", "InputStream", "Reader", "Console"],
-    "answer": 0
+    "answer": "Scanner"
   },
   {
     "question": "What is the correct way to declare a `float` variable in Java?",
     "options": ["float x = 10", "float x = 10f", "float x = 10.0", "float x = 10.0d"],
-    "answer": 1
+    "answer": "float x = 10f"
   },
   {
     "question": "What is the default value of an instance variable of type `int` in Java?",
     "options": ["0", "null", "undefined", "0.0"],
-    "answer": 0
+    "answer": "0"
   },
   {
     "question": "Which of these access modifiers can be applied to a constructor in Java?",
     "options": ["public", "private", "protected", "All of the above"],
-    "answer": 3
+    "answer": "All of the above"
   },
   {
     "question": "What does the `final` keyword do when used with a variable in Java?",
     "options": ["Makes the variable constant", "Makes the variable static", "Makes the variable volatile", "Makes the variable private"],
-    "answer": 0
+    "answer": "Makes the variable constant"
   },
   {
     "question": "What does the `super` keyword refer to in Java?",
     "options": ["The parent class", "The current class", "A static method", "The constructor"],
-    "answer": 0
+    "answer": "The parent class"
   },
   {
     "question": "Which of the following is NOT a valid data type in Java?",
     "options": ["int", "string", "boolean", "double"],
-    "answer": 1
+    "answer": "string"
   },
   {
     "question": "Which method is used to start a thread in Java?",
     "options": ["start()", "run()", "init()", "execute()"],
-    "answer": 0
+    "answer": "start()"
   },
   {
     "question": "Which operator is used to concatenate strings in Java?",
     "options": ["+", "-", "&", "*"],
-    "answer": 0
+    "answer": "+"
   },
   {
     "question": "Which method is used to compare two strings in Java?",
     "options": ["compareTo()", "equals()", "compare()", "isEqual()"],
-    "answer": 1
+    "answer": "equals()"
   },
   {
     "question": "Which class is the superclass of every class in Java?",
     "options": ["Object", "Class", "Super", "Java"],
-    "answer": 0
+    "answer": "Object"
   },
   {
     "question": "Which of these is a loop control statement in Java?",
     "options": ["continue", "break", "return", "All of the above"],
-    "answer": 3
+    "answer": "All of the above"
   },
   {
     "question": "What does the `this` keyword refer to in Java?",
     "options": ["Current object", "Parent class", "Class name", "Method name"],
-    "answer": 0
+    "answer": "Current object"
   },
   {
     "question": "Which of the following is the correct syntax for a switch statement in Java?",
     "options": ["switch(expression) { case x: break; }", "switch { case x: break; }", "switch(expression) { break; case x; }", "switch x { case : }"],
-    "answer": 0
+    "answer": "switch(expression) { case x: break; }"
   },
   {
     "question": "Which type of exception is checked during compile-time in Java?",
     "options": ["RuntimeException", "IOException", "Error", "NullPointerException"],
-    "answer": 1
+    "answer": "IOException"
   },
   {
     "question": "Which method is used to remove an element from an `ArrayList` in Java?",
     "options": ["remove()", "delete()", "pop()", "clear()"],
-    "answer": 0
+    "answer": "remove()"
   },
   {
     "question": "What is the output of `System.out.println(5 + 10 + '10');` in Java?",
     "options": ["510", "1510", "15", "Error"],
-    "answer": 0
+    "answer": "510"
   },
   {
     "question": "Which of the following is used to check if a number is prime in Java?",
     "options": ["A for loop", "A while loop", "A recursive function", "Both 1 and 3"],
-    "answer": 3
+    "answer": "Both 1 and 3"
   },
   {
     "question": "Which of these can be used to create a thread in Java?",
     "options": ["Implementing Runnable", "Extending Thread", "Both 1 and 2", "None of the above"],
-    "answer": 2
+    "answer": "Both 1 and 2"
   },
   {
     "question": "Which statement is used to stop the execution of a loop in Java?",
     "options": ["exit", "break", "stop", "return"],
-    "answer": 1
+    "answer": "break"
   },
   {
     "question": "Which keyword is used to create an instance of a class in Java?",
     "options": ["new", "instance", "create", "instantiate"],
-    "answer": 0
+    "answer": "new"
   },
   {
     "question": "Which of the following is an example of an immutable class in Java?",
     "options": ["String", "ArrayList", "HashMap", "None of the above"],
-    "answer": 0
+    "answer": "String"
   },
   {
     "question": "What is the purpose of the `package` keyword in Java?",
     "options": ["To define the class", "To define the method", "To group related classes", "To import libraries"],
-    "answer": 2
+    "answer": "To group related classes"
   },
   {
     "question": "What does `System.exit(0)` do in Java?",
     "options": ["Exits the program", "Throws an exception", "Ends the current method", "Pauses the program"],
-    "answer": 0
+    "answer": "Exits the program"
   },
   {
     "question": "What is the correct syntax for a method that returns a `String` in Java?",
     "options": ["String method() {}", "String method() {} ;", "public String method() {}", "public method String() {}"],
-    "answer": 2
+    "answer": "public String method() {}"
   },
   {
     "question": "What is the output of `System.out.println(10 / 3);` in Java?",
     "options": ["3.33", "3", "3.0", "Error"],
-    "answer": 1
+    "answer": "3"
   },
   {
     "question": "Which of these is used to create a constant variable in Java?",
     "options": ["const", "static", "final", "immutable"],
-    "answer": 2
+    "answer": "final"
   },
   {
     "question": "Which of these keywords is used to inherit a class in Java?",
     "options": ["extends", "inherits", "super", "implements"],
-    "answer": 0
+    "answer": "extends"
   }
 ]
