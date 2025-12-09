@@ -2,111 +2,111 @@
   {
     "question": "What is the capital of Brazil?",
     "options": ["Brasília", "Rio de Janeiro", "São Paulo", "Buenos Aires"],
-    "answer": 0
+    "answer": "Brasília"
   },
   {
     "question": "What is the capital of Australia?",
     "options": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
-    "answer": 1
+    "answer": "Canberra"
   },
   {
     "question": "What is the capital of Canada?",
     "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
-    "answer": 2
+    "answer": "Ottawa"
   },
   {
     "question": "What is the capital of Egypt?",
     "options": ["Alexandria", "Giza", "Luxor", "Cairo"],
-    "answer": 3
+    "answer": "Cairo"
   },
   {
     "question": "What is the capital of India?",
     "options": ["New Delhi", "Mumbai", "Kolkata", "Bangalore"],
-    "answer": 0
+    "answer": "New Delhi"
   },
   {
     "question": "What is the capital of South Africa?",
     "options": ["Cape Town", "Pretoria", "Johannesburg", "Durban"],
-    "answer": 1
+    "answer": "Pretoria"
   },
   {
     "question": "What is the capital of Indonesia?",
     "options": ["Bali", "Surabaya", "Jakarta", "Bandung"],
-    "answer": 2
+    "answer": "Jakarta"
   },
   {
     "question": "What is the capital of Mexico?",
     "options": ["Guadalajara", "Monterrey", "Cancún", "Mexico City"],
-    "answer": 3
+    "answer": "Mexico City"
   },
   {
     "question": "What is the capital of Russia?",
     "options": ["Moscow", "Saint Petersburg", "Novosibirsk", "Kyiv"],
-    "answer": 0
+    "answer": "Moscow"
   },
   {
     "question": "What is the capital of Turkey?",
     "options": ["Istanbul", "Ankara", "Izmir", "Antalya"],
-    "answer": 1
+    "answer": "Ankara"
   },
   {
     "question": "What is the capital of Argentina?",
     "options": ["Córdoba", "Buenos Aires", "Rosario", "Mendoza"],
-    "answer": 1
+    "answer": "Buenos Aires"
   },
   {
     "question": "What is the capital of South Korea?",
     "options": ["Busan", "Incheon", "Seoul", "Pyongyang"],
-    "answer": 2
+    "answer": "Seoul"
   },
   {
     "question": "What is the capital of Nigeria?",
     "options": ["Lagos", "Abuja", "Kano", "Ibadan"],
-    "answer": 1
+    "answer": "Abuja"
   },
   {
     "question": "What is the capital of Thailand?",
     "options": ["Chiang Mai", "Phuket", "Bangkok", "Pattaya"],
-    "answer": 2
+    "answer": "Bangkok"
   },
   {
     "question": "What is the capital of Sweden?",
     "options": ["Gothenburg", "Stockholm", "Malmö", "Oslo"],
-    "answer": 1
+    "answer": "Stockholm"
   },
   {
     "question": "What is the capital of Saudi Arabia?",
     "options": ["Mecca", "Medina", "Riyadh", "Jeddah"],
-    "answer": 2
+    "answer": "Riyadh"
   },
   {
     "question": "What is the capital of Peru?",
     "options": ["Cusco", "Lima", "Arequipa", "Trujillo"],
-    "answer": 1
+    "answer": "Lima"
   },
   {
     "question": "What is the capital of Vietnam?",
     "options": ["Ho Chi Minh City", "Da Nang", "Hanoi", "Hue"],
-    "answer": 2
+    "answer": "Hanoi"
   },
   {
     "question": "What is the capital of Norway?",
     "options": ["Oslo", "Bergen", "Trondheim", "Stockholm"],
-    "answer": 0
+    "answer": "Oslo"
   },
   {
     "question": "What is the capital of Kenya?",
     "options": ["Mombasa", "Kisumu", "Nairobi", "Addis Ababa"],
-    "answer": 2
+    "answer": "Nairobi"
   },
   {
     "question": "What is the capital of France?",
     "options": ["London", "Paris", "Berlin", "Madrid"],
-    "answer": 1
+    "answer": "Paris"
   },
   {
     "question": "What is the capital of Japan?",
     "options": ["Beijing", "Tokyo", "Seoul", "Bangkok"],
-    "answer": 1
+    "answer": "Tokyo"
   }
 ]
