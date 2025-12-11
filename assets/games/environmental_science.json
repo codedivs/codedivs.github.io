@@ -1,0 +1,247 @@
+[
+  {
+    "question": "What is the primary cause of global warming?",
+    "options": ["Deforestation", "Greenhouse gas emissions", "Ozone depletion", "Acid rain"],
+    "answer": "Greenhouse gas emissions"
+  },
+  {
+    "question": "Which gas is most responsible for the greenhouse effect?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "What is the main cause of acid rain?",
+    "options": ["Carbon monoxide", "Sulfur dioxide and nitrogen oxides", "Ozone depletion", "Methane emissions"],
+    "answer": "Sulfur dioxide and nitrogen oxides"
+  },
+  {
+    "question": "Which layer of the atmosphere protects Earth from harmful UV radiation?",
+    "options": ["Troposphere", "Stratosphere", "Mesosphere", "Ozone layer"],
+    "answer": "Ozone layer"
+  },
+  {
+    "question": "Which type of pollution is caused by plastics and chemicals in water bodies?",
+    "options": ["Air pollution", "Water pollution", "Noise pollution", "Soil pollution"],
+    "answer": "Water pollution"
+  },
+  {
+    "question": "Which renewable energy source uses sunlight to produce electricity?",
+    "options": ["Wind energy", "Solar energy", "Hydropower", "Geothermal energy"],
+    "answer": "Solar energy"
+  },
+  {
+    "question": "What is the process of cutting down large areas of forests called?",
+    "options": ["Afforestation", "Deforestation", "Reforestation", "Desertification"],
+    "answer": "Deforestation"
+  },
+  {
+    "question": "Which pollutant is the main cause of smog?",
+    "options": ["Ozone", "Sulfur dioxide", "Nitrogen oxides", "Carbon monoxide"],
+    "answer": "Nitrogen oxides"
+  },
+  {
+    "question": "Which layer of the atmosphere contains most of Earth's weather?",
+    "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+    "answer": "Troposphere"
+  },
+  {
+    "question": "Which gas is released from burning fossil fuels and contributes to global warming?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "What is the natural process of trees and plants absorbing CO2 called?",
+    "options": ["Photosynthesis", "Respiration", "Transpiration", "Combustion"],
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "Which type of soil degradation occurs when fertile land becomes desert?",
+    "options": ["Deforestation", "Desertification", "Erosion", "Salinization"],
+    "answer": "Desertification"
+  },
+  {
+    "question": "Which gas contributes to ozone depletion in the stratosphere?",
+    "options": ["CFCs", "CO2", "Oxygen", "Nitrogen"],
+    "answer": "CFCs"
+  },
+  {
+    "question": "Which energy source is non-renewable and comes from the Earth’s crust?",
+    "options": ["Coal", "Wind", "Solar", "Hydropower"],
+    "answer": "Coal"
+  },
+  {
+    "question": "What is the process of plants releasing water vapor into the atmosphere called?",
+    "options": ["Photosynthesis", "Transpiration", "Evaporation", "Condensation"],
+    "answer": "Transpiration"
+  },
+  {
+    "question": "Which pollutant is mainly responsible for the depletion of the ozone layer?",
+    "options": ["CO2", "Methane", "CFCs", "Nitrogen oxide"],
+    "answer": "CFCs"
+  },
+  {
+    "question": "Which renewable energy source uses moving water to generate electricity?",
+    "options": ["Solar energy", "Wind energy", "Hydropower", "Geothermal energy"],
+    "answer": "Hydropower"
+  },
+  {
+    "question": "Which is a major effect of global warming on oceans?",
+    "options": ["Ocean acidification", "Increased salinity", "Decreased water levels", "Water pollution"],
+    "answer": "Ocean acidification"
+  },
+  {
+    "question": "Which type of energy is obtained from the Earth’s internal heat?",
+    "options": ["Solar energy", "Wind energy", "Geothermal energy", "Hydropower"],
+    "answer": "Geothermal energy"
+  },
+  {
+    "question": "What is the main cause of the greenhouse effect?",
+    "options": ["Excess oxygen", "Excess nitrogen", "Excess greenhouse gases", "Ozone depletion"],
+    "answer": "Excess greenhouse gases"
+  },
+  {
+    "question": "Which of the following is an effect of deforestation?",
+    "options": ["Increased biodiversity", "Soil erosion", "Reduced CO2 levels", "Better rainfall"],
+    "answer": "Soil erosion"
+  },
+  {
+    "question": "Which international agreement aims to reduce greenhouse gas emissions?",
+    "options": ["Kyoto Protocol", "Montreal Protocol", "Paris Agreement", "Geneva Convention"],
+    "answer": "Paris Agreement"
+  },
+  {
+    "question": "Which layer of atmosphere is directly above the troposphere?",
+    "options": ["Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+    "answer": "Stratosphere"
+  },
+  {
+    "question": "Which of the following is a consequence of water pollution?",
+    "options": ["Eutrophication", "Air smog", "Acid rain", "Ozone depletion"],
+    "answer": "Eutrophication"
+  },
+  {
+    "question": "Which type of energy is obtained from wind movement?",
+    "options": ["Solar energy", "Wind energy", "Geothermal energy", "Hydropower"],
+    "answer": "Wind energy"
+  },
+  {
+    "question": "Which environmental problem is caused by excessive use of fertilizers?",
+    "options": ["Soil erosion", "Eutrophication", "Global warming", "Deforestation"],
+    "answer": "Eutrophication"
+  },
+  {
+    "question": "Which is a major source of indoor air pollution in developing countries?",
+    "options": ["Coal stoves", "CFCs", "Plastic waste", "Vehicular exhaust"],
+    "answer": "Coal stoves"
+  },
+  {
+    "question": "Which greenhouse gas has the highest global warming potential?",
+    "options": ["CO2", "Methane", "Nitrous oxide", "Oxygen"],
+    "answer": "Methane"
+  },
+  {
+    "question": "Which phenomenon is caused by trapping of heat in the Earth’s atmosphere?",
+    "options": ["Ozone depletion", "Global warming", "Acid rain", "Eutrophication"],
+    "answer": "Global warming"
+  },
+  {
+    "question": "Which process converts atmospheric nitrogen into usable forms for plants?",
+    "options": ["Nitrogen fixation", "Photosynthesis", "Transpiration", "Respiration"],
+    "answer": "Nitrogen fixation"
+  },
+  {
+    "question": "Which type of pollution is caused by excessive noise from traffic or industries?",
+    "options": ["Air pollution", "Water pollution", "Noise pollution", "Soil pollution"],
+    "answer": "Noise pollution"
+  },
+  {
+    "question": "Which international protocol aims to reduce CFC emissions?",
+    "options": ["Kyoto Protocol", "Montreal Protocol", "Paris Agreement", "Geneva Convention"],
+    "answer": "Montreal Protocol"
+  },
+  {
+    "question": "Which of the following is considered a non-renewable energy resource?",
+    "options": ["Wind energy", "Solar energy", "Natural gas", "Hydropower"],
+    "answer": "Natural gas"
+  },
+  {
+    "question": "Which environmental issue is linked with melting glaciers and rising sea levels?",
+    "options": ["Deforestation", "Global warming", "Acid rain", "Noise pollution"],
+    "answer": "Global warming"
+  },
+  {
+    "question": "Which process leads to the loss of fertile topsoil due to wind or water?",
+    "options": ["Erosion", "Transpiration", "Photosynthesis", "Desertification"],
+    "answer": "Erosion"
+  },
+  {
+    "question": "Which type of renewable energy harnesses heat from the sun directly?",
+    "options": ["Solar thermal energy", "Wind energy", "Hydropower", "Geothermal energy"],
+    "answer": "Solar thermal energy"
+  },
+  {
+    "question": "Which practice can help reduce deforestation?",
+    "options": ["Afforestation", "Overgrazing", "Slash-and-burn", "Industrialization"],
+    "answer": "Afforestation"
+  },
+  {
+    "question": "Which environmental issue is caused by overfishing and habitat destruction?",
+    "options": ["Deforestation", "Biodiversity loss", "Soil erosion", "Noise pollution"],
+    "answer": "Biodiversity loss"
+  },
+  {
+    "question": "Which type of energy does not produce greenhouse gases during operation?",
+    "options": ["Coal", "Wind", "Oil", "Natural gas"],
+    "answer": "Wind"
+  },
+  {
+    "question": "Which process contributes to the formation of ozone holes in the stratosphere?",
+    "options": ["CFC emissions", "CO2 emissions", "Methane emissions", "Nitrous oxide emissions"],
+    "answer": "CFC emissions"
+  },
+  {
+    "question": "Which term refers to the variety of life forms on Earth?",
+    "options": ["Biodiversity", "Ecosystem", "Biomass", "Photosynthesis"],
+    "answer": "Biodiversity"
+  },
+  {
+    "question": "Which gas is released by livestock and contributes to global warming?",
+    "options": ["Carbon dioxide", "Methane", "Nitrous oxide", "Oxygen"],
+    "answer": "Methane"
+  },
+  {
+    "question": "Which environmental problem occurs when land becomes unsuitable for farming due to salinity?",
+    "options": ["Desertification", "Salinization", "Erosion", "Deforestation"],
+    "answer": "Salinization"
+  },
+  {
+    "question": "Which of the following is a sustainable practice to conserve water?",
+    "options": ["Rainwater harvesting", "Over-irrigation", "Deforestation", "Industrial discharge"],
+    "answer": "Rainwater harvesting"
+  },
+  {
+    "question": "Which type of energy is harnessed from tides and ocean currents?",
+    "options": ["Solar energy", "Wind energy", "Tidal energy", "Geothermal energy"],
+    "answer": "Tidal energy"
+  },
+  {
+    "question": "Which phenomenon results from excessive nutrients in water bodies?",
+    "options": ["Eutrophication", "Acid rain", "Smog", "Global warming"],
+    "answer": "Eutrophication"
+  },
+  {
+    "question": "Which energy source is most abundant but non-renewable?",
+    "options": ["Coal", "Wind", "Solar", "Hydropower"],
+    "answer": "Coal"
+  },
+  {
+    "question": "Which environmental problem is primarily caused by industrial emissions?",
+    "options": ["Air pollution", "Water pollution", "Soil erosion", "Noise pollution"],
+    "answer": "Air pollution"
+  },
+  {
+    "question": "Which environmental strategy involves planting trees to restore ecosystems?",
+    "options": ["Deforestation", "Afforestation", "Urbanization", "Industrialization"],
+    "answer": "Afforestation"
+  }
+]
