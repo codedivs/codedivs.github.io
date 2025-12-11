@@ -1,0 +1,142 @@
+[
+  {
+    "question": "What does the phrase 'Break the ice' mean?",
+    "options": ["To start a conversation", "To crack ice", "To break something", "To win a game"],
+    "answer": "To start a conversation"
+  },
+  {
+    "question": "What does 'Bite the bullet' mean?",
+    "options": ["To endure something painful", "To attack someone", "To escape", "To fight back"],
+    "answer": "To endure something painful"
+  },
+  {
+    "question": "What does the phrase 'Burn the midnight oil' mean?",
+    "options": ["To stay up late working", "To burn something", "To relax at night", "To celebrate at night"],
+    "answer": "To stay up late working"
+  },
+  {
+    "question": "What does 'A blessing in disguise' mean?",
+    "options": ["A hidden blessing", "A disguised gift", "A bad event that turns out good", "A gift from someone"],
+    "answer": "A bad event that turns out good"
+  },
+  {
+    "question": "What does 'Hit the nail on the head' mean?",
+    "options": ["To hammer a nail", "To be exact or correct", "To miss something", "To make a mistake"],
+    "answer": "To be exact or correct"
+  },
+  {
+    "question": "What does 'Under the weather' mean?",
+    "options": ["To feel sick", "To be outside", "To be overwhelmed", "To be in a storm"],
+    "answer": "To feel sick"
+  },
+  {
+    "question": "What does 'A penny for your thoughts' mean?",
+    "options": ["To ask what someone is thinking", "To offer money", "To ask for help", "To ignore someone"],
+    "answer": "To ask what someone is thinking"
+  },
+  {
+    "question": "What does 'Caught between a rock and a hard place' mean?",
+    "options": ["To have two difficult choices", "To get stuck", "To choose the right option", "To escape trouble"],
+    "answer": "To have two difficult choices"
+  },
+  {
+    "question": "What does 'Let the cat out of the bag' mean?",
+    "options": ["To release a cat", "To reveal a secret", "To pet a cat", "To confuse someone"],
+    "answer": "To reveal a secret"
+  },
+  {
+    "question": "What does 'Cost an arm and a leg' mean?",
+    "options": ["To be very cheap", "To be very expensive", "To lose something", "To be painful"],
+    "answer": "To be very expensive"
+  },
+  {
+    "question": "What does 'The ball is in your court' mean?",
+    "options": ["It’s your decision now", "You are playing a sport", "You need to catch the ball", "It’s someone else’s turn"],
+    "answer": "It’s your decision now"
+  },
+  {
+    "question": "What does 'Spill the beans' mean?",
+    "options": ["To cook food", "To reveal a secret", "To spill liquid", "To spill food"],
+    "answer": "To reveal a secret"
+  },
+  {
+    "question": "What does 'Piece of cake' mean?",
+    "options": ["Something easy", "Something sweet", "A snack", "A hard task"],
+    "answer": "Something easy"
+  },
+  {
+    "question": "What does 'In hot water' mean?",
+    "options": ["In a difficult situation", "In a warm bath", "In a pool", "In trouble"],
+    "answer": "In a difficult situation"
+  },
+  {
+    "question": "What does 'Jump on the bandwagon' mean?",
+    "options": ["To start a new trend", "To follow the popular opinion", "To start a new project", "To join a band"],
+    "answer": "To follow the popular opinion"
+  },
+  {
+    "question": "What does 'Cry over spilled milk' mean?",
+    "options": ["To be upset about something that can’t be undone", "To cry", "To waste something", "To be angry"],
+    "answer": "To be upset about something that can’t be undone"
+  },
+  {
+    "question": "What does 'Burning the candle at both ends' mean?",
+    "options": ["To waste time", "To overwork yourself", "To stay awake late", "To create light"],
+    "answer": "To overwork yourself"
+  },
+  {
+    "question": "What does 'Hit the sack' mean?",
+    "options": ["To sleep", "To hit a bag", "To get angry", "To leave"],
+    "answer": "To sleep"
+  },
+  {
+    "question": "What does 'Bite off more than you can chew' mean?",
+    "options": ["To be greedy", "To take on more than you can handle", "To chew a lot of food", "To enjoy food"],
+    "answer": "To take on more than you can handle"
+  },
+  {
+    "question": "What does 'Throw in the towel' mean?",
+    "options": ["To surrender", "To throw something", "To give up", "To clean"],
+    "answer": "To surrender"
+  },
+  {
+    "question": "What does 'A stitch in time saves nine' mean?",
+    "options": ["Fix problems early", "Take your time", "Avoid stress", "Work efficiently"],
+    "answer": "Fix problems early"
+  },
+  {
+    "question": "What does 'On cloud nine' mean?",
+    "options": ["Very happy", "Very sad", "In the sky", "At work"],
+    "answer": "Very happy"
+  },
+  {
+    "question": "What does 'By the skin of your teeth' mean?",
+    "options": ["Barely", "Comfortably", "With ease", "Carefully"],
+    "answer": "Barely"
+  },
+  {
+    "question": "What does 'The elephant in the room' mean?",
+    "options": ["An obvious problem that everyone avoids", "An elephant", "A big room", "A minor issue"],
+    "answer": "An obvious problem that everyone avoids"
+  },
+  {
+    "question": "What does 'Walking on air' mean?",
+    "options": ["To be in a bad mood", "To feel very happy", "To walk slowly", "To be floating"],
+    "answer": "To feel very happy"
+  },
+  {
+    "question": "What does 'Out of the blue' mean?",
+    "options": ["Unexpectedly", "From the sky", "Without warning", "Unexpectedly or suddenly"],
+    "answer": "Unexpectedly"
+  },
+  {
+    "question": "What does 'Not playing with a full deck' mean?",
+    "options": ["Not mentally sound", "To be a good player", "Not playing fairly", "To be unprepared"],
+    "answer": "Not mentally sound"
+  },
+  {
+    "question": "What does 'In the blink of an eye' mean?",
+    "options": ["Very quickly", "Slowly", "After a long time", "At night"],
+    "answer": "Very quickly"
+  }
+]
