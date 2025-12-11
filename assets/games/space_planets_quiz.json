@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the name of the planet we live on?",
+    "options": ["Earth", "Mars", "Venus", "Jupiter"],
+    "answer": "Earth"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Mars", "Mercury", "Saturn", "Uranus"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "options": ["The Sun", "Sirius", "Polaris", "Alpha Centauri"],
+    "answer": "The Sun"
+  },
+  {
+    "question": "Which planet has rings around it?",
+    "options": ["Saturn", "Earth", "Mars", "Venus"],
+    "answer": "Saturn"
+  },
+  {
+    "question": "What do astronauts travel in?",
+    "options": ["Spaceships", "Cars", "Boats", "Submarines"],
+    "answer": "Spaceships"
+  },
+  {
+    "question": "Which planet is the largest in our solar system?",
+    "options": ["Jupiter", "Earth", "Mars", "Neptune"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What galaxy do we live in?",
+    "options": ["Milky Way", "Andromeda", "Pinwheel", "Whirlpool"],
+    "answer": "Milky Way"
+  },
+  {
+    "question": "What do we call a baby star?",
+    "options": ["Protostar", "Moon", "Dwarf", "Comet"],
+    "answer": "Protostar"
+  },
+  {
+    "question": "Which planet is known for its strong winds and blue color?",
+    "options": ["Neptune", "Mars", "Mercury", "Earth"],
+    "answer": "Neptune"
+  },
+  {
+    "question": "What do astronauts wear in space?",
+    "options": ["Spacesuits", "Jackets", "Robes", "Uniforms"],
+    "answer": "Spacesuits"
+  },
+  {
+    "question": "What is the name of Earth's natural satellite?",
+    "options": ["Moon", "Sun", "Mars", "Venus"],
+    "answer": "Moon"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Mercury", "Venus", "Earth", "Mars"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What are shooting stars actually called?",
+    "options": ["Meteors", "Stars", "Asteroids", "Planets"],
+    "answer": "Meteors"
+  },
+  {
+    "question": "Which planet is famous for its big red storm called the Great Red Spot?",
+    "options": ["Jupiter", "Saturn", "Neptune", "Venus"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "Which planet is known as Earth’s twin?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "answer": "Venus"
+  },
+  {
+    "question": "What force keeps us on the ground?",
+    "options": ["Gravity", "Wind", "Light", "Heat"],
+    "answer": "Gravity"
+  },
+  {
+    "question": "What is a group of stars that forms a picture called?",
+    "options": ["Constellation", "Comet", "Galaxy", "Cluster"],
+    "answer": "Constellation"
+  },
+  {
+    "question": "What do we call frozen balls of ice and dust that orbit the Sun?",
+    "options": ["Comets", "Planets", "Rocks", "Moons"],
+    "answer": "Comets"
+  },
+  {
+    "question": "Which planet has the most moons?",
+    "options": ["Jupiter", "Earth", "Mars", "Venus"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What is the name of NASA’s famous space telescope?",
+    "options": ["Hubble", "Orion", "Apollo", "Cassini"],
+    "answer": "Hubble"
+  },
+  {
+    "question": "Which planet is known as the Blue Planet?",
+    "options": ["Earth", "Neptune", "Uranus", "Venus"],
+    "answer": "Earth"
+  },
+  {
+    "question": "What is the center of our solar system?",
+    "options": ["The Sun", "Earth", "Moon", "Jupiter"],
+    "answer": "The Sun"
+  },
+  {
+    "question": "What is the spinning movement of a planet called?",
+    "options": ["Rotation", "Orbit", "Bounce", "Roll"],
+    "answer": "Rotation"
+  },
+  {
+    "question": "Which planet is famous for being sideways?",
+    "options": ["Uranus", "Earth", "Mars", "Mercury"],
+    "answer": "Uranus"
+  },
+  {
+    "question": "What do astronauts need to breathe in space?",
+    "options": ["Oxygen", "Sand", "Steam", "Water"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which planet is known as the Morning Star?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "answer": "Venus"
+  },
+  {
+    "question": "What do we call a giant star explosion?",
+    "options": ["Supernova", "Comet", "Moonrise", "Meteor"],
+    "answer": "Supernova"
+  },
+  {
+    "question": "Which planet is the smallest in the solar system?",
+    "options": ["Mercury", "Mars", "Venus", "Earth"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What do planets orbit around?",
+    "options": ["The Sun", "Moon", "Earth", "Clouds"],
+    "answer": "The Sun"
+  },
+  {
+    "question": "Which planet has giant rings made of ice and rock?",
+    "options": ["Saturn", "Neptune", "Jupiter", "Mars"],
+    "answer": "Saturn"
+  }
+]
