@@ -1,0 +1,237 @@
+[
+  {
+    "question": "What does FDI stand for in international business?",
+    "options": ["Foreign Direct Investment", "Federal Domestic Investment", "Foreign Domestic Integration", "Financial Direct Investment"],
+    "answer": "Foreign Direct Investment"
+  },
+  {
+    "question": "Which organization regulates international trade disputes?",
+    "options": ["WTO", "IMF", "World Bank", "UNESCO"],
+    "answer": "WTO"
+  },
+  {
+    "question": "Which term refers to selling products in foreign markets at a lower price than home market?",
+    "options": ["Dumping", "Hedging", "Franchising", "Licensing"],
+    "answer": "Dumping"
+  },
+  {
+    "question": "Which strategy involves adapting products and marketing to local cultures?",
+    "options": ["Localization", "Global Standardization", "Exporting", "Licensing"],
+    "answer": "Localization"
+  },
+  {
+    "question": "Which international organization provides loans and grants to developing countries?",
+    "options": ["World Bank", "IMF", "WTO", "UN"],
+    "answer": "World Bank"
+  },
+  {
+    "question": "Which organization primarily manages exchange rates and financial stability globally?",
+    "options": ["IMF", "World Bank", "WTO", "OECD"],
+    "answer": "IMF"
+  },
+  {
+    "question": "Which term refers to a company selling its products in a foreign country through an intermediary?",
+    "options": ["Exporting", "Franchising", "Licensing", "Direct Investment"],
+    "answer": "Exporting"
+  },
+  {
+    "question": "Which type of international business entry involves a contractual agreement to use brand and business model?",
+    "options": ["Franchising", "Exporting", "Licensing", "Joint Venture"],
+    "answer": "Franchising"
+  },
+  {
+    "question": "Which entry mode gives a foreign company the right to produce and sell your products?",
+    "options": ["Licensing", "Franchising", "Joint Venture", "Exporting"],
+    "answer": "Licensing"
+  },
+  {
+    "question": "What is the main advantage of a joint venture?",
+    "options": ["Sharing risks and resources", "Complete control over operations", "Avoiding taxes", "Eliminating competition"],
+    "answer": "Sharing risks and resources"
+  },
+  {
+    "question": "Which entry mode involves a company establishing its own operations in a foreign country?",
+    "options": ["Direct Investment", "Licensing", "Franchising", "Exporting"],
+    "answer": "Direct Investment"
+  },
+  {
+    "question": "Which term describes the practice of protecting domestic industries from foreign competition?",
+    "options": ["Protectionism", "Free Trade", "Globalization", "Liberalization"],
+    "answer": "Protectionism"
+  },
+  {
+    "question": "Which trade agreement includes the US, Canada, and Mexico?",
+    "options": ["USMCA", "EU", "ASEAN", "NAFTA"],
+    "answer": "USMCA"
+  },
+  {
+    "question": "Which economic bloc allows free movement of goods, services, and people among member countries?",
+    "options": ["European Union (EU)", "ASEAN", "NAFTA", "OPEC"],
+    "answer": "European Union (EU)"
+  },
+  {
+    "question": "Which type of risk arises from fluctuations in exchange rates?",
+    "options": ["Currency Risk", "Political Risk", "Credit Risk", "Market Risk"],
+    "answer": "Currency Risk"
+  },
+  {
+    "question": "Which type of risk comes from government actions like expropriation or regulation changes?",
+    "options": ["Political Risk", "Currency Risk", "Operational Risk", "Credit Risk"],
+    "answer": "Political Risk"
+  },
+  {
+    "question": "Which method helps companies reduce currency risk in international trade?",
+    "options": ["Hedging", "Licensing", "Franchising", "Direct Investment"],
+    "answer": "Hedging"
+  },
+  {
+    "question": "Which term refers to integrating and interdependence of global markets?",
+    "options": ["Globalization", "Protectionism", "Localization", "Standardization"],
+    "answer": "Globalization"
+  },
+  {
+    "question": "Which strategy offers standardized products worldwide with minimal adaptation?",
+    "options": ["Global Standardization", "Localization", "Diversification", "Exporting"],
+    "answer": "Global Standardization"
+  },
+  {
+    "question": "Which organization represents oil-exporting countries?",
+    "options": ["OPEC", "IMF", "WTO", "UNCTAD"],
+    "answer": "OPEC"
+  },
+  {
+    "question": "Which term refers to the ease of moving goods across international borders?",
+    "options": ["Trade Facilitation", "Protectionism", "Localization", "Standardization"],
+    "answer": "Trade Facilitation"
+  },
+  {
+    "question": "Which factor influences a company’s decision to enter a foreign market?",
+    "options": ["Market Size", "Local Laws", "Competition", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which is an example of a non-tariff barrier?",
+    "options": ["Quotas", "Subsidies", "Regulations", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which document shows the financial transactions of a multinational company?",
+    "options": ["Consolidated Financial Statement", "Balance Sheet", "Cash Flow Statement", "Income Statement"],
+    "answer": "Consolidated Financial Statement"
+  },
+  {
+    "question": "Which approach emphasizes learning and adapting to foreign markets?",
+    "options": ["Adaptive Approach", "Standardized Approach", "Export-Only Approach", "Franchising Approach"],
+    "answer": "Adaptive Approach"
+  },
+  {
+    "question": "Which type of investment involves partial ownership in a foreign company?",
+    "options": ["Equity Investment", "Debt Investment", "Licensing", "Franchising"],
+    "answer": "Equity Investment"
+  },
+  {
+    "question": "Which international institution promotes economic cooperation among member countries?",
+    "options": ["OECD", "WTO", "IMF", "World Bank"],
+    "answer": "OECD"
+  },
+  {
+    "question": "Which type of international marketing strategy customizes products for each market?",
+    "options": ["Localization", "Standardization", "Global Branding", "Exporting"],
+    "answer": "Localization"
+  },
+  {
+    "question": "Which is a key challenge of international business?",
+    "options": ["Cultural Differences", "Currency Fluctuations", "Political Instability", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which term refers to selling products abroad without investing in production facilities?",
+    "options": ["Exporting", "Joint Venture", "Direct Investment", "Licensing"],
+    "answer": "Exporting"
+  },
+  {
+    "question": "Which term describes a long-term alliance between companies from different countries?",
+    "options": ["Strategic Alliance", "Licensing", "Exporting", "Franchising"],
+    "answer": "Strategic Alliance"
+  },
+  {
+    "question": "Which type of international business involves buying and selling goods across borders?",
+    "options": ["Trade", "Investment", "Licensing", "Franchising"],
+    "answer": "Trade"
+  },
+  {
+    "question": "Which approach reduces risk by sharing ownership with a local partner?",
+    "options": ["Joint Venture", "Exporting", "Direct Investment", "Licensing"],
+    "answer": "Joint Venture"
+  },
+  {
+    "question": "Which type of multinational corporation operates in multiple countries but is headquartered in one?",
+    "options": ["MNC", "SME", "NGO", "Startup"],
+    "answer": "MNC"
+  },
+  {
+    "question": "Which factor affects international business decisions?",
+    "options": ["Cultural", "Economic", "Legal", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which currency is considered a major global reserve currency?",
+    "options": ["US Dollar", "Indian Rupee", "Argentine Peso", "Vietnamese Dong"],
+    "answer": "US Dollar"
+  },
+  {
+    "question": "Which document specifies the terms of trade between countries?",
+    "options": ["Trade Agreement", "Invoice", "Bill of Lading", "Contract"],
+    "answer": "Trade Agreement"
+  },
+  {
+    "question": "Which type of tariff is based on the quantity of goods imported?",
+    "options": ["Specific Tariff", "Ad Valorem Tariff", "Compound Tariff", "Protective Tariff"],
+    "answer": "Specific Tariff"
+  },
+  {
+    "question": "Which type of tariff is based on the value of goods imported?",
+    "options": ["Ad Valorem Tariff", "Specific Tariff", "Compound Tariff", "Protective Tariff"],
+    "answer": "Ad Valorem Tariff"
+  },
+  {
+    "question": "Which strategy combines global efficiency and local responsiveness?",
+    "options": ["Transnational Strategy", "Global Standardization", "Localization", "Exporting"],
+    "answer": "Transnational Strategy"
+  },
+  {
+    "question": "Which economic term refers to restrictions on imports to protect domestic industries?",
+    "options": ["Trade Barrier", "Free Trade", "Localization", "Globalization"],
+    "answer": "Trade Barrier"
+  },
+  {
+    "question": "Which type of risk includes changes in tariffs, taxes, or import restrictions?",
+    "options": ["Regulatory Risk", "Currency Risk", "Operational Risk", "Market Risk"],
+    "answer": "Regulatory Risk"
+  },
+  {
+    "question": "Which strategy emphasizes low cost across multiple countries?",
+    "options": ["Global Standardization", "Localization", "Diversification", "Joint Venture"],
+    "answer": "Global Standardization"
+  },
+  {
+    "question": "Which international institution focuses on sustainable development and trade policies?",
+    "options": ["UNCTAD", "IMF", "WTO", "OECD"],
+    "answer": "UNCTAD"
+  },
+  {
+    "question": "Which factor is crucial when determining pricing strategy in international markets?",
+    "options": ["Currency Fluctuation", "Competition", "Market Demand", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which entry mode allows maximum control but higher risk and investment?",
+    "options": ["Direct Investment", "Exporting", "Licensing", "Franchising"],
+    "answer": "Direct Investment"
+  },
+  {
+    "question": "Which type of international business strategy focuses on adapting products for local preferences?",
+    "options": ["Localization Strategy", "Global Standardization", "Exporting Strategy", "Joint Venture Strategy"],
+    "answer": "Localization Strategy"
+  }
+]
