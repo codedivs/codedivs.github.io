@@ -1,0 +1,192 @@
+[
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["H2O", "O2", "CO2", "H2"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "options": ["Jupiter", "Saturn", "Earth", "Neptune"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What gas do plants take in during photosynthesis?",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Helium"],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "What element does 'O' represent on the periodic table?",
+    "options": ["Oxygen", "Osmium", "Oganesson", "Ozone"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "What is the name of the galaxy we live in?",
+    "options": ["Milky Way", "Andromeda", "Sombrero", "Whirlpool"],
+    "answer": "Milky Way"
+  },
+  {
+    "question": "Which planet is closest to the sun?",
+    "options": ["Mercury", "Venus", "Earth", "Mars"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Mitochondria", "Nucleus", "Ribosome", "Endoplasmic Reticulum"],
+    "answer": "Mitochondria"
+  },
+  {
+    "question": "What is the process by which plants make their food?",
+    "options": ["Photosynthesis", "Respiration", "Fermentation", "Transpiration"],
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "What type of animal is a jellyfish?",
+    "options": ["Invertebrate", "Mammal", "Reptile", "Fish"],
+    "answer": "Invertebrate"
+  },
+  {
+    "question": "Which of these is a gaseous planet?",
+    "options": ["Jupiter", "Earth", "Mars", "Venus"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What is the symbol for gold on the periodic table?",
+    "options": ["Au", "Ag", "Pb", "Fe"],
+    "answer": "Au"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": ["Skin", "Heart", "Liver", "Brain"],
+    "answer": "Skin"
+  },
+  {
+    "question": "What is the main source of energy for the Earth?",
+    "options": ["The Sun", "The Moon", "Electricity", "Wind"],
+    "answer": "The Sun"
+  },
+  {
+    "question": "Which planet has the most moons?",
+    "options": ["Jupiter", "Saturn", "Earth", "Mars"],
+    "answer": "Saturn"
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "options": ["7", "5", "6", "8"],
+    "answer": "7"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "options": ["100°C", "90°C", "110°C", "120°C"],
+    "answer": "100°C"
+  },
+  {
+    "question": "What is the force that keeps us on the ground?",
+    "options": ["Gravity", "Magnetism", "Friction", "Air pressure"],
+    "answer": "Gravity"
+  },
+  {
+    "question": "What do we call a scientist who studies weather?",
+    "options": ["Meteorologist", "Geologist", "Astronomer", "Biologist"],
+    "answer": "Meteorologist"
+  },
+  {
+    "question": "Which part of the plant absorbs water and nutrients from the soil?",
+    "options": ["Roots", "Stem", "Leaves", "Flowers"],
+    "answer": "Roots"
+  },
+  {
+    "question": "Which planet is known for its rings?",
+    "options": ["Saturn", "Jupiter", "Mars", "Venus"],
+    "answer": "Saturn"
+  },
+  {
+    "question": "Which human organ is primarily responsible for pumping blood?",
+    "options": ["Heart", "Lungs", "Kidneys", "Liver"],
+    "answer": "Heart"
+  },
+  {
+    "question": "What is the chemical formula for methane?",
+    "options": ["CH4", "C2H6", "CO2", "H2O"],
+    "answer": "CH4"
+  },
+  {
+    "question": "Which planet is known as the 'Evening Star'?",
+    "options": ["Venus", "Mars", "Saturn", "Neptune"],
+    "answer": "Venus"
+  },
+  {
+    "question": "Which planet has the longest day in the solar system?",
+    "options": ["Venus", "Earth", "Jupiter", "Mercury"],
+    "answer": "Venus"
+  },
+  {
+    "question": "Which animal is known to have the longest lifespan?",
+    "options": ["Bowhead whale", "Elephant", "Tortoise", "Shark"],
+    "answer": "Bowhead whale"
+  },
+  {
+    "question": "What is the force that causes objects to move in a circle?",
+    "options": ["Centripetal force", "Friction", "Gravity", "Magnetism"],
+    "answer": "Centripetal force"
+  },
+  {
+    "question": "What is the chemical symbol for Sodium?",
+    "options": ["Na", "S", "So", "Sn"],
+    "answer": "Na"
+  },
+  {
+    "question": "Which planet is known as the 'Gas Giant'?",
+    "options": ["Jupiter", "Mars", "Venus", "Earth"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What is the term for a solar system object that is smaller than a planet and orbits the sun?",
+    "options": ["Asteroid", "Moon", "Comet", "Meteor"],
+    "answer": "Asteroid"
+  },
+  {
+    "question": "What is the term for the path the Earth follows around the sun?",
+    "options": ["Orbit", "Rotation", "Tilt", "Axis"],
+    "answer": "Orbit"
+  },
+  {
+    "question": "What is the primary gas found in Earth's atmosphere?",
+    "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Hydrogen"],
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "How long does it take for the Earth to complete one orbit around the Sun?",
+    "options": ["365 days", "366 days", "360 days", "365.25 days"],
+    "answer": "365 days"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "options": ["The Sun", "Alpha Centauri", "Sirius", "Betelgeuse"],
+    "answer": "The Sun"
+  },
+  {
+    "question": "What is the process by which a caterpillar becomes a butterfly?",
+    "options": ["Metamorphosis", "Photosynthesis", "Fermentation", "Respiration"],
+    "answer": "Metamorphosis"
+  },
+  {
+    "question": "Which of the following is NOT a planet in our solar system?",
+    "options": ["Pluto", "Uranus", "Neptune", "Saturn"],
+    "answer": "Pluto"
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Diamond", "Gold", "Iron", "Platinum"],
+    "answer": "Diamond"
+  },
+  {
+    "question": "Which of these elements is a noble gas?",
+    "options": ["Neon", "Oxygen", "Hydrogen", "Carbon"],
+    "answer": "Neon"
+  }
+]
