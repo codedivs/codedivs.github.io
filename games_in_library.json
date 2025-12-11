@@ -367,5 +367,60 @@
     "difficulty": "medium",
     "stars": 2,
     "category": "science"
-  }
+  },
+   {
+    "game_name": "Introduction to Marketing",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "intro_marketing",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "business"
+  },
+  {
+    "game_name": "Digital Marketing",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "digital_marketing",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Management Theory",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "management_theory",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Accounting Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "accounting_basics",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "business"
+  },
+  {
+    "game_name": "International Business",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "international_business",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Corporate Finance",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "corporate_finance",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "business"
+  },
+  {
+    "game_name": "Introduction to Economics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "intro_economics",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "economics"
 ]
