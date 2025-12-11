@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Who invented the light bulb?",
+    "options": ["Thomas Edison", "Albert Einstein", "Isaac Newton", "Nikola Tesla"],
+    "answer": "Thomas Edison"
+  },
+  {
+    "question": "Who was the first man to walk on the Moon?",
+    "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+    "answer": "Neil Armstrong"
+  },
+  {
+    "question": "Who is the author of Harry Potter?",
+    "options": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis", "Rick Riordan"],
+    "answer": "J.K. Rowling"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Leonardo da Vinci", "Vincent Van Gogh", "Pablo Picasso", "Michelangelo"],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "Who is famous for saying 'I have a dream'?",
+    "options": ["Martin Luther King Jr.", "Abraham Lincoln", "Nelson Mandela", "Mahatma Gandhi"],
+    "answer": "Martin Luther King Jr."
+  },
+  {
+    "question": "Who discovered gravity when an apple fell on his head?",
+    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "answer": "Isaac Newton"
+  },
+  {
+    "question": "Who is the famous scientist who developed the theory of relativity?",
+    "options": ["Albert Einstein", "Marie Curie", "Isaac Newton", "Galileo Galilei"],
+    "answer": "Albert Einstein"
+  },
+  {
+    "question": "Who is the superhero that wears a red and blue suit and fights villains?",
+    "options": ["Spider-Man", "Batman", "Superman", "Iron Man"],
+    "answer": "Spider-Man"
+  },
+  {
+    "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "options": ["Amelia Earhart", "Harriet Quimby", "Valentina Tereshkova", "Bessie Coleman"],
+    "answer": "Amelia Earhart"
+  },
+  {
+    "question": "Who is the founder of Microsoft?",
+    "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Elon Musk"],
+    "answer": "Bill Gates"
+  },
+  {
+    "question": "Who is known as the King of Pop?",
+    "options": ["Michael Jackson", "Elvis Presley", "Prince", "Justin Bieber"],
+    "answer": "Michael Jackson"
+  },
+  {
+    "question": "Who is famous for painting Starry Night?",
+    "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+    "answer": "Vincent Van Gogh"
+  },
+  {
+    "question": "Who was the first female Prime Minister of the UK?",
+    "options": ["Margaret Thatcher", "Indira Gandhi", "Angela Merkel", "Golda Meir"],
+    "answer": "Margaret Thatcher"
+  },
+  {
+    "question": "Who is the Disney character known for his big ears?",
+    "options": ["Mickey Mouse", "Donald Duck", "Goofy", "Pluto"],
+    "answer": "Mickey Mouse"
+  },
+  {
+    "question": "Who is the famous wizard in J.K. Rowling’s books?",
+    "options": ["Harry Potter", "Hermione Granger", "Ron Weasley", "Draco Malfoy"],
+    "answer": "Harry Potter"
+  },
+  {
+    "question": "Who is the astronaut that became the first human in space?",
+    "options": ["Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn"],
+    "answer": "Yuri Gagarin"
+  },
+  {
+    "question": "Who is the founder of Facebook?",
+    "options": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Jeff Bezos"],
+    "answer": "Mark Zuckerberg"
+  },
+  {
+    "question": "Who is famous for inventing the telephone?",
+    "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "question": "Who is the superhero that is green and super strong?",
+    "options": ["Hulk", "Spider-Man", "Iron Man", "Superman"],
+    "answer": "Hulk"
+  },
+  {
+    "question": "Who painted The Last Supper?",
+    "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "Who is the famous scientist who studied radioactivity?",
+    "options": ["Marie Curie", "Albert Einstein", "Isaac Newton", "Galileo Galilei"],
+    "answer": "Marie Curie"
+  },
+  {
+    "question": "Who is the main character in the Toy Story movies?",
+    "options": ["Woody", "Buzz Lightyear", "Andy", "Jessie"],
+    "answer": "Woody"
+  },
+  {
+    "question": "Who is known as the father of modern physics?",
+    "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+    "answer": "Albert Einstein"
+  },
+  {
+    "question": "Who is the famous pirate in Disney movies?",
+    "options": ["Jack Sparrow", "Long John Silver", "Hook", "Barbossa"],
+    "answer": "Jack Sparrow"
+  },
+  {
+    "question": "Who wrote the story of Charlie and the Chocolate Factory?",
+    "options": ["Roald Dahl", "J.K. Rowling", "Lewis Carroll", "Dr. Seuss"],
+    "answer": "Roald Dahl"
+  },
+  {
+    "question": "Who is the superhero that uses a hammer called Mjolnir?",
+    "options": ["Thor", "Hulk", "Iron Man", "Captain America"],
+    "answer": "Thor"
+  },
+  {
+    "question": "Who is the famous Disney princess with long hair locked in a tower?",
+    "options": ["Rapunzel", "Aurora", "Belle", "Cinderella"],
+    "answer": "Rapunzel"
+  },
+  {
+    "question": "Who is the first African-American President of the USA?",
+    "options": ["Barack Obama", "Abraham Lincoln", "George Washington", "John F. Kennedy"],
+    "answer": "Barack Obama"
+  },
+  {
+    "question": "Who is the superhero known as the Dark Knight?",
+    "options": ["Batman", "Superman", "Spider-Man", "Iron Man"],
+    "answer": "Batman"
+  },
+  {
+    "question": "Who created the first airplane?",
+    "options": ["Wright Brothers", "Thomas Edison", "Alexander Graham Bell", "Leonardo da Vinci"],
+    "answer": "Wright Brothers"
+  }
+]
