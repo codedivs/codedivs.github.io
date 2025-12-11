@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Which religion is the oldest among the following?",
+    "options": ["Christianity", "Islam", "Hinduism", "Buddhism"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which city is considered the holiest city in Islam?",
+    "options": ["Medina", "Jerusalem", "Mecca", "Baghdad"],
+    "answer": "Mecca"
+  },
+  {
+    "question": "Who founded Buddhism?",
+    "options": ["Laozi", "Confucius", "Siddhartha Gautama", "Guru Nanak"],
+    "answer": "Siddhartha Gautama"
+  },
+  {
+    "question": "Which sacred text is associated with Christianity?",
+    "options": ["Quran", "Bible", "Vedas", "Tripitaka"],
+    "answer": "Bible"
+  },
+  {
+    "question": "Which religion believes in karma and reincarnation?",
+    "options": ["Christianity", "Judaism", "Hinduism", "Islam"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion follows the Eightfold Path?",
+    "options": ["Christianity", "Buddhism", "Islam", "Judaism"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion considers the cow as a sacred animal?",
+    "options": ["Hinduism", "Buddhism", "Islam", "Judaism"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Who is considered the prophet of Islam?",
+    "options": ["Jesus", "Muhammad", "Moses", "Buddha"],
+    "answer": "Muhammad"
+  },
+  {
+    "question": "Which religion celebrates Diwali as a major festival?",
+    "options": ["Christianity", "Hinduism", "Islam", "Buddhism"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion’s followers fast during the month of Ramadan?",
+    "options": ["Christianity", "Judaism", "Islam", "Hinduism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "The Torah is the sacred scripture of which religion?",
+    "options": ["Islam", "Christianity", "Judaism", "Hinduism"],
+    "answer": "Judaism"
+  },
+  {
+    "question": "Which religion emphasizes the Four Noble Truths?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion has a concept of a Messiah who will bring salvation?",
+    "options": ["Judaism", "Buddhism", "Hinduism", "Shinto"],
+    "answer": "Judaism"
+  },
+  {
+    "question": "Which religion celebrates Vesak or Buddha Purnima?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion has the largest number of followers worldwide?",
+    "options": ["Hinduism", "Islam", "Christianity", "Buddhism"],
+    "answer": "Christianity"
+  },
+  {
+    "question": "Which religion’s spiritual leader is known as the Dalai Lama?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion’s sacred site is the Western Wall?",
+    "options": ["Christianity", "Judaism", "Islam", "Hinduism"],
+    "answer": "Judaism"
+  },
+  {
+    "question": "Which religion has a caste system as part of its traditional social structure?",
+    "options": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion regards the Ganges River as sacred?",
+    "options": ["Buddhism", "Hinduism", "Islam", "Judaism"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion follows the Five Pillars?",
+    "options": ["Christianity", "Islam", "Judaism", "Buddhism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion’s followers practice meditation to achieve enlightenment?",
+    "options": ["Christianity", "Buddhism", "Islam", "Hinduism"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion’s main god is Brahma?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion’s founder was born in Lumbini, Nepal?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion’s holy month involves fasting from dawn to sunset?",
+    "options": ["Islam", "Hinduism", "Christianity", "Judaism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion’s sacred text includes the Bhagavad Gita?",
+    "options": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion believes in reincarnation until achieving Nirvana?",
+    "options": ["Buddhism", "Christianity", "Islam", "Judaism"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion celebrates Christmas?",
+    "options": ["Christianity", "Judaism", "Hinduism", "Buddhism"],
+    "answer": "Christianity"
+  },
+  {
+    "question": "Which religion’s symbol is the Om?",
+    "options": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion has a sacred law called Sharia?",
+    "options": ["Christianity", "Islam", "Judaism", "Hinduism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion’s followers worship in a mosque?",
+    "options": ["Christianity", "Islam", "Hinduism", "Buddhism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion’s founder is considered the Son of God?",
+    "options": ["Christianity", "Buddhism", "Islam", "Hinduism"],
+    "answer": "Christianity"
+  },
+  {
+    "question": "Which religion has a holiday called Hanukkah?",
+    "options": ["Judaism", "Christianity", "Islam", "Hinduism"],
+    "answer": "Judaism"
+  },
+  {
+    "question": "Which religion considers the cow sacred and avoids eating beef?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion was founded in the 7th century CE?",
+    "options": ["Islam", "Christianity", "Hinduism", "Buddhism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion emphasizes compassion, non-violence, and ahimsa?",
+    "options": ["Hinduism", "Buddhism", "Jainism", "Christianity"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion’s major festival is Eid al-Fitr?",
+    "options": ["Islam", "Christianity", "Hinduism", "Buddhism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion recognizes the Vedas as its holy scriptures?",
+    "options": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion considers Jerusalem a holy city?",
+    "options": ["Islam", "Christianity", "Judaism", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which religion’s founder taught the Four Noble Truths?",
+    "options": ["Buddhism", "Hinduism", "Christianity", "Islam"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion’s primary deity is Allah?",
+    "options": ["Christianity", "Islam", "Judaism", "Hinduism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion’s followers pray towards Mecca?",
+    "options": ["Islam", "Christianity", "Judaism", "Hinduism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion believes in Moksha as liberation from the cycle of rebirth?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion follows the teachings of Jesus Christ?",
+    "options": ["Christianity", "Islam", "Buddhism", "Hinduism"],
+    "answer": "Christianity"
+  },
+  {
+    "question": "Which religion has the principle of Ahimsa (non-violence)?",
+    "options": ["Hinduism", "Buddhism", "Jainism", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which religion celebrates Holi?",
+    "options": ["Hinduism", "Buddhism", "Christianity", "Islam"],
+    "answer": "Hinduism"
+  },
+  {
+    "question": "Which religion considers the Kaaba the most sacred site?",
+    "options": ["Islam", "Christianity", "Judaism", "Hinduism"],
+    "answer": "Islam"
+  },
+  {
+    "question": "Which religion follows the Ten Commandments?",
+    "options": ["Christianity", "Judaism", "Islam", "Both A and B"],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "Which religion emphasizes meditation as a spiritual practice?",
+    "options": ["Buddhism", "Christianity", "Islam", "Judaism"],
+    "answer": "Buddhism"
+  },
+  {
+    "question": "Which religion regards the Torah, Bible, and Quran as holy texts in some form?",
+    "options": ["Judaism", "Christianity", "Islam", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which religion teaches that desire is the root of suffering?",
+    "options": ["Buddhism", "Hinduism", "Christianity", "Islam"],
+    "answer": "Buddhism"
+  }
+]
