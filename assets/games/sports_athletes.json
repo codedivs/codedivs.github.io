@@ -1,0 +1,172 @@
+[
+  {
+    "question": "Which sport is associated with players like LeBron James and Kobe Bryant?",
+    "options": ["Basketball", "Soccer", "Tennis", "Baseball"],
+    "answer": "Basketball"
+  },
+  {
+    "question": "Who holds the record for the most goals scored in the FIFA World Cup?",
+    "options": ["Marta", "Pele", "Cristiano Ronaldo", "Miroslav Klose"],
+    "answer": "Miroslav Klose"
+  },
+  {
+    "question": "In which sport do athletes perform routines on a pommel horse and balance beam?",
+    "options": ["Gymnastics", "Football", "Rugby", "Swimming"],
+    "answer": "Gymnastics"
+  },
+  {
+    "question": "Who is considered the fastest man in the world, known for his Olympic gold medals?",
+    "options": ["Usain Bolt", "Michael Phelps", "Tyson Gay", "Carl Lewis"],
+    "answer": "Usain Bolt"
+  },
+  {
+    "question": "In which sport would you find a ‘home run’?",
+    "options": ["Baseball", "Tennis", "Football", "Soccer"],
+    "answer": "Baseball"
+  },
+  {
+    "question": "Which tennis player has won the most Grand Slam singles titles?",
+    "options": ["Roger Federer", "Serena Williams", "Rafael Nadal", "Novak Djokovic"],
+    "answer": "Serena Williams"
+  },
+  {
+    "question": "Which athlete is famous for his ‘Ali Shuffle’ in boxing?",
+    "options": ["Muhammad Ali", "Mike Tyson", "Floyd Mayweather", "George Foreman"],
+    "answer": "Muhammad Ali"
+  },
+  {
+    "question": "In soccer, which country won the 2018 FIFA World Cup?",
+    "options": ["France", "Germany", "Brazil", "Argentina"],
+    "answer": "France"
+  },
+  {
+    "question": "Which American swimmer has won the most Olympic gold medals?",
+    "options": ["Michael Phelps", "Ryan Lochte", "Ian Thorpe", "Mark Spitz"],
+    "answer": "Michael Phelps"
+  },
+  {
+    "question": "Which sport is Cristiano Ronaldo most famous for?",
+    "options": ["Soccer", "Basketball", "Tennis", "American Football"],
+    "answer": "Soccer"
+  },
+  {
+    "question": "Which country hosted the 2020 Summer Olympics?",
+    "options": ["Japan", "China", "Brazil", "Russia"],
+    "answer": "Japan"
+  },
+  {
+    "question": "Which NFL team did Tom Brady play for before joining the Tampa Bay Buccaneers?",
+    "options": ["New England Patriots", "Dallas Cowboys", "Green Bay Packers", "Miami Dolphins"],
+    "answer": "New England Patriots"
+  },
+  {
+    "question": "Which famous footballer is known for his ‘Rainbow Flick’?",
+    "options": ["Neymar", "Lionel Messi", "Cristiano Ronaldo", "Kylian Mbappé"],
+    "answer": "Neymar"
+  },
+  {
+    "question": "In which sport would you find a ‘slam dunk’?",
+    "options": ["Basketball", "Baseball", "Football", "Soccer"],
+    "answer": "Basketball"
+  },
+  {
+    "question": "Which soccer club does Lionel Messi play for (as of 2021)?",
+    "options": ["Paris Saint-Germain", "Barcelona", "Real Madrid", "Manchester United"],
+    "answer": "Paris Saint-Germain"
+  },
+  {
+    "question": "Which athlete is known as the ‘Golden Boy’ in the world of track and field?",
+    "options": ["Usain Bolt", "Michael Phelps", "Carl Lewis", "Mo Farah"],
+    "answer": "Usain Bolt"
+  },
+  {
+    "question": "In which sport do players compete for the ‘Stanley Cup’?",
+    "options": ["Ice Hockey", "Football", "Tennis", "Soccer"],
+    "answer": "Ice Hockey"
+  },
+  {
+    "question": "Who won the 2020 NBA MVP award?",
+    "options": ["Giannis Antetokounmpo", "LeBron James", "James Harden", "Anthony Davis"],
+    "answer": "Giannis Antetokounmpo"
+  },
+  {
+    "question": "Which country is famous for its rugby team, the ‘All Blacks’?",
+    "options": ["New Zealand", "Australia", "South Africa", "England"],
+    "answer": "New Zealand"
+  },
+  {
+    "question": "Which golfer is known for his iconic ‘Tiger Woods’ swing?",
+    "options": ["Tiger Woods", "Phil Mickelson", "Rory McIlroy", "Jordan Spieth"],
+    "answer": "Tiger Woods"
+  },
+  {
+    "question": "Which athlete has won the most Formula 1 World Championships?",
+    "options": ["Lewis Hamilton", "Michael Schumacher", "Ayrton Senna", "Sebastian Vettel"],
+    "answer": "Michael Schumacher"
+  },
+  {
+    "question": "In which sport would you find a player like ‘LeBron James’?",
+    "options": ["Basketball", "Tennis", "Soccer", "Baseball"],
+    "answer": "Basketball"
+  },
+  {
+    "question": "Which country is famous for producing top-level athletes in cricket, especially Sachin Tendulkar?",
+    "options": ["India", "Australia", "South Africa", "Pakistan"],
+    "answer": "India"
+  },
+  {
+    "question": "Which female athlete has won 23 Grand Slam singles titles in tennis?",
+    "options": ["Serena Williams", "Venus Williams", "Maria Sharapova", "Steffi Graf"],
+    "answer": "Serena Williams"
+  },
+  {
+    "question": "Which event is known as the ‘world’s fastest’ race?",
+    "options": ["100m sprint", "Marathon", "5000m race", "Long Jump"],
+    "answer": "100m sprint"
+  },
+  {
+    "question": "Which basketball team is known for their iconic ‘Golden State Warriors’ logo?",
+    "options": ["Golden State Warriors", "Miami Heat", "Los Angeles Lakers", "Chicago Bulls"],
+    "answer": "Golden State Warriors"
+  },
+  {
+    "question": "Which tennis player has won the most Wimbledon singles titles?",
+    "options": ["Roger Federer", "Novak Djokovic", "Rafael Nadal", "Pete Sampras"],
+    "answer": "Roger Federer"
+  },
+  {
+    "question": "Which player is known for his signature ‘step-back jumper’ in basketball?",
+    "options": ["James Harden", "LeBron James", "Stephen Curry", "Kyrie Irving"],
+    "answer": "James Harden"
+  },
+  {
+    "question": "Which country won the FIFA Women’s World Cup in 2019?",
+    "options": ["USA", "Germany", "Japan", "Brazil"],
+    "answer": "USA"
+  },
+  {
+    "question": "Which athlete is famous for his ‘Fury’ nickname in boxing?",
+    "options": ["Tyson Fury", "Vladimir Klitschko", "Deontay Wilder", "Anthony Joshua"],
+    "answer": "Tyson Fury"
+  },
+  {
+    "question": "In which sport would you find a ‘hat-trick’?",
+    "options": ["Soccer", "Baseball", "Rugby", "Tennis"],
+    "answer": "Soccer"
+  },
+  {
+    "question": "Which team won the 2018 FIFA World Cup?",
+    "options": ["France", "Brazil", "Germany", "Argentina"],
+    "answer": "France"
+  },
+  {
+    "question": "Which NFL team is known for their signature ‘Cowboys’ nickname?",
+    "options": ["Dallas Cowboys", "New England Patriots", "Green Bay Packers", "Miami Dolphins"],
+    "answer": "Dallas Cowboys"
+  },
+  {
+    "question": "Which athlete is known for his incredible ‘backflips’ in gymnastics?",
+    "options": ["Simone Biles", "Nadia Comăneci", "Mary Lou Retton", "Shannon Miller"],
+    "answer": "Simone Biles"
+  }
+]
