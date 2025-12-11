@@ -1,0 +1,177 @@
+[
+  {
+    "question": "Which activity involves climbing steep rock faces?",
+    "options": ["Rock climbing", "Bungee jumping", "Skydiving", "Paragliding"],
+    "answer": "Rock climbing"
+  },
+  {
+    "question": "What type of vehicle is commonly used for off-road driving?",
+    "options": ["ATV", "Car", "Motorcycle", "Bicycle"],
+    "answer": "ATV"
+  },
+  {
+    "question": "Which outdoor activity is best known for using a rope to cross rivers?",
+    "options": ["Rappelling", "Rafting", "Zip-lining", "Canoeing"],
+    "answer": "Rappelling"
+  },
+  {
+    "question": "What do you need to use when hiking in snowy mountains?",
+    "options": ["Snowshoes", "Boots", "Flip-flops", "Sandals"],
+    "answer": "Snowshoes"
+  },
+  {
+    "question": "Which outdoor activity involves jumping from an airplane?",
+    "options": ["Skydiving", "Bungee jumping", "Paragliding", "Hang gliding"],
+    "answer": "Skydiving"
+  },
+  {
+    "question": "What is it called when you walk through the forest while looking at wildlife?",
+    "options": ["Nature walk", "Hiking", "Camping", "Bird watching"],
+    "answer": "Bird watching"
+  },
+  {
+    "question": "Which sport is commonly played on a sandy beach?",
+    "options": ["Beach volleyball", "Football", "Basketball", "Tennis"],
+    "answer": "Beach volleyball"
+  },
+  {
+    "question": "Which activity uses a sail to move across water?",
+    "options": ["Sailing", "Canoeing", "Surfing", "Kayaking"],
+    "answer": "Sailing"
+  },
+  {
+    "question": "Which outdoor activity involves navigating a course of obstacles on foot?",
+    "options": ["Orienteering", "Archery", "Fishing", "Cycling"],
+    "answer": "Orienteering"
+  },
+  {
+    "question": "What is the main equipment used in kayaking?",
+    "options": ["Paddle", "Rod", "Net", "Board"],
+    "answer": "Paddle"
+  },
+  {
+    "question": "Which activity involves jumping from a height while attached to a rope?",
+    "options": ["Bungee jumping", "Skydiving", "Hang gliding", "Rafting"],
+    "answer": "Bungee jumping"
+  },
+  {
+    "question": "What outdoor activity is commonly done around a campfire?",
+    "options": ["Camping", "Rock climbing", "Skiing", "Cycling"],
+    "answer": "Camping"
+  },
+  {
+    "question": "Which activity uses a paddle to move a small boat across water?",
+    "options": ["Canoeing", "Fishing", "Sailing", "Surfing"],
+    "answer": "Canoeing"
+  },
+  {
+    "question": "What equipment is commonly used in hiking to help with walking on rocky trails?",
+    "options": ["Hiking poles", "Surfboards", "Paddles", "Skis"],
+    "answer": "Hiking poles"
+  },
+  {
+    "question": "Which sport involves riding a bike on off-road tracks?",
+    "options": ["Mountain biking", "Cycling", "Road biking", "Track cycling"],
+    "answer": "Mountain biking"
+  },
+  {
+    "question": "What activity involves jumping over waves on a board?",
+    "options": ["Surfing", "Fishing", "Kayaking", "Canoeing"],
+    "answer": "Surfing"
+  },
+  {
+    "question": "Which outdoor activity is associated with using a tent?",
+    "options": ["Camping", "Climbing", "Fishing", "Canoeing"],
+    "answer": "Camping"
+  },
+  {
+    "question": "What is the main objective of geocaching?",
+    "options": ["Treasure hunt", "Hiking", "Fishing", "Rock climbing"],
+    "answer": "Treasure hunt"
+  },
+  {
+    "question": "Which activity involves traveling through the water using a small boat and a paddle?",
+    "options": ["Canoeing", "Sailing", "Fishing", "Swimming"],
+    "answer": "Canoeing"
+  },
+  {
+    "question": "Which outdoor activity involves using a bow and arrows?",
+    "options": ["Archery", "Fishing", "Skiing", "Hiking"],
+    "answer": "Archery"
+  },
+  {
+    "question": "Which sport is known for using a ball and two nets at the ends of a court?",
+    "options": ["Basketball", "Football", "Tennis", "Soccer"],
+    "answer": "Basketball"
+  },
+  {
+    "question": "Which activity is associated with rappelling down a cliff or mountain?",
+    "options": ["Rock climbing", "Bungee jumping", "Skydiving", "Hiking"],
+    "answer": "Rock climbing"
+  },
+  {
+    "question": "Which activity involves using a vehicle to drive on sand dunes?",
+    "options": ["Sandboarding", "Jeep safari", "Horse riding", "Cycling"],
+    "answer": "Jeep safari"
+  },
+  {
+    "question": "What equipment is used in fishing?",
+    "options": ["Fishing rod", "Kayak", "Surfboard", "Hiking boots"],
+    "answer": "Fishing rod"
+  },
+  {
+    "question": "What is the name of the activity where you hike and camp in the wilderness?",
+    "options": ["Backpacking", "Camping", "Rock climbing", "Swimming"],
+    "answer": "Backpacking"
+  },
+  {
+    "question": "What is a popular activity for exploring caves?",
+    "options": ["Caving", "Swimming", "Rafting", "Biking"],
+    "answer": "Caving"
+  },
+  {
+    "question": "Which outdoor activity is most commonly associated with riding a horse?",
+    "options": ["Horseback riding", "Cycling", "Running", "Walking"],
+    "answer": "Horseback riding"
+  },
+  {
+    "question": "Which outdoor activity involves using skis on snow?",
+    "options": ["Skiing", "Snowboarding", "Sledding", "Ice skating"],
+    "answer": "Skiing"
+  },
+  {
+    "question": "Which outdoor activity involves paddling while kneeling or lying on a board?",
+    "options": ["Stand-up paddleboarding", "Surfing", "Kayaking", "Canoeing"],
+    "answer": "Stand-up paddleboarding"
+  },
+  {
+    "question": "What activity involves exploring underwater using a breathing apparatus?",
+    "options": ["Scuba diving", "Snorkeling", "Canoeing", "Fishing"],
+    "answer": "Scuba diving"
+  },
+  {
+    "question": "What outdoor activity involves ziplining through the trees?",
+    "options": ["Ziplining", "Rock climbing", "Hiking", "Fishing"],
+    "answer": "Ziplining"
+  },
+  {
+    "question": "Which outdoor activity involves using an axe to cut wood?",
+    "options": ["Chopping wood", "Skiing", "Fishing", "Cycling"],
+    "answer": "Chopping wood"
+  },
+  {
+    "question": "Which activity is most often done at a beach?",
+    "options": ["Swimming", "Hiking", "Climbing", "Mountain biking"],
+    "answer": "Swimming"
+  },
+  {
+    "question": "What outdoor activity involves a team of people rowing a boat?",
+    "options": ["Rowing", "Canoeing", "Swimming", "Sailing"],
+    "answer": "Rowing"
+  },
+  {
+    "question": "Which activity is known for involving long walks in nature?",
+    "options": ["Hiking", "Biking", "Fishing", "Swimming"],
+    "answer": "Hiking"
+  }
+]
