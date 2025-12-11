@@ -503,5 +503,13 @@
   "difficulty": "easy",
   "stars": 2,
   "category": "puzzle"
+},
+  {
+  "game_name": "Emoji Quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": "emoji_quiz",
+  "difficulty": "very easy",
+  "stars": 1,
+  "category": "fun"
 }
 ]
