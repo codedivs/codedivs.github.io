@@ -1,0 +1,237 @@
+[
+  {
+    "question": "Which philosopher is most associated with mind-body dualism?",
+    "options": ["David Hume", "René Descartes", "John Locke", "Aristotle"],
+    "answer": "René Descartes"
+  },
+  {
+    "question": "What is the 'mind-body problem' primarily concerned with?",
+    "options": ["Memory formation", "Relationship between mental and physical states", "Ethical behavior", "Logical reasoning"],
+    "answer": "Relationship between mental and physical states"
+  },
+  {
+    "question": "Who formulated the 'Hard Problem of Consciousness'?",
+    "options": ["Daniel Dennett", "David Chalmers", "Gilbert Ryle", "Thomas Nagel"],
+    "answer": "David Chalmers"
+  },
+  {
+    "question": "Which term refers to subjective, first-person experiences?",
+    "options": ["Qualia", "Intentionality", "Cognition", "Syntax"],
+    "answer": "Qualia"
+  },
+  {
+    "question": "Which view holds that only physical substances exist?",
+    "options": ["Dualism", "Idealism", "Physicalism", "Panpsychism"],
+    "answer": "Physicalism"
+  },
+  {
+    "question": "Who argued that 'the mind is what the brain does'?",
+    "options": ["Gilbert Ryle", "John Searle", "Daniel Dennett", "Paul Churchland"],
+    "answer": "Paul Churchland"
+  },
+  {
+    "question": "What does functionalism primarily emphasize?",
+    "options": ["Mental substance", "Mental functions or roles", "Neural firing", "Unconscious desires"],
+    "answer": "Mental functions or roles"
+  },
+  {
+    "question": "‘Cogito, ergo sum’ translates to:",
+    "options": ["I think, therefore I am", "I know, therefore I exist", "Mind creates reality", "Being is thinking"],
+    "answer": "I think, therefore I am"
+  },
+  {
+    "question": "What does panpsychism propose?",
+    "options": ["Only minds exist", "Everything has a form of consciousness", "Minds are illusions", "Only matter exists"],
+    "answer": "Everything has a form of consciousness"
+  },
+  {
+    "question": "Which philosopher criticized dualism as committing the 'category mistake'?",
+    "options": ["Daniel Dennett", "Gilbert Ryle", "John Searle", "René Descartes"],
+    "answer": "Gilbert Ryle"
+  },
+  {
+    "question": "Which theory states that mental states are brain states?",
+    "options": ["Dualism", "Identity theory", "Idealism", "Behaviorism"],
+    "answer": "Identity theory"
+  },
+  {
+    "question": "Which philosopher introduced the concept of 'intentionality' in mental states?",
+    "options": ["Wilfrid Sellars", "Franz Brentano", "John Searle", "Immanuel Kant"],
+    "answer": "Franz Brentano"
+  },
+  {
+    "question": "Which thought experiment involves a person understanding Chinese symbols without understanding Chinese?",
+    "options": ["Turing Test", "Chinese Room", "Brain in a Vat", "Mary’s Room"],
+    "answer": "Chinese Room"
+  },
+  {
+    "question": "Which theory states that consciousness arises from physical processes?",
+    "options": ["Idealism", "Physicalism", "Dualism", "Cartesianism"],
+    "answer": "Physicalism"
+  },
+  {
+    "question": "What does the 'Mary's Room' thought experiment challenge?",
+    "options": ["Functionalism", "Dualism", "Physicalism", "Behaviorism"],
+    "answer": "Physicalism"
+  },
+  {
+    "question": "Which philosopher proposed the 'philosophical zombie' argument?",
+    "options": ["Thomas Nagel", "David Chalmers", "Gilbert Ryle", "John Searle"],
+    "answer": "David Chalmers"
+  },
+  {
+    "question": "Which theory denies the existence of mental states?",
+    "options": ["Dualism", "Eliminative materialism", "Functionalism", "Epiphenomenalism"],
+    "answer": "Eliminative materialism"
+  },
+  {
+    "question": "Which principle states that the simplest explanation should be preferred?",
+    "options": ["Occam’s razor", "Searle’s law", "Descartes’ dualism", "Nagel’s principle"],
+    "answer": "Occam’s razor"
+  },
+  {
+    "question": "Which philosopher famously asked, 'What is it like to be a bat?'",
+    "options": ["John Searle", "Thomas Nagel", "Daniel Dennett", "David Armstrong"],
+    "answer": "Thomas Nagel"
+  },
+  {
+    "question": "Which view suggests that mental states cause physical actions?",
+    "options": ["Epiphenomenalism", "Parallelism", "Interactionism", "Idealism"],
+    "answer": "Interactionism"
+  },
+  {
+    "question": "What does the Turing Test evaluate?",
+    "options": ["Artificial emotions", "Human memory", "Machine intelligence", "Brain structure"],
+    "answer": "Machine intelligence"
+  },
+  {
+    "question": "Which theory describes the mind as software and the brain as hardware?",
+    "options": ["Dualism", "Identity theory", "Functionalism", "Idealism"],
+    "answer": "Functionalism"
+  },
+  {
+    "question": "Who developed the concept of 'phenomenal consciousness'?",
+    "options": ["Daniel Dennett", "David Chalmers", "Paul Churchland", "John Searle"],
+    "answer": "David Chalmers"
+  },
+  {
+    "question": "Which position holds that consciousness does not affect the physical world?",
+    "options": ["Interactionism", "Epiphenomenalism", "Panpsychism", "Idealism"],
+    "answer": "Epiphenomenalism"
+  },
+  {
+    "question": "Which concept refers to the mind’s ability to refer to or represent things?",
+    "options": ["Qualia", "Intentionality", "Consciousness", "Dualism"],
+    "answer": "Intentionality"
+  },
+  {
+    "question": "What does the 'Brain in a Vat' argument question?",
+    "options": ["Free will", "Personal identity", "External reality", "Ethics"],
+    "answer": "External reality"
+  },
+  {
+    "question": "Which philosopher argues that consciousness is an illusion?",
+    "options": ["Paul Churchland", "Daniel Dennett", "John Searle", "David Chalmers"],
+    "answer": "Daniel Dennett"
+  },
+  {
+    "question": "What is the study of the nature of the mind called?",
+    "options": ["Epistemology", "Metaphysics", "Philosophy of mind", "Ontology"],
+    "answer": "Philosophy of mind"
+  },
+  {
+    "question": "Which theory claims that every mental event has a physical cause?",
+    "options": ["Dualism", "Physicalism", "Behaviorism", "Idealism"],
+    "answer": "Physicalism"
+  },
+  {
+    "question": "Which view claims that mental properties emerge from complex physical systems?",
+    "options": ["Substance dualism", "Emergentism", "Idealism", "Functionalism"],
+    "answer": "Emergentism"
+  },
+  {
+    "question": "Which thought experiment challenges functionalism by imagining a population simulating a brain?",
+    "options": ["Chinese Room", "China Brain", "Brain in a Vat", "Mary’s Room"],
+    "answer": "China Brain"
+  },
+  {
+    "question": "Which philosopher argued for the existence of immaterial substance?",
+    "options": ["Gilbert Ryle", "René Descartes", "Daniel Dennett", "Immanuel Kant"],
+    "answer": "René Descartes"
+  },
+  {
+    "question": "Which theory suggests that mental states are identical to patterns of behavior?",
+    "options": ["Functionalism", "Behaviorism", "Identity theory", "Dualism"],
+    "answer": "Behaviorism"
+  },
+  {
+    "question": "Which idea claims that consciousness pervades all matter?",
+    "options": ["Dualism", "Panpsychism", "Epiphenomenalism", "Idealism"],
+    "answer": "Panpsychism"
+  },
+  {
+    "question": "Who argued that machines cannot truly understand meaning?",
+    "options": ["John Searle", "David Chalmers", "Daniel Dennett", "Gilbert Ryle"],
+    "answer": "John Searle"
+  },
+  {
+    "question": "Which theory claims that mental states arise from but do not affect physical states?",
+    "options": ["Emergentism", "Epiphenomenalism", "Interactionism", "Panpsychism"],
+    "answer": "Epiphenomenalism"
+  },
+  {
+    "question": "What is the philosophical study of consciousness called?",
+    "options": ["Ontology", "Phenomenology", "Epistemology", "Aesthetics"],
+    "answer": "Phenomenology"
+  },
+  {
+    "question": "Which position argues that machines can be conscious?",
+    "options": ["Strong AI", "Weak AI", "Dualism", "Epiphenomenalism"],
+    "answer": "Strong AI"
+  },
+  {
+    "question": "Which thought experiment involves imagining a world physically identical to ours but without consciousness?",
+    "options": ["Philosophical zombies", "Chinese Room", "Mary’s Room", "Brain in a Vat"],
+    "answer": "Philosophical zombies"
+  },
+  {
+    "question": "Which philosopher suggested consciousness cannot be reduced to physical processes?",
+    "options": ["Daniel Dennett", "David Chalmers", "Paul Churchland", "Gilbert Ryle"],
+    "answer": "David Chalmers"
+  },
+  {
+    "question": "What is the study of how mental states relate to brain activity?",
+    "options": ["Neuroscience", "Cognitive science", "Philosophy of mind", "Psychology"],
+    "answer": "Neuroscience"
+  },
+  {
+    "question": "Which concept refers to knowledge gained from subjective experience?",
+    "options": ["Propositional knowledge", "Phenomenal knowledge", "Procedural knowledge", "Implicit knowledge"],
+    "answer": "Phenomenal knowledge"
+  },
+  {
+    "question": "Which view holds that consciousness arises from complex information processing?",
+    "options": ["Integrated Information Theory", "Dualism", "Epiphenomenalism", "Idealism"],
+    "answer": "Integrated Information Theory"
+  },
+  {
+    "question": "Which idea challenges the possibility of knowing whether others are conscious?",
+    "options": ["Problem of induction", "Other minds problem", "Qualia argument", "Zombie argument"],
+    "answer": "Other minds problem"
+  },
+  {
+    "question": "Who argued that consciousness is a biological phenomenon?",
+    "options": ["David Chalmers", "John Searle", "Dan Dennett", "Thomas Nagel"],
+    "answer": "John Searle"
+  },
+  {
+    "question": "What is mental causation concerned with?",
+    "options": ["How thoughts cause actions", "How neurons fire", "How memory forms", "How language develops"],
+    "answer": "How thoughts cause actions"
+  },
+  {
+    "question": "Which philosopher proposed that consciousness cannot be explained by physical processes alone?",
+    "options": ["Daniel Dennett", "John Searle", "David Chalmers", "Gilbert Ryle"],
+    "answer": "David Chalmers"
+  }
+]
