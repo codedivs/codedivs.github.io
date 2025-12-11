@@ -489,14 +489,6 @@
     "category": "fun"
   },
   {
-    "game_name": "Super Easy History Facts",
-    "game_icon": "assets/img/code_right.png",
-    "game_id": "easy_history_facts",
-    "difficulty": "very easy",
-    "stars": 1,
-    "category": "history"
-  },
-  {
     "game_name": "Beginner Science Quiz",
     "game_icon": "assets/img/code_right.png",
     "game_id": "beginner_science_quiz",
