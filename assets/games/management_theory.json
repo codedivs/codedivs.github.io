@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Who is considered the father of scientific management?",
+    "options": ["Frederick Taylor", "Henri Fayol", "Max Weber", "Peter Drucker"],
+    "answer": "Frederick Taylor"
+  },
+  {
+    "question": "Which management function involves setting objectives and determining the course of action?",
+    "options": ["Planning", "Organizing", "Leading", "Controlling"],
+    "answer": "Planning"
+  },
+  {
+    "question": "Which management function ensures activities are carried out as planned?",
+    "options": ["Controlling", "Planning", "Organizing", "Leading"],
+    "answer": "Controlling"
+  },
+  {
+    "question": "Which management function deals with assigning tasks and resources?",
+    "options": ["Organizing", "Planning", "Leading", "Controlling"],
+    "answer": "Organizing"
+  },
+  {
+    "question": "Which management function motivates and guides employees to achieve goals?",
+    "options": ["Leading", "Planning", "Organizing", "Controlling"],
+    "answer": "Leading"
+  },
+  {
+    "question": "Which theory focuses on understanding human behavior at work?",
+    "options": ["Behavioral theory", "Scientific management", "Administrative theory", "Contingency theory"],
+    "answer": "Behavioral theory"
+  },
+  {
+    "question": "Which management theorist developed the 14 principles of management?",
+    "options": ["Henri Fayol", "Frederick Taylor", "Max Weber", "Elton Mayo"],
+    "answer": "Henri Fayol"
+  },
+  {
+    "question": "Which theory emphasizes formal rules and a clear hierarchy?",
+    "options": ["Bureaucratic theory", "Behavioral theory", "Systems theory", "Contingency theory"],
+    "answer": "Bureaucratic theory"
+  },
+  {
+    "question": "Which management approach focuses on efficiency through time and motion studies?",
+    "options": ["Scientific management", "Behavioral management", "Administrative management", "Contingency management"],
+    "answer": "Scientific management"
+  },
+  {
+    "question": "Which management theory suggests there is no one best way to manage?",
+    "options": ["Contingency theory", "Scientific management", "Administrative theory", "Bureaucratic theory"],
+    "answer": "Contingency theory"
+  },
+  {
+    "question": "Which management approach views the organization as a set of interrelated parts?",
+    "options": ["Systems theory", "Behavioral theory", "Scientific management", "Administrative theory"],
+    "answer": "Systems theory"
+  },
+  {
+    "question": "Who conducted the Hawthorne studies on worker productivity?",
+    "options": ["Elton Mayo", "Frederick Taylor", "Henri Fayol", "Max Weber"],
+    "answer": "Elton Mayo"
+  },
+  {
+    "question": "Which theory highlights the importance of human relations and social factors at work?",
+    "options": ["Human relations theory", "Scientific management", "Bureaucratic theory", "Contingency theory"],
+    "answer": "Human relations theory"
+  },
+  {
+    "question": "Which type of leadership focuses on reward and punishment?",
+    "options": ["Transactional leadership", "Transformational leadership", "Servant leadership", "Democratic leadership"],
+    "answer": "Transactional leadership"
+  },
+  {
+    "question": "Which type of leadership inspires followers to achieve higher performance?",
+    "options": ["Transformational leadership", "Transactional leadership", "Autocratic leadership", "Laissez-faire leadership"],
+    "answer": "Transformational leadership"
+  },
+  {
+    "question": "Which management principle involves dividing work into specialized tasks?",
+    "options": ["Division of labor", "Unity of command", "Authority", "Discipline"],
+    "answer": "Division of labor"
+  },
+  {
+    "question": "Which management principle states that each employee should report to only one manager?",
+    "options": ["Unity of command", "Division of work", "Scalar chain", "Discipline"],
+    "answer": "Unity of command"
+  },
+  {
+    "question": "Which management principle emphasizes clear lines of authority from top to bottom?",
+    "options": ["Scalar chain", "Division of work", "Unity of direction", "Order"],
+    "answer": "Scalar chain"
+  },
+  {
+    "question": "Which principle focuses on fairness and respect for employees?",
+    "options": ["Equity", "Discipline", "Authority", "Order"],
+    "answer": "Equity"
+  },
+  {
+    "question": "Which management principle stresses teamwork and harmony among employees?",
+    "options": ["Esprit de corps", "Discipline", "Unity of direction", "Centralization"],
+    "answer": "Esprit de corps"
+  },
+  {
+    "question": "Which leadership style allows employees to make decisions with minimal supervision?",
+    "options": ["Laissez-faire leadership", "Autocratic leadership", "Democratic leadership", "Transactional leadership"],
+    "answer": "Laissez-faire leadership"
+  },
+  {
+    "question": "Which leadership style involves making decisions without consulting subordinates?",
+    "options": ["Autocratic leadership", "Democratic leadership", "Transformational leadership", "Laissez-faire leadership"],
+    "answer": "Autocratic leadership"
+  },
+  {
+    "question": "Which leadership style involves collective decision-making and participation?",
+    "options": ["Democratic leadership", "Autocratic leadership", "Laissez-faire leadership", "Transactional leadership"],
+    "answer": "Democratic leadership"
+  },
+  {
+    "question": "Which management function measures performance and corrects deviations?",
+    "options": ["Controlling", "Planning", "Leading", "Organizing"],
+    "answer": "Controlling"
+  },
+  {
+    "question": "Which principle suggests that work should be coordinated and objectives unified?",
+    "options": ["Unity of direction", "Division of work", "Equity", "Scalar chain"],
+    "answer": "Unity of direction"
+  },
+  {
+    "question": "Which management principle focuses on balancing centralization and decentralization?",
+    "options": ["Centralization", "Equity", "Discipline", "Unity of command"],
+    "answer": "Centralization"
+  },
+  {
+    "question": "Which principle emphasizes having a place for everything and everyone in the organization?",
+    "options": ["Order", "Discipline", "Equity", "Authority"],
+    "answer": "Order"
+  },
+  {
+    "question": "Which principle refers to obedience and respect for organizational rules?",
+    "options": ["Discipline", "Order", "Equity", "Authority"],
+    "answer": "Discipline"
+  },
+  {
+    "question": "Which principle states that managers have the right to give orders and expect obedience?",
+    "options": ["Authority", "Responsibility", "Discipline", "Unity of command"],
+    "answer": "Authority"
+  },
+  {
+    "question": "Which principle indicates that responsibility should be accompanied by authority?",
+    "options": ["Responsibility", "Authority", "Discipline", "Unity of direction"],
+    "answer": "Responsibility"
+  },
+  {
+    "question": "Which management approach focuses on analyzing jobs and selecting the right people for them?",
+    "options": ["Scientific management", "Behavioral management", "Systems theory", "Contingency theory"],
+    "answer": "Scientific management"
+  },
+  {
+    "question": "Which principle suggests that the interests of employees and employers should align?",
+    "options": ["Subordination of individual interest", "Equity", "Unity of command", "Division of work"],
+    "answer": "Subordination of individual interest"
+  },
+  {
+    "question": "Which theory emphasizes that organizations are influenced by internal and external environments?",
+    "options": ["Systems theory", "Scientific management", "Behavioral theory", "Administrative theory"],
+    "answer": "Systems theory"
+  },
+  {
+    "question": "Which theory focuses on adapting management practices to the situation?",
+    "options": ["Contingency theory", "Scientific management", "Bureaucratic theory", "Behavioral theory"],
+    "answer": "Contingency theory"
+  },
+  {
+    "question": "Which theorist introduced the concept of management by objectives (MBO)?",
+    "options": ["Peter Drucker", "Frederick Taylor", "Henri Fayol", "Elton Mayo"],
+    "answer": "Peter Drucker"
+  },
+  {
+    "question": "Which principle emphasizes efficiency through specialization of tasks?",
+    "options": ["Division of labor", "Scalar chain", "Unity of command", "Equity"],
+    "answer": "Division of labor"
+  },
+  {
+    "question": "Which leadership approach focuses on the needs and development of employees?",
+    "options": ["Servant leadership", "Autocratic leadership", "Transactional leadership", "Laissez-faire leadership"],
+    "answer": "Servant leadership"
+  },
+  {
+    "question": "Which management approach believes employees are motivated by money primarily?",
+    "options": ["Scientific management", "Behavioral management", "Human relations theory", "Contingency theory"],
+    "answer": "Scientific management"
+  },
+  {
+    "question": "Which leadership style combines guidance with support and collaboration?",
+    "options": ["Participative leadership", "Autocratic leadership", "Laissez-faire leadership", "Transactional leadership"],
+    "answer": "Participative leadership"
+  },
+  {
+    "question": "Which management approach highlights communication, motivation, and teamwork?",
+    "options": ["Behavioral management", "Scientific management", "Administrative management", "Bureaucratic management"],
+    "answer": "Behavioral management"
+  },
+  {
+    "question": "Which principle suggests that managers should avoid overloading subordinates?",
+    "options": ["Scalar chain", "Division of work", "Authority", "Responsibility"],
+    "answer": "Division of work"
+  },
+  {
+    "question": "Which theory asserts that management practices depend on the context and situation?",
+    "options": ["Contingency theory", "Scientific management", "Bureaucratic theory", "Human relations theory"],
+    "answer": "Contingency theory"
+  },
+  {
+    "question": "Which management function establishes objectives, policies, and procedures?",
+    "options": ["Planning", "Leading", "Controlling", "Organizing"],
+    "answer": "Planning"
+  },
+  {
+    "question": "Which type of control ensures standards are maintained during the work process?",
+    "options": ["Concurrent control", "Feedforward control", "Feedback control", "Preventive control"],
+    "answer": "Concurrent control"
+  },
+  {
+    "question": "Which type of control takes corrective action after the process is completed?",
+    "options": ["Feedback control", "Concurrent control", "Feedforward control", "Preventive control"],
+    "answer": "Feedback control"
+  },
+  {
+    "question": "Which type of control anticipates and prevents deviations before they occur?",
+    "options": ["Feedforward control", "Concurrent control", "Feedback control", "Preventive control"],
+    "answer": "Feedforward control"
+  },
+  {
+    "question": "Which management principle emphasizes clear reporting relationships and accountability?",
+    "options": ["Scalar chain", "Division of work", "Unity of command", "Authority"],
+    "answer": "Scalar chain"
+  },
+  {
+    "question": "Which principle stresses that good management ensures fairness and justice to employees?",
+    "options": ["Equity", "Discipline", "Order", "Authority"],
+    "answer": "Equity"
+  }
+]
