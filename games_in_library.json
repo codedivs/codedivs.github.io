@@ -1,5 +1,13 @@
 [
   {
+  "game_name": "Would You Rather?",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": "would_you_rather_quiz",
+  "difficulty": "very easy",
+  "stars": 1,
+  "category": "fun"
+},
+  {
   "game_name": "Fun Facts Quiz",
   "game_icon": "assets/img/code_right.png",
   "game_id": "fun_facts_quiz",
