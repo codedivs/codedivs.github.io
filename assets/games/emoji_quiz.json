@@ -1,0 +1,152 @@
+[
+  {
+    "question": "🍎🍏 What fruit is this?",
+    "options": ["Apple", "Banana", "Orange", "Grapes"],
+    "answer": "Apple"
+  },
+  {
+    "question": "🐶 What animal is this?",
+    "options": ["Dog", "Cat", "Lion", "Tiger"],
+    "answer": "Dog"
+  },
+  {
+    "question": "☀️🌞 What is this?",
+    "options": ["Sun", "Moon", "Star", "Cloud"],
+    "answer": "Sun"
+  },
+  {
+    "question": "🌧️☔ What is this weather?",
+    "options": ["Rainy", "Sunny", "Cloudy", "Windy"],
+    "answer": "Rainy"
+  },
+  {
+    "question": "🍌 What fruit is this?",
+    "options": ["Banana", "Apple", "Mango", "Grapes"],
+    "answer": "Banana"
+  },
+  {
+    "question": "🐱 What animal is this?",
+    "options": ["Cat", "Dog", "Tiger", "Rabbit"],
+    "answer": "Cat"
+  },
+  {
+    "question": "🚗 What is this?",
+    "options": ["Car", "Bike", "Bus", "Plane"],
+    "answer": "Car"
+  },
+  {
+    "question": "✈️ What is this?",
+    "options": ["Airplane", "Car", "Boat", "Train"],
+    "answer": "Airplane"
+  },
+  {
+    "question": "🍕 What food is this?",
+    "options": ["Pizza", "Burger", "Cake", "Pasta"],
+    "answer": "Pizza"
+  },
+  {
+    "question": "🍰 What food is this?",
+    "options": ["Cake", "Pie", "Donut", "Cookie"],
+    "answer": "Cake"
+  },
+  {
+    "question": "🌲 What is this?",
+    "options": ["Tree", "Flower", "Bush", "Grass"],
+    "answer": "Tree"
+  },
+  {
+    "question": "🌊 What is this?",
+    "options": ["Water", "Fire", "Sand", "Wind"],
+    "answer": "Water"
+  },
+  {
+    "question": "⚽ What sport is this?",
+    "options": ["Football", "Basketball", "Tennis", "Cricket"],
+    "answer": "Football"
+  },
+  {
+    "question": "🏀 What sport is this?",
+    "options": ["Basketball", "Football", "Tennis", "Cricket"],
+    "answer": "Basketball"
+  },
+  {
+    "question": "🐘 What animal is this?",
+    "options": ["Elephant", "Lion", "Giraffe", "Bear"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "🦁 What animal is this?",
+    "options": ["Lion", "Tiger", "Leopard", "Cat"],
+    "answer": "Lion"
+  },
+  {
+    "question": "🍓 What fruit is this?",
+    "options": ["Strawberry", "Cherry", "Raspberry", "Apple"],
+    "answer": "Strawberry"
+  },
+  {
+    "question": "🍉 What fruit is this?",
+    "options": ["Watermelon", "Melon", "Apple", "Orange"],
+    "answer": "Watermelon"
+  },
+  {
+    "question": "🌙 What is this?",
+    "options": ["Moon", "Sun", "Star", "Cloud"],
+    "answer": "Moon"
+  },
+  {
+    "question": "⭐ What is this?",
+    "options": ["Star", "Moon", "Sun", "Planet"],
+    "answer": "Star"
+  },
+  {
+    "question": "🐸 What animal is this?",
+    "options": ["Frog", "Toad", "Lizard", "Snake"],
+    "answer": "Frog"
+  },
+  {
+    "question": "🐵 What animal is this?",
+    "options": ["Monkey", "Lion", "Dog", "Cat"],
+    "answer": "Monkey"
+  },
+  {
+    "question": "🌹 What is this?",
+    "options": ["Rose", "Tulip", "Daisy", "Sunflower"],
+    "answer": "Rose"
+  },
+  {
+    "question": "🍩 What food is this?",
+    "options": ["Donut", "Cake", "Pie", "Cookie"],
+    "answer": "Donut"
+  },
+  {
+    "question": "🦄 What animal is this?",
+    "options": ["Unicorn", "Horse", "Dragon", "Lion"],
+    "answer": "Unicorn"
+  },
+  {
+    "question": "🚀 What is this?",
+    "options": ["Rocket", "Plane", "Car", "Helicopter"],
+    "answer": "Rocket"
+  },
+  {
+    "question": "🍔 What food is this?",
+    "options": ["Burger", "Pizza", "Hotdog", "Sandwich"],
+    "answer": "Burger"
+  },
+  {
+    "question": "🦋 What animal is this?",
+    "options": ["Butterfly", "Moth", "Bee", "Bird"],
+    "answer": "Butterfly"
+  },
+  {
+    "question": "🍪 What food is this?",
+    "options": ["Cookie", "Cake", "Pie", "Donut"],
+    "answer": "Cookie"
+  },
+  {
+    "question": "🎸 What is this?",
+    "options": ["Guitar", "Drum", "Piano", "Violin"],
+    "answer": "Guitar"
+  }
+]
