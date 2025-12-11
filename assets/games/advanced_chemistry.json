@@ -1,0 +1,207 @@
+[
+  {
+    "question": "Which subatomic particle determines the atomic number of an element?",
+    "options": ["Proton", "Neutron", "Electron", "Positron"],
+    "answer": "Proton"
+  },
+  {
+    "question": "What is the shape of an s orbital?",
+    "options": ["Spherical", "Dumbbell-shaped", "Planar", "Tetrahedral"],
+    "answer": "Spherical"
+  },
+  {
+    "question": "Which quantum number describes the orientation of an orbital?",
+    "options": ["Principal quantum number", "Angular momentum quantum number", "Magnetic quantum number", "Spin quantum number"],
+    "answer": "Magnetic quantum number"
+  },
+  {
+    "question": "What type of bond forms when electrons are transferred from one atom to another?",
+    "options": ["Covalent bond", "Ionic bond", "Metallic bond", "Hydrogen bond"],
+    "answer": "Ionic bond"
+  },
+  {
+    "question": "Which gas law states that pressure is inversely proportional to volume?",
+    "options": ["Boyle's Law", "Charles's Law", "Avogadro's Law", "Gay-Lussac's Law"],
+    "answer": "Boyle's Law"
+  },
+  {
+    "question": "What is the hybridization of carbon in methane (CH4)?",
+    "options": ["sp", "sp2", "sp3", "sp3d"],
+    "answer": "sp3"
+  },
+  {
+    "question": "Which molecule has a bent molecular geometry?",
+    "options": ["CO2", "H2O", "CH4", "BF3"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Which element has the highest electronegativity?",
+    "options": ["Oxygen", "Nitrogen", "Fluorine", "Chlorine"],
+    "answer": "Fluorine"
+  },
+  {
+    "question": "What is the pH of a 0.001 M HCl solution?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "question": "Which functional group is present in aldehydes?",
+    "options": ["–COOH", "–COO–", "–CHO", "–OH"],
+    "answer": "–CHO"
+  },
+  {
+    "question": "What term describes a reaction that absorbs heat?",
+    "options": ["Exothermic", "Endothermic", "Isothermal", "Adiabatic"],
+    "answer": "Endothermic"
+  },
+  {
+    "question": "Which process involves the loss of electrons?",
+    "options": ["Reduction", "Oxidation", "Neutralization", "Hydrolysis"],
+    "answer": "Oxidation"
+  },
+  {
+    "question": "In the periodic table, elements in the same group have similar:",
+    "options": ["Atomic number", "Mass number", "Chemical properties", "Electronic charge"],
+    "answer": "Chemical properties"
+  },
+  {
+    "question": "What is the coordination number of Na+ in NaCl crystal?",
+    "options": ["4", "6", "8", "12"],
+    "answer": "6"
+  },
+  {
+    "question": "Which acid is known as the king of chemicals?",
+    "options": ["Hydrochloric acid", "Sulfuric acid", "Nitric acid", "Acetic acid"],
+    "answer": "Sulfuric acid"
+  },
+  {
+    "question": "Which isotope is used for carbon dating?",
+    "options": ["Carbon-12", "Carbon-13", "Carbon-14", "Carbon-15"],
+    "answer": "Carbon-14"
+  },
+  {
+    "question": "Which type of solid has the strongest intermolecular forces?",
+    "options": ["Molecular solid", "Ionic solid", "Metallic solid", "Covalent network solid"],
+    "answer": "Covalent network solid"
+  },
+  {
+    "question": "What is the oxidation state of sulfur in H2SO4?",
+    "options": ["+2", "+4", "+6", "0"],
+    "answer": "+6"
+  },
+  {
+    "question": "Which gas is most ideal at high temperature and low pressure?",
+    "options": ["CO2", "NH3", "SO2", "He"],
+    "answer": "He"
+  },
+  {
+    "question": "Which spectroscopy technique identifies functional groups using infrared light?",
+    "options": ["NMR", "IR", "UV–Vis", "Mass spectrometry"],
+    "answer": "IR"
+  },
+  {
+    "question": "Which orbital has the highest energy in a multi-electron atom?",
+    "options": ["1s", "2p", "3d", "4s"],
+    "answer": "3d"
+  },
+  {
+    "question": "What type of reaction is combustion?",
+    "options": ["Substitution", "Addition", "Redox", "Elimination"],
+    "answer": "Redox"
+  },
+  {
+    "question": "Which molecule has sp hybridization?",
+    "options": ["CO2", "NH3", "CH4", "SO2"],
+    "answer": "CO2"
+  },
+  {
+    "question": "Which ion is responsible for the blue color of copper compounds?",
+    "options": ["Cu+", "Cu2+", "Cu3+", "CuO"],
+    "answer": "Cu2+"
+  },
+  {
+    "question": "Which gas is produced during the reaction of acids with metals?",
+    "options": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon dioxide"],
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "Which rule states that electrons fill orbitals singly before pairing?",
+    "options": ["Aufbau principle", "Pauli exclusion principle", "Hund's rule", "Le Chatelier's principle"],
+    "answer": "Hund's rule"
+  },
+  {
+    "question": "Which element forms the strongest hydrogen bonds?",
+    "options": ["Carbon", "Sulfur", "Oxygen", "Chlorine"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which law relates the rate of effusion of gases to molar mass?",
+    "options": ["Boyle's Law", "Graham's Law", "Dalton's Law", "Raoult's Law"],
+    "answer": "Graham's Law"
+  },
+  {
+    "question": "Which solution resists changes in pH?",
+    "options": ["Acid", "Base", "Buffer", "Salt solution"],
+    "answer": "Buffer"
+  },
+  {
+    "question": "The strongest type of intermolecular force is:",
+    "options": ["Dipole–dipole", "London dispersion", "Hydrogen bonding", "Ionic"],
+    "answer": "Hydrogen bonding"
+  },
+  {
+    "question": "Which of the following is a colligative property?",
+    "options": ["Boiling point elevation", "Color", "Density", "Viscosity"],
+    "answer": "Boiling point elevation"
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Cesium", "Gallium", "Mercury", "Bromine"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "Which compound is most ionic?",
+    "options": ["NaCl", "HCl", "CO2", "AgCl"],
+    "answer": "NaCl"
+  },
+  {
+    "question": "Which term describes molecules with the same molecular formula but different structures?",
+    "options": ["Isotopes", "Isomers", "Ions", "Allotropes"],
+    "answer": "Isomers"
+  },
+  {
+    "question": "Which acid is used in lead–acid batteries?",
+    "options": ["Nitric acid", "Sulfuric acid", "Hydrochloric acid", "Acetic acid"],
+    "answer": "Sulfuric acid"
+  },
+  {
+    "question": "Which gas is used as a standard for molar volume at STP?",
+    "options": ["O2", "N2", "H2", "He"],
+    "answer": "N2"
+  },
+  {
+    "question": "Which is the strongest acid?",
+    "options": ["HCl", "HI", "HBr", "HF"],
+    "answer": "HI"
+  },
+  {
+    "question": "Which reaction forms a precipitate?",
+    "options": ["Neutralization", "Combustion", "Precipitation", "Decomposition"],
+    "answer": "Precipitation"
+  },
+  {
+    "question": "Which equation represents the Beer–Lambert law?",
+    "options": ["A = εbc", "PV = nRT", "E = mc²", "ΔG = ΔH - TΔS"],
+    "answer": "A = εbc"
+  },
+  {
+    "question": "Which is a common oxidizing agent?",
+    "options": ["Fe2+", "MnO4−", "Cl−", "I−"],
+    "answer": "MnO4−"
+  },
+  {
+    "question": "Which term describes a solution that contains more solute than it can theoretically hold?",
+    "options": ["Dilute", "Concentrated", "Supersaturated", "Unsaturated"],
+    "answer": "Supersaturated"
+  }
+]
