@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Who slept for 100 years in a fairy tale?",
+    "options": ["Sleeping Beauty", "Cinderella", "Snow White", "Rapunzel"],
+    "answer": "Sleeping Beauty"
+  },
+  {
+    "question": "Who lost a glass slipper at the ball?",
+    "options": ["Cinderella", "Belle", "Aurora", "Snow White"],
+    "answer": "Cinderella"
+  },
+  {
+    "question": "Which girl had very long hair in a tower?",
+    "options": ["Rapunzel", "Alice", "Belle", "Aurora"],
+    "answer": "Rapunzel"
+  },
+  {
+    "question": "Who was poisoned by an apple?",
+    "options": ["Snow White", "Cinderella", "Sleeping Beauty", "Belle"],
+    "answer": "Snow White"
+  },
+  {
+    "question": "Which boy never grew up?",
+    "options": ["Peter Pan", "Jack", "Aladdin", "Pinocchio"],
+    "answer": "Peter Pan"
+  },
+  {
+    "question": "Who had a fairy godmother?",
+    "options": ["Cinderella", "Aurora", "Belle", "Snow White"],
+    "answer": "Cinderella"
+  },
+  {
+    "question": "Which story features three little pigs?",
+    "options": ["The Three Little Pigs", "Goldilocks", "Jack and the Beanstalk", "Hansel and Gretel"],
+    "answer": "The Three Little Pigs"
+  },
+  {
+    "question": "Which girl visited a house made of candy?",
+    "options": ["Hansel and Gretel", "Alice", "Cinderella", "Rapunzel"],
+    "answer": "Hansel and Gretel"
+  },
+  {
+    "question": "Who turned into a frog in a fairy tale?",
+    "options": ["The Frog Prince", "Peter Pan", "Pinocchio", "Aladdin"],
+    "answer": "The Frog Prince"
+  },
+  {
+    "question": "Which character’s nose grew when he told a lie?",
+    "options": ["Pinocchio", "Jack", "Peter Pan", "Hercules"],
+    "answer": "Pinocchio"
+  },
+  {
+    "question": "Who went to Wonderland?",
+    "options": ["Alice", "Cinderella", "Rapunzel", "Belle"],
+    "answer": "Alice"
+  },
+  {
+    "question": "Which princess pricked her finger on a spinning wheel?",
+    "options": ["Aurora", "Cinderella", "Snow White", "Rapunzel"],
+    "answer": "Aurora"
+  },
+  {
+    "question": "Who lived with seven dwarfs?",
+    "options": ["Snow White", "Cinderella", "Belle", "Aurora"],
+    "answer": "Snow White"
+  },
+  {
+    "question": "Who climbed a beanstalk to find treasure?",
+    "options": ["Jack", "Peter Pan", "Aladdin", "Pinocchio"],
+    "answer": "Jack"
+  },
+  {
+    "question": "Which character had a magic lamp?",
+    "options": ["Aladdin", "Peter Pan", "Jack", "Pinocchio"],
+    "answer": "Aladdin"
+  },
+  {
+    "question": "Which story has a little girl and a wolf?",
+    "options": ["Little Red Riding Hood", "Hansel and Gretel", "Goldilocks", "Cinderella"],
+    "answer": "Little Red Riding Hood"
+  },
+  {
+    "question": "Which bear has a honey-loving friend?",
+    "options": ["Winnie the Pooh", "Baloo", "Yogi Bear", "Paddington"],
+    "answer": "Winnie the Pooh"
+  },
+  {
+    "question": "Who had seven gold coins and a goose that lays golden eggs?",
+    "options": ["Jack", "Peter Pan", "Aladdin", "Hansel"],
+    "answer": "Jack"
+  },
+  {
+    "question": "Which girl had golden hair and visited the house of three bears?",
+    "options": ["Goldilocks", "Alice", "Rapunzel", "Aurora"],
+    "answer": "Goldilocks"
+  },
+  {
+    "question": "Which characters left a trail of breadcrumbs in the forest?",
+    "options": ["Hansel and Gretel", "Jack and Jill", "Peter Pan", "Aladdin"],
+    "answer": "Hansel and Gretel"
+  },
+  {
+    "question": "Who is the little wooden puppet that wanted to be a real boy?",
+    "options": ["Pinocchio", "Peter Pan", "Jack", "Aladdin"],
+    "answer": "Pinocchio"
+  },
+  {
+    "question": "Which story features a golden harp?",
+    "options": ["Jack and the Beanstalk", "Peter Pan", "Cinderella", "Aladdin"],
+    "answer": "Jack and the Beanstalk"
+  },
+  {
+    "question": "Who is the princess saved from the tower by a prince?",
+    "options": ["Rapunzel", "Aurora", "Cinderella", "Belle"],
+    "answer": "Rapunzel"
+  },
+  {
+    "question": "Which witch lives in a candy house?",
+    "options": ["Hansel and Gretel Witch", "Maleficent", "Evil Queen", "Wicked Witch"],
+    "answer": "Hansel and Gretel Witch"
+  },
+  {
+    "question": "Which character flies with the help of fairy dust?",
+    "options": ["Peter Pan", "Jack", "Pinocchio", "Aladdin"],
+    "answer": "Peter Pan"
+  },
+  {
+    "question": "Who is Belle’s love in Beauty and the Beast?",
+    "options": ["Beast", "Prince Charming", "Aladdin", "Aurora’s Prince"],
+    "answer": "Beast"
+  },
+  {
+    "question": "Which story has a spinning wheel that caused a deep sleep?",
+    "options": ["Sleeping Beauty", "Cinderella", "Snow White", "Rapunzel"],
+    "answer": "Sleeping Beauty"
+  },
+  {
+    "question": "Who is the evil queen in Snow White?",
+    "options": ["Evil Queen", "Maleficent", "Wicked Witch", "Queen of Hearts"],
+    "answer": "Evil Queen"
+  },
+  {
+    "question": "Which character is known for a slipper made of glass?",
+    "options": ["Cinderella", "Aurora", "Belle", "Snow White"],
+    "answer": "Cinderella"
+  },
+  {
+    "question": "Which story has a magic carpet?",
+    "options": ["Aladdin", "Peter Pan", "Jack", "Pinocchio"],
+    "answer": "Aladdin"
+  }
+]
