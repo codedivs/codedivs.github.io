@@ -1,0 +1,157 @@
+[
+  {
+    "question": "What color is the sun usually drawn as?",
+    "options": ["Yellow", "Blue", "Red", "Green"],
+    "answer": "Yellow"
+  },
+  {
+    "question": "What color are apples?",
+    "options": ["Red", "Blue", "Purple", "Black"],
+    "answer": "Red"
+  },
+  {
+    "question": "What color is the sky on a clear day?",
+    "options": ["Blue", "Green", "Yellow", "Red"],
+    "answer": "Blue"
+  },
+  {
+    "question": "What color is grass?",
+    "options": ["Green", "Blue", "Yellow", "Red"],
+    "answer": "Green"
+  },
+  {
+    "question": "What color are bananas when ripe?",
+    "options": ["Yellow", "Red", "Blue", "Green"],
+    "answer": "Yellow"
+  },
+  {
+    "question": "What color is a pumpkin?",
+    "options": ["Orange", "Red", "Yellow", "Green"],
+    "answer": "Orange"
+  },
+  {
+    "question": "What color is coal?",
+    "options": ["Black", "White", "Gray", "Brown"],
+    "answer": "Black"
+  },
+  {
+    "question": "What color is milk?",
+    "options": ["White", "Yellow", "Brown", "Blue"],
+    "answer": "White"
+  },
+  {
+    "question": "What color is chocolate?",
+    "options": ["Brown", "Black", "White", "Red"],
+    "answer": "Brown"
+  },
+  {
+    "question": "What color is a strawberry?",
+    "options": ["Red", "Green", "Yellow", "Blue"],
+    "answer": "Red"
+  },
+  {
+    "question": "What color is a carrot?",
+    "options": ["Orange", "Yellow", "Red", "Green"],
+    "answer": "Orange"
+  },
+  {
+    "question": "What color is a lemon?",
+    "options": ["Yellow", "Green", "Orange", "Red"],
+    "answer": "Yellow"
+  },
+  {
+    "question": "What color are blueberries?",
+    "options": ["Blue", "Purple", "Red", "Green"],
+    "answer": "Blue"
+  },
+  {
+    "question": "What color is a watermelon outside?",
+    "options": ["Green", "Red", "Yellow", "Pink"],
+    "answer": "Green"
+  },
+  {
+    "question": "What color is a watermelon inside?",
+    "options": ["Red", "Green", "Yellow", "Orange"],
+    "answer": "Red"
+  },
+  {
+    "question": "What color is a grape?",
+    "options": ["Purple", "Green", "Red", "Yellow"],
+    "answer": "Purple"
+  },
+  {
+    "question": "What color is snow?",
+    "options": ["White", "Blue", "Gray", "Black"],
+    "answer": "White"
+  },
+  {
+    "question": "What color is a panda’s fur?",
+    "options": ["Black and White", "Black", "White", "Brown"],
+    "answer": "Black and White"
+  },
+  {
+    "question": "What color is a fox usually?",
+    "options": ["Orange", "Red", "Brown", "Yellow"],
+    "answer": "Orange"
+  },
+  {
+    "question": "What color is a flamingo?",
+    "options": ["Pink", "Red", "Orange", "White"],
+    "answer": "Pink"
+  },
+  {
+    "question": "What color are olives?",
+    "options": ["Green", "Black", "Red", "Purple"],
+    "answer": "Green"
+  },
+  {
+    "question": "What color is a cherry?",
+    "options": ["Red", "Yellow", "Purple", "Green"],
+    "answer": "Red"
+  },
+  {
+    "question": "What color is a school bus?",
+    "options": ["Yellow", "Red", "Blue", "Orange"],
+    "answer": "Yellow"
+  },
+  {
+    "question": "What color is a pumpkin inside?",
+    "options": ["Orange", "Yellow", "Red", "Brown"],
+    "answer": "Orange"
+  },
+  {
+    "question": "What color is a rose?",
+    "options": ["Red", "Yellow", "Pink", "White"],
+    "answer": "Red"
+  },
+  {
+    "question": "What color is a lemon before it ripens?",
+    "options": ["Green", "Yellow", "Orange", "Red"],
+    "answer": "Green"
+  },
+  {
+    "question": "What color is an egg yolk?",
+    "options": ["Yellow", "White", "Orange", "Brown"],
+    "answer": "Yellow"
+  },
+  {
+    "question": "What color is the night sky when it’s clear?",
+    "options": ["Black", "Blue", "Purple", "Gray"],
+    "answer": "Black"
+  },
+  {
+    "question": "What color is a sunflower?",
+    "options": ["Yellow", "Orange", "Red", "Blue"],
+    "answer": "Yellow"
+  },
+  {
+    "question": "What color is an egg shell usually?",
+    "options": ["White", "Brown", "Blue", "Green"],
+    "answer": "White"
+  },
+  {
+    "question": "What color is an orange fruit?",
+    "options": ["Orange", "Yellow", "Red", "Green"],
+    "answer": "Orange"
+  }
+]
