@@ -1,5 +1,13 @@
 [
   {
+  "game_name": "Fun Facts Quiz",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": "fun_facts_quiz",
+  "difficulty": "easy",
+  "stars": 2,
+  "category": "general knowledge"
+},
+  {
     "game_name": "capital cities",
     "game_icon": "assets/img/code_right.png",
     "game_id": "capital_cities",
