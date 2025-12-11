@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which system of government gives power to elected representatives?",
+    "options": ["Monarchy", "Democracy", "Oligarchy", "Dictatorship"],
+    "answer": "Democracy"
+  },
+  {
+    "question": "Who wrote 'The Prince', a famous work on political power?",
+    "options": ["John Locke", "Niccolò Machiavelli", "Jean-Jacques Rousseau", "Karl Marx"],
+    "answer": "Niccolò Machiavelli"
+  },
+  {
+    "question": "Which term refers to the separation of powers among legislative, executive, and judicial branches?",
+    "options": ["Checks and balances", "Federalism", "Separation of powers", "Rule of law"],
+    "answer": "Separation of powers"
+  },
+  {
+    "question": "Which political ideology advocates minimal government intervention in the economy?",
+    "options": ["Socialism", "Liberalism", "Communism", "Anarchism"],
+    "answer": "Liberalism"
+  },
+  {
+    "question": "Who is known as the father of modern political science?",
+    "options": ["Aristotle", "Plato", "John Locke", "Niccolò Machiavelli"],
+    "answer": "Aristotle"
+  },
+  {
+    "question": "Which document established the first system of federal government in the United States?",
+    "options": ["Constitution", "Articles of Confederation", "Bill of Rights", "Federalist Papers"],
+    "answer": "Articles of Confederation"
+  },
+  {
+    "question": "Which term refers to the legal principle that everyone is subject to the law?",
+    "options": ["Rule of law", "Sovereignty", "Checks and balances", "Separation of powers"],
+    "answer": "Rule of law"
+  },
+  {
+    "question": "Which political theory emphasizes class struggle and collective ownership?",
+    "options": ["Liberalism", "Communism", "Fascism", "Anarchism"],
+    "answer": "Communism"
+  },
+  {
+    "question": "Which form of government is ruled by a single individual with absolute power?",
+    "options": ["Monarchy", "Dictatorship", "Democracy", "Oligarchy"],
+    "answer": "Dictatorship"
+  },
+  {
+    "question": "Which thinker wrote 'Two Treatises of Government' emphasizing natural rights?",
+    "options": ["Jean-Jacques Rousseau", "John Locke", "Thomas Hobbes", "Karl Marx"],
+    "answer": "John Locke"
+  },
+  {
+    "question": "Which political system divides power between national and state governments?",
+    "options": ["Unitary system", "Federalism", "Confederation", "Autocracy"],
+    "answer": "Federalism"
+  },
+  {
+    "question": "Which term describes a government led by a small group of elites?",
+    "options": ["Oligarchy", "Democracy", "Monarchy", "Anarchy"],
+    "answer": "Oligarchy"
+  },
+  {
+    "question": "Which system allows citizens to vote directly on laws and policies?",
+    "options": ["Representative democracy", "Direct democracy", "Autocracy", "Oligarchy"],
+    "answer": "Direct democracy"
+  },
+  {
+    "question": "Which political ideology promotes strong nationalism and often authoritarian rule?",
+    "options": ["Fascism", "Liberalism", "Socialism", "Communism"],
+    "answer": "Fascism"
+  },
+  {
+    "question": "Which philosopher believed that life in a state of nature is 'nasty, brutish, and short'?",
+    "options": ["John Locke", "Thomas Hobbes", "Jean-Jacques Rousseau", "Aristotle"],
+    "answer": "Thomas Hobbes"
+  },
+  {
+    "question": "Which concept refers to the supreme authority of a state over its territory?",
+    "options": ["Federalism", "Sovereignty", "Rule of law", "Separation of powers"],
+    "answer": "Sovereignty"
+  },
+  {
+    "question": "Which branch of government interprets laws?",
+    "options": ["Legislative", "Executive", "Judicial", "Federal"],
+    "answer": "Judicial"
+  },
+  {
+    "question": "Which branch of government makes laws?",
+    "options": ["Legislative", "Executive", "Judicial", "Administrative"],
+    "answer": "Legislative"
+  },
+  {
+    "question": "Which branch of government enforces laws?",
+    "options": ["Judicial", "Legislative", "Executive", "Parliamentary"],
+    "answer": "Executive"
+  },
+  {
+    "question": "Which system of government has a hereditary monarch as head of state?",
+    "options": ["Monarchy", "Democracy", "Dictatorship", "Oligarchy"],
+    "answer": "Monarchy"
+  },
+  {
+    "question": "Which term refers to political and social equality among citizens?",
+    "options": ["Liberty", "Justice", "Equality", "Sovereignty"],
+    "answer": "Equality"
+  },
+  {
+    "question": "Which ideology advocates government ownership of the means of production?",
+    "options": ["Capitalism", "Socialism", "Liberalism", "Fascism"],
+    "answer": "Socialism"
+  },
+  {
+    "question": "Which type of democracy allows citizens to elect representatives to make decisions?",
+    "options": ["Direct democracy", "Representative democracy", "Monarchy", "Autocracy"],
+    "answer": "Representative democracy"
+  },
+  {
+    "question": "Which political thinker argued that governments derive their authority from the consent of the governed?",
+    "options": ["Thomas Hobbes", "Jean-Jacques Rousseau", "Niccolò Machiavelli", "Karl Marx"],
+    "answer": "Jean-Jacques Rousseau"
+  },
+  {
+    "question": "Which term describes a government controlled by religious leaders?",
+    "options": ["Theocracy", "Democracy", "Oligarchy", "Autocracy"],
+    "answer": "Theocracy"
+  },
+  {
+    "question": "Which political ideology stresses individual liberty and free markets?",
+    "options": ["Liberalism", "Socialism", "Fascism", "Communism"],
+    "answer": "Liberalism"
+  },
+  {
+    "question": "Which type of government has no recognized authority or political order?",
+    "options": ["Anarchy", "Autocracy", "Democracy", "Oligarchy"],
+    "answer": "Anarchy"
+  },
+  {
+    "question": "Which theory suggests that power in society is distributed among multiple groups?",
+    "options": ["Elite theory", "Pluralist theory", "Marxist theory", "Fascist theory"],
+    "answer": "Pluralist theory"
+  },
+  {
+    "question": "Which theory believes that a small group of elites hold most of the power in society?",
+    "options": ["Elite theory", "Pluralist theory", "Democratic theory", "Social contract theory"],
+    "answer": "Elite theory"
+  },
+  {
+    "question": "Which thinker believed that the social contract justifies political authority?",
+    "options": ["John Locke", "Thomas Hobbes", "Jean-Jacques Rousseau", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which document limits the powers of the government and protects citizens’ rights?",
+    "options": ["Constitution", "Bill of Rights", "Magna Carta", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which system of government concentrates all power in a central authority?",
+    "options": ["Unitary system", "Federal system", "Confederation", "Democracy"],
+    "answer": "Unitary system"
+  },
+  {
+    "question": "Which system divides power between a central government and regional governments?",
+    "options": ["Federal system", "Unitary system", "Confederation", "Oligarchy"],
+    "answer": "Federal system"
+  },
+  {
+    "question": "Which political ideology seeks to establish a classless society?",
+    "options": ["Communism", "Socialism", "Fascism", "Liberalism"],
+    "answer": "Communism"
+  },
+  {
+    "question": "Which term refers to the legal and political independence of a nation?",
+    "options": ["Sovereignty", "Autonomy", "Liberty", "Justice"],
+    "answer": "Sovereignty"
+  },
+  {
+    "question": "Which system has power shared between a national and state government?",
+    "options": ["Federalism", "Unitary", "Confederation", "Autocracy"],
+    "answer": "Federalism"
+  },
+  {
+    "question": "Which system of government allows citizens to choose their leaders through elections?",
+    "options": ["Democracy", "Oligarchy", "Monarchy", "Dictatorship"],
+    "answer": "Democracy"
+  },
+  {
+    "question": "Which concept ensures that no branch of government becomes too powerful?",
+    "options": ["Checks and balances", "Separation of powers", "Rule of law", "Federalism"],
+    "answer": "Checks and balances"
+  },
+  {
+    "question": "Which political system is controlled by the military?",
+    "options": ["Military junta", "Oligarchy", "Autocracy", "Theocracy"],
+    "answer": "Military junta"
+  },
+  {
+    "question": "Which term describes citizens’ duty to obey laws and participate in society?",
+    "options": ["Civil responsibility", "Political liberty", "Sovereignty", "Justice"],
+    "answer": "Civil responsibility"
+  },
+  {
+    "question": "Which thinker influenced modern liberal democracies with ideas of natural rights?",
+    "options": ["John Locke", "Karl Marx", "Thomas Hobbes", "Jean-Jacques Rousseau"],
+    "answer": "John Locke"
+  },
+  {
+    "question": "Which concept describes the right of citizens to participate in government decisions?",
+    "options": ["Sovereignty", "Political participation", "Civil liberty", "Rule of law"],
+    "answer": "Political participation"
+  },
+  {
+    "question": "Which government system allows states to retain most of their independence?",
+    "options": ["Confederation", "Federal system", "Unitary system", "Autocracy"],
+    "answer": "Confederation"
+  },
+  {
+    "question": "Which system of government is ruled by a king or queen with limited power?",
+    "options": ["Constitutional monarchy", "Absolute monarchy", "Democracy", "Oligarchy"],
+    "answer": "Constitutional monarchy"
+  },
+  {
+    "question": "Which concept ensures accountability of government officials to the people?",
+    "options": ["Transparency", "Checks and balances", "Political participation", "Rule of law"],
+    "answer": "Transparency"
+  },
+  {
+    "question": "Which term refers to laws and policies that reflect popular opinion?",
+    "options": ["Public policy", "Sovereignty", "Civil law", "Natural law"],
+    "answer": "Public policy"
+  },
+  {
+    "question": "Which political theory emphasizes the importance of liberty, equality, and fraternity?",
+    "options": ["Liberalism", "Socialism", "Marxism", "Republicanism"],
+    "answer": "Liberalism"
+  },
+  {
+    "question": "Which thinker influenced modern socialism with the idea of class struggle?",
+    "options": ["Karl Marx", "John Locke", "Jean-Jacques Rousseau", "Thomas Hobbes"],
+    "answer": "Karl Marx"
+  }
+]
