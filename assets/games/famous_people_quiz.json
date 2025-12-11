@@ -1,0 +1,147 @@
+[
+  {
+    "question": "Who is known as the King of Pop?",
+    "options": ["Michael Jackson", "Elvis Presley", "Justin Bieber", "Prince"],
+    "answer": "Michael Jackson"
+  },
+  {
+    "question": "Which actress played Hermione in Harry Potter?",
+    "options": ["Emma Watson", "Emma Stone", "Jennifer Lawrence", "Natalie Portman"],
+    "answer": "Emma Watson"
+  },
+  {
+    "question": "Who founded Microsoft?",
+    "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Elon Musk"],
+    "answer": "Bill Gates"
+  },
+  {
+    "question": "Which singer is famous for the song 'Shape of You'?",
+    "options": ["Ed Sheeran", "Shawn Mendes", "Justin Bieber", "Bruno Mars"],
+    "answer": "Ed Sheeran"
+  },
+  {
+    "question": "Who is the CEO of Tesla?",
+    "options": ["Elon Musk", "Jeff Bezos", "Mark Zuckerberg", "Bill Gates"],
+    "answer": "Elon Musk"
+  },
+  {
+    "question": "Which actress played Black Widow in Marvel movies?",
+    "options": ["Scarlett Johansson", "Gal Gadot", "Natalie Portman", "Emma Stone"],
+    "answer": "Scarlett Johansson"
+  },
+  {
+    "question": "Who is known as the King of Bollywood?",
+    "options": ["Shah Rukh Khan", "Salman Khan", "Aamir Khan", "Ranveer Singh"],
+    "answer": "Shah Rukh Khan"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "Who is famous for saying 'I have a dream'?",
+    "options": ["Martin Luther King Jr.", "Nelson Mandela", "Barack Obama", "Mahatma Gandhi"],
+    "answer": "Martin Luther King Jr."
+  },
+  {
+    "question": "Which singer is known as the Queen of Pop?",
+    "options": ["Madonna", "Beyoncé", "Lady Gaga", "Ariana Grande"],
+    "answer": "Madonna"
+  },
+  {
+    "question": "Who is the founder of Facebook?",
+    "options": ["Mark Zuckerberg", "Elon Musk", "Larry Page", "Bill Gates"],
+    "answer": "Mark Zuckerberg"
+  },
+  {
+    "question": "Which actor played Iron Man in Marvel movies?",
+    "options": ["Robert Downey Jr.", "Chris Hemsworth", "Chris Evans", "Tom Holland"],
+    "answer": "Robert Downey Jr."
+  },
+  {
+    "question": "Who wrote the Harry Potter books?",
+    "options": ["J.K. Rowling", "Stephen King", "Suzanne Collins", "Rick Riordan"],
+    "answer": "J.K. Rowling"
+  },
+  {
+    "question": "Which singer is known as the ‘Bad Guy’ artist?",
+    "options": ["Billie Eilish", "Ariana Grande", "Selena Gomez", "Dua Lipa"],
+    "answer": "Billie Eilish"
+  },
+  {
+    "question": "Who played Jack in Titanic?",
+    "options": ["Leonardo DiCaprio", "Brad Pitt", "Tom Cruise", "Johnny Depp"],
+    "answer": "Leonardo DiCaprio"
+  },
+  {
+    "question": "Which actor played Thor in Marvel movies?",
+    "options": ["Chris Hemsworth", "Chris Evans", "Robert Downey Jr.", "Mark Ruffalo"],
+    "answer": "Chris Hemsworth"
+  },
+  {
+    "question": "Who is the famous talk show host known for 'The Oprah Winfrey Show'?",
+    "options": ["Oprah Winfrey", "Ellen DeGeneres", "Jimmy Fallon", "Conan O'Brien"],
+    "answer": "Oprah Winfrey"
+  },
+  {
+    "question": "Which singer is known for the song 'Rolling in the Deep'?",
+    "options": ["Adele", "Taylor Swift", "Katy Perry", "Rihanna"],
+    "answer": "Adele"
+  },
+  {
+    "question": "Who played Captain Jack Sparrow in Pirates of the Caribbean?",
+    "options": ["Johnny Depp", "Orlando Bloom", "Tom Hanks", "Leonardo DiCaprio"],
+    "answer": "Johnny Depp"
+  },
+  {
+    "question": "Which actress plays Wonder Woman?",
+    "options": ["Gal Gadot", "Scarlett Johansson", "Jennifer Lawrence", "Emma Watson"],
+    "answer": "Gal Gadot"
+  },
+  {
+    "question": "Who is the famous basketball player known as 'King James'?",
+    "options": ["LeBron James", "Michael Jordan", "Kobe Bryant", "Stephen Curry"],
+    "answer": "LeBron James"
+  },
+  {
+    "question": "Who is the Prime Minister of the UK as of 2025?",
+    "options": ["Rishi Sunak", "Boris Johnson", "Theresa May", "David Cameron"],
+    "answer": "Rishi Sunak"
+  },
+  {
+    "question": "Which singer is known as the 'Material Girl'?",
+    "options": ["Madonna", "Lady Gaga", "Kylie Minogue", "Britney Spears"],
+    "answer": "Madonna"
+  },
+  {
+    "question": "Who is the famous YouTuber known for MrBeast videos?",
+    "options": ["MrBeast", "PewDiePie", "Dude Perfect", "Markiplier"],
+    "answer": "MrBeast"
+  },
+  {
+    "question": "Which actor played Spider-Man in the recent Marvel movies?",
+    "options": ["Tom Holland", "Tobey Maguire", "Andrew Garfield", "Chris Evans"],
+    "answer": "Tom Holland"
+  },
+  {
+    "question": "Who is the famous chef known for TV shows like 'Hell’s Kitchen'?",
+    "options": ["Gordon Ramsay", "Jamie Oliver", "Wolfgang Puck", "Nigella Lawson"],
+    "answer": "Gordon Ramsay"
+  },
+  {
+    "question": "Who is the famous tennis player nicknamed 'Serena'?",
+    "options": ["Serena Williams", "Venus Williams", "Maria Sharapova", "Naomi Osaka"],
+    "answer": "Serena Williams"
+  },
+  {
+    "question": "Which singer is known for the song 'Hello'?",
+    "options": ["Adele", "Beyoncé", "Taylor Swift", "Rihanna"],
+    "answer": "Adele"
+  },
+  {
+    "question": "Who is the famous actor in 'Mission Impossible' movies?",
+    "options": ["Tom Cruise", "Brad Pitt", "Leonardo DiCaprio", "Johnny Depp"],
+    "answer": "Tom Cruise"
+  }
+]
