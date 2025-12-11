@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which animal has a long trunk used for grabbing food?",
+    "options": ["Elephant", "Giraffe", "Hippo", "Rhino"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "Which animal is famous for changing its color?",
+    "options": ["Chameleon", "Frog", "Owl", "Seal"],
+    "answer": "Chameleon"
+  },
+  {
+    "question": "Which animal can fly at night and uses sound to move?",
+    "options": ["Bat", "Eagle", "Parrot", "Crow"],
+    "answer": "Bat"
+  },
+  {
+    "question": "Which animal is the fastest runner on land?",
+    "options": ["Cheetah", "Lion", "Tiger", "Horse"],
+    "answer": "Cheetah"
+  },
+  {
+    "question": "Which animal has black and white stripes?",
+    "options": ["Zebra", "Panda", "Skunk", "Badger"],
+    "answer": "Zebra"
+  },
+  {
+    "question": "Which sea creature has eight arms?",
+    "options": ["Octopus", "Shark", "Seal", "Whale"],
+    "answer": "Octopus"
+  },
+  {
+    "question": "Which animal is known for carrying its home on its back?",
+    "options": ["Turtle", "Snail", "Crab", "Beetle"],
+    "answer": "Turtle"
+  },
+  {
+    "question": "Which big cat is known as the King of the Jungle?",
+    "options": ["Lion", "Tiger", "Leopard", "Jaguar"],
+    "answer": "Lion"
+  },
+  {
+    "question": "Which animal sleeps during the day and stays active at night?",
+    "options": ["Owl", "Gorilla", "Camel", "Penguin"],
+    "answer": "Owl"
+  },
+  {
+    "question": "Which animal is known for hopping on two legs?",
+    "options": ["Kangaroo", "Rabbit", "Deer", "Dog"],
+    "answer": "Kangaroo"
+  },
+  {
+    "question": "Which animal has a large hump on its back?",
+    "options": ["Camel", "Buffalo", "Moose", "Yak"],
+    "answer": "Camel"
+  },
+  {
+    "question": "Which bird cannot fly but runs very fast?",
+    "options": ["Ostrich", "Penguin", "Kiwi", "Turkey"],
+    "answer": "Ostrich"
+  },
+  {
+    "question": "Which animal is famous for building dams?",
+    "options": ["Beaver", "Fox", "Otter", "Rabbit"],
+    "answer": "Beaver"
+  },
+  {
+    "question": "Which animal is the largest living creature on Earth?",
+    "options": ["Blue Whale", "Elephant", "Shark", "Giraffe"],
+    "answer": "Blue Whale"
+  },
+  {
+    "question": "Which animal is known for its long neck?",
+    "options": ["Giraffe", "Llama", "Donkey", "Horse"],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "Which animal is famous for its stripes and powerful roar?",
+    "options": ["Tiger", "Lion", "Leopard", "Cheetah"],
+    "answer": "Tiger"
+  },
+  {
+    "question": "Which small animal loves cheese in cartoons?",
+    "options": ["Mouse", "Cat", "Squirrel", "Rabbit"],
+    "answer": "Mouse"
+  },
+  {
+    "question": "Which water animal has a hard shell and pinchers?",
+    "options": ["Crab", "Seal", "Dolphin", "Shark"],
+    "answer": "Crab"
+  },
+  {
+    "question": "Which bird is known for talking like humans?",
+    "options": ["Parrot", "Crow", "Eagle", "Vulture"],
+    "answer": "Parrot"
+  },
+  {
+    "question": "Which animal is black and white and eats bamboo?",
+    "options": ["Panda", "Skunk", "Zebra", "Koala"],
+    "answer": "Panda"
+  },
+  {
+    "question": "Which animal lives in cold places and loves sliding on ice?",
+    "options": ["Penguin", "Polar Bear", "Seal", "Moose"],
+    "answer": "Penguin"
+  },
+  {
+    "question": "Which ocean animal has sharp teeth and is a top predator?",
+    "options": ["Shark", "Dolphin", "Seal", "Whale"],
+    "answer": "Shark"
+  },
+  {
+    "question": "Which animal is known for spinning webs?",
+    "options": ["Spider", "Ant", "Butterfly", "Bee"],
+    "answer": "Spider"
+  },
+  {
+    "question": "Which tiny insect makes honey?",
+    "options": ["Bee", "Fly", "Wasp", "Moth"],
+    "answer": "Bee"
+  },
+  {
+    "question": "Which animal has a strong shell and moves slowly?",
+    "options": ["Tortoise", "Frog", "Swan", "Otter"],
+    "answer": "Tortoise"
+  },
+  {
+    "question": "Which bird is known for its colorful tail feathers?",
+    "options": ["Peacock", "Eagle", "Owl", "Sparrow"],
+    "answer": "Peacock"
+  },
+  {
+    "question": "Which animal swings from trees using long arms?",
+    "options": ["Monkey", "Tiger", "Panda", "Wolf"],
+    "answer": "Monkey"
+  },
+  {
+    "question": "Which animal is famous for having a pouch for its baby?",
+    "options": ["Kangaroo", "Elephant", "Goat", "Dog"],
+    "answer": "Kangaroo"
+  },
+  {
+    "question": "Which water animal jumps out of the ocean and is very friendly?",
+    "options": ["Dolphin", "Shark", "Crab", "Whale"],
+    "answer": "Dolphin"
+  },
+  {
+    "question": "Which animal has a horn on its nose?",
+    "options": ["Rhinoceros", "Buffalo", "Camel", "Giraffe"],
+    "answer": "Rhinoceros"
+  }
+]
