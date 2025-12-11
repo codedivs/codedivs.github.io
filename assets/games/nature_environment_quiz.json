@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": ["Lion", "Tiger", "Elephant", "Leopard"],
+    "answer": "Lion"
+  },
+  {
+    "question": "What is the tallest type of tree in the world?",
+    "options": ["Redwood", "Oak", "Pine", "Maple"],
+    "answer": "Redwood"
+  },
+  {
+    "question": "Which planet has the most water on its surface?",
+    "options": ["Earth", "Mars", "Venus", "Jupiter"],
+    "answer": "Earth"
+  },
+  {
+    "question": "Which gas do plants take in to make food?",
+    "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "options": ["Blue Whale", "Elephant", "Giraffe", "Hippopotamus"],
+    "answer": "Blue Whale"
+  },
+  {
+    "question": "Which bird is known for mimicking sounds and human speech?",
+    "options": ["Parrot", "Crow", "Eagle", "Sparrow"],
+    "answer": "Parrot"
+  },
+  {
+    "question": "Which animal is famous for carrying its baby in a pouch?",
+    "options": ["Kangaroo", "Koala", "Elephant", "Panda"],
+    "answer": "Kangaroo"
+  },
+  {
+    "question": "Which part of a plant makes food from sunlight?",
+    "options": ["Leaves", "Roots", "Stem", "Flower"],
+    "answer": "Leaves"
+  },
+  {
+    "question": "What do bees make?",
+    "options": ["Honey", "Milk", "Silk", "Wax"],
+    "answer": "Honey"
+  },
+  {
+    "question": "Which animal is the tallest on Earth?",
+    "options": ["Giraffe", "Elephant", "Camel", "Horse"],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "Which ocean is the largest?",
+    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "question": "Which animal can live both in water and on land?",
+    "options": ["Frog", "Dog", "Cat", "Elephant"],
+    "answer": "Frog"
+  },
+  {
+    "question": "Which gas do humans breathe in to survive?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which insect has colorful wings and drinks nectar from flowers?",
+    "options": ["Butterfly", "Bee", "Ant", "Fly"],
+    "answer": "Butterfly"
+  },
+  {
+    "question": "Which tree produces acorns?",
+    "options": ["Oak", "Pine", "Maple", "Birch"],
+    "answer": "Oak"
+  },
+  {
+    "question": "Which animal is known for changing its color to blend in?",
+    "options": ["Chameleon", "Frog", "Snake", "Parrot"],
+    "answer": "Chameleon"
+  },
+  {
+    "question": "Which natural resource do we get from trees?",
+    "options": ["Wood", "Oil", "Coal", "Metal"],
+    "answer": "Wood"
+  },
+  {
+    "question": "Which is the largest land animal?",
+    "options": ["Elephant", "Giraffe", "Hippopotamus", "Rhino"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "Which bird is known for its long neck and graceful flying?",
+    "options": ["Swan", "Eagle", "Crow", "Ostrich"],
+    "answer": "Swan"
+  },
+  {
+    "question": "What do you call animals that only eat plants?",
+    "options": ["Herbivores", "Carnivores", "Omnivores", "Insectivores"],
+    "answer": "Herbivores"
+  },
+  {
+    "question": "Which fruit grows on palm trees?",
+    "options": ["Coconut", "Apple", "Banana", "Mango"],
+    "answer": "Coconut"
+  },
+  {
+    "question": "Which animal is known for its black and white stripes?",
+    "options": ["Zebra", "Tiger", "Panda", "Horse"],
+    "answer": "Zebra"
+  },
+  {
+    "question": "Which body of water is saltwater?",
+    "options": ["Ocean", "River", "Lake", "Pond"],
+    "answer": "Ocean"
+  },
+  {
+    "question": "Which animal builds dams in rivers?",
+    "options": ["Beaver", "Otter", "Duck", "Frog"],
+    "answer": "Beaver"
+  },
+  {
+    "question": "Which desert is the largest in the world?",
+    "options": ["Sahara", "Gobi", "Kalahari", "Arabian"],
+    "answer": "Sahara"
+  },
+  {
+    "question": "Which mountain is the tallest in the world?",
+    "options": ["Mount Everest", "K2", "Kangchenjunga", "Makalu"],
+    "answer": "Mount Everest"
+  },
+  {
+    "question": "Which animal is famous for its slow movement and shell on its back?",
+    "options": ["Tortoise", "Snail", "Turtle", "Armadillo"],
+    "answer": "Tortoise"
+  },
+  {
+    "question": "Which flower is known as the king of flowers?",
+    "options": ["Rose", "Tulip", "Lily", "Sunflower"],
+    "answer": "Rose"
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "options": ["Cheetah", "Lion", "Horse", "Gazelle"],
+    "answer": "Cheetah"
+  },
+  {
+    "question": "Which natural resource do we use to make electricity from water?",
+    "options": ["Hydropower", "Coal", "Oil", "Gas"],
+    "answer": "Hydropower"
+  }
+]
