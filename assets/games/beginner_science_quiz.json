@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What planet do we live on?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Earth"
+  },
+  {
+    "question": "What is H2O commonly called?",
+    "options": ["Water", "Oxygen", "Hydrogen", "Salt"],
+    "answer": "Water"
+  },
+  {
+    "question": "What gas do humans breathe in to survive?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Helium"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What force keeps us on the ground?",
+    "options": ["Gravity", "Magnetism", "Friction", "Wind"],
+    "answer": "Gravity"
+  },
+  {
+    "question": "Which animal lays eggs?",
+    "options": ["Chicken", "Dog", "Cat", "Cow"],
+    "answer": "Chicken"
+  },
+  {
+    "question": "Which organ pumps blood in our body?",
+    "options": ["Heart", "Lungs", "Liver", "Kidney"],
+    "answer": "Heart"
+  },
+  {
+    "question": "What do plants need to make food?",
+    "options": ["Sunlight", "Milk", "Soil only", "Water only"],
+    "answer": "Sunlight"
+  },
+  {
+    "question": "Which planet is the largest in the solar system?",
+    "options": ["Jupiter", "Earth", "Mars", "Venus"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What part of the plant makes seeds?",
+    "options": ["Flower", "Leaf", "Stem", "Root"],
+    "answer": "Flower"
+  },
+  {
+    "question": "Which is the closest star to Earth?",
+    "options": ["Sun", "Sirius", "Alpha Centauri", "Polaris"],
+    "answer": "Sun"
+  },
+  {
+    "question": "What do bees produce?",
+    "options": ["Honey", "Milk", "Wax only", "Sugar"],
+    "answer": "Honey"
+  },
+  {
+    "question": "Which planet is known for its rings?",
+    "options": ["Saturn", "Mars", "Earth", "Jupiter"],
+    "answer": "Saturn"
+  },
+  {
+    "question": "What gas do plants release during photosynthesis?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which organ helps us breathe?",
+    "options": ["Lungs", "Heart", "Stomach", "Brain"],
+    "answer": "Lungs"
+  },
+  {
+    "question": "What is the center of an atom called?",
+    "options": ["Nucleus", "Electron", "Proton", "Neutron"],
+    "answer": "Nucleus"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["H2O", "CO2", "O2", "NaCl"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Which part of the body controls thoughts and actions?",
+    "options": ["Brain", "Heart", "Lungs", "Stomach"],
+    "answer": "Brain"
+  },
+  {
+    "question": "What do we call animals that eat plants?",
+    "options": ["Herbivores", "Carnivores", "Omnivores", "Insects"],
+    "answer": "Herbivores"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Mercury", "Venus", "Earth", "Mars"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "options": ["100", "0", "50", "212"],
+    "answer": "100"
+  },
+  {
+    "question": "Which organ helps digest food?",
+    "options": ["Stomach", "Heart", "Lungs", "Brain"],
+    "answer": "Stomach"
+  },
+  {
+    "question": "What is the main gas in the air we breathe?",
+    "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Hydrogen"],
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "Which animal is known as the king of the jungle?",
+    "options": ["Lion", "Tiger", "Elephant", "Leopard"],
+    "answer": "Lion"
+  },
+  {
+    "question": "Which planet is famous for being blue?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "answer": "Earth"
+  },
+  {
+    "question": "What type of energy comes from the Sun?",
+    "options": ["Solar", "Wind", "Hydro", "Nuclear"],
+    "answer": "Solar"
+  },
+  {
+    "question": "Which organ filters blood in the body?",
+    "options": ["Kidney", "Liver", "Heart", "Lungs"],
+    "answer": "Kidney"
+  },
+  {
+    "question": "What do we call young frogs?",
+    "options": ["Tadpoles", "Caterpillars", "Puppies", "Chicks"],
+    "answer": "Tadpoles"
+  },
+  {
+    "question": "Which planet is called the Morning Star or Evening Star?",
+    "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+    "answer": "Venus"
+  },
+  {
+    "question": "Which force pulls objects toward the Earth?",
+    "options": ["Gravity", "Magnetism", "Friction", "Electricity"],
+    "answer": "Gravity"
+  }
+]
