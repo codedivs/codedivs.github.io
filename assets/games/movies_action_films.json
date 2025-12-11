@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Who played the character of 'Iron Man' in the Marvel Cinematic Universe?",
+    "options": ["Robert Downey Jr.", "Chris Hemsworth", "Chris Evans", "Mark Ruffalo"],
+    "answer": "Robert Downey Jr."
+  },
+  {
+    "question": "Which movie features the famous line, 'May the Force be with you'?",
+    "options": ["Star Wars", "Indiana Jones", "Jurassic Park", "Back to the Future"],
+    "answer": "Star Wars"
+  },
+  {
+    "question": "Which actor starred as the titular character in the 'John Wick' series?",
+    "options": ["Keanu Reeves", "Tom Cruise", "Brad Pitt", "Will Smith"],
+    "answer": "Keanu Reeves"
+  },
+  {
+    "question": "Who directed the movie 'Inception'?",
+    "options": ["Christopher Nolan", "Steven Spielberg", "James Cameron", "Martin Scorsese"],
+    "answer": "Christopher Nolan"
+  },
+  {
+    "question": "In which movie would you find the character 'Forrest Gump'?",
+    "options": ["Forrest Gump", "The Green Mile", "Cast Away", "A Beautiful Mind"],
+    "answer": "Forrest Gump"
+  },
+  {
+    "question": "Who played the character of 'The Joker' in 'The Dark Knight'?",
+    "options": ["Heath Ledger", "Jared Leto", "Jack Nicholson", "Tom Hardy"],
+    "answer": "Heath Ledger"
+  },
+  {
+    "question": "In which film series does the character 'Han Solo' appear?",
+    "options": ["Star Wars", "Harry Potter", "Lord of the Rings", "Pirates of the Caribbean"],
+    "answer": "Star Wars"
+  },
+  {
+    "question": "Which action movie features the character 'James Bond'?",
+    "options": ["James Bond", "Mission: Impossible", "The Bourne Identity", "Fast & Furious"],
+    "answer": "James Bond"
+  },
+  {
+    "question": "Which actor played 'Rocky Balboa' in the 'Rocky' movies?",
+    "options": ["Sylvester Stallone", "Arnold Schwarzenegger", "Bruce Willis", "Chuck Norris"],
+    "answer": "Sylvester Stallone"
+  },
+  {
+    "question": "In which movie do we hear the famous quote 'I'm gonna make him an offer he can't refuse'?",
+    "options": ["The Godfather", "Goodfellas", "Scarface", "Casino"],
+    "answer": "The Godfather"
+  },
+  {
+    "question": "Which movie is about a group of superheroes including Thor, Iron Man, and Captain America?",
+    "options": ["The Avengers", "Justice League", "Guardians of the Galaxy", "X-Men"],
+    "answer": "The Avengers"
+  },
+  {
+    "question": "Which actor starred as 'Neo' in the 'Matrix' trilogy?",
+    "options": ["Keanu Reeves", "Harrison Ford", "Matt Damon", "Will Smith"],
+    "answer": "Keanu Reeves"
+  },
+  {
+    "question": "Who played the character of 'Wonder Woman' in the DC Extended Universe films?",
+    "options": ["Gal Gadot", "Scarlett Johansson", "Charlize Theron", "Anne Hathaway"],
+    "answer": "Gal Gadot"
+  },
+  {
+    "question": "In which movie do characters travel through time in a DeLorean?",
+    "options": ["Back to the Future", "Terminator", "The Matrix", "Star Trek"],
+    "answer": "Back to the Future"
+  },
+  {
+    "question": "Which movie franchise features a group of velociraptors and T-Rex?",
+    "options": ["Jurassic Park", "King Kong", "Godzilla", "The Lost World"],
+    "answer": "Jurassic Park"
+  },
+  {
+    "question": "Which actor played 'Captain Jack Sparrow' in the 'Pirates of the Caribbean' series?",
+    "options": ["Johnny Depp", "Orlando Bloom", "Harrison Ford", "Matt Damon"],
+    "answer": "Johnny Depp"
+  },
+  {
+    "question": "In which film does 'Tom Hanks' play the character 'Woody'?",
+    "options": ["Toy Story", "Cast Away", "Big", "Sleepless in Seattle"],
+    "answer": "Toy Story"
+  },
+  {
+    "question": "Which film features a famous car chase scene involving the character 'Jason Bourne'?",
+    "options": ["The Bourne Identity", "Mission: Impossible", "The Dark Knight", "Fast & Furious"],
+    "answer": "The Bourne Identity"
+  },
+  {
+    "question": "Which 1980s action film features Arnold Schwarzenegger as a robot assassin?",
+    "options": ["The Terminator", "Predator", "Commando", "Total Recall"],
+    "answer": "The Terminator"
+  },
+  {
+    "question": "Which action movie series features characters like 'Dominic Toretto' and 'Paul Walker'?",
+    "options": ["Fast & Furious", "Gone in 60 Seconds", "Drive", "Need for Speed"],
+    "answer": "Fast & Furious"
+  },
+  {
+    "question": "Who directed the movie 'Avatar'?",
+    "options": ["James Cameron", "Steven Spielberg", "George Lucas", "Ridley Scott"],
+    "answer": "James Cameron"
+  },
+  {
+    "question": "Which movie is based on the life of 'Tony Stark' and his journey to becoming 'Iron Man'?",
+    "options": ["Iron Man", "Avengers: Endgame", "Thor: Ragnarok", "Captain America: Civil War"],
+    "answer": "Iron Man"
+  },
+  {
+    "question": "Which actor played the role of 'Spider-Man' in the Marvel Cinematic Universe?",
+    "options": ["Tom Holland", "Tobey Maguire", "Andrew Garfield", "Chris Hemsworth"],
+    "answer": "Tom Holland"
+  },
+  {
+    "question": "Which 1994 film is about a man with a simple mind, 'Forrest Gump'?",
+    "options": ["Forrest Gump", "The Shawshank Redemption", "Pulp Fiction", "The Green Mile"],
+    "answer": "Forrest Gump"
+  },
+  {
+    "question": "In which movie would you find the character 'The Bride' seeking revenge?",
+    "options": ["Kill Bill", "Pulp Fiction", "The Matrix", "Sin City"],
+    "answer": "Kill Bill"
+  },
+  {
+    "question": "Which movie features a world dominated by giant robots and monsters?",
+    "options": ["Pacific Rim", "Transformers", "Avatar", "Iron Man"],
+    "answer": "Pacific Rim"
+  },
+  {
+    "question": "Which actor starred as 'Thor' in the Marvel Cinematic Universe?",
+    "options": ["Chris Hemsworth", "Mark Ruffalo", "Chris Evans", "Tom Hiddleston"],
+    "answer": "Chris Hemsworth"
+  },
+  {
+    "question": "Which animated movie features a family of superheroes trying to hide their powers?",
+    "options": ["The Incredibles", "Shrek", "Frozen", "Big Hero 6"],
+    "answer": "The Incredibles"
+  },
+  {
+    "question": "Which film is about a boxer, 'Rocky Balboa', fighting for redemption?",
+    "options": ["Rocky", "Creed", "Raging Bull", "The Fighter"],
+    "answer": "Rocky"
+  },
+  {
+    "question": "Which actor starred as 'Bruce Wayne' in 'The Dark Knight' trilogy?",
+    "options": ["Christian Bale", "Ben Affleck", "Michael Keaton", "Val Kilmer"],
+    "answer": "Christian Bale"
+  },
+  {
+    "question": "Which movie features a famous scene with a giant boulder chasing Indiana Jones?",
+    "options": ["Raiders of the Lost Ark", "Indiana Jones and the Last Crusade", "Jurassic Park", "The Mummy"],
+    "answer": "Raiders of the Lost Ark"
+  },
+  {
+    "question": "Which action movie franchise is centered around a group of super-spy agents known as 'Mission Impossible'?",
+    "options": ["Mission Impossible", "The Bourne Identity", "James Bond", "Fast & Furious"],
+    "answer": "Mission Impossible"
+  },
+  {
+    "question": "Which actor played 'Deadpool' in the 'Deadpool' movies?",
+    "options": ["Ryan Reynolds", "Hugh Jackman", "Chris Hemsworth", "Robert Downey Jr."],
+    "answer": "Ryan Reynolds"
+  }
+]
