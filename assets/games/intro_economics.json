@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the study of how people use resources and money called?",
+    "options": ["Economics", "Biology", "Physics", "History"],
+    "answer": "Economics"
+  },
+  {
+    "question": "What do we call goods and services made for sale?",
+    "options": ["Products", "Ideas", "Plants", "Animals"],
+    "answer": "Products"
+  },
+  {
+    "question": "What is the money people earn from work called?",
+    "options": ["Income", "Profit", "Loan", "Debt"],
+    "answer": "Income"
+  },
+  {
+    "question": "What do we call the cost of making a product?",
+    "options": ["Production cost", "Profit", "Salary", "Rent"],
+    "answer": "Production cost"
+  },
+  {
+    "question": "What is the difference between income and expenses called?",
+    "options": ["Profit", "Loss", "Salary", "Revenue"],
+    "answer": "Profit"
+  },
+  {
+    "question": "What is it called when prices rise over time?",
+    "options": ["Inflation", "Deflation", "Profit", "Tax"],
+    "answer": "Inflation"
+  },
+  {
+    "question": "What do we call a business that sells goods to customers?",
+    "options": ["Retailer", "Farmer", "Teacher", "Doctor"],
+    "answer": "Retailer"
+  },
+  {
+    "question": "What is money people borrow and must pay back called?",
+    "options": ["Loan", "Profit", "Income", "Rent"],
+    "answer": "Loan"
+  },
+  {
+    "question": "What is the study of how countries trade goods called?",
+    "options": ["International trade", "History", "Biology", "Mathematics"],
+    "answer": "International trade"
+  },
+  {
+    "question": "What is a tax on goods or services called?",
+    "options": ["Sales tax", "Income", "Loan", "Rent"],
+    "answer": "Sales tax"
+  },
+  {
+    "question": "What is the money spent to buy goods or services called?",
+    "options": ["Expenditure", "Income", "Profit", "Loan"],
+    "answer": "Expenditure"
+  },
+  {
+    "question": "What is the supply of money and credit in an economy called?",
+    "options": ["Money supply", "Income", "Profit", "Tax"],
+    "answer": "Money supply"
+  },
+  {
+    "question": "What is the extra money earned from selling something called?",
+    "options": ["Profit", "Income", "Debt", "Loan"],
+    "answer": "Profit"
+  },
+  {
+    "question": "What do we call resources like land, labor, and capital?",
+    "options": ["Factors of production", "Goods", "Services", "Products"],
+    "answer": "Factors of production"
+  },
+  {
+    "question": "What is the reduction in value of money over time called?",
+    "options": ["Inflation", "Deflation", "Interest", "Profit"],
+    "answer": "Inflation"
+  },
+  {
+    "question": "What is the benefit of choosing one option over another called?",
+    "options": ["Opportunity cost", "Profit", "Loan", "Income"],
+    "answer": "Opportunity cost"
+  },
+  {
+    "question": "What do we call goods produced for personal use?",
+    "options": ["Consumer goods", "Capital goods", "Services", "Resources"],
+    "answer": "Consumer goods"
+  },
+  {
+    "question": "What is the cost of borrowing money called?",
+    "options": ["Interest", "Profit", "Tax", "Income"],
+    "answer": "Interest"
+  },
+  {
+    "question": "What is a market where goods and services are bought and sold?",
+    "options": ["Marketplace", "Bank", "Factory", "School"],
+    "answer": "Marketplace"
+  },
+  {
+    "question": "What is a situation when demand is greater than supply?",
+    "options": ["Shortage", "Surplus", "Profit", "Deflation"],
+    "answer": "Shortage"
+  },
+  {
+    "question": "What is a situation when supply is greater than demand?",
+    "options": ["Surplus", "Shortage", "Profit", "Debt"],
+    "answer": "Surplus"
+  },
+  {
+    "question": "What is the money a government collects from people called?",
+    "options": ["Tax", "Loan", "Income", "Profit"],
+    "answer": "Tax"
+  },
+  {
+    "question": "What is a business that produces goods called?",
+    "options": ["Manufacturer", "Retailer", "Farmer", "Teacher"],
+    "answer": "Manufacturer"
+  },
+  {
+    "question": "What is the study of managing money called?",
+    "options": ["Finance", "Economics", "Biology", "History"],
+    "answer": "Finance"
+  },
+  {
+    "question": "What do we call the act of buying and selling goods?",
+    "options": ["Trade", "Profit", "Loan", "Debt"],
+    "answer": "Trade"
+  },
+  {
+    "question": "What is the total value of goods and services produced called?",
+    "options": ["Gross Domestic Product", "Income", "Profit", "Tax"],
+    "answer": "Gross Domestic Product"
+  },
+  {
+    "question": "What is the study of money, banking, and investments called?",
+    "options": ["Economics", "Finance", "History", "Geography"],
+    "answer": "Finance"
+  },
+  {
+    "question": "What is the money people earn before taxes?",
+    "options": ["Gross income", "Net income", "Profit", "Loan"],
+    "answer": "Gross income"
+  },
+  {
+    "question": "What is the money people take home after taxes?",
+    "options": ["Net income", "Gross income", "Profit", "Expenditure"],
+    "answer": "Net income"
+  },
+  {
+    "question": "What is the increase in goods and services produced over time called?",
+    "options": ["Economic growth", "Inflation", "Deflation", "Profit"],
+    "answer": "Economic growth"
+  }
+]
