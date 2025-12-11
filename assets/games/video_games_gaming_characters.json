@@ -1,0 +1,157 @@
+[
+  {
+    "question": "Which character is known for wearing a red hat and mustache in the Mario franchise?",
+    "options": ["Mario", "Luigi", "Yoshi", "Peach"],
+    "answer": "Mario"
+  },
+  {
+    "question": "In which game would you find the character ‘Master Chief’?",
+    "options": ["Halo", "Call of Duty", "Fortnite", "Minecraft"],
+    "answer": "Halo"
+  },
+  {
+    "question": "Which game features the character ‘Link’?",
+    "options": ["The Legend of Zelda", "Super Mario", "Metroid", "Final Fantasy"],
+    "answer": "The Legend of Zelda"
+  },
+  {
+    "question": "In which game do you fight zombies in a post-apocalyptic world?",
+    "options": ["The Last of Us", "Resident Evil", "Call of Duty", "Minecraft"],
+    "answer": "The Last of Us"
+  },
+  {
+    "question": "Which character is known for driving a car and playing soccer in a game called Rocket League?",
+    "options": ["Octane", "Gizmo", "Blaze", "Rocket Man"],
+    "answer": "Octane"
+  },
+  {
+    "question": "In Fortnite, what is the name of the popular battle royale mode?",
+    "options": ["Battle Royale", "Creative Mode", "Team Rumble", "Save the World"],
+    "answer": "Battle Royale"
+  },
+  {
+    "question": "Which game features a survival mode called ‘Minecraft’?",
+    "options": ["Minecraft", "Terraria", "Fortnite", "Ark: Survival Evolved"],
+    "answer": "Minecraft"
+  },
+  {
+    "question": "In which game do you play as a character named ‘Geralt of Rivia’?",
+    "options": ["The Witcher 3", "Skyrim", "Dark Souls", "Dragon Age"],
+    "answer": "The Witcher 3"
+  },
+  {
+    "question": "Which character is known for ‘punching’ and ‘kicking’ in games like Super Smash Bros?",
+    "options": ["Donkey Kong", "Mario", "Sonic", "Link"],
+    "answer": "Donkey Kong"
+  },
+  {
+    "question": "Which character is known for his love of chili dogs?",
+    "options": ["Sonic the Hedgehog", "Mario", "Pac-Man", "Mega Man"],
+    "answer": "Sonic the Hedgehog"
+  },
+  {
+    "question": "Which game is set in a fictional world called ‘San Andreas’?",
+    "options": ["Grand Theft Auto: San Andreas", "Red Dead Redemption", "Need for Speed", "Watch Dogs"],
+    "answer": "Grand Theft Auto: San Andreas"
+  },
+  {
+    "question": "In which game do you have to ‘catch them all’?",
+    "options": ["Pokémon", "Digimon", "Yu-Gi-Oh", "Monster Hunter"],
+    "answer": "Pokémon"
+  },
+  {
+    "question": "In which game does a character named ‘Samus Aran’ explore alien planets?",
+    "options": ["Metroid", "Halo", "Dead Space", "Portal"],
+    "answer": "Metroid"
+  },
+  {
+    "question": "Which game series is known for the phrase ‘It’s dangerous to go alone, take this!’?",
+    "options": ["The Legend of Zelda", "Final Fantasy", "Minecraft", "Halo"],
+    "answer": "The Legend of Zelda"
+  },
+  {
+    "question": "In which game do you collect rings while running at high speeds?",
+    "options": ["Sonic the Hedgehog", "Super Mario", "Crash Bandicoot", "Kirby"],
+    "answer": "Sonic the Hedgehog"
+  },
+  {
+    "question": "Which game features a world of blocks where you can build and explore?",
+    "options": ["Minecraft", "Terraria", "Fortnite", "Roblox"],
+    "answer": "Minecraft"
+  },
+  {
+    "question": "In which game would you encounter characters like ‘Kirby’ and ‘Meta Knight’?",
+    "options": ["Kirby", "Super Smash Bros", "Mario Kart", "Metroid"],
+    "answer": "Kirby"
+  },
+  {
+    "question": "Which game series is known for the character ‘Kratos’?",
+    "options": ["God of War", "Halo", "Uncharted", "The Witcher"],
+    "answer": "God of War"
+  },
+  {
+    "question": "In which game can you play as ‘The Doom Slayer’?",
+    "options": ["DOOM", "Call of Duty", "Fortnite", "Overwatch"],
+    "answer": "DOOM"
+  },
+  {
+    "question": "Which character says ‘I am Groot’?",
+    "options": ["Groot", "Thor", "Iron Man", "Rocket Raccoon"],
+    "answer": "Groot"
+  },
+  {
+    "question": "Which popular video game character wears a green tunic and a pointed hat?",
+    "options": ["Link", "Mario", "Zelda", "Cloud Strife"],
+    "answer": "Link"
+  },
+  {
+    "question": "Which game features the character ‘Lara Croft’ exploring tombs?",
+    "options": ["Tomb Raider", "Uncharted", "Assassin's Creed", "Prince of Persia"],
+    "answer": "Tomb Raider"
+  },
+  {
+    "question": "Which character is often seen wielding a keyblade in the game series ‘Kingdom Hearts’?",
+    "options": ["Sora", "Cloud Strife", "Link", "Riku"],
+    "answer": "Sora"
+  },
+  {
+    "question": "In which game would you hear the term ‘Victory Royale’?",
+    "options": ["Fortnite", "Apex Legends", "PUBG", "Call of Duty: Warzone"],
+    "answer": "Fortnite"
+  },
+  {
+    "question": "Which video game character is known for his ‘plumber’ occupation?",
+    "options": ["Mario", "Sonic", "Crash Bandicoot", "Kirby"],
+    "answer": "Mario"
+  },
+  {
+    "question": "Which game has a character named ‘Pikachu’?",
+    "options": ["Pokémon", "Digimon", "Yu-Gi-Oh", "Dragon Ball Z"],
+    "answer": "Pokémon"
+  },
+  {
+    "question": "Which game is centered around building structures and surviving against waves of enemies?",
+    "options": ["Fortnite", "Minecraft", "Plants vs Zombies", "Left 4 Dead"],
+    "answer": "Fortnite"
+  },
+  {
+    "question": "Which character is the main protagonist in the ‘Halo’ series?",
+    "options": ["Master Chief", "Nathan Drake", "Geralt of Rivia", "Marcus Fenix"],
+    "answer": "Master Chief"
+  },
+  {
+    "question": "Which game features an open-world environment set in a fictional version of the United States?",
+    "options": ["Grand Theft Auto V", "Red Dead Redemption 2", "The Elder Scrolls V: Skyrim", "Assassin’s Creed Valhalla"],
+    "answer": "Grand Theft Auto V"
+  },
+  {
+    "question": "Which game is famous for its battle royale mode, ‘Warzone’?",
+    "options": ["Call of Duty: Warzone", "PUBG", "Fortnite", "Apex Legends"],
+    "answer": "Call of Duty: Warzone"
+  },
+  {
+    "question": "In which game do you play as ‘Arthur Morgan’, a member of the Van der Linde gang?",
+    "options": ["Red Dead Redemption 2", "Grand Theft Auto V", "Assassin's Creed Origins", "The Witcher 3"],
+    "answer": "Red Dead Redemption 2"
+  }
+]
