@@ -1,0 +1,157 @@
+[
+  {
+    "question": "Which shape has three sides?",
+    "options": ["Triangle", "Square", "Circle", "Rectangle"],
+    "answer": "Triangle"
+  },
+  {
+    "question": "Which shape has four equal sides and four right angles?",
+    "options": ["Square", "Rectangle", "Diamond", "Triangle"],
+    "answer": "Square"
+  },
+  {
+    "question": "Which shape is round with no corners?",
+    "options": ["Circle", "Square", "Triangle", "Rectangle"],
+    "answer": "Circle"
+  },
+  {
+    "question": "Which shape has four sides but opposite sides are equal?",
+    "options": ["Rectangle", "Square", "Triangle", "Circle"],
+    "answer": "Rectangle"
+  },
+  {
+    "question": "Which shape looks like a stretched circle?",
+    "options": ["Oval", "Circle", "Triangle", "Rectangle"],
+    "answer": "Oval"
+  },
+  {
+    "question": "Which shape has five sides?",
+    "options": ["Pentagon", "Hexagon", "Triangle", "Square"],
+    "answer": "Pentagon"
+  },
+  {
+    "question": "Which shape has six sides?",
+    "options": ["Hexagon", "Pentagon", "Octagon", "Rectangle"],
+    "answer": "Hexagon"
+  },
+  {
+    "question": "Which shape has eight sides?",
+    "options": ["Octagon", "Hexagon", "Square", "Triangle"],
+    "answer": "Octagon"
+  },
+  {
+    "question": "Which shape is a 3D ball-like object?",
+    "options": ["Sphere", "Cube", "Cylinder", "Cone"],
+    "answer": "Sphere"
+  },
+  {
+    "question": "Which 3D shape has flat faces and all sides equal?",
+    "options": ["Cube", "Sphere", "Cone", "Cylinder"],
+    "answer": "Cube"
+  },
+  {
+    "question": "Which 3D shape has circular top and bottom and a curved side?",
+    "options": ["Cylinder", "Cone", "Sphere", "Cube"],
+    "answer": "Cylinder"
+  },
+  {
+    "question": "Which 3D shape has a circular base and a pointed top?",
+    "options": ["Cone", "Cylinder", "Sphere", "Cube"],
+    "answer": "Cone"
+  },
+  {
+    "question": "Which shape has four sides but no right angles?",
+    "options": ["Rhombus", "Square", "Rectangle", "Triangle"],
+    "answer": "Rhombus"
+  },
+  {
+    "question": "Which shape has three corners and three angles?",
+    "options": ["Triangle", "Square", "Rectangle", "Pentagon"],
+    "answer": "Triangle"
+  },
+  {
+    "question": "Which shape is like a stretched square on one side?",
+    "options": ["Rectangle", "Square", "Diamond", "Trapezoid"],
+    "answer": "Rectangle"
+  },
+  {
+    "question": "Which shape has a curved surface like an ice cream cone?",
+    "options": ["Cone", "Cylinder", "Sphere", "Cube"],
+    "answer": "Cone"
+  },
+  {
+    "question": "Which shape looks like a diamond?",
+    "options": ["Rhombus", "Triangle", "Square", "Circle"],
+    "answer": "Rhombus"
+  },
+  {
+    "question": "Which shape has six faces, all rectangles?",
+    "options": ["Cuboid", "Cube", "Sphere", "Cylinder"],
+    "answer": "Cuboid"
+  },
+  {
+    "question": "Which shape is completely round and rolls easily?",
+    "options": ["Sphere", "Cube", "Cylinder", "Cone"],
+    "answer": "Sphere"
+  },
+  {
+    "question": "Which shape has a flat bottom and pointed top?",
+    "options": ["Cone", "Cylinder", "Cube", "Pyramid"],
+    "answer": "Cone"
+  },
+  {
+    "question": "Which shape has five angles and five corners?",
+    "options": ["Pentagon", "Hexagon", "Octagon", "Triangle"],
+    "answer": "Pentagon"
+  },
+  {
+    "question": "Which 2D shape has six straight sides?",
+    "options": ["Hexagon", "Pentagon", "Square", "Triangle"],
+    "answer": "Hexagon"
+  },
+  {
+    "question": "Which shape is used for traffic stop signs?",
+    "options": ["Octagon", "Circle", "Square", "Triangle"],
+    "answer": "Octagon"
+  },
+  {
+    "question": "Which shape has four equal sides but tilted like a diamond?",
+    "options": ["Rhombus", "Square", "Rectangle", "Triangle"],
+    "answer": "Rhombus"
+  },
+  {
+    "question": "Which shape is like a stretched circle, often used in sports?",
+    "options": ["Oval", "Circle", "Rectangle", "Hexagon"],
+    "answer": "Oval"
+  },
+  {
+    "question": "Which 3D shape has flat triangular faces meeting at a point?",
+    "options": ["Pyramid", "Cube", "Sphere", "Cylinder"],
+    "answer": "Pyramid"
+  },
+  {
+    "question": "Which shape has no corners and no edges?",
+    "options": ["Circle", "Triangle", "Square", "Rectangle"],
+    "answer": "Circle"
+  },
+  {
+    "question": "Which shape is used in dice and has equal sides?",
+    "options": ["Cube", "Sphere", "Cone", "Cylinder"],
+    "answer": "Cube"
+  },
+  {
+    "question": "Which shape has a circular top and flat bottom?",
+    "options": ["Cone", "Cylinder", "Cube", "Sphere"],
+    "answer": "Cone"
+  },
+  {
+    "question": "Which shape has all sides equal and all angles equal in 2D?",
+    "options": ["Square", "Rectangle", "Rhombus", "Triangle"],
+    "answer": "Square"
+  },
+  {
+    "question": "Which shape has six faces, all squares?",
+    "options": ["Cube", "Cuboid", "Sphere", "Cylinder"],
+    "answer": "Cube"
+  }
+]
