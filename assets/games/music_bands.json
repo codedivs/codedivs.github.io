@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Which band released the album 'Abbey Road'?",
+    "options": ["The Beatles", "The Rolling Stones", "Pink Floyd", "Led Zeppelin"],
+    "answer": "The Beatles"
+  },
+  {
+    "question": "Who is known as the 'King of Pop'?",
+    "options": ["Michael Jackson", "Elvis Presley", "Prince", "Justin Timberlake"],
+    "answer": "Michael Jackson"
+  },
+  {
+    "question": "Which band is known for the hit song 'Bohemian Rhapsody'?",
+    "options": ["Queen", "The Beatles", "The Rolling Stones", "AC/DC"],
+    "answer": "Queen"
+  },
+  {
+    "question": "Who was the lead singer of Nirvana?",
+    "options": ["Kurt Cobain", "Eddie Vedder", "Chris Cornell", "Dave Grohl"],
+    "answer": "Kurt Cobain"
+  },
+  {
+    "question": "Which band is known for the song 'Smells Like Teen Spirit'?",
+    "options": ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+    "answer": "Nirvana"
+  },
+  {
+    "question": "Which pop artist released the album '1989'?",
+    "options": ["Taylor Swift", "Ariana Grande", "Katy Perry", "Lady Gaga"],
+    "answer": "Taylor Swift"
+  },
+  {
+    "question": "Who is the lead singer of Coldplay?",
+    "options": ["Chris Martin", "Jonny Buckland", "Guy Berryman", "Will Champion"],
+    "answer": "Chris Martin"
+  },
+  {
+    "question": "Which band released the hit song 'Stairway to Heaven'?",
+    "options": ["Led Zeppelin", "The Rolling Stones", "The Beatles", "Pink Floyd"],
+    "answer": "Led Zeppelin"
+  },
+  {
+    "question": "Which artist is known for the song 'Rolling in the Deep'?",
+    "options": ["Adele", "Beyoncé", "Rihanna", "Shakira"],
+    "answer": "Adele"
+  },
+  {
+    "question": "Which boy band released the hit song 'I Want It That Way'?",
+    "options": ["Backstreet Boys", "NSYNC", "One Direction", "New Kids on the Block"],
+    "answer": "Backstreet Boys"
+  },
+  {
+    "question": "What is the name of Beyoncé's alter ego?",
+    "options": ["Sasha Fierce", "Queen B", "Yoncé", "Mrs. Carter"],
+    "answer": "Sasha Fierce"
+  },
+  {
+    "question": "Which band released the album 'Dark Side of the Moon'?",
+    "options": ["Pink Floyd", "The Rolling Stones", "The Beatles", "Led Zeppelin"],
+    "answer": "Pink Floyd"
+  },
+  {
+    "question": "Who is the lead singer of The Rolling Stones?",
+    "options": ["Mick Jagger", "Keith Richards", "Brian Jones", "Charlie Watts"],
+    "answer": "Mick Jagger"
+  },
+  {
+    "question": "Which artist is famous for the album 'Born to Run'?",
+    "options": ["Bruce Springsteen", "Bob Dylan", "Tom Petty", "Billy Joel"],
+    "answer": "Bruce Springsteen"
+  },
+  {
+    "question": "Which band was Freddie Mercury the lead singer of?",
+    "options": ["Queen", "The Beatles", "Pink Floyd", "The Rolling Stones"],
+    "answer": "Queen"
+  },
+  {
+    "question": "What year did the Beatles break up?",
+    "options": ["1970", "1968", "1965", "1975"],
+    "answer": "1970"
+  },
+  {
+    "question": "Who released the song 'Shape of You'?",
+    "options": ["Ed Sheeran", "Justin Bieber", "Adele", "Sam Smith"],
+    "answer": "Ed Sheeran"
+  },
+  {
+    "question": "Which singer is known for the song 'Viva La Vida'?",
+    "options": ["Coldplay", "Imagine Dragons", "OneRepublic", "The Script"],
+    "answer": "Coldplay"
+  },
+  {
+    "question": "Which of these bands is known for their hit song 'Smells Like Teen Spirit'?",
+    "options": ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+    "answer": "Nirvana"
+  },
+  {
+    "question": "Which band was formed in Liverpool in 1960?",
+    "options": ["The Beatles", "The Rolling Stones", "The Who", "Led Zeppelin"],
+    "answer": "The Beatles"
+  },
+  {
+    "question": "Who is known as the 'Queen of Pop'?",
+    "options": ["Madonna", "Lady Gaga", "Beyoncé", "Rihanna"],
+    "answer": "Madonna"
+  },
+  {
+    "question": "Which band is famous for the song 'Hotel California'?",
+    "options": ["Eagles", "Fleetwood Mac", "The Rolling Stones", "Led Zeppelin"],
+    "answer": "Eagles"
+  },
+  {
+    "question": "Which artist performed the song 'Uptown Funk'?",
+    "options": ["Mark Ronson ft. Bruno Mars", "Pharrell Williams", "Justin Timberlake", "Katy Perry"],
+    "answer": "Mark Ronson ft. Bruno Mars"
+  },
+  {
+    "question": "Which British rock band is known for songs like 'Bohemian Rhapsody' and 'We Will Rock You'?",
+    "options": ["Queen", "The Rolling Stones", "Pink Floyd", "The Who"],
+    "answer": "Queen"
+  },
+  {
+    "question": "Which artist sang 'I Will Always Love You'?",
+    "options": ["Whitney Houston", "Mariah Carey", "Celine Dion", "Adele"],
+    "answer": "Whitney Houston"
+  },
+  {
+    "question": "Which band performed 'Sweet Child O' Mine'?",
+    "options": ["Guns N' Roses", "Led Zeppelin", "Metallica", "AC/DC"],
+    "answer": "Guns N' Roses"
+  },
+  {
+    "question": "Which artist released the album 'Lover'?",
+    "options": ["Taylor Swift", "Katy Perry", "Ed Sheeran", "Ariana Grande"],
+    "answer": "Taylor Swift"
+  },
+  {
+    "question": "Which iconic band is known for their song 'Yesterday'?",
+    "options": ["The Beatles", "The Rolling Stones", "Led Zeppelin", "The Who"],
+    "answer": "The Beatles"
+  },
+  {
+    "question": "Who is known for the song 'Hips Don't Lie'?",
+    "options": ["Shakira", "Rihanna", "Beyoncé", "Alicia Keys"],
+    "answer": "Shakira"
+  },
+  {
+    "question": "Which artist's album 'Good Kid, M.A.A.D City' was released in 2012?",
+    "options": ["Kendrick Lamar", "Drake", "J. Cole", "Childish Gambino"],
+    "answer": "Kendrick Lamar"
+  },
+  {
+    "question": "Who is the lead vocalist of the band Imagine Dragons?",
+    "options": ["Dan Reynolds", "Tyler Joseph", "Brendon Urie", "Adam Levine"],
+    "answer": "Dan Reynolds"
+  },
+  {
+    "question": "Which band is famous for the hit song 'Rolling in the Deep'?",
+    "options": ["Adele", "Coldplay", "One Direction", "Maroon 5"],
+    "answer": "Adele"
+  },
+  {
+    "question": "Which artist is known for the song 'Single Ladies (Put a Ring on It)'?",
+    "options": ["Beyoncé", "Rihanna", "Ariana Grande", "Katy Perry"],
+    "answer": "Beyoncé"
+  },
+  {
+    "question": "Which band is known for their hit album 'Back in Black'?",
+    "options": ["AC/DC", "Led Zeppelin", "The Rolling Stones", "Guns N' Roses"],
+    "answer": "AC/DC"
+  },
+  {
+    "question": "Which artist is known for the song 'Bad Guy'?",
+    "options": ["Billie Eilish", "Ariana Grande", "Lizzo", "Dua Lipa"],
+    "answer": "Billie Eilish"
+  },
+  {
+    "question": "Which band released 'The Dark Side of the Moon'?",
+    "options": ["Pink Floyd", "The Beatles", "The Rolling Stones", "Led Zeppelin"],
+    "answer": "Pink Floyd"
+  }
+]
