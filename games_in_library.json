@@ -319,5 +319,53 @@
     "difficulty": "hard",
     "stars": 3,
     "category": "science"
+  },
+   {
+    "game_name": "Psychology Fundamentals",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "psychology_fundamentals",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "psychology"
+  },
+  {
+    "game_name": "Philosophy of Mind",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "philosophy_of_mind",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "philosophy"
+  },
+  {
+    "game_name": "Introduction to Sociology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "intro_sociology",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "social sciences"
+  },
+  {
+    "game_name": "World Religions",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "world_religions",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "religion"
+  },
+  {
+    "game_name": "Political Science Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "political_science_basics",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "social sciences"
+  },
+  {
+    "game_name": "Environmental Science",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "environmental_science",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
   }
 ]
