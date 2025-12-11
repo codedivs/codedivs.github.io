@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which word means a young dog?",
+    "options": ["Puppy", "Kitten", "Calf", "Cub"],
+    "answer": "Puppy"
+  },
+  {
+    "question": "Which word means a large body of water?",
+    "options": ["Ocean", "River", "Pond", "Stream"],
+    "answer": "Ocean"
+  },
+  {
+    "question": "Which word means opposite of cold?",
+    "options": ["Warm", "Dry", "Soft", "Short"],
+    "answer": "Warm"
+  },
+  {
+    "question": "Which word means a place where students learn?",
+    "options": ["School", "Market", "Garden", "Office"],
+    "answer": "School"
+  },
+  {
+    "question": "Which word means a person who teaches?",
+    "options": ["Teacher", "Driver", "Doctor", "Farmer"],
+    "answer": "Teacher"
+  },
+  {
+    "question": "Which word means a fruit that is yellow and curved?",
+    "options": ["Banana", "Apple", "Pear", "Plum"],
+    "answer": "Banana"
+  },
+  {
+    "question": "Which word means to rest at night?",
+    "options": ["Sleep", "Walk", "Read", "Sing"],
+    "answer": "Sleep"
+  },
+  {
+    "question": "Which word means something you wear on your feet?",
+    "options": ["Shoes", "Gloves", "Hat", "Scarf"],
+    "answer": "Shoes"
+  },
+  {
+    "question": "Which word means a place where you live?",
+    "options": ["Home", "Store", "Park", "Road"],
+    "answer": "Home"
+  },
+  {
+    "question": "Which word means to look at something?",
+    "options": ["See", "Cook", "Build", "Drive"],
+    "answer": "See"
+  },
+  {
+    "question": "Which word means to write your name on paper?",
+    "options": ["Sign", "Draw", "Print", "Copy"],
+    "answer": "Sign"
+  },
+  {
+    "question": "Which word means a large animal with a trunk?",
+    "options": ["Elephant", "Lion", "Bear", "Deer"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "Which word means something you drink to stay healthy?",
+    "options": ["Water", "Salt", "Sand", "Smoke"],
+    "answer": "Water"
+  },
+  {
+    "question": "Which word means to move quickly on foot?",
+    "options": ["Run", "Sit", "Swim", "Jump"],
+    "answer": "Run"
+  },
+  {
+    "question": "Which word means a person who treats sick people?",
+    "options": ["Doctor", "Chef", "Painter", "Actor"],
+    "answer": "Doctor"
+  },
+  {
+    "question": "Which word means a sweet frozen dessert?",
+    "options": ["Ice cream", "Bread", "Soup", "Rice"],
+    "answer": "Ice cream"
+  },
+  {
+    "question": "Which word means a flying animal with wings and feathers?",
+    "options": ["Bird", "Fish", "Horse", "Rabbit"],
+    "answer": "Bird"
+  },
+  {
+    "question": "Which word means something you use to call someone?",
+    "options": ["Phone", "Pencil", "Bag", "Bottle"],
+    "answer": "Phone"
+  },
+  {
+    "question": "Which word means a big round object in the sky at night?",
+    "options": ["Moon", "Cloud", "Star", "Planet"],
+    "answer": "Moon"
+  },
+  {
+    "question": "Which word means a small insect that makes honey?",
+    "options": ["Bee", "Ant", "Fly", "Wasp"],
+    "answer": "Bee"
+  },
+  {
+    "question": "Which word means a road vehicle with four wheels?",
+    "options": ["Car", "Ship", "Helicopter", "Train"],
+    "answer": "Car"
+  },
+  {
+    "question": "Which word means to speak loudly?",
+    "options": ["Shout", "Whisper", "Laugh", "Cry"],
+    "answer": "Shout"
+  },
+  {
+    "question": "Which word means a place with many books to borrow?",
+    "options": ["Library", "Kitchen", "Garage", "Station"],
+    "answer": "Library"
+  },
+  {
+    "question": "Which word means a color made by mixing red and blue?",
+    "options": ["Purple", "Orange", "Green", "Brown"],
+    "answer": "Purple"
+  },
+  {
+    "question": "Which word means a device that keeps time?",
+    "options": ["Clock", "Lamp", "Mirror", "Fan"],
+    "answer": "Clock"
+  },
+  {
+    "question": "Which word means a sweet fruit that grows on vines?",
+    "options": ["Grapes", "Orange", "Peach", "Mango"],
+    "answer": "Grapes"
+  },
+  {
+    "question": "Which word means a place with grass and trees for relaxing?",
+    "options": ["Park", "Factory", "Hotel", "Airport"],
+    "answer": "Park"
+  },
+  {
+    "question": "Which word means to eat a small meal between main meals?",
+    "options": ["Snack", "Bake", "Freeze", "Peel"],
+    "answer": "Snack"
+  },
+  {
+    "question": "Which word means a toy that flies in the wind?",
+    "options": ["Kite", "Ball", "Doll", "Puzzle"],
+    "answer": "Kite"
+  },
+  {
+    "question": "Which word means something that helps you see clearly in the sun?",
+    "options": ["Sunglasses", "Gloves", "Earrings", "Wallet"],
+    "answer": "Sunglasses"
+  }
+]
