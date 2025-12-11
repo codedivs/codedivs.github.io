@@ -1,0 +1,172 @@
+[
+  {
+    "question": "Who is known as the King of Pop?",
+    "options": ["Michael Jackson", "Elvis Presley", "Justin Bieber", "Prince"],
+    "answer": "Michael Jackson"
+  },
+  {
+    "question": "Which song is known for the lyrics 'Let it be, let it be, let it be, let it be'?",
+    "options": ["Let It Be", "Hey Jude", "Yesterday", "Come Together"],
+    "answer": "Let It Be"
+  },
+  {
+    "question": "Which band performed the hit song 'Bohemian Rhapsody'?",
+    "options": ["Queen", "The Beatles", "The Rolling Stones", "Pink Floyd"],
+    "answer": "Queen"
+  },
+  {
+    "question": "Who sang the song 'Shape of You'?",
+    "options": ["Ed Sheeran", "Ariana Grande", "Justin Timberlake", "Shawn Mendes"],
+    "answer": "Ed Sheeran"
+  },
+  {
+    "question": "Which famous music video featured a giant, white glove and a moonwalk?",
+    "options": ["Billie Jean", "Thriller", "Beat It", "Smooth Criminal"],
+    "answer": "Billie Jean"
+  },
+  {
+    "question": "What is the title of the first album released by The Beatles?",
+    "options": ["Please Please Me", "Abbey Road", "Revolver", "Rubber Soul"],
+    "answer": "Please Please Me"
+  },
+  {
+    "question": "Which song by Whitney Houston became a massive hit in 1992 and was featured in 'The Bodyguard'?",
+    "options": ["I Will Always Love You", "Greatest Love of All", "I Wanna Dance with Somebody", "How Will I Know"],
+    "answer": "I Will Always Love You"
+  },
+  {
+    "question": "Which artist famously said, 'I am the greatest'?",
+    "options": ["Muhammad Ali", "Kanye West", "Usher", "Drake"],
+    "answer": "Muhammad Ali"
+  },
+  {
+    "question": "Which song by Taylor Swift has the line 'We are never, ever, ever getting back together'?",
+    "options": ["We Are Never Ever Getting Back Together", "Love Story", "You Belong with Me", "Shake It Off"],
+    "answer": "We Are Never Ever Getting Back Together"
+  },
+  {
+    "question": "Which band is known for the hit songs 'Smells Like Teen Spirit' and 'Come As You Are'?",
+    "options": ["Nirvana", "Pearl Jam", "Green Day", "Red Hot Chili Peppers"],
+    "answer": "Nirvana"
+  },
+  {
+    "question": "Which artist is known for the hit song 'Rolling in the Deep'?",
+    "options": ["Adele", "Beyoncé", "Rihanna", "Shakira"],
+    "answer": "Adele"
+  },
+  {
+    "question": "Who sang the famous song 'I Will Survive'?",
+    "options": ["Gloria Gaynor", "Donna Summer", "Cher", "Celine Dion"],
+    "answer": "Gloria Gaynor"
+  },
+  {
+    "question": "Which song by The Weeknd became a hit in 2020 and was also featured in the movie 'Uncut Gems'?",
+    "options": ["Blinding Lights", "Can't Feel My Face", "Starboy", "The Hills"],
+    "answer": "Blinding Lights"
+  },
+  {
+    "question": "Which iconic artist was known as the 'Queen of Soul'?",
+    "options": ["Aretha Franklin", "Tina Turner", "Whitney Houston", "Diana Ross"],
+    "answer": "Aretha Franklin"
+  },
+  {
+    "question": "Which popular song by Justin Bieber includes the line 'Sorry, I don't feel like dancing'?",
+    "options": ["Sorry", "Baby", "Love Yourself", "What Do You Mean?"],
+    "answer": "Sorry"
+  },
+  {
+    "question": "Which popular song by Katy Perry features a line that goes 'Do you ever feel like a plastic bag'? ",
+    "options": ["Firework", "Teenage Dream", "Roar", "California Gurls"],
+    "answer": "Firework"
+  },
+  {
+    "question": "Who is the 'Queen of Pop'?",
+    "options": ["Madonna", "Lady Gaga", "Beyoncé", "Ariana Grande"],
+    "answer": "Madonna"
+  },
+  {
+    "question": "Which famous rock band performed the song 'Hotel California'?",
+    "options": ["The Eagles", "Fleetwood Mac", "Led Zeppelin", "The Rolling Stones"],
+    "answer": "The Eagles"
+  },
+  {
+    "question": "Which song is known for the iconic lyric 'Is this the real life? Is this just fantasy?'?",
+    "options": ["Bohemian Rhapsody", "We Are the Champions", "Under Pressure", "Another One Bites the Dust"],
+    "answer": "Bohemian Rhapsody"
+  },
+  {
+    "question": "Which singer released the 2016 album titled 'Lemonade'?",
+    "options": ["Beyoncé", "Alicia Keys", "Rihanna", "Kesha"],
+    "answer": "Beyoncé"
+  },
+  {
+    "question": "What is the name of the famous music festival held in California every year?",
+    "options": ["Coachella", "Lollapalooza", "Glastonbury", "Tomorrowland"],
+    "answer": "Coachella"
+  },
+  {
+    "question": "Which song features the lyrics 'Cause you know that baby, I’m your biggest fan, I’ll follow you until you love me'?",
+    "options": ["Bad Romance", "Poker Face", "Lovegame", "Just Dance"],
+    "answer": "Poker Face"
+  },
+  {
+    "question": "Who is the lead vocalist of the band Coldplay?",
+    "options": ["Chris Martin", "Bono", "Adam Levine", "Brandon Flowers"],
+    "answer": "Chris Martin"
+  },
+  {
+    "question": "Which rapper released the album 'The College Dropout'?",
+    "options": ["Kanye West", "Jay-Z", "Drake", "Nas"],
+    "answer": "Kanye West"
+  },
+  {
+    "question": "Which song by Justin Timberlake features the line 'I can't stop the feeling'?",
+    "options": ["Can't Stop the Feeling", "Cry Me a River", "Suit & Tie", "Mirrors"],
+    "answer": "Can't Stop the Feeling"
+  },
+  {
+    "question": "Which popular singer is known for the song 'Uptown Funk'?",
+    "options": ["Bruno Mars", "Ed Sheeran", "John Legend", "Sam Smith"],
+    "answer": "Bruno Mars"
+  },
+  {
+    "question": "What was Michael Jackson's first album?",
+    "options": ["Got to Be There", "Thriller", "Bad", "Dangerous"],
+    "answer": "Got to Be There"
+  },
+  {
+    "question": "Which singer's real name is Stefani Joanne Angelina Germanotta?",
+    "options": ["Lady Gaga", "Ariana Grande", "Kesha", "Rihanna"],
+    "answer": "Lady Gaga"
+  },
+  {
+    "question": "Which hit song by Pharrell Williams was featured in the movie 'Despicable Me 2'?",
+    "options": ["Happy", "Get Lucky", "Blurred Lines", "Marry Me"],
+    "answer": "Happy"
+  },
+  {
+    "question": "Who is known for the song 'Wrecking Ball'?",
+    "options": ["Miley Cyrus", "Kesha", "Ariana Grande", "Selena Gomez"],
+    "answer": "Miley Cyrus"
+  },
+  {
+    "question": "Which band is known for their hit song 'Hey Jude'?",
+    "options": ["The Beatles", "The Rolling Stones", "Pink Floyd", "The Who"],
+    "answer": "The Beatles"
+  },
+  {
+    "question": "Which artist released the hit song 'Despacito' in 2017?",
+    "options": ["Luis Fonsi", "Shakira", "Maluma", "Daddy Yankee"],
+    "answer": "Luis Fonsi"
+  },
+  {
+    "question": "Which song features the famous lyric, 'I'm gonna pop some tags, only got twenty dollars in my pocket'?",
+    "options": ["Thrift Shop", "Can't Stop the Feeling", "Uptown Funk", "All of Me"],
+    "answer": "Thrift Shop"
+  },
+  {
+    "question": "Who is the best-selling female artist of all time?",
+    "options": ["Mariah Carey", "Whitney Houston", "Celine Dion", "Beyoncé"],
+    "answer": "Mariah Carey"
+  }
+]
