@@ -511,5 +511,13 @@
   "difficulty": "very easy",
   "stars": 1,
   "category": "fun"
+},
+  {
+  "game_name": "Famous People & Celebrities",
+  "game_icon": "assets/img/code_right.png",
+  "game_id": "famous_people_quiz",
+  "difficulty": "easy",
+  "stars": 2,
+  "category": "entertainment"
 }
 ]
