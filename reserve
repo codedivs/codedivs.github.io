@@ -1,5 +1,813 @@
 [
   {
+    "game_name": "World War II History",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "world_war_ii_history",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "history"
+  },
+  {
+    "game_name": "Biology Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "biology_basics",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "science"
+  },
+  {
+    "game_name": "Famous Landmarks",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "famous_landmarks",
+    "difficulty": "easy",
+    "stars": 2,
+    "category": "geography"
+  },
+  {
+    "game_name": "TV Shows Trivia",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "tv_shows_trivia",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "entertainment"
+  },
+  {
+    "game_name": "Football Legends",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "football_legends",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Shakespeare Plays",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "shakespeare_plays",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "literature"
+  },
+  {
+    "game_name": "Algebra Challenge",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "algebra_challenge",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "math"
+  },
+  {
+    "game_name": "English Grammar Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "english_grammar_quiz",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "english"
+  },
+  {
+    "game_name": "World Cuisines",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "world_cuisines",
+    "difficulty": "easy",
+    "stars": 2,
+    "category": "food"
+  },
+  {
+    "game_name": "Travel Destinations",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "travel_destinations",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "travel"
+  },
+  {
+    "game_name": "Wildlife Animals",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "wildlife_animals",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "nature"
+  },
+  {
+    "game_name": "Internet History",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "internet_history",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "tech"
+  },
+  {
+    "game_name": "Fitness and Health",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "fitness_and_health",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "health"
+  },
+  {
+    "game_name": "Famous Entrepreneurs",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "famous_entrepreneurs",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Greek Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "greek_mythology",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Pop Culture Icons",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "pop_culture_icons",
+    "difficulty": "easy",
+    "stars": 2,
+    "category": "entertainment"
+  },
+  {
+    "game_name": "Logic Puzzles",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "logic_puzzles",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Physics Fundamentals",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "physics_fundamentals",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
+  },
+  {
+    "game_name": "Rivers and Mountains",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "rivers_and_mountains",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "geography"
+  },
+  {
+    "game_name": "Basketball Stars",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "basketball_stars",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Fantasy Books",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "fantasy_books",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "literature"
+  },
+  {
+    "game_name": "Geometry Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "geometry_basics",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "math"
+  },
+  {
+    "game_name": "Vocabulary Builder",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "vocabulary_builder",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "english"
+  },
+  {
+    "game_name": "Healthy Eating",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "healthy_eating",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "health"
+  },
+  {
+    "game_name": "Famous Companies",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "famous_companies",
+    "difficulty": "easy",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Norse Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "norse_mythology",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Movie Quotes",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "movie_quotes",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "entertainment"
+  },
+  {
+    "game_name": "Brain Teasers",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "brain_teasers",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Astronomy Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "astronomy_quiz",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
+  },
+  {
+    "game_name": "Countries and Capitals",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "countries_and_capitals",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "Tennis Champions",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "tennis_champions",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Science Fiction Authors",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "science_fiction_authors",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "literature"
+  },
+  {
+    "game_name": "Calculus Concepts",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "calculus_concepts",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "math"
+  },
+  {
+    "game_name": "Idioms and Phrases",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "idioms_and_phrases",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "english"
+  },
+  {
+    "game_name": "Nutrition Facts",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "nutrition_facts",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "health"
+  },
+  {
+    "game_name": "Stock Market Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "stock_market_basics",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Egyptian Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "egyptian_mythology",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Music Genres",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "music_genres",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "music"
+  },
+  {
+    "game_name": "Sudoku Solver",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "sudoku_solver",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Botany Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "botany_basics",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "science"
+  },
+  {
+    "game_name": "Oceans and Continents",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "oceans_and_continents",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "Cricket Heroes",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "cricket_heroes",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Poetry Masters",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "poetry_masters",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "literature"
+  },
+  {
+    "game_name": "Statistics Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "statistics_quiz",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "math"
+  },
+  {
+    "game_name": "Spelling Bee",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "spelling_bee",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "english"
+  },
+  {
+    "game_name": "Mental Health Awareness",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "mental_health_awareness",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "health"
+  },
+  {
+    "game_name": "Leadership Skills",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "leadership_skills",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Roman Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "roman_mythology",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Rock Bands",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "rock_bands",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "music"
+  },
+  {
+    "game_name": "Crossword Puzzles",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "crossword_puzzles",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Human Anatomy",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "human_anatomy",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
+  },
+  {
+    "game_name": "Famous Cities",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "famous_cities",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "Golf Trivia",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "golf_trivia",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Mystery Novels",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "mystery_novels",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "literature"
+  },
+  {
+    "game_name": "Trigonometry Challenge",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "trigonometry_challenge",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "math"
+  },
+  {
+    "game_name": "Proverbs Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "proverbs_quiz",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "english"
+  },
+  {
+    "game_name": "Yoga and Meditation",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "yoga_and_meditation",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "health"
+  },
+  {
+    "game_name": "Marketing Strategies",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "marketing_strategies",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Celtic Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "celtic_mythology",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Jazz Music",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "jazz_music",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "music"
+  },
+  {
+    "game_name": "Word Search",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "word_search",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Ecology Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "ecology_quiz",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
+  },
+  {
+    "game_name": "Deserts and Forests",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "deserts_and_forests",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "Swimming Records",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "swimming_records",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Historical Novels",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "historical_novels",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "literature"
+  },
+  {
+    "game_name": "Probability Puzzles",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "probability_puzzles",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "math"
+  },
+  {
+    "game_name": "Literature Quotes",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "literature_quotes",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "english"
+  },
+  {
+    "game_name": "First Aid Knowledge",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "first_aid_knowledge",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "health"
+  },
+  {
+    "game_name": "Human Resources",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "human_resources",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "Hindu Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "hindu_mythology",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Classical Music",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "classical_music",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "music"
+  },
+  {
+    "game_name": "Jigsaw Puzzles",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "jigsaw_puzzles",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Geology Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "geology_basics",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
+  },
+  {
+    "game_name": "Volcanoes and Earthquakes",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "volcanoes_and_earthquakes",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "geography"
+  },
+  {
+    "game_name": "Athletics Events",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "athletics_events",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "sports"
+  },
+  {
+    "game_name": "Romance Literature",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "romance_literature",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "literature"
+  },
+  {
+    "game_name": "Number Theory",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "number_theory",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "math"
+  },
+  {
+    "game_name": "Punctuation Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "punctuation_quiz",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "english"
+  },
+  {
+    "game_name": "Sleep Science",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "sleep_science",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "health"
+  },
+  {
+    "game_name": "Supply Chain Management",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "supply_chain_management",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "business"
+  },
+  {
+    "game_name": "Japanese Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "japanese_mythology",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Hip Hop Artists",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "hip_hop_artists",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "music"
+  },
+  {
+    "game_name": "Maze Navigator",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "maze_navigator",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Meteorology Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "meteorology_quiz",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "science"
+  },
+  {
+    "game_name": "Islands of the World",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "islands_of_the_world",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "Boxing Legends",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "boxing_legends",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Thriller Books",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "thriller_books",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "literature"
+  },
+  {
+    "game_name": "Discrete Math",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "discrete_math",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "math"
+  },
+  {
+    "game_name": "Essay Writing Tips",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "essay_writing_tips",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "english"
+  },
+  {
+    "game_name": "Dental Health",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "dental_health",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "health"
+  },
+  {
+    "game_name": "Entrepreneurship Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "entrepreneurship_quiz",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "business"
+  },
+  {
+    "game_name": "African Mythology",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "african_mythology",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "mythology"
+  },
+  {
+    "game_name": "Country Music Stars",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "country_music_stars",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "music"
+  },
+  {
+    "game_name": "Code Breaking",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "code_breaking",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "puzzle"
+  },
+  {
+    "game_name": "Quantum Physics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "quantum_physics",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "science"
+  },
+  {
+    "game_name": "Lakes and Rivers",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "lakes_and_rivers",
+    "difficulty": "easy",
+    "stars": 1,
+    "category": "geography"
+  },
+  {
+    "game_name": "Formula 1 Racing",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "formula_1_racing",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "sports"
+  },
+  {
+    "game_name": "Biographies Quiz",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "biographies_quiz",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "literature"
+  },
+  {
+    "game_name": "Linear Algebra",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "linear_algebra",
+    "difficulty": "hard",
+    "stars": 3,
+    "category": "math"
+  },
+  {
+    "game_name": "Creative Writing",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "creative_writing",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "english"
+  },
+  {
+    "game_name": "Cardiology Basics",
+    "game_icon": "assets/img/code_right.png",
+    "game_id": "cardiology_basics",
+    "difficulty": "medium",
+    "stars": 2,
+    "category": "health"
+  },
+  {
     "game_name": "Chemistry Basics",
     "game_icon": "assets/img/code_right.png",
     "game_id": "chemistry_basics",
