@@ -9,7 +9,7 @@ let allGames = [];
 let allCategories = new Set();
 
 // ==================== YOUR ADSENSE PUBLISHER ID & SLOT ====================
-const ADSENSE_CLIENT = "ca-pub-XXXXXXXXXXXXXXXX";    // ← CHANGE THIS
+const ADSENSE_CLIENT = "ca-pub-4027126264219673";    // ← CHANGE THIS
 const ADSENSE_SLOT_INFEED = "9876543210";            // ← CHANGE THIS (create as "In-feed ad" in AdSense)
 // ==========================================================================
 
