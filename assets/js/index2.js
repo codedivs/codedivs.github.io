@@ -10,7 +10,7 @@ let allCategories = new Set();
 
 // ==================== YOUR ADSENSE PUBLISHER ID & SLOT ====================
 const ADSENSE_CLIENT = "ca-pub-4027126264219673";    // 
-const ADSENSE_SLOT_INFEED = "7393626393";            //"In-feed ad" 
+const ADSENSE_SLOT_INFEED = "2687901104";            //"In-feed ad" 
 // ==========================================================================
 
 // ------------------------------------------------------------------
