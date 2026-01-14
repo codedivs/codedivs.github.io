@@ -10,10 +10,10 @@
     <meta property="og:title" content="Good Games Online | Play Educational & Fun Games">
     <meta property="og:description" content="Play free online educational and fun games. Learn, code, and challenge yourself with curated browser games.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://thunderquiz.com/homepage/"> <!-- Replace with actual domain -->
-    <meta property="og:image" content="https://thunderquiz/homepage/codearrange"> <!-- Add an OG image -->
+    <meta property="og:url" content="https://thunderquiz.com/">
+    <meta property="og:image" content="https://thunderquiz.com/homepage/codearrange.png"> <!-- Corrected URL with domain and extension -->
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://thunderquiz.com/"> <!-- Replace with actual URL -->
+    <link rel="canonical" href="https://thunderquiz.com/">
     <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add favicon -->
     <style>
         :root {
@@ -105,6 +105,18 @@
             padding: .8rem;
             color: #6b7280;
         }
+        /* Added media query for better mobile responsiveness */
+        @media (max-width: 600px) {
+            #game_image {
+                max-height: 250px;
+            }
+            #navigations {
+                flex-direction: column;
+            }
+            button {
+                width: 100%;
+            }
+        }
     </style>
     <!-- Structured data for SEO (Game carousel as ItemList) -->
     <script type="application/ld+json">
@@ -112,10 +124,10 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Good Games Online",
-        "url": "https://yourdomain.com/",
+        "url": "https://thunderquiz.com/",
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://yourdomain.com/search?q={search_term_string}",
+            "target": "https://thunderquiz.com/search?q={search_term_string}",
             "query-input": "required name=search_term_string"
         }
     }
@@ -141,7 +153,7 @@
         </section>
     </main>
     <footer class="site-footer">
-        <p>© 2026 Good Games Online. All rights reserved.</p>
+        <p>© <span id="copyright-year"></span> Good Games Online. All rights reserved.</p>
     </footer>
     <script>
         const gameName = document.getElementById('game_name');
@@ -150,32 +162,61 @@
         const playGame = document.getElementById('playgame');
         const prevBtn = document.getElementById('previous');
         const nextBtn = document.getElementById('nextgame');
+        const copyrightYear = document.getElementById('copyright-year');
         let games = [];
         let currentIndex = 0;
+
+        // Set dynamic copyright year
+        if (copyrightYear) {
+            copyrightYear.textContent = new Date().getFullYear();
+        }
 
         async function loadGames() {
             try {
                 const res = await fetch('websites.json');
                 if (!res.ok) throw new Error('Failed to load games');
                 games = await res.json();
-                if (games.length > 0) renderGame();
-                else console.warn('No games available');
+                if (games.length > 0) {
+                    renderGame();
+                } else {
+                    handleNoGames();
+                }
             } catch (err) {
                 console.error('Failed to load games:', err);
-                gameName.textContent = 'Error loading games';
+                handleError();
             }
         }
 
         function renderGame() {
             const game = games[currentIndex];
             gameName.textContent = game.game_name.replace(/_/g, ' ');
-            gameImage.src = game.game_image;
-            gameImage.alt = `${game.game_name} preview - ${game.description}`;
+            gameImage.src = game.game_image; // Assuming images are in same directory; adjust if needed, e.g., `'/images/' + game.game_image`
+            gameImage.alt = `${game.game_name} preview`; // Shortened alt text for accessibility
             gameDescription.textContent = game.description;
             playGame.onclick = () => window.open(game.path, '_blank', 'noopener,noreferrer');
-            // Update URL for SEO/shareability (optional, using history API)
-            // history.pushState(null, '', `/${game.slug}`);
             document.title = `${game.game_name} | Good Games Online`;
+
+            // Optional: Update URL for shareability (using history API)
+            // const slug = game.slug || game.game_name.toLowerCase().replace(/\s+/g, '-');
+            // history.pushState(null, '', `/${slug}`);
+        }
+
+        function handleNoGames() {
+            gameName.textContent = 'No Games Available';
+            gameDescription.textContent = 'Sorry, there are no games to display at the moment. Please check back later.';
+            gameImage.style.display = 'none';
+            playGame.disabled = true;
+            prevBtn.disabled = true;
+            nextBtn.disabled = true;
+        }
+
+        function handleError() {
+            gameName.textContent = 'Error Loading Games';
+            gameDescription.textContent = 'There was an issue loading the games. Please try refreshing the page or contact support.';
+            gameImage.style.display = 'none';
+            playGame.disabled = true;
+            prevBtn.disabled = true;
+            nextBtn.disabled = true;
         }
 
         nextBtn.onclick = () => {
@@ -187,6 +228,12 @@
             currentIndex = (currentIndex - 1 + games.length) % games.length;
             renderGame();
         };
+
+        // Add keyboard navigation for accessibility
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') prevBtn.click();
+            if (e.key === 'ArrowRight') nextBtn.click();
+        });
 
         loadGames();
     </script>
