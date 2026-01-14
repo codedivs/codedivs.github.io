@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Games Online | Play Free Educational & Fun Games</title>
+    <meta name="description" content="Discover and play the best free online educational games, coding challenges, quizzes, and more. Learn while having fun with curated browser-based games for all ages.">
+    <meta name="keywords" content="online games, educational games, coding games, quizzes, free games, learning games, fun games, browser games">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Good Games Online | Play Educational & Fun Games">
+    <meta property="og:description" content="Play free online educational and fun games. Learn, code, and challenge yourself with curated browser games.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thunderquiz.com/homepage/"> <!-- Replace with actual domain -->
+    <meta property="og:image" content="https://thunderquiz/homepage/codearrange"> <!-- Add an OG image -->
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://thunderquiz.com/"> <!-- Replace with actual URL -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add favicon -->
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --secondary: #22c55e;
+            --dark: #111827;
+            --light: #f9fafb;
+        }
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #eef2ff, #f0fdf4);
+            color: var(--dark);
+            display: flex;
+            flex-direction: column;
+        }
+        .site-header {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        .site-header h1 {
+            font-size: 2.2rem;
+            margin: 0;
+        }
+        .site-header p {
+            margin-top: .3rem;
+            color: #4b5563;
+        }
+        #outer_div {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #display_games {
+            width: min(90%, 800px);
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,.08);
+            padding: 1.5rem;
+        }
+        #game_details {
+            text-align: center;
+        }
+        #game_name {
+            margin-bottom: 1rem;
+        }
+        #game_image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: contain;
+            border-radius: 12px;
+        }
+        #game_description {
+            margin: 1rem 0;
+            color: #4b5563;
+            font-size: 1rem;
+        }
+        #navigations {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+        }
+        button {
+            flex: 1;
+            padding: .8rem 1rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            background: #e5e7eb;
+            font-weight: 600;
+            transition: all .2s ease;
+        }
+        button:hover {
+            transform: translateY(-2px);
+        }
+        button.primary {
+            background: var(--primary);
+            color: white;
+        }
+        .site-footer {
+            text-align: center;
+            font-size: .85rem;
+            padding: .8rem;
+            color: #6b7280;
+        }
+    </style>
+    <!-- Structured data for SEO (Game carousel as ItemList) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Good Games Online",
+        "url": "https://yourdomain.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://yourdomain.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Good Games Online</h1>
+        <p>Play • Learn • Grow with Free Educational Games</p>
+    </header>
+    <main id="outer_div">
+        <section id="display_games" aria-labelledby="game_name">
+            <article id="game_details">
+                <h2 id="game_name">Loading...</h2>
+                <img id="game_image" alt="Game preview image" loading="lazy" />
+                <p id="game_description">Loading description...</p>
+            </article>
+            <nav id="navigations" aria-label="Game navigation">
+                <button id="previous" aria-label="Previous game">⟵ Previous</button>
+                <button id="playgame" class="primary">▶ Play Game</button>
+                <button id="nextgame" aria-label="Next game">Next ⟶</button>
+            </nav>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>© 2026 Good Games Online. All rights reserved.</p>
+    </footer>
+    <script>
+        const gameName = document.getElementById('game_name');
+        const gameImage = document.getElementById('game_image');
+        const gameDescription = document.getElementById('game_description');
+        const playGame = document.getElementById('playgame');
+        const prevBtn = document.getElementById('previous');
+        const nextBtn = document.getElementById('nextgame');
+        let games = [];
+        let currentIndex = 0;
+
+        async function loadGames() {
+            try {
+                const res = await fetch('websites.json');
+                if (!res.ok) throw new Error('Failed to load games');
+                games = await res.json();
+                if (games.length > 0) renderGame();
+                else console.warn('No games available');
+            } catch (err) {
+                console.error('Failed to load games:', err);
+                gameName.textContent = 'Error loading games';
+            }
+        }
+
+        function renderGame() {
+            const game = games[currentIndex];
+            gameName.textContent = game.game_name.replace(/_/g, ' ');
+            gameImage.src = game.game_image;
+            gameImage.alt = `${game.game_name} preview - ${game.description}`;
+            gameDescription.textContent = game.description;
+            playGame.onclick = () => window.open(game.path, '_blank', 'noopener,noreferrer');
+            // Update URL for SEO/shareability (optional, using history API)
+            // history.pushState(null, '', `/${game.slug}`);
+            document.title = `${game.game_name} | Good Games Online`;
+        }
+
+        nextBtn.onclick = () => {
+            currentIndex = (currentIndex + 1) % games.length;
+            renderGame();
+        };
+
+        prevBtn.onclick = () => {
+            currentIndex = (currentIndex - 1 + games.length) % games.length;
+            renderGame();
+        };
+
+        loadGames();
+    </script>
+</body>
+</html>

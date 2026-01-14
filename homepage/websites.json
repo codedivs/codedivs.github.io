@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "game_name": "Online Quizzes",
+    "slug": "online-quizzes",
+    "game_image": "quizgame.png",
+    "path": "https://thunderquiz.com/",
+    "category": "Quiz",
+    "description": "Play fun and educational online quizzes to test your knowledge on various topics. Perfect for learning and brain training.",
+    "tags": ["quiz", "education", "learning", "brain", "knowledge", "trivia"]
+  },
+  {
+    "id": 2,
+    "game_name": "Coding Online",
+    "slug": "coding-online",
+    "game_image": "codearrange.png",
+    "path": "https://thunderquiz.com/codingame/",
+    "category": "Coding",
+    "description": "Practice coding skills with interactive online challenges and puzzles. Ideal for beginners and experienced programmers.",
+    "tags": ["coding", "programming", "learning", "development", "challenges", "puzzles"]
+  }
+]
