@@ -1,3 +1,365 @@
----
-layout: index
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Games Online | Play Free Educational & Fun Games</title>
+    <meta name="description" content="Discover and play the best free online educational games, coding challenges, quizzes, and more. Learn while having fun with curated browser-based games for all ages.">
+    <meta name="keywords" content="online games, educational games, coding games, quizzes, free games, learning games, fun games, browser games">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Good Games Online | Play Educational & Fun Games">
+    <meta property="og:description" content="Play free online educational and fun games. Learn, code, and challenge yourself with curated browser games.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thunderquiz.com/">
+    <meta property="og:image" content="https://thunderquiz.com/homepage/codearrange.png"> <!-- Corrected URL with domain and extension -->
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://thunderquiz.com/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add favicon -->
+    <style>
+        :root {
+    /* === CORE BRAND COLORS === */
+    --primary: #2563eb;     /* Accessible blue (safe for color blindness) */
+    --secondary: #0ea5a4;   /* Muted teal (distinguishable from blue) */
+    --accent: #f59e0b;      /* Warm amber (used sparingly) */
+
+    /* === STATUS COLORS (never color-only meaning) === */
+    --danger: #dc2626;      /* Error / destructive */
+    --success: #16a34a;     /* Success */
+    --warning: #d97706;     /* Warning */
+
+    /* === BACKGROUND SYSTEM === */
+    --dark: #020617;        /* Page background */
+    --panel: #0f172a;       /* Card / panel background */
+    --panel-soft: #111827;  /* Softer surface layers */
+
+    /* === TEXT === */
+    --text: #f1f5f9;        /* Primary text (very high contrast) */
+    --muted: #94a3b8;       /* Secondary text */
+    --muted-soft: #cbd5e1;  /* For small UI labels */
+
+    /* === BORDERS & DIVIDERS === */
+    --border: rgba(255, 255, 255, 0.08);
+
+    /* === FOCUS / INTERACTION === */
+    --focus: #38bdf8;       /* Keyboard focus ring */
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.6);
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+        radial-gradient(circle at top, #1e1b4b, #020617 60%);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+    text-align: center;
+    padding: 2rem 1rem 1.2rem;
+}
+
+.site-header h1 {
+    font-size: clamp(2.2rem, 4vw, 3rem);
+    margin: 0;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #a78bfa, #22d3ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: var(--glow);
+}
+
+.site-header p {
+    margin-top: .4rem;
+    color: var(--muted);
+    font-size: 1rem;
+}
+
+/* ===== MAIN CARD ===== */
+#outer_div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+#display_games {
+    width: min(92%, 900px);
+    background: var(--panel);
+    backdrop-filter: blur(14px);
+    border-radius: 18px;
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.7),
+        inset 0 0 0 1px rgba(255,255,255,.05);
+    padding: 1.8rem;
+    position: relative;
+    animation: fadeUp .6s ease;
+}
+
+/* Glow border */
+#display_games::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: 18px;
+    background: linear-gradient(120deg, transparent, #7c3aed, transparent);
+    opacity: .35;
+    pointer-events: none;
+}
+
+/* ===== GAME DETAILS ===== */
+#game_details {
+    text-align: center;
+}
+
+#game_name {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    letter-spacing: .5px;
+}
+
+#game_image {
+    width: 100%;
+    max-height: 360px;
+    object-fit: contain;
+    border-radius: 14px;
+    background: radial-gradient(circle, #020617, #000);
+    box-shadow:
+        0 0 0 1px rgba(255,255,255,.05),
+        0 15px 40px rgba(0,0,0,.8);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+#game_image:hover {
+    transform: scale(1.015);
+    box-shadow:
+        0 0 30px rgba(124, 58, 237, .4),
+        0 20px 50px rgba(0,0,0,.9);
+}
+
+#game_description {
+    margin: 1.1rem 0;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ===== NAV BUTTONS ===== */
+#navigations {
+    margin-top: 1.8rem;
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    flex: 1;
+    padding: .9rem 1rem;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: .5px;
+    background: rgba(148, 163, 184, .15);
+    color: var(--text);
+    transition:
+        transform .15s ease,
+        box-shadow .15s ease,
+        background .15s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.6);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+button.primary {
+    background: linear-gradient(135deg, #7c3aed, #22d3ee);
+    color: #020617;
+    box-shadow:
+        0 0 25px rgba(124, 58, 237, .6);
+}
+
+button.primary:hover {
+    box-shadow:
+        0 0 35px rgba(124, 58, 237, .9);
+}
+
+/* Disabled state */
+button:disabled {
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+    text-align: center;
+    font-size: .85rem;
+    padding: 1rem;
+    color: var(--muted);
+    border-top: 1px solid rgba(255,255,255,.05);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+    #game_image {
+        max-height: 240px;
+    }
+
+    #navigations {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+    </style>
+    <!-- Structured data for SEO (Game carousel as ItemList) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Good Games Online",
+        "url": "https://thunderquiz.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://thunderquiz.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Good Games Online</h1>
+        <p>Play • Learn • Grow with Free Educational Games</p>
+    </header>
+    <main id="outer_div">
+        <section id="display_games" aria-labelledby="game_name">
+            <article id="game_details">
+                <h2 id="game_name">Loading...</h2>
+                <img id="game_image" alt="Game preview image" loading="lazy" />
+                <p id="game_description">Loading description...</p>
+            </article>
+            <nav id="navigations" aria-label="Game navigation">
+                <button id="previous" aria-label="Previous game">⟵ Previous</button>
+                <button id="playgame" class="primary">▶ Play Game</button>
+                <button id="nextgame" aria-label="Next game">Next ⟶</button>
+            </nav>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>© <span id="copyright-year"></span> Good Games Online. All rights reserved.</p>
+    </footer>
+    <script>
+        const gameName = document.getElementById('game_name');
+        const gameImage = document.getElementById('game_image');
+        const gameDescription = document.getElementById('game_description');
+        const playGame = document.getElementById('playgame');
+        const prevBtn = document.getElementById('previous');
+        const nextBtn = document.getElementById('nextgame');
+        const copyrightYear = document.getElementById('copyright-year');
+        let games = [];
+        let currentIndex = 0;
+
+        // Set dynamic copyright year
+        if (copyrightYear) {
+            copyrightYear.textContent = new Date().getFullYear();
+        }
+
+        async function loadGames() {
+            try {
+                const res = await fetch('websites.json');
+                if (!res.ok) throw new Error('Failed to load games');
+                games = await res.json();
+                if (games.length > 0) {
+                    renderGame();
+                } else {
+                    handleNoGames();
+                }
+            } catch (err) {
+                console.error('Failed to load games:', err);
+                handleError();
+            }
+        }
+
+        function renderGame() {
+            const game = games[currentIndex];
+            gameName.textContent = game.game_name.replace(/_/g, ' ');
+            gameImage.src = game.game_image; // Assuming images are in same directory; adjust if needed, e.g., `'/images/' + game.game_image`
+            gameImage.alt = `${game.game_name} preview`; // Shortened alt text for accessibility
+            gameDescription.textContent = game.description;
+            playGame.onclick = () => window.open(game.path, '_blank', 'noopener,noreferrer');
+            document.title = `${game.game_name} | Good Games Online`;
+
+            // Optional: Update URL for shareability (using history API)
+            // const slug = game.slug || game.game_name.toLowerCase().replace(/\s+/g, '-');
+            // history.pushState(null, '', `/${slug}`);
+        }
+
+        function handleNoGames() {
+            gameName.textContent = 'No Games Available';
+            gameDescription.textContent = 'Sorry, there are no games to display at the moment. Please check back later.';
+            gameImage.style.display = 'none';
+            playGame.disabled = true;
+            prevBtn.disabled = true;
+            nextBtn.disabled = true;
+        }
+
+        function handleError() {
+            gameName.textContent = 'Error Loading Games';
+            gameDescription.textContent = 'There was an issue loading the games. Please try refreshing the page or contact support.';
+            gameImage.style.display = 'none';
+            playGame.disabled = true;
+            prevBtn.disabled = true;
+            nextBtn.disabled = true;
+        }
+
+        nextBtn.onclick = () => {
+            currentIndex = (currentIndex + 1) % games.length;
+            renderGame();
+        };
+
+        prevBtn.onclick = () => {
+            currentIndex = (currentIndex - 1 + games.length) % games.length;
+            renderGame();
+        };
+
+        // Add keyboard navigation for accessibility
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') prevBtn.click();
+            if (e.key === 'ArrowRight') nextBtn.click();
+        });
+
+        loadGames();
+    </script>
+</body>
+</html>

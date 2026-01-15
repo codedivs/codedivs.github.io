@@ -3,8 +3,8 @@
     "id": 1,
     "game_name": "Online Quizzes",
     "slug": "online-quizzes",
-    "game_image": "quizgame.png",
-    "path": "https://thunderquiz.com/",
+    "game_image": "assets/img/quizgame.png",
+    "path": "http://127.0.0.1:4000/quiz.html",
     "category": "Quiz",
     "description": "Play fun and educational online quizzes to test your knowledge on various topics. Perfect for learning and brain training.",
     "tags": ["quiz", "education", "learning", "brain", "knowledge", "trivia"]
@@ -13,8 +13,8 @@
     "id": 2,
     "game_name": "Coding Online",
     "slug": "coding-online",
-    "game_image": "codearrange.png",
-    "path": "https://thunderquiz.com/codingame/",
+    "game_image": "assets/img/codearrange.png",
+    "path": "http://127.0.0.1:4000/codingame/index.html",
     "category": "Coding",
     "description": "Practice coding skills with interactive online challenges and puzzles. Ideal for beginners and experienced programmers.",
     "tags": ["coding", "programming", "learning", "development", "challenges", "puzzles"]
