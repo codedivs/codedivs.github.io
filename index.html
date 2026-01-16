@@ -15,107 +15,83 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://thunderquiz.com/">
     <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add favicon -->
-    <style>
-        :root {
-    /* === CORE BRAND COLORS === */
-    --primary: #2563eb;     /* Accessible blue (safe for color blindness) */
-    --secondary: #0ea5a4;   /* Muted teal (distinguishable from blue) */
-    --accent: #f59e0b;      /* Warm amber (used sparingly) */
+   <style>
+:root {
+    /* ===== PROFESSIONAL DARK PALETTE ===== */
+    --primary: #3b82f6;        /* Calm blue accent */
+    --primary-soft: #1e3a8a;
 
-    /* === STATUS COLORS (never color-only meaning) === */
-    --danger: #dc2626;      /* Error / destructive */
-    --success: #16a34a;     /* Success */
-    --warning: #d97706;     /* Warning */
+    --background: #020617;     /* Deep night background */
+    --surface: #0b1220;        /* Main card */
+    --surface-soft: #111827;   /* Secondary layers */
 
-    /* === BACKGROUND SYSTEM === */
-    --dark: #020617;        /* Page background */
-    --panel: #0f172a;       /* Card / panel background */
-    --panel-soft: #111827;  /* Softer surface layers */
+    --text-main: #e5e7eb;      /* High-contrast text */
+    --text-muted: #9ca3af;
+    --text-soft: #cbd5f5;
 
-    /* === TEXT === */
-    --text: #f1f5f9;        /* Primary text (very high contrast) */
-    --muted: #94a3b8;       /* Secondary text */
-    --muted-soft: #cbd5e1;  /* For small UI labels */
+    --border: rgba(255,255,255,.08);
+    --focus: #60a5fa;
 
-    /* === BORDERS & DIVIDERS === */
-    --border: rgba(255, 255, 255, 0.08);
-
-    /* === FOCUS / INTERACTION === */
-    --focus: #38bdf8;       /* Keyboard focus ring */
-    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.6);
-    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 30px 80px rgba(0,0,0,.75);
+    --shadow-md: 0 12px 30px rgba(0,0,0,.55);
 }
 
-
+/* ===== RESET ===== */
 * {
     box-sizing: border-box;
-    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 body {
     margin: 0;
     min-height: 100vh;
     background:
-        radial-gradient(circle at top, #1e1b4b, #020617 60%);
-    color: var(--text);
+        radial-gradient(circle at top, #0b1220, #020617 65%);
+    color: var(--text-main);
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
 }
 
 /* ===== HEADER ===== */
 .site-header {
     text-align: center;
-    padding: 2rem 1rem 1.2rem;
+    padding: 2.2rem 1rem 1.4rem;
 }
 
 .site-header h1 {
-    font-size: clamp(2.2rem, 4vw, 3rem);
     margin: 0;
-    letter-spacing: 1px;
-    background: linear-gradient(90deg, #a78bfa, #22d3ee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: var(--glow);
+    font-size: clamp(2rem, 3.5vw, 2.8rem);
+    letter-spacing: .6px;
+    color: var(--text-main);
 }
 
 .site-header p {
     margin-top: .4rem;
-    color: var(--muted);
-    font-size: 1rem;
+    color: var(--text-muted);
+    font-size: .95rem;
 }
 
 /* ===== MAIN CARD ===== */
 #outer_div {
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 1.2rem;
+    justify-content: center;
+    padding: 1.5rem;
 }
 
 #display_games {
-    width: min(92%, 900px);
-    background: var(--panel);
-    backdrop-filter: blur(14px);
+    width: min(94%, 900px);
+    background: linear-gradient(
+        180deg,
+        var(--surface),
+        var(--surface-soft)
+    );
     border-radius: 18px;
-    box-shadow:
-        0 25px 60px rgba(0,0,0,.7),
-        inset 0 0 0 1px rgba(255,255,255,.05);
-    padding: 1.8rem;
-    position: relative;
-    animation: fadeUp .6s ease;
-}
-
-/* Glow border */
-#display_games::before {
-    content: "";
-    position: absolute;
-    inset: -1px;
-    border-radius: 18px;
-    background: linear-gradient(120deg, transparent, #7c3aed, transparent);
-    opacity: .35;
-    pointer-events: none;
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+    animation: fadeUp .5s ease;
 }
 
 /* ===== GAME DETAILS ===== */
@@ -124,101 +100,118 @@ body {
 }
 
 #game_name {
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
-    letter-spacing: .5px;
+    font-size: 1.55rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: .4px;
 }
 
+/* ===== IMAGE – ORIGINAL & PREMIUM ===== */
 #game_image {
     width: 100%;
     max-height: 360px;
     object-fit: contain;
-    border-radius: 14px;
-    background: radial-gradient(circle, #020617, #000);
+
+    background:
+        linear-gradient(145deg, #020617, #020617),
+        repeating-linear-gradient(
+            45deg,
+            rgba(255,255,255,.03),
+            rgba(255,255,255,.03) 10px,
+            transparent 10px,
+            transparent 20px
+        );
+
+    border-radius: 16px;
+    padding: 1rem;
+
     box-shadow:
-        0 0 0 1px rgba(255,255,255,.05),
-        0 15px 40px rgba(0,0,0,.8);
-    transition: transform .3s ease, box-shadow .3s ease;
+        inset 0 0 0 1px rgba(255,255,255,.06),
+        0 20px 45px rgba(0,0,0,.85);
+
+    transition: transform .25s ease, box-shadow .25s ease;
 }
 
 #game_image:hover {
-    transform: scale(1.015);
+    transform: scale(1.01);
     box-shadow:
-        0 0 30px rgba(124, 58, 237, .4),
-        0 20px 50px rgba(0,0,0,.9);
+        inset 0 0 0 1px rgba(255,255,255,.1),
+        0 30px 60px rgba(0,0,0,.95);
 }
 
+/* ===== DESCRIPTION ===== */
 #game_description {
-    margin: 1.1rem 0;
-    color: var(--muted);
-    font-size: 1rem;
-    line-height: 1.6;
+    margin: 1.3rem 0;
+    font-size: .98rem;
+    line-height: 1.65;
+    color: var(--text-muted);
 }
 
-/* ===== NAV BUTTONS ===== */
+/* ===== NAVIGATION BUTTONS ===== */
 #navigations {
-    margin-top: 1.8rem;
     display: flex;
     gap: 1rem;
+    margin-top: 1.8rem;
 }
 
 button {
     flex: 1;
     padding: .9rem 1rem;
     border-radius: 14px;
-    border: none;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,.04);
+    color: var(--text-main);
+    font-weight: 600;
     cursor: pointer;
-    font-weight: 700;
-    letter-spacing: .5px;
-    background: rgba(148, 163, 184, .15);
-    color: var(--text);
     transition:
+        background .15s ease,
         transform .15s ease,
-        box-shadow .15s ease,
-        background .15s ease;
+        box-shadow .15s ease;
 }
 
 button:hover {
+    background: rgba(255,255,255,.08);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0,0,0,.6);
-}
-
-button:active {
-    transform: translateY(0);
+    box-shadow: var(--shadow-md);
 }
 
 button.primary {
-    background: linear-gradient(135deg, #7c3aed, #22d3ee);
-    color: #020617;
-    box-shadow:
-        0 0 25px rgba(124, 58, 237, .6);
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #1e40af
+    );
+    border: none;
+    color: #e5e7eb;
 }
 
 button.primary:hover {
-    box-shadow:
-        0 0 35px rgba(124, 58, 237, .9);
+    background: linear-gradient(
+        135deg,
+        #3b82f6,
+        #1e3a8a
+    );
 }
 
-/* Disabled state */
+/* Disabled */
 button:disabled {
-    opacity: .4;
+    opacity: .45;
     cursor: not-allowed;
 }
 
 /* ===== FOOTER ===== */
 .site-footer {
     text-align: center;
-    font-size: .85rem;
     padding: 1rem;
-    color: var(--muted);
-    border-top: 1px solid rgba(255,255,255,.05);
+    font-size: .85rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
 }
 
-/* ===== ANIMATIONS ===== */
+/* ===== ANIMATION ===== */
 @keyframes fadeUp {
     from {
         opacity: 0;
-        transform: translateY(12px);
+        transform: translateY(14px);
     }
     to {
         opacity: 1;
@@ -235,13 +228,8 @@ button:disabled {
     #navigations {
         flex-direction: column;
     }
-
-    button {
-        width: 100%;
-    }
 }
-
-    </style>
+</style>
     <!-- Structured data for SEO (Game carousel as ItemList) -->
     <script type="application/ld+json">
     {
