@@ -4,7 +4,7 @@
     "game_name": "Online Quizzes",
     "slug": "online-quizzes",
     "game_image": "assets/img/quizgame.png",
-    "path": "https://thunderquiz.com/quiz.html",
+    "path": "quiz.html",
     "category": "Quiz",
     "description": "Play fun and educational online quizzes to test your knowledge on various topics. Perfect for learning and brain training.",
     "tags": ["quiz", "education", "learning", "brain", "knowledge", "trivia"]

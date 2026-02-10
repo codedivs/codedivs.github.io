@@ -88,7 +88,7 @@ function startQuiz() {
   // Randomly select 10 questions
   selectedQuestions = [...questions]
     .sort(() => 0.5 - Math.random())
-    .slice(0, 10);
+    .slice(0, 3);
 
   showScreen('quizScreen');
   startTimer();
