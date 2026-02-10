@@ -305,7 +305,7 @@ button:disabled {
             gameImage.src = game.game_image; // Assuming images are in same directory; adjust if needed, e.g., `'/images/' + game.game_image`
             gameImage.alt = `${game.game_name} preview`; // Shortened alt text for accessibility
             gameDescription.textContent = game.description;
-            playGame.onclick = () => window.open(game.path, '_blank', 'noopener,noreferrer');
+            playGame.onclick = () => window.open(game.path, '_self');
             document.title = `${game.game_name} | Good Games Online`;
 
             // Optional: Update URL for shareability (using history API)
