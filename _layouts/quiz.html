@@ -82,6 +82,8 @@
   }
   </script>
 </head>
+
+<!--
 <body>
   <header>Ultimate Quiz Collection</header>
 
@@ -97,6 +99,28 @@
 
   <div class="adsense-footer"></div>
 
+  <script src="{{ "/assets/js/index.js" | relative_url }}"></script>
+</body>
+--!>
+<body>
+  <header>Ultimate Quiz Collection</header>
+  <div id="top-bar">
+    <div class="search-container">
+      <input type="text" id="search-box" placeholder="Search games or categories...">
+      <div id="search-suggestions"></div>
+    </div>
+  </div>
+  <div id="content-wrapper">
+    <div id="sidebar">
+      <div id="category-chips"></div>
+    </div>
+    <div id="main-content">
+      <main id="main_div">
+        {{ content }}
+      </main>
+    </div>
+  </div>
+  <div class="adsense-footer"></div>
   <script src="{{ "/assets/js/index.js" | relative_url }}"></script>
 </body>
 </html>
