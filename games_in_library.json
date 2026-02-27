@@ -1,7 +1,7 @@
 [
   {
     "game_name": "Correctly Spelt Words",
-    "game_icon": "assets/img/code_right.png",
+    "game_icon": "assets/img/2ce86a1b-a90d-4a18-80a1-afe951f5f209.jpg",
     "game_id": "correctly_spelt",
     "difficulty": "easy",
     "stars": 3,
@@ -9,7 +9,7 @@
   },
   {
     "game_name": "Synonyms Challenge",
-    "game_icon": "assets/img/code_right.png",
+    "game_icon": "assets/img/english_play.png",
     "game_id": "synonyms_challenge",
     "difficulty": "easy",
     "stars": 3,
@@ -17,7 +17,7 @@
   },
   {
     "game_name": "Metaphor Idioms",
-    "game_icon": "assets/img/code_right.png",
+    "game_icon": "assets/img/d73d4e70-0d31-4f2f-921f-89246e18dafe.jpg",
     "game_id": "metaphor_idioms",
     "difficulty": "medium",
     "stars": 2,
@@ -25,7 +25,7 @@
   },
   {
     "game_name": "Antonyms Adventure",
-    "game_icon": "assets/img/code_right.png",
+    "game_icon": "assets/img//home/59f12387-10b5-45ab-abf4-b1086866f42d.jpg",
     "game_id": "antonyms_adventure",
     "difficulty": "easy",
     "stars": 3,
@@ -33,7 +33,7 @@
   },
   {
     "game_name": "Rhyming Words Challenge",
-    "game_icon": "assets/img/code_right.png",
+    "game_icon": "assets/img/english_play.png",
     "game_id": "rhyming_words",
     "difficulty": "easy",
     "stars": 3,
