@@ -66,9 +66,10 @@ function renderGame(game) {
     }
   };
 
+	/**
   const pageInfo = document.createElement("span");
   pageInfo.textContent = `${currentIndex + 1} / ${currentFiltered.length}`;
-
+  **/
   const nextButton = document.createElement("button");
   nextButton.textContent = "Next";
   nextButton.disabled = currentIndex === currentFiltered.length - 1;
@@ -80,7 +81,7 @@ function renderGame(game) {
   };
 
   navContainer.appendChild(prevButton);
-  navContainer.appendChild(pageInfo);
+  //navContainer.appendChild(pageInfo);
   navContainer.appendChild(nextButton);
 
   // Append card and navigation
